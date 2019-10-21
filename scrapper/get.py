@@ -41,6 +41,41 @@ def create_json_file_linhas_apoio(lista_json):
     prettyJSON = json.dumps(lista_json,sort_keys=True, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
 
+########################################################################################################
+def get_top5phones():
+    r = requests.get("https://www.nos.pt/particulares/loja/Pages/loja-online.aspx")
+    if (r.status_code == 200):
+        soup = BeautifulSoup(r.text, 'html.parser')
+        soup = soup.find_all('div', {'class':'equipments-item-info col-divided'})
+
+    return soup
+
+def get_list_top5phones(soup):
+    lista_json = []
+    for elem in soup:
+        nome = elem.find('a',{'class':'equipments-item-title masterTextColor'})
+        preco = elem.find('div',{'class':'price-tag'})
+        
+        link = nome['href']
+        nome = nome.text
+        preco = preco.text
+
+        elem_json = {
+            'nome' :nome,
+            'preço' : preco,
+            'link' : link
+        }
+
+        lista_json.append(elem_json)
+    return lista_json
+
+
+def create_json_file_top5phones(lista_json):
+    fich = open('top5phones.json','w')
+    prettyJSON = json.dumps(lista_json, indent=2,ensure_ascii=False)
+    fich.write(prettyJSON)
+
+########################################################################################################
 
 def get_phones():
     #r = requests.get("https://www.nos.pt/particulares/loja-equipamentos/pages/store.aspx#!?Filter=~(ProductType~'telemoveis~ProductPrice~'0*7c1900)")
