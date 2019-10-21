@@ -6,6 +6,42 @@ from selenium import webdriver
 import time
 
 
+def get_linhas_apoio():
+    r = requests.get("https://www.nos.pt/particulares/contactos/Pages/linhas-de-apoio.aspx")
+    if (r.status_code == 200):
+        soup = BeautifulSoup(r.text, 'html.parser')
+        soup = soup.find_all('div', {'class':'container__box'})
+    return soup
+
+
+def get_list_linhas_apoio(soup):
+    lista_json = []
+    for elem in soup:
+        elem = elem.find('div',{'class':'island__description'})
+        numero = elem.div['id']
+
+        elem = elem.find('div',{})
+        categoria = elem.h2.text
+
+        elem.h2.clear()
+        descricao = elem.text
+
+        elem_json = {
+            'categoria' :categoria,
+            'numero' : numero,
+            'descriçao' : descricao
+        }
+
+        lista_json.append(elem_json)
+    return lista_json
+
+
+def create_json_file_linhas_apoio(lista_json):
+    fich = open('linhas_apoio.json','w')
+    prettyJSON = json.dumps(lista_json,sort_keys=True, indent=2,ensure_ascii=False)
+    fich.write(prettyJSON)
+
+
 def get_phones():
     #r = requests.get("https://www.nos.pt/particulares/loja-equipamentos/pages/store.aspx#!?Filter=~(ProductType~'telemoveis~ProductPrice~'0*7c1900)")
     #if (r.status_code == 200):
