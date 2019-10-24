@@ -6,3 +6,22 @@
 1571595150248	Marionette	INFO	Listening on port 35925
 1571595150342	Marionette	WARN	TLS certificate errors will be ignored for this session
 1571595186497	Marionette	INFO	Stopped listening on port 35925
+1571948742997	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z1XaLZGBOVLz"
+1571948743483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571948743483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571948743483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571948743483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571948745528	Marionette	INFO	Listening on port 42027
+1571948745605	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13045, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-UAcOmH/firefox-69.0+linuxmint1+tina/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 13045, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-UAcOmH/firefox-69.0+linuxmint1+tina/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+console.error: (new Error("Transaction canceled due to a closed connection.", "resource://gre/modules/Sqlite.jsm", 613))
+1571948810756	Marionette	INFO	Stopped listening on port 42027
+1571948813917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZFnSOzu3Icl5"
+1571948814364	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571948814364	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571948814364	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571948814364	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571948816127	Marionette	INFO	Listening on port 39335
+1571948816228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1571948840806	Marionette	INFO	Stopped listening on port 39335

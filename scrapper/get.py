@@ -161,12 +161,16 @@ def get_phones():
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     soup = soup.find_all('div',{'class':'content-item__wrapper'})
 
+    driver.quit()
+
     return(soup)
 
 def get_list_phones(soup):
     lista_json = []
     taglista = []
     link_telemovel = 'https://www.nos.pt'
+    prestações = 'Disponível'
+    pontos = 'Disponível'
     for elem in soup:
         nome = elem.find('div',{'class':'properties-name ng-binding'})
         nome = nome.text
@@ -180,17 +184,31 @@ def get_list_phones(soup):
 
         link = elem.find('a', {'ng-href':True})
         link_telemovel = link_telemovel + link['href']
-        
+
+        prestacao = elem.find('li', {'ng-show':'showHasInstallmentPayment(equipment.Colors)'})
+        prestacao2 = prestacao['class']
+        if prestacao2 == ['ng-binding', 'ng-hide'] :
+            prestações = 'Não disponível'
+
+        points = elem.find('li', {'ng-show':'showHasPointsPayment(equipment.PointsPrices)'})
+        points2 = points['class']
+        if points2 == ['ng-binding', 'ng-hide'] :
+            pontos = 'Não disponível'
+
         elem_json = {
             'nome' :nome,
             'preço' : preco,
             'tags' : taglista,
-            'link' : link_telemovel
+            'link' : link_telemovel,
+            'prestações' : prestações,
+            'pontos' : pontos
         }
 
         lista_json.append(elem_json)
         taglista = []
         link_telemovel = 'https://www.nos.pt'
+        prestações = 'Disponível'
+        pontos = 'Disponível'
 
     return lista_json
 
@@ -201,7 +219,7 @@ def create_json_file_phones(lista_json):
     fich.write(prettyJSON)
 
 
-#soup = get_phones()
-#lista = get_list_phones(soup)
-#create_json_file_phones(lista)
-create_json_file_TarifarioWTF(get_Wtf())
+soup = get_phones()
+lista = get_list_phones(soup)
+create_json_file_phones(lista)
+#create_json_file_TarifarioWTF(get_Wtf())
