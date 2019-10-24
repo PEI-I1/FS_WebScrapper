@@ -6,6 +6,69 @@ from selenium import webdriver
 import time
 
 
+#################################################### WTF ##################################################
+###########################################################################################################
+def get_Wtf():
+    r = requests.get("https://www.wtf.pt/")
+    if(r.status_code == 200):
+            soup = BeautifulSoup(r.text, 'html.parser')
+            soup = soup.find_all('div', {'class':'section-tarifario__block__body'})
+    
+
+    lista_json = []
+    for elem in soup:
+        #nome Tarifario
+        elema = elem.find('div',{'class':'section-tarifario__block__header d-flex justify-content-between'})
+        nomeTarifario = elema.find('span',{'class':'section-tarifario__block__header-text-name-pack'}).text
+        #custo
+        elemb = elem.find('div',{'class':'section-tarifario__block__header-prices'})
+        preco = elem.find('span', {'class':'section-tarifario__block__header-text-price'}).text
+        periodo = elem.find('span', {'class':'section-tarifario__block__header-text-name-price-week'}).text
+        total = elem.find('span', {'class':'section-tarifario__block__header-text-price-total'}).text
+        
+        #net
+        elemNet = elem.find('div',{'class':'section-tarifario__block__tabs'})
+        gigaA = elemNet.find('span',{'class':'block-tab__text-limit d-block'}).text
+        giga = re.sub(r'[\\n|\\r|\s]','',gigaA)
+        #minutos
+        elemMin = elemNet.find('span',{'class':'block-tab__text-limit d-block text-yellow'}).text
+        text1 = elemNet.find('span',{'class':'block-tab__text-sublimit text-yellow d-block'}).text
+        text2 = elemNet.find('span',{'class':'block-tab__text-limit d-block'}).text
+        text3 = elemNet.find('div',{'class':'w-100 mt-3'})
+        text3Aux = text3.find('span',{'class':'block-tab__text-limit d-block'}).text
+        text3Aux1 = text3.find('span',{'class':'block-tab__text-sublimit d-block'}).text
+        #extras
+        elemExtra = elem.find('div',{'class':'panel panel-default tab-pink'})
+        elemExtratxt = elemExtra.find('span', {'class':'block-tab__text-limit d-block text-yellow'}).text
+        elemExtratxt2 = elemExtra.find('span', {'class':'block-tab__text-sublimit d-block mt-2'}).text
+        elemExtratxt3 = elem.find('div', {'class':'w-100 text-center mt-3'})
+        elemAux = elemExtratxt3.find_all('span', {'class':'block-tab__text-sublimit d-block mt-2'})
+        lista = []
+        for em in elemAux: 
+            lista.append(em.text)
+
+        elem_json = {
+            'Nome_Tarifario' :nomeTarifario,
+            'Preco' : preco + periodo,
+            'Preco_Total' : total,
+            'Net' : giga,
+            'Minutos' : elemMin + " " + text1,
+            'SMS' : text3Aux + " " + text3Aux1,
+            'Cinema' : elemExtratxt,
+            'Uber' : elemExtratxt2,
+            'Uber_eats' : lista[1]
+        }
+
+        lista_json.append(elem_json)
+    return lista_json
+
+def create_json_file_TarifarioWTF(lista_json):
+    fich = open('tarifario_WTF.json','w')
+    prettyJSON = json.dumps(lista_json,sort_keys=True, indent=2,ensure_ascii=False)
+    fich.write(prettyJSON)
+###########################################################################################################
+###########################################################################################################
+
 def get_linhas_apoio():
     r = requests.get("https://www.nos.pt/particulares/contactos/Pages/linhas-de-apoio.aspx")
     if (r.status_code == 200):
@@ -138,6 +201,7 @@ def create_json_file_phones(lista_json):
     fich.write(prettyJSON)
 
 
-soup = get_phones()
-lista = get_list_phones(soup)
-create_json_file_phones(lista)
+#soup = get_phones()
+#lista = get_list_phones(soup)
+#create_json_file_phones(lista)
+create_json_file_TarifarioWTF(get_Wtf())

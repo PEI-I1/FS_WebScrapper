@@ -1,0 +1,35 @@
+[
+  {
+    "Cinema": "2 bilhetes de cinema pelo preço de 1",
+    "Minutos": "1000 minutos para todas as redes",
+    "Net": "1GB/mês",
+    "Nome_Tarifario": "WTF 1GB",
+    "Preco": "€2.75/semana",
+    "Preco_Total": "€11.80",
+    "SMS": "SMS grátis para todas as redes",
+    "Uber": "50% desconto  no Uber",
+    "Uber_eats": "Oferta da taxa  de entrega"
+  },
+  {
+    "Cinema": "2 bilhetes de cinema pelo preço de 1",
+    "Minutos": "5000 minutos para todas as redes",
+    "Net": "5GB/mês",
+    "Nome_Tarifario": "WTF 5GB",
+    "Preco": "€3.99/semana",
+    "Preco_Total": "€16.80",
+    "SMS": "SMS grátis para todas as redes",
+    "Uber": "50% desconto  no Uber",
+    "Uber_eats": "Oferta da taxa  de entrega"
+  },
+  {
+    "Cinema": "2 bilhetes de cinema pelo preço de 1",
+    "Minutos": "10000 minutos para todas as redes",
+    "Net": "10GB/mês",
+    "Nome_Tarifario": "WTF 10GB",
+    "Preco": "€4.99/semana",
+    "Preco_Total": "€21.80",
+    "SMS": "SMS grátis para todas as redes",
+    "Uber": "50% desconto  no Uber",
+    "Uber_eats": "Oferta da taxa  de entrega"
+  }
+]
