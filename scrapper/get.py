@@ -106,7 +106,7 @@ def create_json_file_linhas_apoio(lista_json):
     fich.write(prettyJSON)
 
 ########################################################################################################
-def get_top5phones():
+def get_top_phones():
     r = requests.get("https://www.nos.pt/particulares/loja/Pages/loja-online.aspx")
     if (r.status_code == 200):
         soup = BeautifulSoup(r.text, 'html.parser')
@@ -114,7 +114,7 @@ def get_top5phones():
 
     return soup
 
-def get_list_top5phones(soup):
+def get_list_top_phones(soup):
     lista_json = []
     for elem in soup:
         nome = elem.find('a',{'class':'equipments-item-title masterTextColor'})
@@ -134,8 +134,8 @@ def get_list_top5phones(soup):
     return lista_json
 
 
-def create_json_file_top5phones(lista_json):
-    fich = open('top5phones.json','w')
+def create_json_file_top_phones(lista_json):
+    fich = open('top_phones.json','w')
     prettyJSON = json.dumps(lista_json, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
 

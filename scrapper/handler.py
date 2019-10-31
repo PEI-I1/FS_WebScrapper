@@ -3,7 +3,7 @@ import json
 from re import sub
 
 
-def linhasApoio(assunto):
+def linhas_apoio(assunto):
     with open('linhas_apoio.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -19,7 +19,7 @@ def linhasApoio(assunto):
         return lista
 
 
-def phoneModel(modelo):
+def phone_model(modelo):
     with open('phones.json', 'r') as f:
         data = json.load(f)
         aux = {}
@@ -35,7 +35,7 @@ def phoneModel(modelo):
                 return aux
 
 
-def brandPhones(marca):
+def brand_phones(marca):
     with open('phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -51,7 +51,7 @@ def brandPhones(marca):
         return lista
 
 
-def topPhones():
+def top_phones():
     with open('topPhones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -66,7 +66,7 @@ def topPhones():
         return lista
 
 
-def promoPhones():
+def promo_phones():
     with open('phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -82,7 +82,7 @@ def promoPhones():
         return lista
 
 
-def newPhones():
+def new_phones():
     with open('phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -98,7 +98,7 @@ def newPhones():
         return lista
 
 
-def oferPhones():
+def ofer_phones():
     with open('phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -116,7 +116,7 @@ def oferPhones():
         return lista
 
 
-def prestPhones():
+def prest_phones():
     with open('phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -132,7 +132,7 @@ def prestPhones():
         return lista
 
 
-def pontosPhones():
+def pontos_phones():
     with open('phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -148,7 +148,7 @@ def pontosPhones():
         return lista
 
 
-def phonesByPrice(inf, sup):
+def phones_by_price(inf, sup):
     with open('phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -168,7 +168,7 @@ def phonesByPrice(inf, sup):
         return lista
 
 
-def allWtf():
+def all_wtf():
     with open('tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -183,7 +183,7 @@ def allWtf():
         return lista
 
 
-def wtfNome(nome):
+def wtf_nome(nome):
      with open('tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         aux = {}
@@ -201,3 +201,19 @@ def wtfNome(nome):
                 aux['uber_eats'] = tarifario['Uber_eats']
                 return aux
 
+
+def all_stores():
+    with open('lojas.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for loja in data:
+            aux['nome'] = loja['nome']
+            aux['morada'] = loja['morada']
+            lista.append(aux)
+            aux = {}
+
+        return lista
+
+print(all_stores())
