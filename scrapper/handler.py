@@ -202,17 +202,18 @@ def wtf_name(nome):
                 return aux
 
 
-def all_stores():
+def stores_by_zone(zona):
     with open('lojas.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
 
         for loja in data:
-            aux['nome'] = loja['nome']
-            aux['morada'] = loja['morada']
-            lista.append(aux)
-            aux = {}
+            if zona.lower() in loja['morada'].lower():
+                aux['nome'] = loja['nome']
+                aux['morada'] = loja['morada']
+                lista.append(aux)
+                aux = {}
 
         return lista
 
