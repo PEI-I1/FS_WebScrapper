@@ -3,8 +3,9 @@ import re
 import json
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.keys import Keys
 import time
-
 
 #################################################### WTF ##################################################
 ###########################################################################################################
@@ -218,6 +219,100 @@ def create_json_file_phones(lista_json):
     prettyJSON = json.dumps(lista_json, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
 
+
+#################################################################### Lojas e Informações #################################################################
+##########################################################################################################################################################
+
+def getLista_Lojas():
+    print("A ir buscar a lista de Lojas")
+    options = Options()
+    options.add_argument('--headless')
+    # Create your driver
+    driver = webdriver.Firefox(options=options)
+
+    # Get a page
+    webPage = "https://www.nos.pt/particulares/Pages/lojas-nos.aspx"
+    driver.get(webPage)
+    
+    # Feed the source to BeautifulSoup
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    lojas = soup.find_all('li',{'class':'resltLojas__single ng-scope'})
+    listaLojas = []
+
+    for loja in lojas:
+        nomeLoja = loja.find('h3', {'class':'title ng-binding'}).text
+        listaLojas.append(nomeLoja)
+
+    print("Lista de Lojas obtida")
+    driver.quit()
+    
+    return listaLojas
+    
+def getInfoLoja(nome):
+
+    options = Options()
+    options.add_argument('--headless')
+    # Create your driver
+    driver = webdriver.Firefox(options=options)
+    listaServicos = []
+    # Get a page
+    webPage = "https://www.nos.pt/particulares/Pages/lojas-nos.aspx"
+    driver.get(webPage)
+    
+    # Feed the source to BeautifulSoup
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    lojas = soup.find_all('li',{'class':'resltLojas__single ng-scope'})
+          
+    try: inside = driver.find_element_by_partial_link_text(nome)
+    except: pass
+
+    if(inside is not None):
+        inside.click()
+            
+        soupA = BeautifulSoup(driver.page_source, 'html.parser')
+        soupA = soupA.find_all('div',{'class':'one-half h-100 pvendas_content pvendas_content--detail full-container container-xs-sm h-100'})
+    
+        nomeLoja = soupA[0].find('h2',{'class':'page-title hidden-xs-sm ng-binding'}).text
+        morada = soupA[0].find('p',{'class':'pvenda-infoModule__txt ng-binding'}).text
+            #print(morada)
+        horario = soupA[0].find('p',{'ng-bind-html':'selectedStore.Schedule | unsafe'}).text
+            #print(horario)
+        listaA = soupA[0].find('ul',{'class':'pvenda-infoModule__list'})
+        listaAux = listaA.find_all('li')
+        for elem in listaAux:
+            listaServicos.append(elem.text)
+
+        driver.quit()
+        thisdict = {
+            'nome' : nomeLoja,
+            'morada' : morada,
+            'horario' : horario,
+            'ListaServs' : listaServicos
+        }
+
+    sendToJSON(thisdict)
+    return thisdict
+    
+
+##########################################################################################################################################################
+##########################################################################################################################################################
+
+def sendToJSON(dic):
+    fich = open('lojas.json','a')
+    prettyJSON = json.dumps(dic, indent=2,ensure_ascii=False)
+    fich.write(prettyJSON)
+
+
+def getLojasMain():
+    listaLojas = getLista_Lojas()
+
+    for elem in listaLojas:
+        print("A ir buscar: " + elem)
+        try: dic = getInfoLoja(elem)
+        except: pass
+
+##########################################################################################################################################################
+##########################################################################################################################################################
 
 soup = get_phones()
 lista = get_list_phones(soup)
