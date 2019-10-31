@@ -132,7 +132,7 @@ def prest_phones():
         return lista
 
 
-def pontos_phones():
+def points_phones():
     with open('phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -183,7 +183,7 @@ def all_wtf():
         return lista
 
 
-def wtf_nome(nome):
+def wtf_name(nome):
      with open('tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         aux = {}
@@ -216,4 +216,24 @@ def all_stores():
 
         return lista
 
-print(all_stores())
+
+def store_address(morada):
+     with open('lojas.json', 'r') as f:
+        data = json.load(f)
+        aux = {}
+
+        for loja in data:
+            if loja['morada'].lower() == morada.lower():
+                aux['nome'] = loja['nome']
+                aux['morada'] = loja['morada']
+                aux['horario'] = loja['horario']
+                aux['servicos'] = []
+                
+                for serv in loja['ListaServs']:
+                        aux['servicos'].append(serv)
+                
+                return aux
+
+
+# adicionar método para mostrar lojas perto de determinadas coordenadas
+# possivelmente terá que se adicionar as coordenadas da loja no json
