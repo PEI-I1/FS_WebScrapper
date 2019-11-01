@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 
 #################################################### WTF ##################################################
@@ -263,12 +266,12 @@ def getInfoLoja(nome):
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     lojas = soup.find_all('li',{'class':'resltLojas__single ng-scope'})
           
-    try: inside = driver.find_element_by_partial_link_text(nome)
+    element = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, nome)))
+    try: element.click()
     except: pass
 
-    if(inside is not None):
-        inside.click()
-            
+    if(element is not None):
+
         soupA = BeautifulSoup(driver.page_source, 'html.parser')
         soupA = soupA.find_all('div',{'class':'one-half h-100 pvendas_content pvendas_content--detail full-container container-xs-sm h-100'})
     
@@ -282,7 +285,6 @@ def getInfoLoja(nome):
         for elem in listaAux:
             listaServicos.append(elem.text)
 
-        driver.quit()
         thisdict = {
             'nome' : nomeLoja,
             'morada' : morada,
@@ -290,10 +292,9 @@ def getInfoLoja(nome):
             'ListaServs' : listaServicos
         }
 
+    driver.quit()
     sendToJSON(thisdict)
     return thisdict
-    
-
 ##########################################################################################################################################################
 ##########################################################################################################################################################
 
@@ -301,7 +302,7 @@ def sendToJSON(dic):
     fich = open('lojas.json','a')
     prettyJSON = json.dumps(dic, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
-
+    fich.close()
 
 def getLojasMain():
     listaLojas = getLista_Lojas()
@@ -318,3 +319,4 @@ soup = get_phones()
 lista = get_list_phones(soup)
 create_json_file_phones(lista)
 #create_json_file_TarifarioWTF(get_Wtf())
+#getLojasMain()
