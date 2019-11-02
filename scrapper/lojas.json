@@ -1,776 +1,1428 @@
-{
-  "nome": "Loja NOS Lisboa - Av. República",
-  "morada": "Av. República, 10Lisboa1050 -191",
-  "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 10h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Transferência de Contactos e Dados",
-    "Troca de Pontos",
-    "Atendimento Técnico",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Lisboa - Av. Roma",
-  "morada": "Av. Roma, 21 A/BLisboa1000-262",
-  "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 10h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Lisboa - Amoreiras",
-  "morada": "CC Amoreiras Shopping Center - Av. Engenheiro Duarte Pacheco - lj. 1109Lisboa1070-103",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Lisboa - Loja do Cidadão Marvila",
-  "morada": "CC Pingo Doce - Loja do Cidadão de Marvila - Av. Santo Condestável, lj. 34, lj.Lisboa1900-806",
-  "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online"
-  ]
-}{
-  "nome": "Loja NOS Lisboa - Armazéns do Chiado",
-  "morada": "Armazéns do Chiado - R. Carmo, 2 - lj. 4.05Lisboa1200-094",
-  "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 22h00Domingo: 10h00 - 22h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Lisboa - Loja do Cidadão Laranjeiras",
-  "morada": "Loja do Cidadão das Laranjeiras - R. Abranches Ferrão, 10 - lj. NOSLisboa1600-001",
-  "horario": "Segunda a Sexta: 08h30 - 19h30Sábado: 09h30 - 15h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Lisboa - Spacio Shopping",
-  "morada": "CC Spacio Shopping - Av. Cidade de Bolama, 4 - lj. 0.09Lisboa1800-079",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online"
-  ]
-}{
-  "nome": "Loja NOS Lisboa - Colombo",
-  "morada": "CC Colombo - Av. Lusíada - lj. 0.140Lisboa1500-392",
-  "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Lisboa - Colombo - Quiosque",
-  "morada": "CC Colombo - Av. Lusíada - Quiosque NOSLisboa1500-392",
-  "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online"
-  ]
-}{
-  "nome": "Loja NOS Lisboa - Gare do Oriente",
-  "morada": "Gare do Oriente, 0 - lj. G112ALisboa1990-084",
-  "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 09h00 - 20h00Domingo: 09h00 - 20h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Lisboa - Vasco da Gama",
-  "morada": "CC Vasco da Gama - Av. Dom João II, 40 - lj. 0.13ALisboa1990-094",
-  "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Moscavide - Av. Moscavide",
-  "morada": "Av. Moscavide, 51B - R/CMoscavide1885-065",
-  "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparação BOX TV e telefone fibra",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Almada - Pç. Movimento das Forças Armadas",
-  "morada": "Pç. Movimento das Forças Armadas, 7BAlmada2800-171",
-  "horario": "Segunda a Sexta: 09h00 - 18h00Hora de almoço: 14h00 - 15h00Sábado: 10h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparação BOX TV e telefone fibra",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada"
-  ]
-}{
-  "nome": "Loja NOS Odivelas - Strada Outlet",
-  "morada": "CC Strada Outlet - Est. Paiã, lj. 2037Odivelas2675-626",
-  "horario": "Segunda a Sexta: 09h30 - 23h00Sábado: 09h30 - 23h00Domingo: 09h30 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Alfragide - Alegro",
-  "morada": "CC Alegro - Av. Cavaleiros, 60 - lj. 05Carnaxide2790-045",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Amadora - Continente",
-  "morada": "CC Continente Amadora - EN249-1 - lj. 28Amadora2724-520",
-  "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 22h00Domingo: 10h00 - 22h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Amadora - UBBO",
-  "morada": "CC UBBO - Av. Cruzeiro Seixas, 5 e 7 - lj. 0.048/0.049Amadora2650-504",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Amadora - Pta. Padre Eduardo Ferreira do Amaral",
-  "morada": "Pta. Padre Eduardo Ferreira do Amaral, 3BAmadora2700-633",
-  "horario": "Segunda a Sexta: 10h00 - 19h00Sábado: 10h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Loures - Continente",
-  "morada": "CC Continente - EN 250, Qta. do Casal da Pipa - lj. 51Loures2670-339",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online"
-  ]
-}{
-  "nome": "Loja NOS Barreiro - Fórum Barreiro",
-  "morada": "CC Fórum Barreiro - R. Stara Zagora, 1, Campo das Cordoarias - lj. 0.53Barreiro2830-364",
-  "horario": "Segunda a Sexta: 09h30 - 22h00Sábado: 09h30 - 23h00Domingo: 09h30 - 22h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Loures - LoureShopping",
-  "morada": "CC LoureShopping - Av. Descobertas, 90 - lj. 0.015A/BLoures2670-457",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Oeiras - Oeiras Parque",
-  "morada": "CC Oeiras Parque - Av. António Bernardo Cabral de Macedo - lj. 1113/1114Oeiras2770-219",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Seixal - Rio Sul",
-  "morada": "CC Rio Sul - Av. Libertadores de Timor Loro Sae - lj. 0.018/0.019Seixal2840-168",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Sintra - Alegro Sintra",
-  "morada": "CC Fórum Sintra - IC 19, Alto do Forte - lj. 0.37Rio de Mouro2635-018",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Montijo - Alegro Montijo",
-  "morada": "CC Fórum Montijo - Zona Industrial do Pau Queimado, R. Azinheira - lj. 0.11Montijo2870-100",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Sintra - Jumbo Sintra",
-  "morada": "CC Jumbo Sintra - R. Francisco Lyon de Castro - lj. 0.12Mem Martins2725-397",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Parede - R. José Relvas",
-  "morada": "R. José Relvas, 2Parede2775-222",
-  "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h00Sábado: 09h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparação BOX TV e telefone fibra",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada"
-  ]
-}{
-  "nome": "Loja NOS Alverca - R. José de Sousa Nazareth",
-  "morada": "R. José de Sousa Nazareth, 21Alverca2615-109",
-  "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h30 - 15h00Sábado: 10h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online"
-  ]
-}{
-  "nome": "Loja NOS Cascais - Jumbo",
-  "morada": "CC Jumbo - EN 6 - lj. NOSCascais2754-522",
-  "horario": "Segunda a Sexta: 09h00 - 20h30Sábado: 09h00 - 20h30",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online"
-  ]
-}{
-  "nome": "Loja NOS Mafra - R. Francisco Augusto Leite",
-  "morada": "R. Francisco Augusto Leite, 17 - lj. 2Mafra2640-410",
-  "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Setúbal - Alegro",
-  "morada": "CC Alegro - Av. Antero de Quental, 2 - lj. 0.029Setúbal2910-394",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Setúbal - Av. Luísa Todi",
-  "morada": "Av. Luísa Todi, 152/154Setúbal2900-451",
-  "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Alenquer - Lg. Palmira Bastos",
-  "morada": "Lg. Palmira Bastos, 8Alenquer2580-370",
-  "horario": "Segunda a Sexta: 09h00 - 18h00Hora de almoço: 13h00 - 14h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada"
-  ]
-}{
-  "nome": "Loja NOS Benavente - Av. Dr Manuel Lopes de Almeida",
-  "morada": "Av. Doutor Manuel Lopes de Almeida, 52-ABenavente2130-016",
-  "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 14h30",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada"
-  ]
-}{
-  "nome": "Loja NOS Santarém - Lg. Cândido Reis",
-  "morada": "Lg. Cândido dos Reis, 4Santarém2000-241",
-  "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Almeirim - R. Dionísio Saraiva",
-  "morada": "R. Dionísio Saraiva, 12-AAlmeirim2080-104",
-  "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 12h30",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online"
-  ]
-}{
-  "nome": "Loja NOS Peniche - Av. 25 de Abril",
-  "morada": "Av. 25 de Abril, 4 - R/C DtoPeniche2520-202",
-  "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 12h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Caldas da Rainha - La Vie Caldas da Rainha",
-  "morada": "CC La Vie Caldas da Rainha - R. Belchior de Matos, 11 - piso 0 - Quiosque NOSCaldas da Rainha2500-324",
-  "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Caldas da Rainha - R. Coronel Andrada Mendonça",
-  "morada": "R. Coronel Andrada Mendonça, 19 - LojaCaldas da Rainha2500-148",
-  "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada"
-  ]
-}{
-  "nome": "Loja NOS Nazaré - R. Sub Vila",
-  "morada": "R. Sub Vila, 40Nazaré2450-265",
-  "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 14h00Sábado: 09h30 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada"
-  ]
-}{
-  "nome": "Loja NOS Torres Novas - R. do Nogueiral",
-  "morada": "R. do Nogueiral, lj. 8Torres Novas2350-413",
-  "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 12h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada"
-  ]
-}{
-  "nome": "Loja NOS Évora - Pç. Joaquim António de Aguiar",
-  "morada": "Pç. Joaquim António de Aguiar, 42Évora7000-510",
-  "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 10h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Marinha Grande - Av. Vitor Gallo",
-  "morada": "Av. Vitor Gallo, 76Marinha Grande2430-174",
-  "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 12h30",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada"
-  ]
-}{
-  "nome": "Loja NOS Leiria - LeiriaShopping",
-  "morada": "CC LeiriaShopping - IC2, R. Alto do Vieiro - lj. 061Leiria2400-441",
-  "horario": "Segunda a Sexta: 09h00 - 23h00Sábado: 09h00 - 24h00Domingo: 09h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Abrantes - Av. Dom João I",
-  "morada": "Av. Dom João I, 414AAbrantes2200-233",
-  "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Tomar - Continente",
-  "morada": "CC Continente Tomar - Lugar de Palhavã de Cima - lj.8Tomar2300-410",
-  "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada"
-  ]
-}{
-  "nome": "Loja NOS Beja - Continente",
-  "morada": "CC Continente Beja - R. Zeca Afonso - lj. 8Beja7800-522",
-  "horario": "Segunda a Sexta: 09h00 - 22h00Sábado: 09h00 - 23h00Domingo: 09h00 - 22h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Pombal - Lg. 25 de Abril",
-  "morada": "Lg. 25 de Abril, 5Pombal3100-285",
-  "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Portalegre - Continente",
-  "morada": "CC Continente Portalegre - R. Joinal, 12 - lj. 1Portalegre7300-526",
-  "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Figueira da Foz - Foz Plaza",
-  "morada": "CC Foz Plaza - R. Condados, Buarcos - lj. 225/226Figueira da Foz3080-216",
-  "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Elvas - Intermarché",
-  "morada": "CC Intermarché Elvas - Qt. Morgadinho, lt. 1 - lj. 5Elvas7350-207",
-  "horario": "Segunda a Sexta: 10h00 - 20h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 20h00Domingo: 10h00 - 20h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Levantamento de compras online",
-    "Devolução de compras online"
-  ]
-}{
-  "nome": "Loja NOS Coimbra - CoimbraShopping",
-  "morada": "CC CoimbraShopping - Av. Mendes Silva, 211-251 - lj. 116Coimbra3030-193",
-  "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Coimbra - Fórum Coimbra",
-  "morada": "CC Fórum Coimbra - Av. José Bonifácio de Andrada e Silva, 1 - lj. 0.07/0.08Coimbra3040-389",
-  "horario": "Segunda a Sexta: 09h00 - 23h00Sábado: 09h00 - 24h00Domingo: 09h00 - 23h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Coimbra - R. do Carmo",
-  "morada": "R. do Carmo, 82 - R/CCoimbra3004-550",
-  "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparação BOX TV e telefone fibra",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Silves - R. Elias Garcia",
-  "morada": "R. Elias Garcia, 26Silves8300-155",
-  "horario": "Segunda a Sexta: 09h00 - 18h00Hora de almoço: 13h00 - 14h30Sábado: 09h00 - 12h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Atendimento Empresarial"
-  ]
-}{
-  "nome": "Loja NOS Castelo Branco - Fórum Castelo Branco",
-  "morada": "CC Fórum Castelo Branco - Av. Prof. Dr. Egas Moniz - lj. 0.19BCastelo Branco6000-901",
-  "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
-  "ListaServs": [
-    "Venda",
-    "Pagamentos",
-    "Troca de Pontos",
-    "Reparações telemóveis, internet e telefone satélite",
-    "Reparação BOX TV Satélite",
-    "Levantamento de compras online",
-    "Devolução de compras online",
-    "Devolução de Box TV/NET desligada",
-    "Atendimento Empresarial"
-  ]
-}
+[
+  {
+    "nome": "Loja NOS Lisboa - Av. República",
+    "morada": "Av. República, 10Lisboa1050 -191",
+    "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Transferência de Contactos e Dados",
+      "Troca de Pontos",
+      "Atendimento Técnico",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Av. Roma",
+    "morada": "Av. Roma, 21 A/BLisboa1000-262",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Amoreiras",
+    "morada": "CC Amoreiras Shopping Center - Av. Engenheiro Duarte Pacheco - lj. 1109Lisboa1070-103",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Loja do Cidadão Marvila",
+    "morada": "CC Pingo Doce - Loja do Cidadão de Marvila - Av. Santo Condestável, lj. 34, lj.Lisboa1900-806",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Campo Grande",
+    "morada": "Campo Grande - R. Ator António Silva, 414GLisboa1600-317",
+    "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Armazéns do Chiado",
+    "morada": "Armazéns do Chiado - R. Carmo, 2 - lj. 4.05Lisboa1200-094",
+    "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 22h00Domingo: 10h00 - 22h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Loja do Cidadão Laranjeiras",
+    "morada": "Loja do Cidadão das Laranjeiras - R. Abranches Ferrão, 10 - lj. NOSLisboa1600-001",
+    "horario": "Segunda a Sexta: 08h30 - 19h30Sábado: 09h30 - 15h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Spacio Shopping",
+    "morada": "CC Spacio Shopping - Av. Cidade de Bolama, 4 - lj. 0.09Lisboa1800-079",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Colombo",
+    "morada": "CC Colombo - Av. Lusíada - lj. 0.140Lisboa1500-392",
+    "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Colombo - Quiosque",
+    "morada": "CC Colombo - Av. Lusíada - Quiosque NOSLisboa1500-392",
+    "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Gare do Oriente",
+    "morada": "Gare do Oriente, 0 - lj. G112ALisboa1990-084",
+    "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 09h00 - 20h00Domingo: 09h00 - 20h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lisboa - Vasco da Gama",
+    "morada": "CC Vasco da Gama - Av. Dom João II, 40 - lj. 0.13ALisboa1990-094",
+    "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Moscavide - Av. Moscavide",
+    "morada": "Av. Moscavide, 51B - R/CMoscavide1885-065",
+    "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Almada - Pç. Movimento das Forças Armadas",
+    "morada": "Pç. Movimento das Forças Armadas, 7BAlmada2800-171",
+    "horario": "Segunda a Sexta: 09h00 - 18h00Hora de almoço: 14h00 - 15h00Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Odivelas - Strada Outlet",
+    "morada": "CC Strada Outlet - Est. Paiã, lj. 2037Odivelas2675-626",
+    "horario": "Segunda a Sexta: 09h30 - 23h00Sábado: 09h30 - 23h00Domingo: 09h30 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Alfragide - Alegro",
+    "morada": "CC Alegro - Av. Cavaleiros, 60 - lj. 05Carnaxide2790-045",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Amadora - Continente",
+    "morada": "CC Continente Amadora - EN249-1 - lj. 28Amadora2724-520",
+    "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 22h00Domingo: 10h00 - 22h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Amadora - UBBO",
+    "morada": "CC UBBO - Av. Cruzeiro Seixas, 5 e 7 - lj. 0.048/0.049Amadora2650-504",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Amadora - Pta. Padre Eduardo Ferreira do Amaral",
+    "morada": "Pta. Padre Eduardo Ferreira do Amaral, 3BAmadora2700-633",
+    "horario": "Segunda a Sexta: 10h00 - 19h00Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Almada - Almada Fórum",
+    "morada": "CC Almada Fórum - R. Sérgio Malpique, 2 - lj. 1.95/1.96Almada2810-500",
+    "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Loures - Continente",
+    "morada": "CC Continente - EN 250, Qta. do Casal da Pipa - lj. 51Loures2670-339",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Queluz - Av. José Elias Garcia",
+    "morada": "Av. José Elias Garcia, 49 A/BQueluz2745-147",
+    "horario": "Segunda a Sexta: 09h00 - 18h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Barreiro - Fórum Barreiro",
+    "morada": "CC Fórum Barreiro - R. Stara Zagora, 1, Campo das Cordoarias - lj. 0.53Barreiro2830-364",
+    "horario": "Segunda a Sexta: 09h30 - 22h00Sábado: 09h30 - 23h00Domingo: 09h30 - 22h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Loures - LoureShopping",
+    "morada": "CC LoureShopping - Av. Descobertas, 90 - lj. 0.015A/BLoures2670-457",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Cacém - R. Bartolomeu Dias",
+    "morada": "R. Bartolomeu Dias, 10ACacém2735-068",
+    "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 14h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Oeiras - Oeiras Parque",
+    "morada": "CC Oeiras Parque - Av. António Bernardo Cabral de Macedo - lj. 1113/1114Oeiras2770-219",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Seixal - Rio Sul",
+    "morada": "CC Rio Sul - Av. Libertadores de Timor Loro Sae - lj. 0.018/0.019Seixal2840-168",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Barreiro - B Planet",
+    "morada": "CC Barreiro Retail Planet - EN 10, Km 18,5 - lj. 16Coina2830-411",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Alverca - R. José de Sousa Nazareth",
+    "morada": "R. José de Sousa Nazareth, 21Alverca2615-109",
+    "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h30 - 15h00Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Cascais - CascaiShopping",
+    "morada": "CC CascaiShopping - EN 9 - lj. 0.063Alcabideche2645-543",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Cascais - Jumbo",
+    "morada": "CC Jumbo - EN 6 - lj. NOSCascais2754-522",
+    "horario": "Segunda a Sexta: 09h00 - 20h30Sábado: 09h00 - 20h30",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Vila Franca de Xira - R. Almirante Cândido dos Reis",
+    "morada": "R. Almirante Cândido dos Reis, 142 - R/CVila Franca de Xira2600-121",
+    "horario": "Segunda a Sexta: 08h30 - 19h30Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Mafra - R. Francisco Augusto Leite",
+    "morada": "R. Francisco Augusto Leite, 17 - lj. 2Mafra2640-410",
+    "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Setúbal - Alegro",
+    "morada": "CC Alegro - Av. Antero de Quental, 2 - lj. 0.029Setúbal2910-394",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Setúbal - Av. Luísa Todi",
+    "morada": "Av. Luísa Todi, 152/154Setúbal2900-451",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Alenquer - Lg. Palmira Bastos",
+    "morada": "Lg. Palmira Bastos, 8Alenquer2580-370",
+    "horario": "Segunda a Sexta: 09h00 - 18h00Hora de almoço: 13h00 - 14h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Benavente - Av. Dr Manuel Lopes de Almeida",
+    "morada": "Av. Doutor Manuel Lopes de Almeida, 52-ABenavente2130-016",
+    "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 14h30",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Torres Vedras - Arena Shopping",
+    "morada": "CC Arena Shopping - R. António Alves Ferreira, 2  - lj. 1003Torres Vedras2560-256",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Santarém - Lg. Cândido Reis",
+    "morada": "Lg. Cândido dos Reis, 4Santarém2000-241",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Almeirim - R. Dionísio Saraiva",
+    "morada": "R. Dionísio Saraiva, 12-AAlmeirim2080-104",
+    "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 12h30",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Peniche - Av. 25 de Abril",
+    "morada": "Av. 25 de Abril, 4 - R/C DtoPeniche2520-202",
+    "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 12h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Caldas da Rainha - La Vie Caldas da Rainha",
+    "morada": "CC La Vie Caldas da Rainha - R. Belchior de Matos, 11 - piso 0 - Quiosque NOSCaldas da Rainha2500-324",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Caldas da Rainha - R. Coronel Andrada Mendonça",
+    "morada": "R. Coronel Andrada Mendonça, 19 - LojaCaldas da Rainha2500-148",
+    "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Santiago do Cacém - Estrada Nacional 261",
+    "morada": "R. Professor Egas Moniz (EN261), 44BSantiago do Cacém7540-204",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 15h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Sines - Av. General Humberto Delgado",
+    "morada": "Av. General Humberto Delgado, 32ASines7520-104",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Alcobaça - R. Dr. Brilhante",
+    "morada": "R. Dr. Brilhante, 22Alcobaça2460-040",
+    "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Nazaré - R. Sub Vila",
+    "morada": "R. Sub Vila, 40Nazaré2450-265",
+    "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 14h00Sábado: 09h30 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Torres Novas - R. do Nogueiral",
+    "morada": "R. do Nogueiral, lj. 8Torres Novas2350-413",
+    "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 12h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Entroncamento - R. Manuel Rodrigues Gameiro",
+    "morada": "R. Manuel Rodrigues Gameiro, 7Entroncamento2330-178",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 10h00 - 12h30",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Fátima - Av. Beato Nuno",
+    "morada": "Av. Beato Nuno, 19 - Bloco C - 5A Cova de IriaFátima2495-357",
+    "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 12h30",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Évora - Pç. Joaquim António de Aguiar",
+    "morada": "Pç. Joaquim António de Aguiar, 42Évora7000-510",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Ponte de Sôr - Av. Liberdade",
+    "morada": "Av. Liberdade, 15Ponte de Sôr7400-215",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 09h00 - 12h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Marinha Grande - Av. Vitor Gallo",
+    "morada": "Av. Vitor Gallo, 76Marinha Grande2430-174",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 12h30",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Leiria - LeiriaShopping",
+    "morada": "CC LeiriaShopping - IC2, R. Alto do Vieiro - lj. 061Leiria2400-441",
+    "horario": "Segunda a Sexta: 09h00 - 23h00Sábado: 09h00 - 24h00Domingo: 09h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Abrantes - Av. Dom João I",
+    "morada": "Av. Dom João I, 414AAbrantes2200-233",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Tomar - Continente",
+    "morada": "CC Continente Tomar - Lugar de Palhavã de Cima - lj.8Tomar2300-410",
+    "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Beja - Continente",
+    "morada": "CC Continente Beja - R. Zeca Afonso - lj. 8Beja7800-522",
+    "horario": "Segunda a Sexta: 09h00 - 22h00Sábado: 09h00 - 23h00Domingo: 09h00 - 22h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Pombal - Lg. 25 de Abril",
+    "morada": "Lg. 25 de Abril, 5Pombal3100-285",
+    "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Portalegre - Continente",
+    "morada": "CC Continente Portalegre - R. Joinal, 12 - lj. 1Portalegre7300-526",
+    "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Figueira da Foz - Foz Plaza",
+    "morada": "CC Foz Plaza - R. Condados, Buarcos - lj. 225/226Figueira da Foz3080-216",
+    "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Elvas - Intermarché",
+    "morada": "CC Intermarché Elvas - Qt. Morgadinho, lt. 1 - lj. 5Elvas7350-207",
+    "horario": "Segunda a Sexta: 10h00 - 20h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 20h00Domingo: 10h00 - 20h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Coimbra - CoimbraShopping",
+    "morada": "CC CoimbraShopping - Av. Mendes Silva, 211-251 - lj. 116Coimbra3030-193",
+    "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Coimbra - Fórum Coimbra",
+    "morada": "CC Fórum Coimbra - Av. José Bonifácio de Andrada e Silva, 1 - lj. 0.07/0.08Coimbra3040-389",
+    "horario": "Segunda a Sexta: 09h00 - 23h00Sábado: 09h00 - 24h00Domingo: 09h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Coimbra - R. do Carmo",
+    "morada": "R. do Carmo, 82 - R/CCoimbra3004-550",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Coimbra - Alma Shopping",
+    "morada": "CC Alma Shopping - R. General Humberto Delgado, 207/211 - lj. 237Coimbra3030-327",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Silves - R. Elias Garcia",
+    "morada": "R. Elias Garcia, 26Silves8300-155",
+    "horario": "Segunda a Sexta: 09h00 - 18h00Hora de almoço: 13h00 - 14h30Sábado: 09h00 - 12h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Castelo Branco - Fórum Castelo Branco",
+    "morada": "CC Fórum Castelo Branco - Av. Prof. Dr. Egas Moniz - lj. 0.19BCastelo Branco6000-901",
+    "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Cantanhede - R. Henrique Barreto",
+    "morada": "R. Henrique Barreto, Ed. Rossio - lj. 3Cantanhede3060-176",
+    "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Portimão - Aqua Portimão",
+    "morada": "CC Aqua Portimão - R. São Pedro, 72 - lj. 0.36Portimão8500-448",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Portimão - Continente",
+    "morada": "CC Continente Portimão - Av. São Lourenço da Barrosa, lt. 1 - lj. 234Portimão8500-510",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Lagos - Av. Cabo Bojador",
+    "morada": "Av. Cabo Bojador, lj. GLagos8600-644",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h00Sábado: 10h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Albufeira - AlgarveShopping",
+    "morada": "CC AlgarveShopping - Lanka Parque Comercial e Industrial do Algarve,  lt. R, fr.Guia8201-878",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Albufeira - AlbufeiraShopping",
+    "morada": "CC AlbufeiraShopping – R. do Município, lt. 32 – lj 021Albufeira8200-161",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Loulé - Av. José da Costa Mealha",
+    "morada": "Av. José da Costa Mealha, Ed. Batalim – lj. 1Loulé8100-617",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h30 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Quarteira - Av. Carlos Mota Pinto",
+    "morada": "Av. Carlos Mota Pinto, Ed. José Correia Bárbara - R/CQuarteira8125-093",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Loulé - Mar Shopping Algarve",
+    "morada": "CC Mar Shopping Algarve - Av. Algarve, Complexo Comercial IKEA - lj. 0.52Almancil8135-182",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Fundão - Av. Liberdade",
+    "morada": "Av. Liberdade, 22Fundão6230-398",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Ílhavo - Av. 25 de Abril",
+    "morada": "Av. 25 de Abril, 48 - R/C DÍlhavo3830-044",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h00Domingo: 10h00 - 20h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Oliveira do Hospital - R. Dr. António Ribeiro Garcia de Vasconcelos",
+    "morada": "R. Dr. António Ribeiro Garcia de Vasconcelos, 16 - R/COliveira do Hospital3400-132",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Águeda - R. Rio Grande",
+    "morada": "R. Rio Grande, S/NÁgueda3750-137",
+    "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 10h00 - 12h30",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Aveiro - Glicínias Plaza",
+    "morada": "CC Glicínias Plaza - R. Dom Manuel Barbuda e Vasconcelos - lj. 12/13AAveiro3810-498",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Aveiro - R. Conselheiro Luís Magalhães",
+    "morada": "R. Conselheiro Luís Magalhães, 7Aveiro3800-137",
+    "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 14h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Faro - Fórum Algarve",
+    "morada": "CC Fórum Algarve - EN 125, km103 - lj. 0.07Faro8009-020",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Aveiro - Aveiro Center",
+    "morada": "CC Aveiro Center - Estrada da Taboeira, Esgueira - lj. 57/58Aveiro3800-901",
+    "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Olhão - Algarve Outlet",
+    "morada": "CC Algarve Outlet, EN 125 - lj. 0.04Olhão8700-179",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Covilhã - Serra Shopping",
+    "morada": "CC Serra Shopping - Al. Europa, lt. 1 - lj. 0.41Covilhã6200-546",
+    "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Tavira - Tavira Gran-Plaza",
+    "morada": "CC Tavira Gran-Plaza - R. Almirante Cândido dos Reis, 247 - Quiosque NOSTavira8800-318",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Seia - R. Dr. Simões Pereira",
+    "morada": "R. Dr. Simões Pereira, 3Seia6270-510",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Nelas - Av. João XXIII",
+    "morada": "Av. João XXIII, lt. 4 - lj. 1Nelas3520-059",
+    "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 10h00 - 12h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Vila Real de Santo António - Av. Bombeiros Portugueses",
+    "morada": "Av. Bombeiros Portugueses, lt. 13 - lj. NOSVila Real de Santo António8900-209",
+    "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 13h30 - 14h30Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Estarreja - Pç. Francisco Barbosa",
+    "morada": "Pç. Francisco Barbosa, 42Estarreja3860-356",
+    "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 13h00 - 14h30Sábado: 09h30 - 12h30",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada"
+    ]
+  },
+  {
+    "nome": "Loja NOS Viseu - Palácio do Gelo",
+    "morada": "CC Palácio do Gelo - R. Palácio do Gelo, 3 - lj. 013Viseu3500-606",
+    "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparações telemóveis, internet e telefone satélite",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Viseu - R. Major Leopoldo da Silva",
+    "morada": "R. Major Leopoldo da Silva, 28Viseu3510-123",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h00Sábado: 09h30 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Levantamento de compras online",
+      "Devolução de compras online"
+    ]
+  },
+  {
+    "nome": "Loja NOS Mangualde - Av. Liberdade",
+    "morada": "Av. da Liberdade, 48Mangualde3530-113",
+    "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 09h00 - 13h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV e telefone fibra",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  },
+  {
+    "nome": "Loja NOS Viseu - Continente",
+    "morada": "CC Continente Viseu - Av. Bélgica - lj. 13Viseu3510-159",
+    "horario": "Segunda a Sexta: 09h00 - 23h00Sábado: 09h00 - 23h00Domingo: 09h00 - 22h00",
+    "ListaServs": [
+      "Venda",
+      "Pagamentos",
+      "Troca de Pontos",
+      "Reparação BOX TV Satélite",
+      "Levantamento de compras online",
+      "Devolução de compras online",
+      "Devolução de Box TV/NET desligada",
+      "Atendimento Empresarial"
+    ]
+  }
+]

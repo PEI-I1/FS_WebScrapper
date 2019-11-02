@@ -268,7 +268,7 @@ def getInfoLoja(nome):
           
     element = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, nome)))
     try: element.click()
-    except: pass
+    except: driver.quit()
 
     if(element is not None):
 
@@ -291,9 +291,10 @@ def getInfoLoja(nome):
             'horario' : horario,
             'ListaServs' : listaServicos
         }
-
+    del soupA
+    del soup
     driver.quit()
-    sendToJSON(thisdict)
+
     return thisdict
 ##########################################################################################################################################################
 ##########################################################################################################################################################
@@ -306,11 +307,20 @@ def sendToJSON(dic):
 
 def getLojasMain():
     listaLojas = getLista_Lojas()
+    listaA = []
+    i = 0
+#     for elem in listaLojas:
+#         if i < 100:
+#            listaA.append(elem)
+#            i = i+1
 
+    lista = []
     for elem in listaLojas:
         print("A ir buscar: " + elem)
-        try: dic = getInfoLoja(elem)
+        try : lista.append(getInfoLoja(elem))
         except: pass
+    
+    sendToJSON(lista)
 
 ##########################################################################################################################################################
 ##########################################################################################################################################################
