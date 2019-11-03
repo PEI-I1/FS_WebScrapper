@@ -4,7 +4,7 @@ from re import sub
 
 
 def linhas_apoio(assunto):
-    with open('linhas_apoio.json', 'r') as f:
+    with open('json/linhas_apoio.json', 'r') as f:
         data = json.load(f)
         lista = []
 
@@ -20,7 +20,7 @@ def linhas_apoio(assunto):
 
 
 def phone_model(modelo):
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         aux = {}
 
@@ -36,7 +36,7 @@ def phone_model(modelo):
 
 
 def brand_phones(marca):
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -52,7 +52,7 @@ def brand_phones(marca):
 
 
 def top_phones():
-    with open('top_phones.json', 'r') as f:
+    with open('json/top_phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -67,7 +67,7 @@ def top_phones():
 
 
 def promo_phones():
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -83,7 +83,7 @@ def promo_phones():
 
 
 def new_phones():
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -99,7 +99,7 @@ def new_phones():
 
 
 def ofer_phones():
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -117,7 +117,7 @@ def ofer_phones():
 
 
 def prest_phones():
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -133,7 +133,7 @@ def prest_phones():
 
 
 def points_phones():
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -149,7 +149,7 @@ def points_phones():
 
 
 def phones_by_price(inf, sup):
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -169,7 +169,7 @@ def phones_by_price(inf, sup):
 
 
 def all_wtf():
-    with open('tarifario_WTF.json', 'r') as f:
+    with open('json/tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -184,7 +184,7 @@ def all_wtf():
 
 
 def wtf_name(nome):
-     with open('tarifario_WTF.json', 'r') as f:
+     with open('json/tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         aux = {}
 
@@ -203,7 +203,7 @@ def wtf_name(nome):
 
 
 def stores_by_zone(zona):
-    with open('lojas.json', 'r') as f:
+    with open('json/lojas.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -219,7 +219,7 @@ def stores_by_zone(zona):
 
 
 def store_address(morada):
-     with open('lojas.json', 'r') as f:
+     with open('json/lojas.json', 'r') as f:
         data = json.load(f)
         aux = {}
 
