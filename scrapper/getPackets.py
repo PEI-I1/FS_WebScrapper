@@ -22,13 +22,20 @@ def getPackets():
     if(r.status_code == 200):
             soup = BeautifulSoup(r.text, 'html.parser')
             soup = soup.find('div', {'class':'tabelaFid'})
-    lista = []
-    lista = soup.find_all('article') # cada article é um pacote
-    i = 0
-    for elem in lista: 
-        # Uso de try's porque os pacotes podem ou não incluir os diversos serviços
-        if i < 1: # apenas vai buscar um elemento para testar
-            #print(elem)
+    
+    sections = []
+    sections = soup.findAll('section')
+    listaElementos = []
+    
+    for item in sections:
+        tipo = getTipoPacote(item)
+        
+        lista = []
+        lista = soup.find_all('article') # cada article é um pacote
+        i = 0
+        for elem in lista: 
+            # Uso de try's porque os pacotes podem ou não incluir os diversos serviços
+                #print(elem)
             nome = canais = net = phone = mobile = netmovel = None
             try: nome = elem.find('h3').text 
             except: pass
@@ -42,24 +49,133 @@ def getPackets():
             except: pass
             try: netmovel = elem.find('p',{'class':'netmovel'}).text
             except: pass
-            headers = elem.find_all('div') # total de 4*2 elementos, 
-          #  a = 0
-            while headers: #TODO
-                print(headers)
-          #      headers[a] = 
-          #      headers[a+1] =
-          #      a = a + 2
-        i = i+1
-    
+               
+            headers = elem.find_all('div', {}) 
+            col1 = getFirstColumn(headers)
+            col2 = getSecondColumn(headers)
+            col3 = getThirdColumn(headers)
+            col4 = getFourthColumn(headers)   
 
+            thisDict = {
+                'Tipo' : tipo,
+                'nome' : nome,
+                'canais' : canais, 
+                'net' : net,
+                'phone' : phone,
+                'mobile' : mobile,
+                'netMovel' : netmovel,
+                'Fidelizacao_24Meses' : col1,
+                'Fidelizacao_12Meses' : col2,
+                'Fidelizacao_6Meses' : col3,
+                'Sem_Fidelizacao' : col4
+            }
+            listaElementos.append(thisDict)   
         
-
-
-def getPacketsFiber(soup):
-    print(soup)
+    sendToJSON(listaElementos)
     
-def getPacketsSatelitte(soup):
-    print(soup)
+
+def getTipoPacote(soup):
+    
+    tipoFibra = tipoSatelite = None
+
+    try:tipoFibra = soup.find('h2',{'class':'masterTextColorA'}).text
+    except: pass
+    try: tipoSatelite = soup.find('h2',{'class':'masterTextColorB'}).text
+    except: pass
+
+    if tipoFibra is not None:
+        tipo = tipoFibra
+    else:
+        tipo = tipoSatelite
+        
+    return tipo
+
+def getFirstColumn(soup):
+    #print(soup[0])
+    preco = soup[0].find('em').text
+    listaVantagens =  []
+    lista = soup[0].find('div',{'class':'mais'}).find_all('p')
+    precoAdesao = soup[0].find('span').text
+
+    for elem in lista:
+        listaVantagens.append(elem.text)
+
+    thisDict = {
+        'Fidelizacao': "24 Meses",
+        'preco':preco,
+        'precoAdesao': precoAdesao,
+        'Vantagens' : listaVantagens
+    }
+
+    return thisDict
+
+    
+
+def getSecondColumn(soup):
+    #print(soup[2])
+    preco = soup[2].find('em').text
+    listaVantagens =  []
+    lista = soup[2].find('div',{'class':'mais'}).find_all('p')
+    precoAdesao = soup[2].find('span').text
+
+    for elem in lista:
+        listaVantagens.append(elem.text)
+
+    thisDict = {
+        'Fidelizacao': "12 Meses",
+        'preco':preco,
+        'precoAdesao': precoAdesao,
+        'Vantagens' : listaVantagens
+    }
+
+    return thisDict
+
+
+def getThirdColumn(soup):
+    #print(soup[4])
+    preco = soup[4].find('em').text
+    listaVantagens =  []
+    lista = soup[4].find('div',{'class':'mais'}).find_all('p')
+    precoAdesao = soup[4].find('span').text
+
+    for elem in lista:
+        listaVantagens.append(elem.text)
+
+    thisDict = {
+        'Fidelizacao': "6 Meses",
+        'preco':preco,
+        'precoAdesao': precoAdesao,
+        'Vantagens' : listaVantagens
+    }
+    
+    return thisDict
+
+
+def getFourthColumn(soup):
+    #print(soup[6])
+    preco = soup[6].find('em').text
+    listaVantagens =  []
+    lista = soup[6].find('div',{'class':'mais'}).find_all('p')
+    precoAdesao = soup[6].find('span').text
+
+    for elem in lista:
+        listaVantagens.append(elem.text)
+
+    thisDict = {
+        'Fidelizacao': "Sem Fidelizacao",
+        'preco':preco,
+        'precoAdesao': precoAdesao,
+        'Vantagens' : listaVantagens
+    }  
+    
+    return thisDict
+
+def sendToJSON(dic):
+    fich = open('Pacotes.json','w')
+    prettyJSON = json.dumps(dic, indent=2,ensure_ascii=False)
+    fich.write(prettyJSON)
+    fich.close()
 ###########################################################################################################
 ###########################################################################################################
+
 getPackets()
