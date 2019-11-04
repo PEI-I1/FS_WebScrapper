@@ -3,7 +3,22 @@ import json
 from re import sub
 
 
-def linhas_apoio(assunto):
+def linhas_apoio():
+    with open('json/linhas_apoio.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for linha in data:
+            aux['categoria'] = linha['categoria']
+            aux['numero'] = linha['numero']
+            lista.append(aux)
+            aux = {}
+        
+        return lista
+
+
+def linhas_apoio_assunto(assunto):
     with open('json/linhas_apoio.json', 'r') as f:
         data = json.load(f)
         lista = []

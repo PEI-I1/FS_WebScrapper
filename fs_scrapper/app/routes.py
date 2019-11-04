@@ -9,9 +9,14 @@ def index():
     return "Hello, World!"
 
 
+@app.route('/linhas_apoio')
+def linhas_apoio_request():
+    return jsonify(response = handler.linhas_apoio())
+
+
 @app.route('/linhas_apoio/<assunto>')
-def linhas_apoio_request(assunto):
-    return jsonify(response = handler.linhas_apoio(assunto))
+def linhas_apoio_assunto_request(assunto):
+    return jsonify(response = handler.linhas_apoio_assunto(assunto))
 
 
 @app.route('/phone_model/<model>')
