@@ -98,7 +98,8 @@ def getFirstColumn(soup):
     precoAdesao = soup[0].find('span').text
 
     for elem in lista:
-        listaVantagens.append(elem.text)
+        e = re.sub(r'(€[0-9,]*)',r'\1 euros',elem.text)
+        listaVantagens.append(e.replace('€', ''))
 
     thisDict = {
         'Fidelizacao': "24 Meses",
@@ -119,7 +120,8 @@ def getSecondColumn(soup):
     precoAdesao = soup[2].find('span').text
 
     for elem in lista:
-        listaVantagens.append(elem.text)
+        e = re.sub(r'(€[0-9,]*)',r'\1 euros',elem.text)
+        listaVantagens.append(e.replace('€', ''))
 
     thisDict = {
         'Fidelizacao': "12 Meses",
@@ -139,7 +141,8 @@ def getThirdColumn(soup):
     precoAdesao = soup[4].find('span').text
 
     for elem in lista:
-        listaVantagens.append(elem.text)
+        e = re.sub(r'(€[0-9,]*)',r'\1 euros',elem.text)
+        listaVantagens.append(e.replace('€', ''))
 
     thisDict = {
         'Fidelizacao': "6 Meses",
@@ -159,7 +162,8 @@ def getFourthColumn(soup):
     precoAdesao = soup[6].find('span').text
 
     for elem in lista:
-        listaVantagens.append(elem.text)
+        e = re.sub(r'(€[0-9,]*)',r'\1 euros',elem.text)
+        listaVantagens.append(e.replace('€', ''))
 
     thisDict = {
         'Fidelizacao': "Sem Fidelizacao",

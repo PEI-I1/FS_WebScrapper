@@ -26,9 +26,9 @@ def get_Wtf():
         nomeTarifario = elema.find('span',{'class':'section-tarifario__block__header-text-name-pack'}).text
         #custo
         elemb = elem.find('div',{'class':'section-tarifario__block__header-prices'})
-        preco = elem.find('span', {'class':'section-tarifario__block__header-text-price'}).text
+        preco = elem.find('span', {'class':'section-tarifario__block__header-text-price'}).text.replace('€', '')
         periodo = elem.find('span', {'class':'section-tarifario__block__header-text-name-price-week'}).text
-        total = elem.find('span', {'class':'section-tarifario__block__header-text-price-total'}).text
+        total = elem.find('span', {'class':'section-tarifario__block__header-text-price-total'}).text.replace('€', '')
         
         #net
         elemNet = elem.find('div',{'class':'section-tarifario__block__tabs'})
@@ -88,10 +88,10 @@ def get_list_linhas_apoio(soup):
         numero = elem.div['id']
 
         elem = elem.find('div',{})
-        categoria = elem.h2.text
+        categoria = elem.h2.text.replace('\n', '').replace('\r', '')
 
         elem.h2.clear()
-        descricao = elem.text
+        descricao = elem.text.replace('\n', '').replace('\r', '')
 
         elem_json = {
             'categoria' :categoria,
@@ -125,7 +125,7 @@ def get_list_top_phones(soup):
         
         link = nome['href']
         nome = nome.text
-        preco = preco.text
+        preco = preco.text.replace('€', '')
 
         elem_json = {
             'nome' :nome,
@@ -148,8 +148,10 @@ def get_phones():
     #r = requests.get("https://www.nos.pt/particulares/loja-equipamentos/pages/store.aspx#!?Filter=~(ProductType~'telemoveis~ProductPrice~'0*7c1900)")
     #if (r.status_code == 200):
 
+    options = Options()
+    options.add_argument('--headless')
     # Create your driver
-    driver = webdriver.Firefox()
+    driver = webdriver.Firefox(options=options)
 
     # Get a page
     driver.get("https://www.nos.pt/particulares/loja-equipamentos/pages/store.aspx#!?Filter=~(ProductType~'telemoveis~ProductPrice~'0*7c1900)")
@@ -184,7 +186,7 @@ def get_list_phones(soup):
             taglista.append(em.text)
 
         preco = elem.find('div',{'class':'item-price__now ng-binding'})
-        preco = preco.text
+        preco = preco.text.replace(' ', '').replace('€', '')
 
         link = elem.find('a', {'ng-href':True})
         link_telemovel = link_telemovel + link['href']
@@ -325,8 +327,19 @@ def getLojasMain():
 ##########################################################################################################################################################
 ##########################################################################################################################################################
 
-soup = get_phones()
-lista = get_list_phones(soup)
-create_json_file_phones(lista)
-#create_json_file_TarifarioWTF(get_Wtf())
+#soup = get_linhas_apoio()
+#lista = get_list_linhas_apoio(soup)
+#create_json_file_linhas_apoio(lista)
+
+#soup2 = get_top_phones()
+#lista2 = get_list_top_phones(soup2)
+#create_json_file_top_phones(lista2)
+
+#soup3 = get_phones()
+#lista3 = get_list_phones(soup3)
+#create_json_file_phones(lista3)
+
+#soup4 = get_Wtf()
+#create_json_file_TarifarioWTF(soup4)
+
 #getLojasMain()
