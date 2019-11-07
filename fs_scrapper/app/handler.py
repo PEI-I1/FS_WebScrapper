@@ -253,3 +253,113 @@ def store_address(morada):
 
 # adicionar método para mostrar lojas perto de determinadas coordenadas
 # possivelmente terá que se adicionar as coordenadas da loja no json
+
+def specific_package(tipo, nome):
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+
+        for pacote in data:
+            if pacote['Tipo'].lower() == tipo.lower() and pacote['nome'].lower() == nome.lower():
+                return pacote
+
+
+def packages():
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for pacote in data:
+            aux['Tipo'] = pacote['Tipo']
+            aux['nome'] = pacote['nome']
+            aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
+            
+            if pacote['canais'] is None and pacote['phone'] is None:
+                aux['servico'] = 'NET'
+            elif pacote['net'] is None and pacote['phone'] is None:
+                aux['servico'] = 'TV'
+            elif pacote['phone'] is None:
+                aux['servico'] = 'TV+NET'
+            elif pacote['net'] is None:
+                aux['servico'] = 'TV+VOZ'
+            else:
+                aux['servico'] = 'TV+NET+VOZ'
+            
+            lista.append(aux)
+            aux = {}
+        
+        return lista
+
+
+def fiber_packages():
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for pacote in data:
+            if pacote['Tipo'] == 'Pacotes Fibra':
+                aux['Tipo'] = pacote['Tipo']
+                aux['nome'] = pacote['nome']
+                aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
+                
+                if pacote['canais'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'NET'
+                elif pacote['net'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'TV'
+                elif pacote['phone'] is None:
+                    aux['servico'] = 'TV+NET'
+                elif pacote['net'] is None:
+                    aux['servico'] = 'TV+VOZ'
+                else:
+                    aux['servico'] = 'TV+NET+VOZ'
+                
+                lista.append(aux)
+                aux = {}
+        
+        return lista
+
+
+def satelite_packages():
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for pacote in data:
+            if pacote['Tipo'] == 'Pacotes Satélite':
+                aux['Tipo'] = pacote['Tipo']
+                aux['nome'] = pacote['nome']
+                aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
+                
+                if pacote['canais'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'NET'
+                elif pacote['net'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'TV'
+                elif pacote['phone'] is None:
+                    aux['servico'] = 'TV+NET'
+                elif pacote['net'] is None:
+                    aux['servico'] = 'TV+VOZ'
+                else:
+                    aux['servico'] = 'TV+NET+VOZ'
+                
+                lista.append(aux)
+                aux = {}
+        
+        return lista
+
+
+def packages_by_service(servico):
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        pacotes = packages()
+
+        for pacote in pacotes:
+            if pacote['servico'] == servico:
+                lista.append(pacote)
+        
+        return lista
+
+
+# falta métodos para net mínima e gama de valores
