@@ -3,8 +3,23 @@ import json
 from re import sub
 
 
-def linhas_apoio(assunto):
-    with open('linhas_apoio.json', 'r') as f:
+def linhas_apoio():
+    with open('json/linhas_apoio.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for linha in data:
+            aux['categoria'] = linha['categoria']
+            aux['numero'] = linha['numero']
+            lista.append(aux)
+            aux = {}
+        
+        return lista
+
+
+def linhas_apoio_assunto(assunto):
+    with open('json/linhas_apoio.json', 'r') as f:
         data = json.load(f)
         lista = []
 
@@ -20,7 +35,7 @@ def linhas_apoio(assunto):
 
 
 def phone_model(modelo):
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         aux = {}
 
@@ -36,7 +51,7 @@ def phone_model(modelo):
 
 
 def brand_phones(marca):
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -52,7 +67,7 @@ def brand_phones(marca):
 
 
 def top_phones():
-    with open('top_phones.json', 'r') as f:
+    with open('json/top_phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -67,7 +82,7 @@ def top_phones():
 
 
 def promo_phones():
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -83,7 +98,7 @@ def promo_phones():
 
 
 def new_phones():
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -99,7 +114,7 @@ def new_phones():
 
 
 def ofer_phones():
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -117,7 +132,7 @@ def ofer_phones():
 
 
 def prest_phones():
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -133,7 +148,7 @@ def prest_phones():
 
 
 def points_phones():
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -149,7 +164,7 @@ def points_phones():
 
 
 def phones_by_price(inf, sup):
-    with open('phones.json', 'r') as f:
+    with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -169,7 +184,7 @@ def phones_by_price(inf, sup):
 
 
 def all_wtf():
-    with open('tarifario_WTF.json', 'r') as f:
+    with open('json/tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -184,7 +199,7 @@ def all_wtf():
 
 
 def wtf_name(nome):
-     with open('tarifario_WTF.json', 'r') as f:
+     with open('json/tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         aux = {}
 
@@ -203,7 +218,7 @@ def wtf_name(nome):
 
 
 def stores_by_zone(zona):
-    with open('lojas.json', 'r') as f:
+    with open('json/lojas.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -219,7 +234,7 @@ def stores_by_zone(zona):
 
 
 def store_address(morada):
-     with open('lojas.json', 'r') as f:
+     with open('json/lojas.json', 'r') as f:
         data = json.load(f)
         aux = {}
 
@@ -237,4 +252,147 @@ def store_address(morada):
 
 
 # adicionar método para mostrar lojas perto de determinadas coordenadas
-# possivelmente terá que se adicionar as coordenadas da loja no json
+
+def specific_package(tipo, nome):
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+
+        for pacote in data:
+            if pacote['Tipo'].lower() == tipo.lower() and pacote['nome'].lower() == nome.lower():
+                return pacote
+
+
+def packages():
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for pacote in data:
+            aux['Tipo'] = pacote['Tipo']
+            aux['nome'] = pacote['nome']
+            aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
+            
+            if pacote['canais'] is None and pacote['phone'] is None:
+                aux['servico'] = 'NET'
+            elif pacote['net'] is None and pacote['phone'] is None:
+                aux['servico'] = 'TV'
+            elif pacote['phone'] is None:
+                aux['servico'] = 'TV+NET'
+            elif pacote['net'] is None:
+                aux['servico'] = 'TV+VOZ'
+            else:
+                aux['servico'] = 'TV+NET+VOZ'
+            
+            lista.append(aux)
+            aux = {}
+        
+        return lista
+
+
+def fiber_packages():
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for pacote in data:
+            if pacote['Tipo'] == 'Pacotes Fibra':
+                aux['Tipo'] = pacote['Tipo']
+                aux['nome'] = pacote['nome']
+                aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
+                
+                if pacote['canais'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'NET'
+                elif pacote['net'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'TV'
+                elif pacote['phone'] is None:
+                    aux['servico'] = 'TV+NET'
+                elif pacote['net'] is None:
+                    aux['servico'] = 'TV+VOZ'
+                else:
+                    aux['servico'] = 'TV+NET+VOZ'
+                
+                lista.append(aux)
+                aux = {}
+        
+        return lista
+
+
+def satelite_packages():
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for pacote in data:
+            if pacote['Tipo'] == 'Pacotes Satélite':
+                aux['Tipo'] = pacote['Tipo']
+                aux['nome'] = pacote['nome']
+                aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
+                
+                if pacote['canais'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'NET'
+                elif pacote['net'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'TV'
+                elif pacote['phone'] is None:
+                    aux['servico'] = 'TV+NET'
+                elif pacote['net'] is None:
+                    aux['servico'] = 'TV+VOZ'
+                else:
+                    aux['servico'] = 'TV+NET+VOZ'
+                
+                lista.append(aux)
+                aux = {}
+        
+        return lista
+
+
+def packages_by_service(servico):
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        pacotes = packages()
+
+        for pacote in pacotes:
+            if pacote['servico'] == servico:
+                lista.append(pacote)
+        
+        return lista
+
+
+def packages_by_price(inf, sup):
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for pacote in data:
+            aux1 = sub(r',', '.', pacote['Fidelizacao_24Meses']['preco'])
+            preco = float(aux1)
+
+            if inf <= preco <= sup:
+                aux['Tipo'] = pacote['Tipo']
+                aux['nome'] = pacote['nome']
+                aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
+
+                if pacote['canais'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'NET'
+                elif pacote['net'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'TV'
+                elif pacote['phone'] is None:
+                    aux['servico'] = 'TV+NET'
+                elif pacote['net'] is None:
+                    aux['servico'] = 'TV+VOZ'
+                else:
+                    aux['servico'] = 'TV+NET+VOZ'
+                
+                lista.append(aux)
+                aux = {}
+
+        return lista
+
+
+print(packages_by_price(25.5, 50.0))
+
+# add método para net mínima

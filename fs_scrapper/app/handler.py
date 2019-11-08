@@ -252,7 +252,6 @@ def store_address(morada):
 
 
 # adicionar método para mostrar lojas perto de determinadas coordenadas
-# possivelmente terá que se adicionar as coordenadas da loja no json
 
 def specific_package(tipo, nome):
     with open('json/Pacotes.json', 'r') as f:
@@ -362,4 +361,36 @@ def packages_by_service(servico):
         return lista
 
 
-# falta métodos para net mínima e gama de valores
+def packages_by_price(inf, sup):
+    with open('json/Pacotes.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for pacote in data:
+            aux1 = sub(r',', '.', pacote['Fidelizacao_24Meses']['preco'])
+            preco = float(aux1)
+
+            if inf <= preco <= sup:
+                aux['Tipo'] = pacote['Tipo']
+                aux['nome'] = pacote['nome']
+                aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
+
+                if pacote['canais'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'NET'
+                elif pacote['net'] is None and pacote['phone'] is None:
+                    aux['servico'] = 'TV'
+                elif pacote['phone'] is None:
+                    aux['servico'] = 'TV+NET'
+                elif pacote['net'] is None:
+                    aux['servico'] = 'TV+VOZ'
+                else:
+                    aux['servico'] = 'TV+NET+VOZ'
+                
+                lista.append(aux)
+                aux = {}
+
+        return lista
+
+
+# add método para net mínima

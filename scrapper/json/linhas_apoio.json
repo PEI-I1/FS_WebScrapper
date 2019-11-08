@@ -10,28 +10,28 @@
     "numero": "16993"
   },
   {
-    "categoria": "\r\nInternet fixa",
-    "descriçao": "\n\r\nPara esclarecimentos ou informações adicionais sobre produtos de internet fixa que não estão incluídos na fatura de Televisão NOS.",
+    "categoria": "Internet fixa",
+    "descriçao": "Para esclarecimentos ou informações adicionais sobre produtos de internet fixa que não estão incluídos na fatura de Televisão NOS.",
     "numero": "16108"
   },
   {
-    "categoria": "\r\nInternet móvel",
-    "descriçao": "\n\r\nPara esclarecimentos ou informações adicionais sobre produtos de internet móvel que não estão incluídos na fatura de Televisão NOS.",
+    "categoria": "Internet móvel",
+    "descriçao": "Para esclarecimentos ou informações adicionais sobre produtos de internet móvel que não estão incluídos na fatura de Televisão NOS.",
     "numero": "16105"
   },
   {
-    "categoria": "\r\nTelefone",
-    "descriçao": "\n\r\nPara esclarecimentos ou informações adicionais sobre produtos de telefone que não estão incluídos na fatura de Televisão NOS.",
+    "categoria": "Telefone",
+    "descriçao": "Para esclarecimentos ou informações adicionais sobre produtos de telefone que não estão incluídos na fatura de Televisão NOS.",
     "numero": "16103"
   },
   {
-    "categoria": "\r\nProfissionais e empresas",
-    "descriçao": "\n\r\nPara esclarecimentos ou informações adicionais sobre os produtos e serviços profissionais NOS.",
+    "categoria": "Profissionais e empresas",
+    "descriçao": "Para esclarecimentos ou informações adicionais sobre os produtos e serviços profissionais NOS.",
     "numero": "16100"
   },
   {
-    "categoria": "\r\nCorporate",
-    "descriçao": "\n\r\nPara esclarecimentos ou informações adicionais sobre os produtos e serviços Corporate NOS.",
+    "categoria": "Corporate",
+    "descriçao": "Para esclarecimentos ou informações adicionais sobre os produtos e serviços Corporate NOS.",
     "numero": "16109"
   },
   {
@@ -40,13 +40,13 @@
     "numero": "800932900"
   },
   {
-    "categoria": "\r\nParticulares",
-    "descriçao": "\n\r\nPara aderir a produtos e serviços particulares NOS.",
+    "categoria": "Particulares",
+    "descriçao": "Para aderir a produtos e serviços particulares NOS.",
     "numero": "16995"
   },
   {
-    "categoria": "\r\nEmpresas",
-    "descriçao": "\n\r\nPara aderir a produtos e serviços empresariais NOS.",
+    "categoria": "Empresas",
+    "descriçao": "Para aderir a produtos e serviços empresariais NOS.",
     "numero": "16999"
   },
   {
@@ -76,12 +76,12 @@
   },
   {
     "categoria": "Reparação de equipamentos",
-    "descriçao": "Para esclarecimentos ou informações adicionais sobre processos de reparação ou desbloqueio de equipamentos.\r\nChamada gratuita.",
+    "descriçao": "Para esclarecimentos ou informações adicionais sobre processos de reparação ou desbloqueio de equipamentos.Chamada gratuita.",
     "numero": "808230430"
   },
   {
     "categoria": "Devolução de equipamentos NOS",
-    "descriçao": "Para agendar recolha de equipamentos NOS que já não está a usar.\r\nChamada gratuita.",
+    "descriçao": "Para agendar recolha de equipamentos NOS que já não está a usar.Chamada gratuita.",
     "numero": "800101991"
   }
 ]

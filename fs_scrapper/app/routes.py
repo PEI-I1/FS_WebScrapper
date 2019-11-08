@@ -82,3 +82,33 @@ def stores_zone_request(zone):
 @app.route('/store_address/<address>')
 def store_address_request(address):
     return jsonify(response = handler.store_address(address))
+
+
+@app.route('/specific_package/<tipo>/<nome>')
+def specific_package_request(tipo, nome):
+    return jsonify(response = handler.specific_package(tipo, nome))
+
+
+@app.route('/packages')
+def packages_request():
+    return jsonify(response = handler.packages())
+
+
+@app.route('/fiber_packages')
+def fiber_packages_request():
+    return jsonify(response = handler.fiber_packages())
+
+
+@app.route('/satelite_packages')
+def satelite_packages_request():
+    return jsonify(response = handler.satelite_packages())
+
+
+@app.route('/packages_service/<servico>')
+def packages_service_request(servico):
+    return jsonify(response = handler.packages_by_service(servico))
+
+
+@app.route('/packages_price/<float:min>/<float:max>')
+def packages_price_request(min, max):
+    return jsonify(response = handler.packages_by_price(min, max))
