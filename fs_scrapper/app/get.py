@@ -67,7 +67,7 @@ def get_Wtf():
     return lista_json
 
 def create_json_file_TarifarioWTF(lista_json):
-    fich = open('tarifario_WTF.json','w')
+    fich = open('../json/tarifario_WTF.json','w')
     prettyJSON = json.dumps(lista_json,sort_keys=True, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
 ###########################################################################################################
@@ -104,7 +104,7 @@ def get_list_linhas_apoio(soup):
 
 
 def create_json_file_linhas_apoio(lista_json):
-    fich = open('linhas_apoio.json','w')
+    fich = open('../json/linhas_apoio.json','w')
     prettyJSON = json.dumps(lista_json,sort_keys=True, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
 
@@ -138,7 +138,7 @@ def get_list_top_phones(soup):
 
 
 def create_json_file_top_phones(lista_json):
-    fich = open('top_phones.json','w')
+    fich = open('../json/top_phones.json','w')
     prettyJSON = json.dumps(lista_json, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
 
@@ -220,7 +220,7 @@ def get_list_phones(soup):
 
 
 def create_json_file_phones(lista_json):
-    fich = open('phones.json','w')
+    fich = open('../json/phones.json','w')
     prettyJSON = json.dumps(lista_json, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
 
@@ -229,7 +229,7 @@ def create_json_file_phones(lista_json):
 ##########################################################################################################################################################
 
 def getLista_Lojas():
-    print("A ir buscar a lista de Lojas")
+    #print("A ir buscar a lista de Lojas")
     options = Options()
     options.add_argument('--headless')
     # Create your driver
@@ -248,7 +248,7 @@ def getLista_Lojas():
         nomeLoja = loja.find('h3', {'class':'title ng-binding'}).text
         listaLojas.append(nomeLoja)
 
-    print("Lista de Lojas obtida")
+    #print("Lista de Lojas obtida")
     driver.quit()
     
     return listaLojas
@@ -302,7 +302,7 @@ def getInfoLoja(nome):
 ##########################################################################################################################################################
 
 def sendToJSON(dic):
-    fich = open('lojas.json','a')
+    fich = open('../json/lojas.json','a')
     prettyJSON = json.dumps(dic, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
     fich.close()
@@ -318,7 +318,7 @@ def getLojasMain():
 
     lista = []
     for elem in listaLojas:
-        print("A ir buscar: " + elem)
+        #print("A ir buscar: " + elem)
         try : lista.append(getInfoLoja(elem))
         except: pass
     
@@ -327,19 +327,21 @@ def getLojasMain():
 ##########################################################################################################################################################
 ##########################################################################################################################################################
 
-#soup = get_linhas_apoio()
-#lista = get_list_linhas_apoio(soup)
-#create_json_file_linhas_apoio(lista)
+def update_json_4():
+    soup = get_linhas_apoio()
+    lista = get_list_linhas_apoio(soup)
+    create_json_file_linhas_apoio(lista)
 
-#soup2 = get_top_phones()
-#lista2 = get_list_top_phones(soup2)
-#create_json_file_top_phones(lista2)
+    soup2 = get_top_phones()
+    lista2 = get_list_top_phones(soup2)
+    create_json_file_top_phones(lista2)
 
-#soup3 = get_phones()
-#lista3 = get_list_phones(soup3)
-#create_json_file_phones(lista3)
+    soup3 = get_phones()
+    lista3 = get_list_phones(soup3)
+    create_json_file_phones(lista3)
 
-#soup4 = get_Wtf()
-#create_json_file_TarifarioWTF(soup4)
+    soup4 = get_Wtf()
+    create_json_file_TarifarioWTF(soup4)
 
-#getLojasMain()
+def update_json_5():
+	getLojasMain()

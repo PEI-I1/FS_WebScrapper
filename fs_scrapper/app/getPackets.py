@@ -175,11 +175,12 @@ def getFourthColumn(soup):
     return thisDict
 
 def sendToJSON(dic):
-    fich = open('Pacotes.json','w')
+    fich = open('../json/Pacotes.json','w')
     prettyJSON = json.dumps(dic, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
     fich.close()
 ###########################################################################################################
 ###########################################################################################################
 
-getPackets()
+def update_json_packets():
+    getPackets()
