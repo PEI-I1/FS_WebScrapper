@@ -3,14 +3,14 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.interval import IntervalTrigger
 import atexit
 import time
-from updater import *
+from app import updater
 
 app = Flask(__name__)
 
 scheduler = BackgroundScheduler()
 scheduler.start()
 scheduler.add_job(
-    func=updater,
+    func=updater.updater,
     trigger=IntervalTrigger(hours=24),#ALTERAR AQUI PARA MUDAR O TEMPO EM QUE FAZ UPDATE
     id='printing_time_job',
     name='Print time every 24 hours',
@@ -21,7 +21,7 @@ atexit.register(lambda: scheduler.shutdown())
 scheduler2 = BackgroundScheduler()
 scheduler2.start()
 scheduler2.add_job(
-    func=updater2,
+    func=updater.updater2,
     trigger=IntervalTrigger(hours=168),#ALTERAR AQUI PARA MUDAR O TEMPO EM QUE FAZ UPDATE
     id='printing_time_job',
     name='Print time every 168 hours',

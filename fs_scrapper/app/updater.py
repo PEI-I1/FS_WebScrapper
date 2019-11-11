@@ -1,10 +1,9 @@
-from get import update_json_5
-from get import update_json_4
-from getPackets import update_json_packets
+from app import get
+from app import getPackets
 
 def updater():
-    update_json_4()
-    update_json_packets()
+    get.update_json_4()
+    getPackets.update_json_packets()
 
 def updater2():
-	update_json_5()
+    get.update_json_5()
