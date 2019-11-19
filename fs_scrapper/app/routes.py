@@ -64,6 +64,26 @@ def phones_price_request(min, max):
     return jsonify(response = handler.phones_by_price(min, max))
 
 
+@app.route('/phones_brand_price/<brand>/<float:min>/<float:max>')
+def phones_brand_price_request(brand, min, max):
+    return jsonify(response = handler.phones_brand_price(brand, min, max))
+
+
+@app.route('/phones_brand_promo/<brand>')
+def phones_brand_promo_request(brand):
+    return jsonify(response = handler.phones_brand_promo(brand))
+
+
+@app.route('/phones_promo_price/<float:min>/<float:max>')
+def phones_promo_price_request(min, max):
+    return jsonify(response = handler.phones_promo_price(min, max))
+
+
+@app.route('/new_phones_brand/<brand>')
+def new_phones_brand_request(brand):
+    return jsonify(response = handler.new_phones_brand(brand))
+
+
 @app.route('/all_wtf')
 def all_wtf_request():
     return jsonify(response = handler.all_wtf())
@@ -112,3 +132,28 @@ def packages_service_request(servico):
 @app.route('/packages_price/<float:min>/<float:max>')
 def packages_price_request(min, max):
     return jsonify(response = handler.packages_by_price(min, max))
+
+
+@app.route('/packages_service_price/<service>/<float:min>/<float:max>')
+def packages_service_price_request(service, min, max):
+    return jsonify(response = handler.packages_service_price(service, min, max))
+
+
+@app.route('/fiber_packages_price/<float:min>/<float:max>')
+def fiber_packages_price_request(min, max):
+    return jsonify(response = handler.fiber_packages_price(min, max))
+
+
+@app.route('/satelite_packages_price/<float:min>/<float:max>')
+def satelite_packages_price_request(min, max):
+    return jsonify(response = handler.satelite_packages_price(min, max))
+
+
+@app.route('/fiber_packages_service/<servico>')
+def fiber_packages_service_request(servico):
+    return jsonify(response = handler.fiber_packages_service(servico))
+
+
+@app.route('/satelite_packages_service/<servico>')
+def satelite_packages_service_request(servico):
+    return jsonify(response = handler.satelite_packages_service(servico))

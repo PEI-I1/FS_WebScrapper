@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import json
 from re import sub
 
@@ -64,6 +63,16 @@ def brand_phones(marca):
                 aux = {}
 
         return lista
+
+
+def brand_phones_aux(marca, data):
+    lista = []
+
+    for phone in data:
+        if marca.lower() in phone['nome'].lower():
+            lista.append(phone)
+
+    return lista
 
 
 def top_phones():
@@ -181,6 +190,36 @@ def phones_by_price(inf, sup):
                 aux = {}
 
         return lista
+
+
+def phones_by_price_aux(inf, sup, data):
+    lista = []
+
+    for phone in data:
+        aux1 = sub(r'[^\d,]', '', phone['preço'])
+        aux2 = sub(r',', '.', aux1)
+        preco = float(aux2)
+
+        if inf <= preco <= sup:
+            lista.append(phone)
+
+    return lista
+
+
+def phones_brand_price(marca, inf, sup):
+    return phones_by_price_aux(inf, sup, brand_phones(marca))
+
+
+def phones_brand_promo(marca):
+    return brand_phones_aux(marca, promo_phones())
+
+
+def phones_promo_price(inf, sup):
+    return phones_by_price_aux(inf, sup, promo_phones())
+
+
+def new_phones_brand(marca):
+    return brand_phones_aux(marca, new_phones())
 
 
 def all_wtf():
@@ -361,6 +400,16 @@ def packages_by_service(servico):
         return lista
 
 
+def packages_by_service_aux(servico, pacotes):
+    lista = []
+
+    for pacote in pacotes:
+        if pacote['servico'] == servico:
+            lista.append(pacote)
+    
+    return lista
+
+
 def packages_by_price(inf, sup):
     with open('json/Pacotes.json', 'r') as f:
         data = json.load(f)
@@ -391,6 +440,39 @@ def packages_by_price(inf, sup):
                 aux = {}
 
         return lista
+
+
+def packages_by_price_aux(inf, sup, data):
+    lista = []
+
+    for pacote in data:
+        aux = sub(r',', '.', pacote['preco'])
+        preco = float(aux)
+
+        if inf <= preco <= sup:
+            lista.append(pacote)
+
+    return lista
+
+
+def packages_service_price(servico, inf, sup):
+    return packages_by_service_aux(servico, packages_by_price(inf, sup))
+
+
+def fiber_packages_price(inf, sup):
+    return packages_by_price_aux(inf, sup, fiber_packages())
+
+
+def satelite_packages_price(inf, sup):
+    return packages_by_price_aux(inf, sup, satelite_packages())
+
+
+def fiber_packages_service(servico):
+    return packages_by_service_aux(servico, fiber_packages())
+
+
+def satelite_packages_service(servico):
+    return packages_by_service_aux(servico, satelite_packages())
 
 
 # add método para net mínima
