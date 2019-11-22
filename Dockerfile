@@ -1,5 +1,7 @@
 FROM python
 
+EXPOSE 5000
+
 RUN apt-get install git
 
 WORKDIR /home/scrapper
