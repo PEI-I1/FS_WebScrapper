@@ -1,3 +1,3 @@
 run:
-	export FLASK_APP=/fs_scrapper.py
+	export FLASK_APP=fs_scrapper.py
 	flask run
