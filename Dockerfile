@@ -9,6 +9,4 @@ WORKDIR /home/scrapper/FS_WebScrapper/fs_scrapper
 
 RUN pip3 install -r requirements.txt
 
-WORKDIR /home/scrapper/FS_WebScrapper
-
 CMD make run
