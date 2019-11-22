@@ -30,5 +30,5 @@ scheduler2.add_job(
 atexit.register(lambda: scheduler2.shutdown())
 
 # run Flask app in debug mode
-app.run(debug=True)
+app.run(debug=True, host='0.0.0.0')
 from app import routes
