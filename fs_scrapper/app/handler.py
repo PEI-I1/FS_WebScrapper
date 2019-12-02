@@ -3,6 +3,8 @@ from re import sub
 
 
 def linhas_apoio():
+	""" Retrieve service lines
+	"""
     with open('json/linhas_apoio.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -18,6 +20,9 @@ def linhas_apoio():
 
 
 def linhas_apoio_assunto(assunto):
+	""" Retrieve the service line following a specific matter
+	:param: matter
+	"""
     with open('json/linhas_apoio.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -34,6 +39,9 @@ def linhas_apoio_assunto(assunto):
 
 
 def phone_model(modelo):
+	""" Retrieve the specified model
+	:param: phone's model
+	"""
     with open('json/phones.json', 'r') as f:
         data = json.load(f)
         aux = {}
@@ -50,6 +58,9 @@ def phone_model(modelo):
 
 
 def brand_phones(marca):
+	""" Retrieve all phones of specified brand
+	:param: brand
+	"""
     with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -76,6 +87,8 @@ def brand_phones_aux(marca, data):
 
 
 def top_phones():
+	""" Retrive the top most shearched/viewed phones
+	"""
     with open('json/top_phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -91,6 +104,8 @@ def top_phones():
 
 
 def promo_phones():
+	""" Retrieve all phones who are currently under a discount/promotion
+	"""
     with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -107,6 +122,8 @@ def promo_phones():
 
 
 def new_phones():
+	""" Retrieve the most recents phones
+	"""
     with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -123,6 +140,8 @@ def new_phones():
 
 
 def ofer_phones():
+	""" Retrieve all the phones in which it comes with an offer
+	"""	
     with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -141,6 +160,8 @@ def ofer_phones():
 
 
 def prest_phones():
+	""" Retrieve all phones which have installment payment avaiable
+	"""
     with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -157,6 +178,8 @@ def prest_phones():
 
 
 def points_phones():
+	""" Retrieve all phones which have points payment avaiable
+	"""
     with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -173,6 +196,10 @@ def points_phones():
 
 
 def phones_by_price(inf, sup):
+	""" Retrieve all phones which are in specified threshold of price
+	:param: lowest number of price
+	:param: highest number of price
+	"""
     with open('json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -207,22 +234,39 @@ def phones_by_price_aux(inf, sup, data):
 
 
 def phones_brand_price(marca, inf, sup):
+	""" Retrieve all phones of specified brand which are in specified threshold of price
+	:param: brand
+	:param: lowest value of price
+	:param: highest value of price
+	"""
     return phones_by_price_aux(inf, sup, brand_phones(marca))
 
 
 def phones_brand_promo(marca):
+	""" Retrieve all phones of specified brand which are currentelly under a discount/promotion
+	:param: brand
+	"""
     return brand_phones_aux(marca, promo_phones())
 
 
 def phones_promo_price(inf, sup):
+	""" Retrieve all phones between a specified threshold of price which are currently under a discount/promotion
+	:param: lowest value of price
+	:param: highest value of price
+	"""
     return phones_by_price_aux(inf, sup, promo_phones())
 
 
 def new_phones_brand(marca):
+	""" Retrieve the most recents phones of specified brand
+	:param: brand
+	"""
     return brand_phones_aux(marca, new_phones())
 
 
 def all_wtf():
+	""" Retrieve all 'WTF' tariffs avaiable
+	"""
     with open('json/tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -238,6 +282,9 @@ def all_wtf():
 
 
 def wtf_name(nome):
+	""" Retrieve information of specified tariff
+	:param: tariff name
+	"""
      with open('json/tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         aux = {}
@@ -257,6 +304,9 @@ def wtf_name(nome):
 
 
 def stores_by_zone(zona):
+	""" Retrieve the stores avaiable at specified region
+	:param: region
+	"""
     with open('json/lojas.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -273,6 +323,9 @@ def stores_by_zone(zona):
 
 
 def store_address(morada):
+	""" Retrive information õf specified store with its address
+	:param: store address
+	"""
      with open('json/lojas.json', 'r') as f:
         data = json.load(f)
         aux = {}
@@ -293,6 +346,10 @@ def store_address(morada):
 # adicionar método para mostrar lojas perto de determinadas coordenadas
 
 def specific_package(tipo, nome):
+	""" Retrieve package of certain type and specific name
+	:param: type of package
+	:param: package name
+	"""
     with open('json/Pacotes.json', 'r') as f:
         data = json.load(f)
 
@@ -302,6 +359,8 @@ def specific_package(tipo, nome):
 
 
 def packages():
+	""" Retrieve all packages avaiable
+	"""
     with open('json/Pacotes.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -330,6 +389,8 @@ def packages():
 
 
 def fiber_packages():
+	""" Retrieve all packages of type 'Fibra'
+	"""
     with open('json/Pacotes.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -359,6 +420,8 @@ def fiber_packages():
 
 
 def satelite_packages():
+	""" Retrieve all packages of type 'Satélite'
+	"""	
     with open('json/Pacotes.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -388,6 +451,9 @@ def satelite_packages():
 
 
 def packages_by_service(servico):
+	""" Retrieve all packages with specified service
+	:param: service 
+	"""
     with open('json/Pacotes.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -411,6 +477,10 @@ def packages_by_service_aux(servico, pacotes):
 
 
 def packages_by_price(inf, sup):
+	""" Retrieves all avaiable packages that are within a specified price threshold
+	:param: lowest value of price
+	:param: highest value of price
+	"""
     with open('json/Pacotes.json', 'r') as f:
         data = json.load(f)
         lista = []
@@ -456,22 +526,41 @@ def packages_by_price_aux(inf, sup, data):
 
 
 def packages_service_price(servico, inf, sup):
+	""" Retrieves packages of a specific service that are within a specified price threshold
+	:param: service
+	:param: lowest value of price
+	:param: highest value of price
+	"""
     return packages_by_service_aux(servico, packages_by_price(inf, sup))
 
 
 def fiber_packages_price(inf, sup):
+	""" Retrieves packages of type 'Fibra' that are within a specified price threshold
+	:param: lowest value of price
+	:param: highest value of price
+	"""
     return packages_by_price_aux(inf, sup, fiber_packages())
 
 
 def satelite_packages_price(inf, sup):
+	""" Retrieves packages of type 'Satélite' that are within a specified price threshold
+	:param: lowest value of price
+	:param: highest value of price
+	"""
     return packages_by_price_aux(inf, sup, satelite_packages())
 
 
 def fiber_packages_service(servico):
+	""" Retrieves packages of type 'Fibra' that have the specified service
+	:param: service
+	"""
     return packages_by_service_aux(servico, fiber_packages())
 
 
 def satelite_packages_service(servico):
+	""" Retrieves packages of type 'Fibra' that have the specified service
+	:param: service
+	"""
     return packages_by_service_aux(servico, satelite_packages())
 
 
