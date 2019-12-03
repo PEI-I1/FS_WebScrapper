@@ -1,6 +1,6 @@
 from app import app
 from app import handler
-from flask import jsonify
+from flask import jsonify, request
 
 
 @app.route('/fs_scrapper/')
@@ -10,13 +10,12 @@ def index():
 
 
 @app.route('/fs_scrapper/linhas_apoio')
-def linhas_apoio_request():
-    return jsonify(response = handler.linhas_apoio())
-
-
-@app.route('/fs_scrapper/linhas_apoio/<assunto>')
-def linhas_apoio_assunto_request(assunto):
-    return jsonify(response = handler.linhas_apoio_assunto(assunto))
+def linhas_apoio_assunto_request():
+    assunto = request.args.get('assunto')
+    if not assunto:
+        return jsonify(response = handler.linhas_apoio())
+    else:
+        return jsonify(response = handler.linhas_apoio_assunto(assunto))
 
 
 @app.route('/fs_scrapper/phone_model/<model>')

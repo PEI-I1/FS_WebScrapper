@@ -45,24 +45,13 @@ The API provided by this service allows:
 <summary>Retrieve service lines</summary>
 
 ```http
-GET /fs_scrapper/linhas_apoio
-```
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve the service line following a specific matter</summary>
-
-```http
-GET /fs_scrapper/linhas_apoio/<assunto>
+GET /fs_scrapper/linhas_apoio?assunto=<>
 ```
 
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
-| `assunto` | `string` | Required. Specific matter |
+| `assunto` | `string` | Optional. Specific matter |
+
 
 ------
 </details>
