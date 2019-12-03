@@ -454,16 +454,8 @@ def packages_by_service(servico):
     """ Retrieve all packages with specified service
     :param: service
     """
-    with open('json/Pacotes.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        pacotes = packages()
-
-        for pacote in pacotes:
-            if pacote['servico'] == servico:
-                lista.append(pacote)
-
-        return lista
+    lista = packages_by_service_aux(servico, packages())
+    return lista
 
 
 def packages_by_service_aux(servico, pacotes):
