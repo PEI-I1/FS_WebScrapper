@@ -58,8 +58,8 @@ def points_phones_request():
     return jsonify(response = handler.points_phones())
 
 
-@app.route('/fs_scrapper/phones_price/<float:min>/<float:max>')
-def phones_price_request(min, max):
+@app.route('/fs_scrapper/phones_by_price/<float:min>/<float:max>')
+def phones_by_price_request(min, max):
     return jsonify(response = handler.phones_by_price(min, max))
 
 
