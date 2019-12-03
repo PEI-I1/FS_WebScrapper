@@ -19,7 +19,7 @@ aggregating most of their customer services in a single endpoint.
 The API provided by this service allows:
 * Retrieve service lines
 * Retrieve avaiable phones
-* Retrieve all 'WTF' tariffs avaiable
+* Retrieve all 'WTF' tariffs available
 * Retrieve all packages
 * Retrieve 'NOS' store address
 
@@ -149,7 +149,7 @@ GET /fs_scrapper/ofer_phones
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrieve all phones which have installment payment avaiable</summary>
+<summary>Retrieve all phones which have installment payment available</summary>
 
 ```http
 GET /fs_scrapper/prest_phones
@@ -161,7 +161,7 @@ GET /fs_scrapper/prest_phones
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrieve all phones which have points payment avaiable</summary>
+<summary>Retrieve all phones which have points payment available</summary>
 
 ```http
 GET /fs_scrapper/points_phones
@@ -256,7 +256,7 @@ GET /fs_scrapper/new_phones_brand/<brand>
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrieve all 'WTF' tariffs avaiable</summary>
+<summary>Retrieve all 'WTF' tariffs available</summary>
 
 ```http
 GET /fs_scrapper/all_wtf
@@ -284,7 +284,7 @@ GET /fs_scrapper/wtf_name/<name>
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrieve the stores avaiable at specified region</summary>
+<summary>Retrieve the stores available at specified region</summary>
 
 ```http
 GET /fs_scrapper/stores_zone/<zone>
@@ -332,7 +332,7 @@ GET /fs_scrapper/specific_package/<tipo>/<nome>
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrieve all packages avaiable</summary>
+<summary>Retrieve all packages available</summary>
 
 ```http
 GET /fs_scrapper/packages
@@ -380,7 +380,7 @@ GET /fs_scrapper/packages_service/<servico>
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrieves all avaiable packages that are within a specified price threshold</summary>
+<summary>Retrieves all available packages that are within a specified price threshold</summary>
 
 ```http
 GET /fs_scrapper/packages_price/<float:min>/<float:max>
