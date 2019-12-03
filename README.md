@@ -29,8 +29,7 @@ The API provided by this service allows:
 * Install project dependencies:
 `pip install -r requirements.txt --user`
 * Run *Flask* project:
-`export FLASK_APP=fs_scrapper.py`
-`flask run`
+`export FLASK_APP=fs_scrapper.py && flask run`
 
 ### Deployment
 * Build Docker image
