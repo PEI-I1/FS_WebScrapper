@@ -18,7 +18,6 @@ def get_Wtf():
             soup = BeautifulSoup(r.text, 'html.parser')
             soup = soup.find_all('div', {'class':'section-tarifario__block__body'})
     
-
     lista_json = []
     for elem in soup:
         #nome Tarifario
@@ -48,6 +47,7 @@ def get_Wtf():
         elemExtratxt3 = elem.find('div', {'class':'w-100 text-center mt-3'})
         elemAux = elemExtratxt3.find_all('span', {'class':'block-tab__text-sublimit d-block mt-2'})
         lista = []
+
         for em in elemAux: 
             lista.append(em.text)
 
@@ -64,12 +64,16 @@ def get_Wtf():
         }
 
         lista_json.append(elem_json)
+
+        del soup
+
     return lista_json
 
 def create_json_file_TarifarioWTF(lista_json):
     fich = open('../json/tarifario_WTF.json','w')
     prettyJSON = json.dumps(lista_json,sort_keys=True, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
+    fich.close()
 ###########################################################################################################
 ###########################################################################################################
 
@@ -107,6 +111,7 @@ def create_json_file_linhas_apoio(lista_json):
     fich = open('../json/linhas_apoio.json','w')
     prettyJSON = json.dumps(lista_json,sort_keys=True, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
+    fich.close()
 
 ########################################################################################################
 def get_top_phones():
@@ -141,6 +146,7 @@ def create_json_file_top_phones(lista_json):
     fich = open('../json/top_phones.json','w')
     prettyJSON = json.dumps(lista_json, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
+    fich.close()
 
 ########################################################################################################
 
@@ -223,6 +229,7 @@ def create_json_file_phones(lista_json):
     fich = open('../json/phones.json','w')
     prettyJSON = json.dumps(lista_json, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
+    fich.close()
 
 
 #################################################################### Lojas e Informações #################################################################
@@ -250,7 +257,8 @@ def getLista_Lojas():
 
     #print("Lista de Lojas obtida")
     driver.quit()
-    
+    del soup
+
     return listaLojas
     
 def getInfoLoja(nome):
