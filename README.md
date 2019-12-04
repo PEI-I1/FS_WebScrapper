@@ -508,7 +508,7 @@ Returns a list of json objects.
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrieves packages of type 'Fibra' that have the specified service</summary>
+<summary>Retrieves packages of type 'Satélite' that have the specified service</summary>
 
 ```http
 GET /fs_scrapper/satelite_packages_service/<servico>
