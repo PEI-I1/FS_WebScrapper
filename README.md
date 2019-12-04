@@ -10,10 +10,7 @@
   - [API](#api)
 
 ## What is it?
-FS webscrapper is scrapper developed with the aim of retrieving information related
-do services and functionalities about NOS. It integrates a chat bot developed
-with the aim of improving the customer assistance provided by ISPs, NOS in this case, by
-aggregating most of their customer services in a single endpoint.
+FS webscrapper is scrapper developed with the aim of retrieving information related to services and functionalities about NOS. It integrates a chat bot developed with the aim of improving the customer assistance provided by ISPs, NOS in this case, by aggregating most of their customer services in a single endpoint.
 
 ### Features
 The API provided by this service allows:
@@ -52,6 +49,7 @@ GET /fs_scrapper/linhas_apoio?assunto=<>
 | :--- | :--- | :--- |
 | `assunto` | `string` | Optional. Specific matter |
 
+Returns a list of json objects.
 
 ------
 </details>
