@@ -67,6 +67,8 @@ GET /fs_scrapper/phone_model/<model>
 | :--- | :--- | :--- |
 | `model` | `string` | Required. Phone model |
 
+Returns a json object.
+
 ------
 </details>
 
@@ -81,6 +83,8 @@ GET /fs_scrapper/brand_phones/<brand>
 | :--- | :--- | :--- |
 | `brand` | `string` | Required. Phone brand |
 
+Returns a list of json objects.
+
 ------
 
 </details>
@@ -94,6 +98,8 @@ GET /fs_scrapper/brand_phones/<brand>
 GET /fs_scrapper/top_phones
 ```
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -105,6 +111,8 @@ GET /fs_scrapper/top_phones
 ```http
 GET /fs_scrapper/promo_phones
 ```
+
+Returns a list of json objects.
 
 ------
 </details>
@@ -118,6 +126,8 @@ GET /fs_scrapper/promo_phones
 GET /fs_scrapper/new_phones
 ```
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -129,6 +139,8 @@ GET /fs_scrapper/new_phones
 ```http
 GET /fs_scrapper/ofer_phones
 ```
+
+Returns a list of json objects.
 
 ------
 </details>
@@ -142,6 +154,8 @@ GET /fs_scrapper/ofer_phones
 GET /fs_scrapper/prest_phones
 ```
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -153,6 +167,8 @@ GET /fs_scrapper/prest_phones
 ```http
 GET /fs_scrapper/points_phones
 ```
+
+Returns a list of json objects.
 
 ------
 </details>
@@ -171,6 +187,8 @@ GET /fs_scrapper/phones_price/<float:min>/<float:max>
 | `min` | `float` | Required. Lower value of price. |
 | `max` | `float` | Required. Highest value of price. |
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -188,6 +206,9 @@ GET /fs_scrapper/phones_brand_price/<brand>/<float:min>/<float:max>
 | `brand` | `string` | Required. Phone brand |
 | `min` | `float` | Required. Lower value of price. |
 | `max` | `float` | Required. Highest value of price. |
+
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -203,6 +224,8 @@ GET /fs_scrapper/phones_brand_promo/<brand>
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `brand` | `string` | Required. Phone brand |
+
+Returns a list of json objects.
 
 ------
 </details>
@@ -221,6 +244,8 @@ GET /fs_scrapper/phones_promo_price/<float:min>/<float:max>
 | `min` | `float` | Required. Lower value of price. |
 | `max` | `float` | Required. Highest value of price. |
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -237,6 +262,8 @@ GET /fs_scrapper/new_phones_brand/<brand>
 | :--- | :--- | :--- |
 | `brand` | `string` | Required. Phone brand |
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -248,6 +275,8 @@ GET /fs_scrapper/new_phones_brand/<brand>
 ```http
 GET /fs_scrapper/all_wtf
 ```
+
+Returns a list of json objects.
 
 ------
 </details>
@@ -265,6 +294,8 @@ GET /fs_scrapper/wtf_name/<name>
 | :--- | :--- | :--- |
 | `name` | `string` | Required. Tariff name. |
 
+Returns a json object.
+
 ------
 </details>
 
@@ -281,13 +312,15 @@ GET /fs_scrapper/stores_zone/<zone>
 | :--- | :--- | :--- |
 | `zone` | `string` | Required. Zone query. |
 
+Returns a list of json objects.
+
 ------
 </details>
 
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrive information õf specified store with its address</summary>
+<summary>Retrive information of specified store with its address</summary>
 
 ```http
 GET /fs_scrapper/store_address/<address>
@@ -296,6 +329,8 @@ GET /fs_scrapper/store_address/<address>
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `address` | `string` | Required. Store address. |
+
+Returns a json object.
 
 ------
 </details>
@@ -313,6 +348,9 @@ GET /fs_scrapper/specific_package/<tipo>/<nome>
 | :--- | :--- | :--- |
 | `tipo` | `string` | Required. Type of package wanted. |
 | `nome` | `string` | Required. Package name. |
+
+Returns a json object.
+
 ------
 </details>
 
@@ -324,6 +362,8 @@ GET /fs_scrapper/specific_package/<tipo>/<nome>
 ```http
 GET /fs_scrapper/packages
 ```
+
+Returns a list of json objects.
 
 ------
 </details>
@@ -337,6 +377,8 @@ GET /fs_scrapper/packages
 GET /fs_scrapper/fiber_packages
 ```
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -349,6 +391,8 @@ GET /fs_scrapper/fiber_packages
 GET /fs_scrapper/satelite_packages
 ```
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -360,6 +404,8 @@ GET /fs_scrapper/satelite_packages
 ```http
 GET /fs_scrapper/packages_service/<servico>
 ```
+
+Returns a list of json objects.
 
 ------
 </details>
@@ -377,6 +423,9 @@ GET /fs_scrapper/packages_price/<float:min>/<float:max>
 | :--- | :--- | :--- |
 | `min` | `float` | Required. Lower value of price. |
 | `max` | `float` | Required. Highest value of price. |
+
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -395,6 +444,8 @@ GET /fs_scrapper/packages_service_price/<service>/<float:min>/<float:max>
 | `min` | `float` | Required. Lower value of price. |
 | `max` | `float` | Required. Highest value of price. |
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -411,6 +462,8 @@ GET /fs_scrapper/fiber_packages_price/<float:min>/<float:max>
 | :--- | :--- | :--- |
 | `min` | `float` | Required. Lower value of price. |
 | `max` | `float` | Required. Highest value of price. |
+
+Returns a list of json objects.
 
 ------
 </details>
@@ -429,6 +482,8 @@ GET /fs_scrapper/satelite_packages_price/<float:min>/<float:max>
 | `min` | `float` | Required. Lower value of price. |
 | `max` | `float` | Required. Highest value of price. |
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -445,6 +500,8 @@ GET /fs_scrapper/fiber_packages_service/<servico>
 | :--- | :--- | :--- |
 | `servico` | `string` | Required. Service wanted. |
 
+Returns a list of json objects.
+
 ------
 </details>
 
@@ -460,6 +517,8 @@ GET /fs_scrapper/satelite_packages_service/<servico>
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `servico` | `string` | Required. Service wanted. |
+
+Returns a list of json objects.
 
 ------
 </details>
