@@ -26,13 +26,13 @@ The API provided by this service allows:
 * Install project dependencies:
 `pip install -r requirements.txt --user`
 * Run *Flask* project:
-`export FLASK_APP=fs_scrapper.py && flask run`
+`python fs_scrapper.py`
 
 ### Deployment
 * Build Docker image
 `docker build -t fs_scrapper:latest .`
 * Run Docker container
-`docker run -it --rm --network host fs_scrapper:latest`
+`docker run -p 5002:5002 -it fs_scrapper:latest`
 
 
 ## Architecture
