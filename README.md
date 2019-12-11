@@ -26,7 +26,7 @@ The API provided by this service allows:
 * Install project dependencies:
 `pip install -r requirements.txt --user`
 * Run *Flask* project:
-`python fs_scrapper.py`
+`python3 fs_scrapper.py`
 
 ### Deployment
 * Build Docker image

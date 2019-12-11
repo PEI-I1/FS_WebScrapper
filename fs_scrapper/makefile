@@ -1,2 +1,2 @@
 run:
-	python fs_scrapper.py
+	python3 fs_scrapper.py
