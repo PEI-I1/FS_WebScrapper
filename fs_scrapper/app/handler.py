@@ -223,7 +223,7 @@ def phones_by_price_aux(inf, sup, data):
     lista = []
 
     for phone in data:
-        aux1 = sub(r'[^\d,]', '', phone['preço'])
+        aux1 = sub(r'[^\d,]', '', phone['preco'])
         aux2 = sub(r',', '.', aux1)
         preco = float(aux2)
 

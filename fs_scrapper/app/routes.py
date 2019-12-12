@@ -63,12 +63,12 @@ def phones_price_request(min, max):
     return jsonify(response = handler.phones_by_price(min, max))
 
 
-@app.route('/fs_scrapper/phones_brand_price/<brand>/<float:min>/<float:max>')
+@app.route('/fs_scrapper/phones_brand_price/<string:brand>/<float:min>/<float:max>')
 def phones_brand_price_request(brand, min, max):
     return jsonify(response = handler.phones_brand_price(brand, min, max))
 
 
-@app.route('/fs_scrapper/phones_brand_promo/<brand>')
+@app.route('/fs_scrapper/phones_brand_promo/<string:brand>')
 def phones_brand_promo_request(brand):
     return jsonify(response = handler.phones_brand_promo(brand))
 
@@ -78,7 +78,7 @@ def phones_promo_price_request(min, max):
     return jsonify(response = handler.phones_promo_price(min, max))
 
 
-@app.route('/fs_scrapper/new_phones_brand/<brand>')
+@app.route('/fs_scrapper/new_phones_brand/<string:brand>')
 def new_phones_brand_request(brand):
     return jsonify(response = handler.new_phones_brand(brand))
 
@@ -88,22 +88,22 @@ def all_wtf_request():
     return jsonify(response = handler.all_wtf())
 
 
-@app.route('/fs_scrapper/wtf_name/<name>')
+@app.route('/fs_scrapper/wtf_name/<string:name>')
 def wtf_name_request(name):
     return jsonify(response = handler.wtf_name(name))
 
 
-@app.route('/fs_scrapper/stores_zone/<zone>')
+@app.route('/fs_scrapper/stores_zone/<string:zone>')
 def stores_zone_request(zone):
     return jsonify(response = handler.stores_by_zone(zone))
 
 
-@app.route('/fs_scrapper/store_address/<address>')
+@app.route('/fs_scrapper/store_address/<string:address>')
 def store_address_request(address):
     return jsonify(response = handler.store_address(address))
 
 
-@app.route('/fs_scrapper/specific_package/<tipo>/<nome>')
+@app.route('/fs_scrapper/specific_package/<string:tipo>/<string:nome>')
 def specific_package_request(tipo, nome):
     return jsonify(response = handler.specific_package(tipo, nome))
 
@@ -123,7 +123,7 @@ def satelite_packages_request():
     return jsonify(response = handler.satelite_packages())
 
 
-@app.route('/fs_scrapper/packages_service/<servico>')
+@app.route('/fs_scrapper/packages_service/<string:servico>')
 def packages_service_request(servico):
     return jsonify(response = handler.packages_by_service(servico))
 
@@ -133,7 +133,7 @@ def packages_price_request(min, max):
     return jsonify(response = handler.packages_by_price(min, max))
 
 
-@app.route('/fs_scrapper/packages_service_price/<service>/<float:min>/<float:max>')
+@app.route('/fs_scrapper/packages_service_price/<string:service>/<float:min>/<float:max>')
 def packages_service_price_request(service, min, max):
     return jsonify(response = handler.packages_service_price(service, min, max))
 
@@ -148,11 +148,11 @@ def satelite_packages_price_request(min, max):
     return jsonify(response = handler.satelite_packages_price(min, max))
 
 
-@app.route('/fs_scrapper/fiber_packages_service/<servico>')
+@app.route('/fs_scrapper/fiber_packages_service/<string:servico>')
 def fiber_packages_service_request(servico):
     return jsonify(response = handler.fiber_packages_service(servico))
 
 
-@app.route('/fs_scrapper/satelite_packages_service/<servico>')
+@app.route('/fs_scrapper/satelite_packages_service/<string:servico>')
 def satelite_packages_service_request(servico):
     return jsonify(response = handler.satelite_packages_service(servico))
