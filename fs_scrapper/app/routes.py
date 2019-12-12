@@ -93,10 +93,15 @@ def wtf_name_request(name):
     return jsonify(response = handler.wtf_name(name))
 
 
-@app.route('/fs_scrapper/stores_zone/<string:zone>')
-def stores_zone_request(zone):
-    return jsonify(response = handler.stores_by_zone(zone))
-
+@app.route('/fs_scrapper/stores')
+def stores_zone_request():
+    zone = request.args.get('search_term')
+    lat = request.args.get('lat')
+    lon = request.args.get('lon')
+    if zona:
+        return jsonify(response = handler.stores_by_zone(zone))
+    else:
+        return jsonify(response = handler.stores_coordinates(lat,lon))   
 
 @app.route('/fs_scrapper/store_address/<string:address>')
 def store_address_request(address):
