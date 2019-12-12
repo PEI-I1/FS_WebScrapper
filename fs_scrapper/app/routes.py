@@ -103,6 +103,11 @@ def store_address_request(address):
     return jsonify(response = handler.store_address(address))
 
 
+@app.route('/fs_scrapper/stores_coordinates/<float:lat>/<float:lon>')
+def stores_coordinates_request(lat, lon):
+    return jsonify(response = handler.stores_by_coordinates(lat, lon))
+
+
 @app.route('/fs_scrapper/specific_package/<tipo>/<nome>')
 def specific_package_request(tipo, nome):
     return jsonify(response = handler.specific_package(tipo, nome))

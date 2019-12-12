@@ -338,6 +338,25 @@ Returns a json object.
 <!---------------------------------------------------->
 
 <details>
+<summary>Retrieve the stores available in a radius of 20km around the specified coordinates</summary>
+
+```http
+GET /fs_scrapper/stores_coordinates/<float:lat>/<float:lon>
+```
+
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| `lat` | `float` | Required. Latitude value. |
+| `lon` | `float` | Required. Longitude value. |
+
+Returns a list of json objects.
+
+------
+</details>
+
+<!---------------------------------------------------->
+
+<details>
 <summary>Retrieve package of certain type and specific name</summary>
 
 ```http
