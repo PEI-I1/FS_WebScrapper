@@ -98,19 +98,16 @@ def stores_zone_request():
     zone = request.args.get('search_term')
     lat = request.args.get('lat')
     lon = request.args.get('lon')
-    if zona:
+    if lat and lon:
+        return jsonify(response = handler.stores_coordinates(lat,lon))
+    elif zone:
         return jsonify(response = handler.stores_by_zone(zone))
     else:
-        return jsonify(response = handler.stores_coordinates(lat,lon))   
+        return jsonify(response = [])
 
 @app.route('/fs_scrapper/store_address/<string:address>')
 def store_address_request(address):
     return jsonify(response = handler.store_address(address))
-
-
-@app.route('/fs_scrapper/stores_coordinates/<float:lat>/<float:lon>')
-def stores_coordinates_request(lat, lon):
-    return jsonify(response = handler.stores_by_coordinates(lat, lon))
 
 
 @app.route('/fs_scrapper/specific_package/<string:tipo>/<string:nome>')
