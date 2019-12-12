@@ -339,7 +339,7 @@ def store_address(morada):
                 aux['horario'] = loja['horario']
                 aux['servicos'] = []
 
-                for serv in loja['ListaServs']:
+                for serv in loja['listaservs']:
                         aux['servicos'].append(serv)
 
                 return aux
