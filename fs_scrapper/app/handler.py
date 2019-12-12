@@ -1,5 +1,6 @@
 import json
 from re import sub
+from haversine import haversine, Unit
 
 
 def linhas_apoio():
@@ -313,9 +314,10 @@ def stores_by_zone(zona):
         aux = {}
 
         for loja in data:
-            if zona.lower() in loja['morada'].lower():
+            if zona.lower() == loja['localidade'] or zona.lower() in loja['morada'].lower():
                 aux['nome'] = loja['nome']
                 aux['morada'] = loja['morada']
+                aux['horario'] = loja['horario']
                 lista.append(aux)
                 aux = {}
 
@@ -343,7 +345,37 @@ def store_address(morada):
                 return aux
 
 
-# adicionar método para mostrar lojas perto de determinadas coordenadas
+def haversine_distance(c1, c2):
+    """ Calculate the distance between two points on a spherical surface
+    :param: Point 1
+    :param: Point 2
+    """
+    location_1 = c1
+    location_2 = c2
+    return haversine(location_1, location_2, unit=Unit.KILOMETERS)
+
+
+def stores_by_coordinates(lat, lon):
+    """ Retrieve the stores avaiable around 20km of the given coordinates
+    :param: latitude
+    :param: longitude
+    """
+    with open('json/lojas.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        aux = {}
+
+        for loja in data:
+            distance = haversine_distance((lat,lon),(float(loja['latitude']),float(loja['longitude'])))
+            if  distance < 20:
+                aux['nome'] = loja['nome']
+                aux['morada'] = loja['morada']
+                aux['horario'] = loja['horario']
+                lista.append(aux)
+                aux = {}
+
+        return lista
+
 
 def specific_package(tipo, nome):
     """ Retrieve package of certain type and specific name
