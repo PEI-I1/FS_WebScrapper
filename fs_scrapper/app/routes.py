@@ -3,12 +3,6 @@ from app import handler
 from flask import jsonify, request
 
 
-@app.route('/fs_scrapper/')
-@app.route('/fs_scrapper/index')
-def index():
-    return "Hello, World!"
-
-
 @app.route('/fs_scrapper/linhas_apoio')
 def linhas_apoio_assunto_request():
     assunto = request.args.get('assunto')
@@ -50,17 +44,17 @@ def phones_request():
         lista = handler.phones_by_price(min_value, max_value, lista)
 
     if brand is None:
-        aux = {}
         lista_final = []
         if ofer is None:
             for phone in lista:
+                aux = {}
                 aux['nome'] = phone['nome']
                 aux['preco'] = phone['preco']
                 aux['link'] = phone['link']
                 lista_final.append(aux)
-                aux = {}
         else:
             for phone in lista:
+                aux = {}
                 aux['nome'] = phone['nome']
                 aux['preco'] = phone['preco']
                 for tag in phone['tags']:
@@ -68,10 +62,9 @@ def phones_request():
                         aux['oferta'] = tag
                 aux['link'] = phone['link']
                 lista_final.append(aux)
-                aux = {}
-        return lista_final
+        lista = lista_final
 
-    return lista
+    return jsonify(response = lista)
 
 
 @app.route('/fs_scrapper/wtf')
@@ -79,7 +72,7 @@ def wtf_request():
     nome = request.args.get('nome')
 
     if nome:
-        return jsonify(response = handler.wtf_name(name))
+        return jsonify(response = handler.wtf_name(nome))
     else:
         return jsonify(response = handler.all_wtf())
 
@@ -139,5 +132,9 @@ def packages_request():
         else:
             return jsonify(response = handler.fiber_packages())
 
+    elif nome:
+        lista = handler.specific_package("satélite", nome)
+        lista = lista + handler.specific_package("fibra", nome)
+        return jsonify(response = lista)
     else:
         return jsonify(response = handler.packages())

@@ -151,6 +151,11 @@ def points_phones(phones):
 
     return lista
 
+def str_to_float(value):
+    value = sub(r'[^\d,.]', '', value)
+    value = sub(r',', '.', value)
+    ret = float(value)
+    return ret
 
 def phones_by_price(inf, sup, phones):
     """ Retrieve all phones which are in specified threshold of price
@@ -159,11 +164,12 @@ def phones_by_price(inf, sup, phones):
     :param: list of phones
     """
     lista = []
+    
+    inf = str_to_float(inf)
+    sup = str_to_float(sup)
 
     for phone in phones:
-        aux1 = sub(r'[^\d,]', '', phone['preco'])
-        aux2 = sub(r',', '.', aux1)
-        preco = float(aux2)
+        preco = str_to_float(phone['preco'])
 
         if inf <= preco <= sup:
             lista.append(phone)
@@ -389,7 +395,7 @@ def packages_by_service_aux(servico, pacotes):
     lista = []
 
     for pacote in pacotes:
-        if pacote['servico'] == servico:
+        if pacote['servico'].lower() == servico.lower():
             lista.append(pacote)
 
     return lista
@@ -405,9 +411,11 @@ def packages_by_price(inf, sup):
         lista = []
         aux = {}
 
+        inf = str_to_float(inf)
+        sup = str_to_float(sup)
+
         for pacote in data:
-            aux1 = sub(r',', '.', pacote['Fidelizacao_24Meses']['preco'])
-            preco = float(aux1)
+            preco = str_to_float(pacote['Fidelizacao_24Meses']['preco'])
 
             if inf <= preco <= sup:
                 aux['Tipo'] = pacote['Tipo']
@@ -434,9 +442,11 @@ def packages_by_price(inf, sup):
 def packages_by_price_aux(inf, sup, data):
     lista = []
 
+    inf = str_to_float(inf)
+    sup = str_to_float(sup)
+
     for pacote in data:
-        aux = sub(r',', '.', pacote['preco'])
-        preco = float(aux)
+        preco = str_to_float(pacote['preco'])
 
         if inf <= preco <= sup:
             lista.append(pacote)
