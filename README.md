@@ -57,7 +57,7 @@ Returns a list of json objects.
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrieve the specified model</summary>
+<summary>Retrieve phones based on brand, if they are new, in promotion/discount, top most searched, come with an offer, can be payed by installment, can be payed with points and/or in a specified price range</summary>
 
 ```http
 GET /fs_scrapper/phone_model/<model>
@@ -65,38 +65,17 @@ GET /fs_scrapper/phone_model/<model>
 
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
-| `model` | `string` | Required. Phone model |
+| `brand` | `string` | Optional. Phone brand or model |
+| `new` | `string` | Optional. Indication that are wanted new phones |
+| `promo` | `string` | Optional. Indication that are wanted phones with a promotion/discount |
+| `top` | `string` | Optional. Indication that are wanted the top most searched phones |
+| `ofer` | `string` | Optional. Indication that are wanted phones that come with an offer |
+| `prest` | `string` | Optional. Indication that are wanted phones which have installment payment available |
+| `points` | `string` | Optional. Indication that are wanted phones which have points payment available |
+| `min` | `float` | Optional. Lowest value of price |
+| `max` | `float` | Optional. Highest value of price |
 
-Returns a json object.
-
-------
-</details>
-
-<!---------------------------------------------------->
-<details>
-<summary>Retrieve all phones of specified brand</summary>
-
-```http
-GET /fs_scrapper/brand_phones/<brand>
-```
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `brand` | `string` | Required. Phone brand |
-
-Returns a list of json objects.
-
-------
-
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrive the top most shearched/viewed phones</summary>
-
-```http
-GET /fs_scrapper/top_phones
-```
+***Note**: All parameters are optional, but if phones are wanted in a price range both min and max are needed.
 
 Returns a list of json objects.
 
@@ -106,176 +85,16 @@ Returns a list of json objects.
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrieve all phones who are currently under a discount/promotion</summary>
-
-```http
-GET /fs_scrapper/promo_phones
-```
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve the most recents phones</summary>
-
-```http
-GET /fs_scrapper/new_phones
-```
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all the phones in which it comes with an offer</summary>
-
-```http
-GET /fs_scrapper/ofer_phones
-```
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all phones which have installment payment available</summary>
-
-```http
-GET /fs_scrapper/prest_phones
-```
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all phones which have points payment available</summary>
-
-```http
-GET /fs_scrapper/points_phones
-```
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all phones which are in specified threshold of price</summary>
-
-```http
-GET /fs_scrapper/phones_price/<float:min>/<float:max>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `min` | `float` | Required. Lower value of price. |
-| `max` | `float` | Required. Highest value of price. |
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all phones of specified brand which are in specified threshold of price</summary>
-
-```http
-GET /fs_scrapper/phones_brand_price/<brand>/<float:min>/<float:max>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `brand` | `string` | Required. Phone brand |
-| `min` | `float` | Required. Lower value of price. |
-| `max` | `float` | Required. Highest value of price. |
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all phones of specified brand which are currentelly under a discount/promotion</summary>
-
-```http
-GET /fs_scrapper/phones_brand_promo/<brand>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `brand` | `string` | Required. Phone brand |
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all phones between a specified threshold of price which are currently under a discount/promotion</summary>
-
-```http
-GET /fs_scrapper/phones_promo_price/<float:min>/<float:max>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `min` | `float` | Required. Lower value of price. |
-| `max` | `float` | Required. Highest value of price. |
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve the most recents phones of specified brand</summary>
-
-```http
-GET /fs_scrapper/new_phones_brand/<brand>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `brand` | `string` | Required. Phone brand |
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all 'WTF' tariffs available</summary>
+<summary>Retrieve 'WTF' tariffs available</summary>
 
 ```http
 GET /fs_scrapper/all_wtf
 ```
 
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| `name` | `string` | Optional. Tariff name |
+
 Returns a list of json objects.
 
 ------
@@ -284,25 +103,7 @@ Returns a list of json objects.
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrieve information of specified tariff</summary>
-
-```http
-GET /fs_scrapper/wtf_name/<name>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `name` | `string` | Required. Tariff name. |
-
-Returns a json object.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve the stores available at specified region</summary>
+<summary>Retrieve the stores available at specified region or coordinates</summary>
 
 ```http
 GET /fs_scrapper/stores_zone/<zone>
@@ -310,7 +111,11 @@ GET /fs_scrapper/stores_zone/<zone>
 
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
-| `zone` | `string` | Required. Zone query. |
+| `zone` | `string` | Optional. Zone query |
+| `lat` | `float` | Optional. Latitude value |
+| `lon` | `float` | Optional. Longitude value |
+
+***Note**: Parameters are optional, but a zone or lat and lon are needed. When values are given to lat and lon the returned stores are in a maximum distance of 20 km.
 
 Returns a list of json objects.
 
@@ -320,222 +125,21 @@ Returns a list of json objects.
 <!---------------------------------------------------->
 
 <details>
-<summary>Retrive information of specified store with its address</summary>
-
-```http
-GET /fs_scrapper/store_address/<address>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `address` | `string` | Required. Store address. |
-
-Returns a json object.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve the stores available in a radius of 20km around the specified coordinates</summary>
-
-```http
-GET /fs_scrapper/stores_coordinates/<float:lat>/<float:lon>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `lat` | `float` | Required. Latitude value. |
-| `lon` | `float` | Required. Longitude value. |
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve package of certain type and specific name</summary>
-
-```http
-GET /fs_scrapper/specific_package/<tipo>/<nome>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `tipo` | `string` | Required. Type of package wanted. |
-| `nome` | `string` | Required. Package name. |
-
-Returns a json object.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all packages available</summary>
+<summary>Retrieve packages based on name, type, service and/or a specified price range</summary>
 
 ```http
 GET /fs_scrapper/packages
 ```
 
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all packages of type 'Fibra'</summary>
-
-```http
-GET /fs_scrapper/fiber_packages
-```
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all packages of type 'Satélite'</summary>
-
-```http
-GET /fs_scrapper/satelite_packages
-```
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieve all packages with specified service</summary>
-
-```http
-GET /fs_scrapper/packages_service/<servico>
-```
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieves all available packages that are within a specified price threshold</summary>
-
-```http
-GET /fs_scrapper/packages_price/<float:min>/<float:max>
-```
-
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
-| `min` | `float` | Required. Lower value of price. |
-| `max` | `float` | Required. Highest value of price. |
+| `type` | `string` | Optional. Type of package wanted (satelite or fiber) |
+| `service` | `string` | Optional. Service wanted |
+| `min` | `float` | Optional. Lower value of price |
+| `max` | `float` | Optional. Highest value of price |
+| `name` | `string` | Optional. Package name |
 
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieves packages of a specific service that are within a specified price threshold</summary>
-
-```http
-GET /fs_scrapper/packages_service_price/<service>/<float:min>/<float:max>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `service` | `string` | Required. Service wanted. |
-| `min` | `float` | Required. Lower value of price. |
-| `max` | `float` | Required. Highest value of price. |
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieves packages of type 'Fibra' that are within a specified price threshold</summary>
-
-```http
-GET /fs_scrapper/fiber_packages_price/<float:min>/<float:max>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `min` | `float` | Required. Lower value of price. |
-| `max` | `float` | Required. Highest value of price. |
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieves packages of type 'Satélite' that are within a specified price threshold</summary>
-
-```http
-GET /fs_scrapper/satelite_packages_price/<float:min>/<float:max>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `min` | `float` | Required. Lower value of price. |
-| `max` | `float` | Required. Highest value of price. |
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieves packages of type 'Fibra' that have the specified service</summary>
-
-```http
-GET /fs_scrapper/fiber_packages_service/<servico>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `servico` | `string` | Required. Service wanted. |
-
-Returns a list of json objects.
-
-------
-</details>
-
-<!---------------------------------------------------->
-
-<details>
-<summary>Retrieves packages of type 'Satélite' that have the specified service</summary>
-
-```http
-GET /fs_scrapper/satelite_packages_service/<servico>
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| `servico` | `string` | Required. Service wanted. |
+***Note**: All parameters are optional, but if phones are wanted in a price range both min and max are needed. To search packages by name the type of package is also needed.
 
 Returns a list of json objects.
 

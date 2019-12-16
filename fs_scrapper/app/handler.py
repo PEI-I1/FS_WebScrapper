@@ -197,6 +197,7 @@ def wtf_name(nome):
     """
     with open('json/tarifario_WTF.json', 'r') as f:
         data = json.load(f)
+        lista = []
         aux = {}
 
         for tarifario in data:
@@ -210,7 +211,10 @@ def wtf_name(nome):
                 aux['cinema'] = tarifario['Cinema']
                 aux['uber'] = tarifario['Uber']
                 aux['uber_eats'] = tarifario['Uber_eats']
-                return aux
+                lista.append(aux)
+                aux = {}
+
+        return lista
 
 
 def stores_by_zone(zona):
@@ -223,7 +227,7 @@ def stores_by_zone(zona):
         aux = {}
 
         for loja in data:
-            if zona.lower() == loja['localidade'] or zona.lower() in loja['morada'].lower():
+            if zona.lower() in loja['morada'].lower() or zona.lower() == loja['localidade']:
                 aux['nome'] = loja['nome']
                 aux['morada'] = loja['morada']
                 aux['horario'] = loja['horario']
@@ -231,27 +235,6 @@ def stores_by_zone(zona):
                 aux = {}
 
         return lista
-
-
-def store_address(morada):
-    """ Retrive information õf specified store with its address
-    :param: store address
-    """
-    with open('json/lojas.json', 'r') as f:
-        data = json.load(f)
-        aux = {}
-
-        for loja in data:
-            if loja['morada'].lower() == morada.lower():
-                aux['nome'] = loja['nome']
-                aux['morada'] = loja['morada']
-                aux['horario'] = loja['horario']
-                aux['servicos'] = []
-
-                for serv in loja['listaservs']:
-                        aux['servicos'].append(serv)
-
-                return aux
 
 
 def haversine_distance(c1, c2):
@@ -293,10 +276,13 @@ def specific_package(tipo, nome):
     """
     with open('json/Pacotes.json', 'r') as f:
         data = json.load(f)
+        lista = []
 
         for pacote in data:
             if tipo.lower() in pacote['Tipo'].lower() and nome.lower() in pacote['nome'].lower():
-                return pacote
+                lista.append(pacote)
+
+        return lista
 
 
 def packages():

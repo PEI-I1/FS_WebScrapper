@@ -85,7 +85,7 @@ def wtf_request():
 
 
 @app.route('/fs_scrapper/stores')
-def stores_zone_request():
+def stores_request():
     zone = request.args.get('search_term')
     lat = request.args.get('lat')
     lon = request.args.get('lon')
@@ -103,7 +103,7 @@ def packages_request():
     servico = request.args.get('service')
     min_value = request.args.get('min')
     max_value = request.args.get('max')
-    nome = request.args.get('nome')
+    nome = request.args.get('name')
 
     if servico:
         if nome:
