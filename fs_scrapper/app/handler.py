@@ -9,13 +9,9 @@ def linhas_apoio():
     with open('json/linhas_apoio.json', 'r') as f:
         data = json.load(f)
         lista = []
-        aux = {}
 
         for linha in data:
-            aux['categoria'] = linha['categoria']
-            aux['numero'] = linha['numero']
-            lista.append(aux)
-            aux = {}
+            lista.append(linha)
 
         return lista
 
@@ -39,58 +35,10 @@ def linhas_apoio_assunto(assunto):
         return lista
 
 
-def phone_model(modelo):
-    """ Retrieve the specified model
-    :param: phone's model
+def all_phones():
+    """ Retrieve all phones available
     """
     with open('json/phones.json', 'r') as f:
-        data = json.load(f)
-        aux = {}
-
-        for phone in data:
-            if phone['nome'].lower() == modelo.lower():
-                aux['nome'] = phone['nome']
-                aux['preco'] = phone['preço']
-                aux['tags'] = phone['tags']
-                aux['link'] = phone['link']
-                aux['pretacoes'] = phone['prestações']
-                aux['pontos'] = phone['pontos']
-                return aux
-
-
-def brand_phones(marca):
-    """ Retrieve all phones of specified brand
-    :param: brand
-    """
-    with open('json/phones.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
-
-        for phone in data:
-            if marca.lower() in phone['nome'].lower():
-                aux['nome'] = phone['nome']
-                aux['preco'] = phone['preço']
-                lista.append(aux)
-                aux = {}
-
-        return lista
-
-
-def brand_phones_aux(marca, data):
-    lista = []
-
-    for phone in data:
-        if marca.lower() in phone['nome'].lower():
-            lista.append(phone)
-
-    return lista
-
-
-def top_phones():
-    """ Retrive the top most shearched/viewed phones
-    """
-    with open('json/top_phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -98,132 +46,121 @@ def top_phones():
         for phone in data:
             aux['nome'] = phone['nome']
             aux['preco'] = phone['preço']
+            aux['tags'] = phone['tags']
+            aux['link'] = phone['link']
+            aux['pretacoes'] = phone['prestações']
+            aux['pontos'] = phone['pontos']
             lista.append(aux)
             aux = {}
 
         return lista
 
 
-def promo_phones():
+def brand_phones(marca, phones):
+    """ Retrieve all phones of specified brand
+    :param: brand
+    :param: list of phones
+    """
+    lista = []
+
+    for phone in phones:
+        if marca.lower() in phone['nome'].lower():
+            lista.append(phone)
+
+    return lista
+
+
+def top_phones(phones):
+    """ Retrive the top most shearched/viewed phones
+    :param: list of phones
+    """
+    with open('json/top_phones.json', 'r') as f:
+        data = json.load(f)
+        lista = []
+        
+        for phone in phones:
+            for top in data:
+                if phone['nome'] == top['nome']:
+                    lista.append(phone)
+
+        return lista
+
+
+def promo_phones(phones):
     """ Retrieve all phones who are currently under a discount/promotion
+    :param: list of phones
     """
-    with open('json/phones.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
+    lista = []
 
-        for phone in data:
-            if 'desconto' in phone['tags']:
-                aux['nome'] = phone['nome']
-                aux['preco'] = phone['preço']
-                lista.append(aux)
-                aux = {}
+    for phone in phones:
+        if 'desconto' in phone['tags']:
+            lista.append(phone)
 
-        return lista
+    return lista
 
 
-def new_phones():
+def new_phones(phones):
     """ Retrieve the most recents phones
+    :param: list of phones
     """
-    with open('json/phones.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
+    lista = []
 
-        for phone in data:
-            if 'novidade' in phone['tags']:
-                aux['nome'] = phone['nome']
-                aux['preco'] = phone['preço']
-                lista.append(aux)
-                aux = {}
+    for phone in phones:
+        if 'novidade' in phone['tags']:
+            lista.append(phone)
 
-        return lista
+    return lista
 
 
-def ofer_phones():
+def ofer_phones(phones):
     """ Retrieve all the phones in which it comes with an offer
+    :param: list of phones
     """
-    with open('json/phones.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
+    lista = []
 
-        for phone in data:
-            for tag in phone['tags']:
-                if 'oferta' in tag:
-                    aux['nome'] = phone['nome']
-                    aux['preco'] = phone['preço']
-                    aux['oferta'] = tag
-                    lista.append(aux)
-                    aux = {}
+    for phone in phones:
+        for tag in phone['tags']:
+            if 'oferta' in tag:
+                lista.append(phone)
 
-        return lista
+    return lista
 
 
-def prest_phones():
+def prest_phones(phones):
     """ Retrieve all phones which have installment payment avaiable
+    :param: list of phones
     """
-    with open('json/phones.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
+    lista = []
 
-        for phone in data:
-            if phone['prestações'] == 'Disponível':
-                aux['nome'] = phone['nome']
-                aux['preco'] = phone['preço']
-                lista.append(aux)
-                aux = {}
+    for phone in phones:
+        if phone['prestações'] == 'Disponível':
+            lista.append(phone)
 
-        return lista
+    return lista
 
 
-def points_phones():
+def points_phones(phones):
     """ Retrieve all phones which have points payment avaiable
+    :param: list of phones
     """
-    with open('json/phones.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
+    lista = []
 
-        for phone in data:
-            if phone['pontos'] == 'Disponível':
-                aux['nome'] = phone['nome']
-                aux['preco'] = phone['preço']
-                lista.append(aux)
-                aux = {}
+    for phone in phones:
+        if phone['pontos'] == 'Disponível':
+            lista.append(phone)
 
-        return lista
+    return lista
 
 
-def phones_by_price(inf, sup):
+def phones_by_price(inf, sup, phones):
     """ Retrieve all phones which are in specified threshold of price
     :param: lowest number of price
     :param: highest number of price
+    :param: list of phones
     """
-    with open('json/phones.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
-
-        for phone in data:
-            aux1 = sub(r'[^\d,]', '', phone['preço'])
-            aux2 = sub(r',', '.', aux1)
-            preco = float(aux2)
-
-            if inf <= preco <= sup:
-                aux['nome'] = phone['nome']
-                aux['preco'] = phone['preço']
-                lista.append(aux)
-                aux = {}
-
-        return lista
-
-
-def phones_by_price_aux(inf, sup, data):
     lista = []
 
-    for phone in data:
+    for phone in phones:
         aux1 = sub(r'[^\d,]', '', phone['preco'])
         aux2 = sub(r',', '.', aux1)
         preco = float(aux2)
@@ -232,37 +169,6 @@ def phones_by_price_aux(inf, sup, data):
             lista.append(phone)
 
     return lista
-
-
-def phones_brand_price(marca, inf, sup):
-    """ Retrieve all phones of specified brand which are in specified threshold of price
-    :param: brand
-    :param: lowest value of price
-    :param: highest value of price
-    """
-    return phones_by_price_aux(inf, sup, brand_phones(marca))
-
-
-def phones_brand_promo(marca):
-    """ Retrieve all phones of specified brand which are currentelly under a discount/promotion
-    :param: brand
-    """
-    return brand_phones_aux(marca, promo_phones())
-
-
-def phones_promo_price(inf, sup):
-    """ Retrieve all phones between a specified threshold of price which are currently under a discount/promotion
-    :param: lowest value of price
-    :param: highest value of price
-    """
-    return phones_by_price_aux(inf, sup, promo_phones())
-
-
-def new_phones_brand(marca):
-    """ Retrieve the most recents phones of specified brand
-    :param: brand
-    """
-    return brand_phones_aux(marca, new_phones())
 
 
 def all_wtf():
@@ -276,6 +182,9 @@ def all_wtf():
         for tarifario in data:
             aux['nome'] = tarifario['Nome_Tarifario']
             aux['preco'] = tarifario['Preco']
+            aux['minutos'] = tarifario['Minutos']
+            aux['net'] = tarifario['Net']
+            aux['sms'] = tarifario['SMS']
             lista.append(aux)
             aux = {}
 
@@ -291,7 +200,7 @@ def wtf_name(nome):
         aux = {}
 
         for tarifario in data:
-            if tarifario['Nome_Tarifario'].lower() == nome.lower():
+            if nome.lower() in tarifario['Nome_Tarifario'].lower():
                 aux['nome'] = tarifario['Nome_Tarifario']
                 aux['preco'] = tarifario['Preco']
                 aux['preco_total'] = tarifario['Preco_Total']
@@ -386,7 +295,7 @@ def specific_package(tipo, nome):
         data = json.load(f)
 
         for pacote in data:
-            if pacote['Tipo'].lower() == tipo.lower() and pacote['nome'].lower() == nome.lower():
+            if tipo.lower() in pacote['Tipo'].lower() and nome.lower() in pacote['nome'].lower():
                 return pacote
 
 
@@ -586,6 +495,14 @@ def satelite_packages_service(servico):
     :param: service
     """
     return packages_by_service_aux(servico, satelite_packages())
+
+
+def fiber_packages_service_price(servico, inf, sup):
+    return packages_by_service_aux(servico, fiber_packages_price(inf, sup))
+
+
+def satelite_packages_service_price(servico, inf, sup):
+    return packages_by_service_aux(servico, satelite_packages_price(inf, sup))
 
 
 # add método para net mínima

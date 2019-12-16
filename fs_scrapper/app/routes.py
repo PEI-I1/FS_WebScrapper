@@ -18,79 +18,70 @@ def linhas_apoio_assunto_request():
         return jsonify(response = handler.linhas_apoio_assunto(assunto))
 
 
-@app.route('/fs_scrapper/phone_model/<model>')
-def phone_model_request(model):
-    return jsonify(response = handler.phone_model(model))
+@app.route('/fs_scrapper/phones')
+def phones_request():
+    brand = request.args.get('brand')
+    new = request.args.get('new')
+    promo = request.args.get('promo')
+    top = request.args.get('top')
+    ofer = request.args.get('ofer')
+    prest = request.args.get('prest')
+    points = request.args.get('points')
+    min_value = request.args.get('min')
+    max_value = request.args.get('max')
+
+    lista = handler.all_phones()
+
+    if brand:
+        lista = handler.brand_phones(brand, lista)
+    if new:
+        lista = handler.new_phones(lista)
+    if promo:
+        lista = handler.promo_phones(lista)
+    if top:
+        lista = handler.top_phones(lista)
+    if ofer:
+        lista = handler.ofer_phones(lista)
+    if prest:
+        lista = handler.prest_phones(lista)
+    if points:
+        lista = handler.points_phones(lista)
+    if max_value and min_value:
+        lista = handler.phones_by_price(min_value, max_value, lista)
+
+    if brand is None:
+        aux = {}
+        lista_final = []
+        if ofer is None:
+            for phone in lista:
+                aux['nome'] = phone['nome']
+                aux['preco'] = phone['preco']
+                aux['link'] = phone['link']
+                lista_final.append(aux)
+                aux = {}
+        else:
+            for phone in lista:
+                aux['nome'] = phone['nome']
+                aux['preco'] = phone['preco']
+                for tag in phone['tags']:
+                    if 'oferta' in tag:
+                        aux['oferta'] = tag
+                aux['link'] = phone['link']
+                lista_final.append(aux)
+                aux = {}
+        return lista_final
+
+    return lista
 
 
-@app.route('/fs_scrapper/brand_phones/<brand>')
-def brand_phones_request(brand):
-    return jsonify(response = handler.brand_phones(brand))
+@app.route('/fs_scrapper/wtf')
+def wtf_request():
+    nome = request.args.get('nome')
 
-
-@app.route('/fs_scrapper/top_phones')
-def top_phones_request():
-    return jsonify(response = handler.top_phones())
-
-
-@app.route('/fs_scrapper/promo_phones')
-def promo_phones_request():
-    return jsonify(response = handler.promo_phones())
-
-
-@app.route('/fs_scrapper/new_phones')
-def new_phones_request():
-    return jsonify(response = handler.new_phones())
-
-
-@app.route('/fs_scrapper/ofer_phones')
-def ofer_phones_request():
-    return jsonify(response = handler.ofer_phones())
-
-
-@app.route('/fs_scrapper/prest_phones')
-def prest_phones_request():
-    return jsonify(response = handler.prest_phones())
-
-
-@app.route('/fs_scrapper/points_phones')
-def points_phones_request():
-    return jsonify(response = handler.points_phones())
-
-
-@app.route('/fs_scrapper/phones_price/<float:min>/<float:max>')
-def phones_price_request(min, max):
-    return jsonify(response = handler.phones_by_price(min, max))
-
-
-@app.route('/fs_scrapper/phones_brand_price/<string:brand>/<float:min>/<float:max>')
-def phones_brand_price_request(brand, min, max):
-    return jsonify(response = handler.phones_brand_price(brand, min, max))
-
-
-@app.route('/fs_scrapper/phones_brand_promo/<string:brand>')
-def phones_brand_promo_request(brand):
-    return jsonify(response = handler.phones_brand_promo(brand))
-
-
-@app.route('/fs_scrapper/phones_promo_price/<float:min>/<float:max>')
-def phones_promo_price_request(min, max):
-    return jsonify(response = handler.phones_promo_price(min, max))
-
-
-@app.route('/fs_scrapper/new_phones_brand/<string:brand>')
-def new_phones_brand_request(brand):
-    return jsonify(response = handler.new_phones_brand(brand))
-
-
-@app.route('/fs_scrapper/all_wtf')
-def all_wtf_request():
-    return jsonify(response = handler.all_wtf())
-
-
-@app.route('/fs_scrapper/wtf_name/<string:name>')
-def wtf_name_request(name):
-    return jsonify(response = handler.wtf_name(name))
+    if nome:
+        return jsonify(response = handler.wtf_name(name))
+    else:
+        return jsonify(response = handler.all_wtf())
 
 
 @app.route('/fs_scrapper/stores')
@@ -99,67 +90,54 @@ def stores_zone_request():
     lat = request.args.get('lat')
     lon = request.args.get('lon')
     if lat and lon:
-        return jsonify(response = handler.stores_coordinates(lat,lon))
+        return jsonify(response = handler.stores_by_coordinates(lat,lon))
     elif zone:
         return jsonify(response = handler.stores_by_zone(zone))
     else:
         return jsonify(response = [])
 
-@app.route('/fs_scrapper/store_address/<string:address>')
-def store_address_request(address):
-    return jsonify(response = handler.store_address(address))
-
-
-@app.route('/fs_scrapper/specific_package/<string:tipo>/<string:nome>')
-def specific_package_request(tipo, nome):
-    return jsonify(response = handler.specific_package(tipo, nome))
-
 
 @app.route('/fs_scrapper/packages')
 def packages_request():
-    return jsonify(response = handler.packages())
+    tipo = request.args.get('type')
+    servico = request.args.get('service')
+    min_value = request.args.get('min')
+    max_value = request.args.get('max')
+    nome = request.args.get('nome')
 
+    if servico:
+        if nome:
+            return jsonify(response = handler.specific_package(tipo, nome))
+        elif max_value and min_value:
+            if tipo:
+                if tipo == 'satelite':
+                    return jsonify(response = handler.satelite_packages_service_price(servico, min_value, max_value))
+                else:
+                    return jsonify(response = handler.fiber_packages_service_price(servico, min_value, max_value))
+            else:
+                return jsonify(response = handler.packages_service_price(servico, min_value, max_value))
+        elif tipo:
+            if tipo == 'satelite':
+                return jsonify(response = handler.satelite_packages_service(servico))
+            else:
+                return jsonify(response = handler.fiber_packages_service(servico))
+        else:
+            return jsonify(response = handler.packages_by_service(servico))
 
-@app.route('/fs_scrapper/fiber_packages')
-def fiber_packages_request():
-    return jsonify(response = handler.fiber_packages())
+    elif max_value and min_value:
+        if tipo:
+            if tipo == 'satelite':
+                return jsonify(response = handler.satelite_packages_price(min_value, max_value))
+            else:
+                return jsonify(response = handler.fiber_packages_price(min_value, max_value))
+        else:
+            return jsonify(response = handler.packages_by_price(min_value, max_value))
 
+    elif tipo:
+        if tipo == 'satelite':
+            return jsonify(response = handler.satelite_packages())
+        else:
+            return jsonify(response = handler.fiber_packages())
 
-@app.route('/fs_scrapper/satelite_packages')
-def satelite_packages_request():
-    return jsonify(response = handler.satelite_packages())
-
-
-@app.route('/fs_scrapper/packages_service/<string:servico>')
-def packages_service_request(servico):
-    return jsonify(response = handler.packages_by_service(servico))
-
-
-@app.route('/fs_scrapper/packages_price/<float:min>/<float:max>')
-def packages_price_request(min, max):
-    return jsonify(response = handler.packages_by_price(min, max))
-
-
-@app.route('/fs_scrapper/packages_service_price/<string:service>/<float:min>/<float:max>')
-def packages_service_price_request(service, min, max):
-    return jsonify(response = handler.packages_service_price(service, min, max))
-
-
-@app.route('/fs_scrapper/fiber_packages_price/<float:min>/<float:max>')
-def fiber_packages_price_request(min, max):
-    return jsonify(response = handler.fiber_packages_price(min, max))
-
-
-@app.route('/fs_scrapper/satelite_packages_price/<float:min>/<float:max>')
-def satelite_packages_price_request(min, max):
-    return jsonify(response = handler.satelite_packages_price(min, max))
-
-
-@app.route('/fs_scrapper/fiber_packages_service/<string:servico>')
-def fiber_packages_service_request(servico):
-    return jsonify(response = handler.fiber_packages_service(servico))
-
-
-@app.route('/fs_scrapper/satelite_packages_service/<string:servico>')
-def satelite_packages_service_request(servico):
-    return jsonify(response = handler.satelite_packages_service(servico))
+    else:
+        return jsonify(response = handler.packages())
