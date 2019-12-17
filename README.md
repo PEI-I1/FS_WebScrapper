@@ -139,7 +139,7 @@ GET /fs_scrapper/packages
 | `max` | `float` | Optional. Highest value of price |
 | `name` | `string` | Optional. Package name |
 
-***Note**: All parameters are optional, but if phones are wanted in a price range both min and max are needed. To search packages by name the type of package is also needed.
+***Note**: All parameters are optional, but if phones are wanted in a price range both min and max are needed.
 
 Returns a list of json objects.
 

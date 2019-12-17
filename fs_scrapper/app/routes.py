@@ -99,9 +99,7 @@ def packages_request():
     nome = request.args.get('name')
 
     if servico:
-        if nome:
-            return jsonify(response = handler.specific_package(tipo, nome))
-        elif max_value and min_value:
+        if max_value and min_value:
             if tipo:
                 if tipo == 'satelite':
                     return jsonify(response = handler.satelite_packages_service_price(servico, min_value, max_value))
@@ -131,10 +129,11 @@ def packages_request():
             return jsonify(response = handler.satelite_packages())
         else:
             return jsonify(response = handler.fiber_packages())
-
+        
     elif nome:
         lista = handler.specific_package("satélite", nome)
         lista = lista + handler.specific_package("fibra", nome)
         return jsonify(response = lista)
+
     else:
         return jsonify(response = handler.packages())
