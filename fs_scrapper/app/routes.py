@@ -106,8 +106,6 @@ def packages_request():
     nome = request.args.get('name')
 
     if servico:
-        if nome:
-            return jsonify(response = handler.specific_package(tipo, nome))
         elif max_value and min_value:
             if tipo:
                 if tipo == 'satelite':
@@ -134,7 +132,9 @@ def packages_request():
             return jsonify(response = handler.packages_by_price(min_value, max_value))
 
     elif tipo:
-        if tipo == 'satelite':
+        if nome:
+            return jsonify(response = handler.specific_package(tipo, nome))
+        elif tipo == 'satelite':
             return jsonify(response = handler.satelite_packages())
         else:
             return jsonify(response = handler.fiber_packages())
