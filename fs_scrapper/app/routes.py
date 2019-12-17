@@ -40,7 +40,7 @@ def phones_request():
         lista = handler.prest_phones(lista)
     if points:
         lista = handler.points_phones(lista)
-    if max_value and min_value:
+    if max_value or min_value:
         lista = handler.phones_by_price(min_value, max_value, lista)
 
     if brand is None:

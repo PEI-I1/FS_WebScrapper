@@ -77,7 +77,7 @@ def top_phones(phones):
     with open('json/top_phones.json', 'r') as f:
         data = json.load(f)
         lista = []
-        
+
         for phone in phones:
             for top in data:
                 if phone['nome'] == top['nome']:
@@ -164,9 +164,11 @@ def phones_by_price(inf, sup, phones):
     :param: list of phones
     """
     lista = []
-    
-    inf = str_to_float(inf)
-    sup = str_to_float(sup)
+
+    if inf: inf = str_to_float(inf)
+    else:   inf = float(0)
+    if sup: sup = str_to_float(sup)
+    else:   sup = float(1000000)
 
     for phone in phones:
         preco = str_to_float(phone['preco'])
