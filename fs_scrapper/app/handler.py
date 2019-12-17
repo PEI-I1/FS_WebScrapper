@@ -413,8 +413,10 @@ def packages_by_price(inf, sup):
         lista = []
         aux = {}
 
-        inf = str_to_float(inf)
-        sup = str_to_float(sup)
+        if inf: inf = str_to_float(inf)
+        else:   inf = float(0)
+        if sup: sup = str_to_float(sup)
+        else:   sup = float(1000000)
 
         for pacote in data:
             preco = str_to_float(pacote['Fidelizacao_24Meses']['preco'])
@@ -444,8 +446,10 @@ def packages_by_price(inf, sup):
 def packages_by_price_aux(inf, sup, data):
     lista = []
 
-    inf = str_to_float(inf)
-    sup = str_to_float(sup)
+    if inf: inf = str_to_float(inf)
+    else:   inf = float(0)
+    if sup: sup = str_to_float(sup)
+    else:   sup = float(1000000)
 
     for pacote in data:
         preco = str_to_float(pacote['preco'])
