@@ -7,9 +7,9 @@ from flask import jsonify, request
 def linhas_apoio_assunto_request():
     assunto = request.args.get('assunto')
     if not assunto:
-        return jsonify(response = handler.linhas_apoio())
+        return jsonify(handler.linhas_apoio())
     else:
-        return jsonify(response = handler.linhas_apoio_assunto(assunto))
+        return jsonify(handler.linhas_apoio_assunto(assunto))
 
 
 @app.route('/fs_scrapper/phones')
@@ -64,7 +64,7 @@ def phones_request():
                 lista_final.append(aux)
         lista = lista_final
 
-    return jsonify(response = lista)
+    return jsonify(lista)
 
 
 @app.route('/fs_scrapper/wtf')
@@ -72,9 +72,9 @@ def wtf_request():
     nome = request.args.get('nome')
 
     if nome:
-        return jsonify(response = handler.wtf_name(nome))
+        return jsonify(handler.wtf_name(nome))
     else:
-        return jsonify(response = handler.all_wtf())
+        return jsonify(handler.all_wtf())
 
 
 @app.route('/fs_scrapper/stores')
@@ -83,11 +83,11 @@ def stores_request():
     lat = request.args.get('lat')
     lon = request.args.get('lon')
     if lat and lon:
-        return jsonify(response = handler.stores_by_coordinates(lat,lon))
+        return jsonify(handler.stores_by_coordinates(lat,lon))
     elif zone:
-        return jsonify(response = handler.stores_by_zone(zone))
+        return jsonify(handler.stores_by_zone(zone))
     else:
-        return jsonify(response = [])
+        return jsonify([])
 
 
 @app.route('/fs_scrapper/packages')
@@ -102,38 +102,38 @@ def packages_request():
         if max_value or min_value:
             if tipo:
                 if tipo == 'satelite':
-                    return jsonify(response = handler.satelite_packages_service_price(servico, min_value, max_value))
+                    return jsonify(handler.satelite_packages_service_price(servico, min_value, max_value))
                 else:
-                    return jsonify(response = handler.fiber_packages_service_price(servico, min_value, max_value))
+                    return jsonify(handler.fiber_packages_service_price(servico, min_value, max_value))
             else:
-                return jsonify(response = handler.packages_service_price(servico, min_value, max_value))
+                return jsonify(handler.packages_service_price(servico, min_value, max_value))
         elif tipo:
             if tipo == 'satelite':
-                return jsonify(response = handler.satelite_packages_service(servico))
+                return jsonify(handler.satelite_packages_service(servico))
             else:
-                return jsonify(response = handler.fiber_packages_service(servico))
+                return jsonify(handler.fiber_packages_service(servico))
         else:
-            return jsonify(response = handler.packages_by_service(servico))
+            return jsonify(handler.packages_by_service(servico))
 
     elif max_value or min_value:
         if tipo:
             if tipo == 'satelite':
-                return jsonify(response = handler.satelite_packages_price(min_value, max_value))
+                return jsonify(handler.satelite_packages_price(min_value, max_value))
             else:
-                return jsonify(response = handler.fiber_packages_price(min_value, max_value))
+                return jsonify(handler.fiber_packages_price(min_value, max_value))
         else:
-            return jsonify(response = handler.packages_by_price(min_value, max_value))
+            return jsonify(handler.packages_by_price(min_value, max_value))
 
     elif tipo:
         if tipo == 'satelite':
-            return jsonify(response = handler.satelite_packages())
+            return jsonify(handler.satelite_packages())
         else:
-            return jsonify(response = handler.fiber_packages())
+            return jsonify(handler.fiber_packages())
 
     elif nome:
         lista = handler.specific_package("satélite", nome)
         lista = lista + handler.specific_package("fibra", nome)
-        return jsonify(response = lista)
+        return jsonify(lista)
 
     else:
-        return jsonify(response = handler.packages())
+        return jsonify(handler.packages())
