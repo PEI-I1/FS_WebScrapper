@@ -1,6 +1,7 @@
 import requests
 import re
 import json
+import os
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -175,12 +176,12 @@ def getFourthColumn(soup):
     return thisDict
 
 def sendToJSON(dic):
-    fich = open('../json/Pacotes.json','w')
+    fich = open(os.path.dirname(os.path.abspath(__file__)) + '/../json/Pacotes.json','w')
     prettyJSON = json.dumps(dic, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
     fich.close()
 ###########################################################################################################
 ###########################################################################################################
 
-def update_json_packets():
+def update():
     getPackets()

@@ -1,6 +1,7 @@
 import requests
 import re
 import json
+import os
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -11,9 +12,10 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 #################################################### WTF ##################################################
-###########################################################################################################
+
 def get_Wtf():
     r = requests.get("https://www.wtf.pt/")
+    soup = None
     if(r.status_code == 200):
             soup = BeautifulSoup(r.text, 'html.parser')
             soup = soup.find_all('div', {'class':'section-tarifario__block__body'})
@@ -65,16 +67,10 @@ def get_Wtf():
 
         lista_json.append(elem_json)
 
-        del soup
+    del soup
 
     return lista_json
 
-def create_json_file_TarifarioWTF(lista_json):
-    fich = open('../json/tarifario_WTF.json','w')
-    prettyJSON = json.dumps(lista_json,sort_keys=True, indent=2,ensure_ascii=False)
-    fich.write(prettyJSON)
-    fich.close()
-###########################################################################################################
 ###########################################################################################################
 
 def get_linhas_apoio():
@@ -106,14 +102,8 @@ def get_list_linhas_apoio(soup):
         lista_json.append(elem_json)
     return lista_json
 
-
-def create_json_file_linhas_apoio(lista_json):
-    fich = open('../json/linhas_apoio.json','w')
-    prettyJSON = json.dumps(lista_json,sort_keys=True, indent=2,ensure_ascii=False)
-    fich.write(prettyJSON)
-    fich.close()
-
 ########################################################################################################
+
 def get_top_phones():
     r = requests.get("https://www.nos.pt/particulares/loja/Pages/loja-online.aspx")
     if (r.status_code == 200):
@@ -140,13 +130,6 @@ def get_list_top_phones(soup):
 
         lista_json.append(elem_json)
     return lista_json
-
-
-def create_json_file_top_phones(lista_json):
-    fich = open('../json/top_phones.json','w')
-    prettyJSON = json.dumps(lista_json, indent=2,ensure_ascii=False)
-    fich.write(prettyJSON)
-    fich.close()
 
 ########################################################################################################
 
@@ -224,132 +207,28 @@ def get_list_phones(soup):
 
     return lista_json
 
+##########################################################################################################################################################
 
-def create_json_file_phones(lista_json):
-    fich = open('../json/phones.json','w')
-    prettyJSON = json.dumps(lista_json, indent=2,ensure_ascii=False)
+def create_json_file(lista_json, filename, sk):
+    fich = open(os.path.dirname(os.path.abspath(__file__)) + '/../json/' + filename,'w')
+    prettyJSON = json.dumps(lista_json,sort_keys=sk,indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
     fich.close()
 
-
-#################################################################### Lojas e Informações #################################################################
 ##########################################################################################################################################################
 
-def getLista_Lojas():
-    #print("A ir buscar a lista de Lojas")
-    options = Options()
-    options.add_argument('--headless')
-    # Create your driver
-    driver = webdriver.Firefox(options=options)
-
-    # Get a page
-    webPage = "https://www.nos.pt/particulares/Pages/lojas-nos.aspx"
-    driver.get(webPage)
-    
-    # Feed the source to BeautifulSoup
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    lojas = soup.find_all('li',{'class':'resltLojas__single ng-scope'})
-    listaLojas = []
-
-    for loja in lojas:
-        nomeLoja = loja.find('h3', {'class':'title ng-binding'}).text
-        listaLojas.append(nomeLoja)
-
-    #print("Lista de Lojas obtida")
-    driver.quit()
-    del soup
-
-    return listaLojas
-    
-def getInfoLoja(nome):
-
-    options = Options()
-    options.add_argument('--headless')
-    # Create your driver
-    driver = webdriver.Firefox(options=options)
-    listaServicos = []
-    # Get a page
-    webPage = "https://www.nos.pt/particulares/Pages/lojas-nos.aspx"
-    driver.get(webPage)
-    
-    # Feed the source to BeautifulSoup
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    lojas = soup.find_all('li',{'class':'resltLojas__single ng-scope'})
-          
-    element = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, nome)))
-    try: element.click()
-    except: driver.quit()
-
-    if(element is not None):
-
-        soupA = BeautifulSoup(driver.page_source, 'html.parser')
-        soupA = soupA.find_all('div',{'class':'one-half h-100 pvendas_content pvendas_content--detail full-container container-xs-sm h-100'})
-    
-        nomeLoja = soupA[0].find('h2',{'class':'page-title hidden-xs-sm ng-binding'}).text
-        morada = soupA[0].find('p',{'class':'pvenda-infoModule__txt ng-binding'}).text
-            #print(morada)
-        horario = soupA[0].find('p',{'ng-bind-html':'selectedStore.Schedule | unsafe'}).text
-            #print(horario)
-        listaA = soupA[0].find('ul',{'class':'pvenda-infoModule__list'})
-        listaAux = listaA.find_all('li')
-        for elem in listaAux:
-            listaServicos.append(elem.text)
-
-        thisdict = {
-            'nome' : nomeLoja,
-            'morada' : morada,
-            'horario' : horario,
-            'ListaServs' : listaServicos
-        }
-    del soupA
-    del soup
-    driver.quit()
-
-    return thisdict
-##########################################################################################################################################################
-##########################################################################################################################################################
-
-def sendToJSON(dic):
-    fich = open('../json/lojas.json','a')
-    prettyJSON = json.dumps(dic, indent=2,ensure_ascii=False)
-    fich.write(prettyJSON)
-    fich.close()
-
-def getLojasMain():
-    listaLojas = getLista_Lojas()
-    listaA = []
-    i = 0
-#     for elem in listaLojas:
-#         if i < 100:
-#            listaA.append(elem)
-#            i = i+1
-
-    lista = []
-    for elem in listaLojas:
-        #print("A ir buscar: " + elem)
-        try : lista.append(getInfoLoja(elem))
-        except: pass
-    
-    sendToJSON(lista)
-
-##########################################################################################################################################################
-##########################################################################################################################################################
-
-def update_json_4():
+def update():
     soup = get_linhas_apoio()
     lista = get_list_linhas_apoio(soup)
-    create_json_file_linhas_apoio(lista)
+    create_json_file(lista, "linhas_apoio.json", True)
 
     soup2 = get_top_phones()
     lista2 = get_list_top_phones(soup2)
-    create_json_file_top_phones(lista2)
+    create_json_file(lista2, "top_phones.json", False)
 
     soup3 = get_phones()
     lista3 = get_list_phones(soup3)
-    create_json_file_phones(lista3)
+    create_json_file(lista3, "phones.json", False)
 
     soup4 = get_Wtf()
-    create_json_file_TarifarioWTF(soup4)
-
-def update_json_5():
-	getLojasMain()
+    create_json_file(soup4, "tarifario_WTF.json", True)

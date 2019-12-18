@@ -19,19 +19,18 @@ def crawlStores():
     """
     resp = requests.post(STORE_URL)
     if resp.status_code == 200:
-        with open("../json/stores_raw.json", "w", encoding='utf8') as store_raw_dump:
+        with open(os.path.dirname(os.path.abspath(__file__)) + "/../json/stores_raw.json", "w", encoding='utf8') as store_raw_dump:
             stores_raw = json.loads(resp.json())
             json.dump(stores_raw, store_raw_dump, indent=4, ensure_ascii=False)
         return True
     else:
         return False
 
-
 def cleanJson():
     """ Loads json and extracts fields of interest
     """
     stores_proc = []
-    with open("../json/stores_raw.json", "r") as store_raw_dump:
+    with open(os.path.dirname(os.path.abspath(__file__)) + "/../json/stores_raw.json", "r") as store_raw_dump:
         stores_raw = json.load(store_raw_dump)
 
     for store in stores_raw:
@@ -50,16 +49,10 @@ def cleanJson():
 
         stores_proc.append(tmp)
 
-    with open("../json/lojas.json", "w", encoding='utf8') as store_dump:
+    with open(os.path.dirname(os.path.abspath(__file__)) + "/../json/lojas.json", "w", encoding='utf8') as store_dump:
         json.dump(stores_proc, store_dump, indent=4, ensure_ascii=False)
 
-
-def main():
+def update_lojas():
     if crawlStores():
         cleanJson()
-        os.remove('../json/stores_raw.json')
-
-
-
-if __name__ == "__main__":
-    main()
+        os.remove(os.path.dirname(os.path.abspath(__file__)) + '/../json/stores_raw.json')

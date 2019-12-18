@@ -1,4 +1,4 @@
-import json
+import json, os
 from re import sub
 from haversine import haversine, Unit
 
@@ -6,7 +6,7 @@ from haversine import haversine, Unit
 def linhas_apoio():
     """ Retrieve service lines
     """
-    with open('json/linhas_apoio.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/linhas_apoio.json', 'r') as f:
         data = json.load(f)
         lista = []
 
@@ -20,7 +20,7 @@ def linhas_apoio_assunto(assunto):
     """ Retrieve the service line following a specific matter
     :param: matter
     """
-    with open('json/linhas_apoio.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) +'/../json/linhas_apoio.json', 'r') as f:
         data = json.load(f)
         lista = []
 
@@ -38,7 +38,7 @@ def linhas_apoio_assunto(assunto):
 def all_phones():
     """ Retrieve all phones available
     """
-    with open('json/phones.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/phones.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -74,7 +74,7 @@ def top_phones(phones):
     """ Retrive the top most shearched/viewed phones
     :param: list of phones
     """
-    with open('json/top_phones.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/top_phones.json', 'r') as f:
         data = json.load(f)
         lista = []
 
@@ -182,7 +182,7 @@ def phones_by_price(inf, sup, phones):
 def all_wtf():
     """ Retrieve all 'WTF' tariffs avaiable
     """
-    with open('json/tarifario_WTF.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -203,7 +203,7 @@ def wtf_name(nome):
     """ Retrieve information of specified tariff
     :param: tariff name
     """
-    with open('json/tarifario_WTF.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/tarifario_WTF.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -229,7 +229,7 @@ def stores_by_zone(zona):
     """ Retrieve the stores avaiable at specified region
     :param: region
     """
-    with open('json/lojas.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/lojas.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -260,7 +260,7 @@ def stores_by_coordinates(lat, lon):
     :param: latitude
     :param: longitude
     """
-    with open('json/lojas.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/lojas.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -282,7 +282,7 @@ def specific_package(tipo, nome):
     :param: type of package
     :param: package name
     """
-    with open('json/Pacotes.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/Pacotes.json', 'r') as f:
         data = json.load(f)
         lista = []
 
@@ -296,7 +296,7 @@ def specific_package(tipo, nome):
 def packages():
     """ Retrieve all packages avaiable
     """
-    with open('json/Pacotes.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/Pacotes.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -326,7 +326,7 @@ def packages():
 def fiber_packages():
     """ Retrieve all packages of type 'Fibra'
     """
-    with open('json/Pacotes.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/Pacotes.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -357,7 +357,7 @@ def fiber_packages():
 def satelite_packages():
     """ Retrieve all packages of type 'Satélite'
     """
-    with open('json/Pacotes.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/Pacotes.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
@@ -408,7 +408,7 @@ def packages_by_price(inf, sup):
     :param: lowest value of price
     :param: highest value of price
     """
-    with open('json/Pacotes.json', 'r') as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/Pacotes.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
