@@ -2,7 +2,15 @@ FROM python
 
 EXPOSE 5000
 
-RUN apt-get install git
+RUN apt-get update && apt-get install -y git firefox-esr
+
+WORKDIR /home
+
+#install geckodriver
+RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux32.tar.gz
+RUN tar -xvzf geckodriver-v0.24.0-linux32.tar.gz
+RUN chmod +x geckodriver
+ENV PATH="/home:${PATH}"
 
 WORKDIR /home/scrapper
 

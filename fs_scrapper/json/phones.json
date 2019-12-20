@@ -1,15 +1,5 @@
 [
   {
-    "nome": "Apple iPhone 11 Pro Max",
-    "preço": "1669,98",
-    "tags": [
-      "novidade"
-    ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30482",
-    "prestações": "Disponível",
-    "pontos": "Disponível"
-  },
-  {
     "nome": "Apple iPhone 11",
     "preço": "819,99",
     "tags": [
@@ -21,11 +11,52 @@
   },
   {
     "nome": "Apple iPhone 11 Pro",
-    "preço": "1569,98",
+    "preço": "1169,99",
     "tags": [
       "novidade"
     ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30403",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29935",
+    "prestações": "Disponível",
+    "pontos": "Disponível"
+  },
+  {
+    "nome": "Apple iPhone 11 Pro Max",
+    "preço": "1269,99",
+    "tags": [
+      "novidade"
+    ],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29941",
+    "prestações": "Disponível",
+    "pontos": "Disponível"
+  },
+  {
+    "nome": "Xiaomi Redmi Note 8T",
+    "preço": "189,99",
+    "tags": [
+      "novidade"
+    ],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30689",
+    "prestações": "Disponível",
+    "pontos": "Disponível"
+  },
+  {
+    "nome": "Xiaomi Redmi 8",
+    "preço": "159,99",
+    "tags": [
+      "novidade"
+    ],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30687",
+    "prestações": "Disponível",
+    "pontos": "Disponível"
+  },
+  {
+    "nome": "TCL Plex",
+    "preço": "339,98",
+    "tags": [
+      "novidade",
+      "Oportunidade Prestações"
+    ],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30581",
     "prestações": "Disponível",
     "pontos": "Disponível"
   },
@@ -67,7 +98,7 @@
     "tags": [
       "novidade"
     ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30243",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30244",
     "prestações": "Disponível",
     "pontos": "Disponível"
   },
@@ -77,7 +108,7 @@
     "tags": [
       "novidade"
     ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30104",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30105",
     "prestações": "Disponível",
     "pontos": "Disponível"
   },
@@ -85,18 +116,10 @@
     "nome": "Samsung Galaxy Note 10 S-Pen",
     "preço": "969,99",
     "tags": [
-      "novidade",
+      "desconto Natal",
       "Oportunidade Prestações"
     ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29622",
-    "prestações": "Disponível",
-    "pontos": "Disponível"
-  },
-  {
-    "nome": "Apple iPhone 8",
-    "preço": "539,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=23665",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29621",
     "prestações": "Disponível",
     "pontos": "Disponível"
   },
@@ -104,7 +127,7 @@
     "nome": "Samsung Galaxy Note 10+ S-Pen",
     "preço": "1119,99",
     "tags": [
-      "novidade",
+      "desconto Natal",
       "Oportunidade Prestações"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29623",
@@ -113,23 +136,58 @@
   },
   {
     "nome": "Sony Xperia 1",
-    "preço": "959,99",
+    "preço": "889,99",
     "tags": [
-      "oferta Coluna Bluetooth"
+      "desconto Natal",
+      "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29783",
     "prestações": "Disponível",
     "pontos": "Disponível"
   },
   {
-    "nome": "Huawei P30 Pro",
-    "preço": "889,99",
+    "nome": "Apple iPhone 8",
+    "preço": "499,98",
     "tags": [
-      "desconto"
+      "desconto Natal",
+      "Preço Minimo Garantido"
+    ],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=23665",
+    "prestações": "Disponível",
+    "pontos": "Disponível"
+  },
+  {
+    "nome": "Huawei P30 Pro",
+    "preço": "789,99",
+    "tags": [
+      "desconto Natal",
+      "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28110",
     "prestações": "Disponível",
-    "pontos": "Não disponível"
+    "pontos": "Disponível"
+  },
+  {
+    "nome": "Huawei P30",
+    "preço": "589,99",
+    "tags": [
+      "desconto Natal",
+      "Preço Minimo Garantido"
+    ],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28107",
+    "prestações": "Disponível",
+    "pontos": "Disponível"
+  },
+  {
+    "nome": "Samsung Galaxy S10",
+    "preço": "919,99",
+    "tags": [
+      "desconto Natal",
+      "Oportunidade Prestações"
+    ],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27715",
+    "prestações": "Disponível",
+    "pontos": "Disponível"
   },
   {
     "nome": "Huawei Mate 20 Lite",
@@ -139,47 +197,38 @@
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30082",
     "prestações": "Disponível",
-    "pontos": "Não disponível"
-  },
-  {
-    "nome": "Huawei P30",
-    "preço": "689,99",
-    "tags": [
-      "desconto"
-    ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28106",
-    "prestações": "Disponível",
-    "pontos": "Não disponível"
-  },
-  {
-    "nome": "Samsung Galaxy S10",
-    "preço": "819,99",
-    "tags": [
-      "desconto",
-      "oferta Galaxy TAb A 8\""
-    ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27715",
-    "prestações": "Disponível",
-    "pontos": "Não disponível"
+    "pontos": "Disponível"
   },
   {
     "nome": "Samsung Galaxy S10+",
-    "preço": "919,99",
+    "preço": "1019,99",
     "tags": [
-      "desconto",
-      "oferta Galaxy TAb A 8\""
+      "desconto Natal",
+      "Oportunidade Prestações"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27708",
     "prestações": "Disponível",
-    "pontos": "Não disponível"
+    "pontos": "Disponível"
   },
   {
     "nome": "Samsung Galaxy S10e",
-    "preço": "769,99",
+    "preço": "589,99",
     "tags": [
-      "Oportunidade Prestações"
+      "desconto Natal",
+      "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27720",
+    "prestações": "Disponível",
+    "pontos": "Disponível"
+  },
+  {
+    "nome": "Xiaomi Redmi 7",
+    "preço": "139,99",
+    "tags": [
+      "desconto Natal",
+      "Preço Minimo Garantido"
+    ],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30222",
     "prestações": "Disponível",
     "pontos": "Disponível"
   },
@@ -192,18 +241,13 @@
     "pontos": "Disponível"
   },
   {
-    "nome": "Xiaomi Redmi 7",
-    "preço": "129,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28866",
-    "prestações": "Disponível",
-    "pontos": "Disponível"
-  },
-  {
     "nome": "Xiaomi Redmi Note 7",
-    "preço": "189,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28922",
+    "preço": "169,99",
+    "tags": [
+      "desconto Natal",
+      "Preço Minimo Garantido"
+    ],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28926",
     "prestações": "Disponível",
     "pontos": "Disponível"
   },
@@ -238,19 +282,20 @@
   },
   {
     "nome": "Samsung Galaxy A50",
-    "preço": "339,98",
+    "preço": "319,98",
     "tags": [
-      "desconto"
+      "desconto Natal",
+      "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28086",
     "prestações": "Disponível",
-    "pontos": "Não disponível"
+    "pontos": "Disponível"
   },
   {
     "nome": "Samsung Galaxy A20e",
     "preço": "179,99",
     "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29343",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28864",
     "prestações": "Disponível",
     "pontos": "Disponível"
   },
@@ -272,7 +317,7 @@
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27464",
     "prestações": "Disponível",
-    "pontos": "Não disponível"
+    "pontos": "Disponível"
   },
   {
     "nome": "Samsung Galaxy A70",
@@ -280,14 +325,14 @@
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28602",
     "prestações": "Disponível",
-    "pontos": "Não disponível"
+    "pontos": "Disponível"
   },
   {
     "nome": "Samsung Galaxy A40",
-    "preço": "239,99",
+    "preço": "219,99",
     "tags": [
-      "desconto",
-      "Oportunidade Prestações"
+      "desconto Natal",
+      "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28184",
     "prestações": "Disponível",
@@ -295,21 +340,14 @@
   },
   {
     "nome": "Huawei P30 Lite",
-    "preço": "369,98",
+    "preço": "289,98",
     "tags": [
-      "desconto"
+      "desconto Natal",
+      "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28325",
     "prestações": "Disponível",
     "pontos": "Disponível"
-  },
-  {
-    "nome": "Wiko Lubi 5",
-    "preço": "19,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26862",
-    "prestações": "Não disponível",
-    "pontos": "Não disponível"
   },
   {
     "nome": "NOS NOVU 4",
@@ -317,22 +355,6 @@
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26722",
     "prestações": "Não disponível",
-    "pontos": "Disponível"
-  },
-  {
-    "nome": "Samsung Galaxy Note 9",
-    "preço": "1019,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26243",
-    "prestações": "Disponível",
-    "pontos": "Disponível"
-  },
-  {
-    "nome": "Samsung Galaxy S9",
-    "preço": "839,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=25067",
-    "prestações": "Disponível",
     "pontos": "Disponível"
   },
   {
@@ -349,7 +371,7 @@
     "nome": "Nokia 3310",
     "preço": "54,99",
     "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=22810",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=22811",
     "prestações": "Não disponível",
     "pontos": "Disponível"
   },
@@ -369,7 +391,7 @@
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26104",
     "prestações": "Disponível",
-    "pontos": "Não disponível"
+    "pontos": "Disponível"
   },
   {
     "nome": "Samsung Galaxy Xcover 4",
@@ -388,16 +410,6 @@
     "pontos": "Disponível"
   },
   {
-    "nome": "Wiko Tommy 3",
-    "preço": "89,99",
-    "tags": [
-      "desconto"
-    ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26406",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
-  },
-  {
     "nome": "Samsung Galaxy A7",
     "preço": "299,98",
     "tags": [],
@@ -409,7 +421,7 @@
     "nome": "Samsung Galaxy S9+",
     "preço": "959,99",
     "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=25071",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=25984",
     "prestações": "Disponível",
     "pontos": "Disponível"
   },
@@ -422,21 +434,20 @@
     "pontos": "Disponível"
   },
   {
-    "nome": "Alcatel 1X 2019",
-    "preço": "89,99",
-    "tags": [
-      "desconto",
-      "Oportunidade Pontos"
-    ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28610",
-    "prestações": "Não disponível",
+    "nome": "Apple iPhone XR",
+    "preço": "729,99",
+    "tags": [],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26810",
+    "prestações": "Disponível",
     "pontos": "Disponível"
   },
   {
-    "nome": "Huawei Y6 2019",
-    "preço": "119,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28264",
+    "nome": "Alcatel 1X 2019",
+    "preço": "89,99",
+    "tags": [
+      "desconto"
+    ],
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28610",
     "prestações": "Não disponível",
     "pontos": "Disponível"
   },
@@ -446,16 +457,8 @@
     "tags": [
       "desconto"
     ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28606",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28605",
     "prestações": "Não disponível",
-    "pontos": "Disponível"
-  },
-  {
-    "nome": "Apple iPhone XR",
-    "preço": "729,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26810",
-    "prestações": "Disponível",
     "pontos": "Disponível"
   },
   {
@@ -468,7 +471,7 @@
   },
   {
     "nome": "Huawei Y7 2019",
-    "preço": "189,99",
+    "preço": "169,99",
     "tags": [
       "desconto"
     ],
@@ -477,28 +480,10 @@
     "pontos": "Disponível"
   },
   {
-    "nome": "Huawei P Smart",
-    "preço": "139,99",
-    "tags": [
-      "desconto"
-    ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=24708",
-    "prestações": "Disponível",
-    "pontos": "Disponível"
-  },
-  {
     "nome": "Huawei P20 Pro",
     "preço": "789,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=25282",
-    "prestações": "Disponível",
-    "pontos": "Disponível"
-  },
-  {
-    "nome": "Samsung Galaxy J6",
-    "preço": "189,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=25924",
     "prestações": "Disponível",
     "pontos": "Disponível"
   },
@@ -513,31 +498,14 @@
     "pontos": "Disponível"
   },
   {
-    "nome": "Moto C Plus",
-    "preço": "79,99",
-    "tags": [
-      "desconto"
-    ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=22938",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
-  },
-  {
     "nome": "Huawei Mate 20 Pro",
-    "preço": "789,99",
+    "preço": "589,99",
     "tags": [
-      "desconto"
+      "desconto Natal",
+      "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26763",
     "prestações": "Disponível",
-    "pontos": "Disponível"
-  },
-  {
-    "nome": "Nokia 8110",
-    "preço": "74,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27382",
-    "prestações": "Não disponível",
     "pontos": "Disponível"
   },
   {
@@ -557,45 +525,11 @@
     "pontos": "Disponível"
   },
   {
-    "nome": "Alcatel 1X",
-    "preço": "119,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26404",
-    "prestações": "Não disponível",
-    "pontos": "Não disponível"
-  },
-  {
-    "nome": "Samsung Galaxy J4+",
-    "preço": "159,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26902",
-    "prestações": "Disponível",
-    "pontos": "Disponível"
-  },
-  {
-    "nome": "Alcatel 3",
-    "preço": "99,99",
-    "tags": [
-      "desconto"
-    ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=25962",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
-  },
-  {
     "nome": "Nokia 216",
     "preço": "39,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=23062",
     "prestações": "Não disponível",
     "pontos": "Disponível"
-  },
-  {
-    "nome": "NOS Hakan",
-    "preço": "59,99",
-    "tags": [],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=22884",
-    "prestações": "Não disponível",
-    "pontos": "Não disponível"
   }
 ]

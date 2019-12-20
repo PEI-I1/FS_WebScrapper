@@ -7,9 +7,9 @@ from flask import jsonify, request
 def linhas_apoio_assunto_request():
     assunto = request.args.get('assunto')
     if not assunto:
-        return jsonify(response = handler.linhas_apoio())
+        return jsonify(handler.linhas_apoio())
     else:
-        return jsonify(response = handler.linhas_apoio_assunto(assunto))
+        return jsonify(handler.linhas_apoio_assunto(assunto))
 
 
 @app.route('/fs_scrapper/phones')
@@ -40,7 +40,7 @@ def phones_request():
         lista = handler.prest_phones(lista)
     if points:
         lista = handler.points_phones(lista)
-    if max_value and min_value:
+    if max_value or min_value:
         lista = handler.phones_by_price(min_value, max_value, lista)
 
     if brand is None:
@@ -64,7 +64,7 @@ def phones_request():
                 lista_final.append(aux)
         lista = lista_final
 
-    return jsonify(response = lista)
+    return jsonify(lista)
 
 
 @app.route('/fs_scrapper/wtf')
@@ -72,9 +72,9 @@ def wtf_request():
     nome = request.args.get('nome')
 
     if nome:
-        return jsonify(response = handler.wtf_name(nome))
+        return jsonify(handler.wtf_name(nome))
     else:
-        return jsonify(response = handler.all_wtf())
+        return jsonify(handler.all_wtf())
 
 
 @app.route('/fs_scrapper/stores')
@@ -83,11 +83,11 @@ def stores_request():
     lat = request.args.get('lat')
     lon = request.args.get('lon')
     if lat and lon:
-        return jsonify(response = handler.stores_by_coordinates(lat,lon))
+        return jsonify(handler.stores_by_coordinates(lat,lon))
     elif zone:
-        return jsonify(response = handler.stores_by_zone(zone))
+        return jsonify(handler.stores_by_zone(zone))
     else:
-        return jsonify(response = [])
+        return jsonify([])
 
 
 @app.route('/fs_scrapper/packages')
@@ -99,7 +99,7 @@ def packages_request():
     nome = request.args.get('name')
 
     if nome:
-       return jsonify(response = handler.specific_package(nome))
+       return jsonify(handler.specific_package(nome))
     
     lista = handler.packages()
 
@@ -112,7 +112,7 @@ def packages_request():
     if servico:
         lista = handler.packages_by_service(servico, lista)
 
-    if min_value and max_value:
+    if min_value or max_value:
         lista = handler.packages_by_price(min_value, max_value, lista)
 
-    return jsonify(response = lista)
+    return jsonify(lista)

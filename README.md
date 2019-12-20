@@ -23,6 +23,8 @@ The API provided by this service allows:
 
 ## Usage
 #### Development Setup
+* Install geckodriver
+`apt-get install firefox-geckodriver` (in Ubuntu)
 * Install project dependencies:
 `pip install -r requirements.txt --user`
 * Run *Flask* project:

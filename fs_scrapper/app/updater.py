@@ -1,9 +1,10 @@
 from app import get
 from app import getPackets
+from app import getStores
 
-def updater():
-    get.update_json_4()
-    getPackets.update_json_packets()
+def updater_phones_tariffs_packets_lapoio():
+    get.update()
+    getPackets.update()
 
-def updater2():
-    get.update_json_5()
+def updater_lojas():
+    getStores.update_lojas()
