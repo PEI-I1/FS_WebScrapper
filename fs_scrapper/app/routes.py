@@ -98,42 +98,21 @@ def packages_request():
     max_value = request.args.get('max')
     nome = request.args.get('name')
 
-    if servico:
-        if max_value and min_value:
-            if tipo:
-                if tipo == 'satelite':
-                    return jsonify(response = handler.satelite_packages_service_price(servico, min_value, max_value))
-                else:
-                    return jsonify(response = handler.fiber_packages_service_price(servico, min_value, max_value))
-            else:
-                return jsonify(response = handler.packages_service_price(servico, min_value, max_value))
-        elif tipo:
-            if tipo == 'satelite':
-                return jsonify(response = handler.satelite_packages_service(servico))
-            else:
-                return jsonify(response = handler.fiber_packages_service(servico))
-        else:
-            return jsonify(response = handler.packages_by_service(servico))
+    if nome:
+       return jsonify(response = handler.specific_package(nome))
+    
+    lista = handler.packages()
 
-    elif max_value and min_value:
-        if tipo:
-            if tipo == 'satelite':
-                return jsonify(response = handler.satelite_packages_price(min_value, max_value))
-            else:
-                return jsonify(response = handler.fiber_packages_price(min_value, max_value))
-        else:
-            return jsonify(response = handler.packages_by_price(min_value, max_value))
-
-    elif tipo:
+    if tipo:
         if tipo == 'satelite':
-            return jsonify(response = handler.satelite_packages())
+            lista = handler.satelite_packages(lista)
         else:
-            return jsonify(response = handler.fiber_packages())
-        
-    elif nome:
-        lista = handler.specific_package("satélite", nome)
-        lista = lista + handler.specific_package("fibra", nome)
-        return jsonify(response = lista)
+            lista = handler.fiber_packages(lista)
+    
+    if servico:
+        lista = handler.packages_by_service(servico, lista)
 
-    else:
-        return jsonify(response = handler.packages())
+    if min_value and max_value:
+        lista = handler.packages_by_price(min_value, max_value, lista)
+
+    return jsonify(response = lista)

@@ -275,9 +275,8 @@ def stores_by_coordinates(lat, lon):
         return lista
 
 
-def specific_package(tipo, nome):
+def specific_package(nome):
     """ Retrieve package of certain type and specific name
-    :param: type of package
     :param: package name
     """
     with open('json/Pacotes.json', 'r') as f:
@@ -285,7 +284,7 @@ def specific_package(tipo, nome):
         lista = []
 
         for pacote in data:
-            if tipo.lower() in pacote['Tipo'].lower() and nome.lower() in pacote['nome'].lower():
+            if nome.lower() in pacote['nome'].lower():
                 lista.append(pacote)
 
         return lista
@@ -300,7 +299,7 @@ def packages():
         aux = {}
 
         for pacote in data:
-            aux['Tipo'] = pacote['Tipo']
+            aux['tipo'] = pacote['Tipo']
             aux['nome'] = pacote['nome']
             aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
 
@@ -321,184 +320,61 @@ def packages():
         return lista
 
 
-def fiber_packages():
+def fiber_packages(packages):
     """ Retrieve all packages of type 'Fibra'
+    :param: list of packages
     """
-    with open('json/Pacotes.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
-
-        for pacote in data:
-            if pacote['Tipo'] == 'Pacotes Fibra':
-                aux['Tipo'] = pacote['Tipo']
-                aux['nome'] = pacote['nome']
-                aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
-
-                if pacote['canais'] is None and pacote['phone'] is None:
-                    aux['servico'] = 'NET'
-                elif pacote['net'] is None and pacote['phone'] is None:
-                    aux['servico'] = 'TV'
-                elif pacote['phone'] is None:
-                    aux['servico'] = 'TV+NET'
-                elif pacote['net'] is None:
-                    aux['servico'] = 'TV+VOZ'
-                else:
-                    aux['servico'] = 'TV+NET+VOZ'
-
-                lista.append(aux)
-                aux = {}
-
-        return lista
-
-
-def satelite_packages():
-    """ Retrieve all packages of type 'Satélite'
-    """
-    with open('json/Pacotes.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
-
-        for pacote in data:
-            if pacote['Tipo'] == 'Pacotes Satélite':
-                aux['Tipo'] = pacote['Tipo']
-                aux['nome'] = pacote['nome']
-                aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
-
-                if pacote['canais'] is None and pacote['phone'] is None:
-                    aux['servico'] = 'NET'
-                elif pacote['net'] is None and pacote['phone'] is None:
-                    aux['servico'] = 'TV'
-                elif pacote['phone'] is None:
-                    aux['servico'] = 'TV+NET'
-                elif pacote['net'] is None:
-                    aux['servico'] = 'TV+VOZ'
-                else:
-                    aux['servico'] = 'TV+NET+VOZ'
-
-                lista.append(aux)
-                aux = {}
-
-        return lista
-
-
-def packages_by_service(servico):
-    """ Retrieve all packages with specified service
-    :param: service
-    """
-    lista = packages_by_service_aux(servico, packages())
-    return lista
-
-
-def packages_by_service_aux(servico, pacotes):
     lista = []
 
-    for pacote in pacotes:
-        if pacote['servico'].lower() == servico.lower():
+    for pacote in packages:
+        if pacote['tipo'] == 'Pacotes Fibra':
             lista.append(pacote)
 
     return lista
 
 
-def packages_by_price(inf, sup):
+def satelite_packages(packages):
+    """ Retrieve all packages of type 'Satélite'
+    :param: list of packages
+    """
+    lista = []
+
+    for pacote in packages:
+        if pacote['tipo'] == 'Pacotes Satélite':
+            lista.append(pacote)
+
+    return lista
+
+
+def packages_by_service(servico, packages):
+    """ Retrieve all packages with specified service
+    :param: service
+    :param: list of packages
+    """
+    lista = []
+
+    for pacote in packages:
+        if servico.lower() == pacote['servico'].lower():
+            lista.append(pacote)
+
+    return lista
+
+
+def packages_by_price(inf, sup, packages):
     """ Retrieves all avaiable packages that are within a specified price threshold
     :param: lowest value of price
     :param: highest value of price
+    :param: list of packages
     """
-    with open('json/Pacotes.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
-
-        inf = str_to_float(inf)
-        sup = str_to_float(sup)
-
-        for pacote in data:
-            preco = str_to_float(pacote['Fidelizacao_24Meses']['preco'])
-
-            if inf <= preco <= sup:
-                aux['Tipo'] = pacote['Tipo']
-                aux['nome'] = pacote['nome']
-                aux['preco'] = pacote['Fidelizacao_24Meses']['preco']
-
-                if pacote['canais'] is None and pacote['phone'] is None:
-                    aux['servico'] = 'NET'
-                elif pacote['net'] is None and pacote['phone'] is None:
-                    aux['servico'] = 'TV'
-                elif pacote['phone'] is None:
-                    aux['servico'] = 'TV+NET'
-                elif pacote['net'] is None:
-                    aux['servico'] = 'TV+VOZ'
-                else:
-                    aux['servico'] = 'TV+NET+VOZ'
-
-                lista.append(aux)
-                aux = {}
-
-        return lista
-
-
-def packages_by_price_aux(inf, sup, data):
     lista = []
 
     inf = str_to_float(inf)
     sup = str_to_float(sup)
 
-    for pacote in data:
+    for pacote in packages:
         preco = str_to_float(pacote['preco'])
 
         if inf <= preco <= sup:
             lista.append(pacote)
 
     return lista
-
-
-def packages_service_price(servico, inf, sup):
-    """ Retrieves packages of a specific service that are within a specified price threshold
-    :param: service
-    :param: lowest value of price
-    :param: highest value of price
-    """
-    return packages_by_service_aux(servico, packages_by_price(inf, sup))
-
-
-def fiber_packages_price(inf, sup):
-    """ Retrieves packages of type 'Fibra' that are within a specified price threshold
-    :param: lowest value of price
-    :param: highest value of price
-    """
-    return packages_by_price_aux(inf, sup, fiber_packages())
-
-
-def satelite_packages_price(inf, sup):
-    """ Retrieves packages of type 'Satélite' that are within a specified price threshold
-    :param: lowest value of price
-    :param: highest value of price
-    """
-    return packages_by_price_aux(inf, sup, satelite_packages())
-
-
-def fiber_packages_service(servico):
-    """ Retrieves packages of type 'Fibra' that have the specified service
-    :param: service
-    """
-    return packages_by_service_aux(servico, fiber_packages())
-
-
-def satelite_packages_service(servico):
-    """ Retrieves packages of type 'Fibra' that have the specified service
-    :param: service
-    """
-    return packages_by_service_aux(servico, satelite_packages())
-
-
-def fiber_packages_service_price(servico, inf, sup):
-    return packages_by_service_aux(servico, fiber_packages_price(inf, sup))
-
-
-def satelite_packages_service_price(servico, inf, sup):
-    return packages_by_service_aux(servico, satelite_packages_price(inf, sup))
-
-
-# add método para net mínima
