@@ -77,8 +77,6 @@ GET /fs_scrapper/phone_model/<model>
 | `min` | `float` | Optional. Lowest value of price |
 | `max` | `float` | Optional. Highest value of price |
 
-***Note**: All parameters are optional, but if phones are wanted in a price range both min and max are needed.
-
 Returns a list of json objects.
 
 ------
@@ -140,8 +138,6 @@ GET /fs_scrapper/packages
 | `min` | `float` | Optional. Lower value of price |
 | `max` | `float` | Optional. Highest value of price |
 | `name` | `string` | Optional. Package name |
-
-***Note**: All parameters are optional, but if phones are wanted in a price range both min and max are needed.
 
 Returns a list of json objects.
 
