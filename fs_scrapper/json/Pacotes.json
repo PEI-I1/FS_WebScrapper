@@ -18,7 +18,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "34,99",
+      "preco": "32,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 170 euros na instalação e ativação"
@@ -26,7 +26,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "34,99",
+      "preco": "32,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 85 euros na instalação e ativação"
@@ -34,7 +34,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "34,99",
+      "preco": "32,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -60,23 +60,23 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "36,99",
-      "precoAdesao": "140",
+      "preco": "34,49",
+      "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 170 euros na instalação e ativação"
       ]
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "36,99",
-      "precoAdesao": "225",
+      "preco": "34,49",
+      "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 85 euros na instalação e ativação"
       ]
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "36,99",
+      "preco": "34,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -102,23 +102,23 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "49,99",
-      "precoAdesao": "140",
+      "preco": "47,49",
+      "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 170 euros na instalação e ativação"
       ]
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "49,99",
-      "precoAdesao": "225",
+      "preco": "47,49",
+      "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 85 euros na instalação e ativação"
       ]
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "49,99",
+      "preco": "47,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -144,7 +144,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "23,49",
+      "preco": "20,99",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 200 euros na instalação e ativação"
@@ -152,15 +152,15 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "23,49",
-      "precoAdesao": "225",
+      "preco": "20,99",
+      "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 115 euros na instalação e ativação"
       ]
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "23,49",
+      "preco": "20,99",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -186,7 +186,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 200 euros na instalação e ativação"
@@ -194,7 +194,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 115 euros na instalação e ativação"
@@ -202,7 +202,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -228,7 +228,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "40,49",
+      "preco": "37,99",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 200 euros na instalação e ativação"
@@ -236,7 +236,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "40,49",
+      "preco": "37,99",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 115 euros na instalação e ativação"
@@ -244,7 +244,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "40,49",
+      "preco": "37,99",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -270,7 +270,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "39,99",
+      "preco": "37,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 200 euros na instalação e ativação"
@@ -278,7 +278,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "39,99",
+      "preco": "37,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 115 euros na instalação e ativação"
@@ -286,7 +286,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "39,99",
+      "preco": "37,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -313,7 +313,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "44,99",
+      "preco": "42,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -321,7 +321,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "44,99",
+      "preco": "42,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -329,7 +329,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "44,99",
+      "preco": "42,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -356,7 +356,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "55,99",
+      "preco": "53,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -364,7 +364,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "55,99",
+      "preco": "53,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -372,7 +372,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "55,99",
+      "preco": "53,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -399,7 +399,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "46,99",
+      "preco": "44,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -407,7 +407,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "46,99",
+      "preco": "44,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -415,7 +415,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "46,99",
+      "preco": "44,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -442,7 +442,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "57,99",
+      "preco": "55,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -450,7 +450,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "57,99",
+      "preco": "55,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -458,7 +458,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "57,99",
+      "preco": "55,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -485,7 +485,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "71,99",
+      "preco": "69,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -493,7 +493,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "71,99",
+      "preco": "69,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -501,7 +501,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "71,99",
+      "preco": "69,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -528,7 +528,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "73,99",
+      "preco": "71,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -536,7 +536,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "73,99",
+      "preco": "71,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -544,7 +544,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "73,99",
+      "preco": "71,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -571,7 +571,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -579,7 +579,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -587,7 +587,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -614,7 +614,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -622,7 +622,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -630,7 +630,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -657,7 +657,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "74,99",
+      "preco": "72,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -665,7 +665,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "74,99",
+      "preco": "72,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -673,7 +673,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "74,99",
+      "preco": "72,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -700,7 +700,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -708,7 +708,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -716,7 +716,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -743,7 +743,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "85,99",
+      "preco": "83,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -751,7 +751,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "85,99",
+      "preco": "83,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -759,7 +759,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "85,99",
+      "preco": "83,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -786,7 +786,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -794,7 +794,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -802,7 +802,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -829,7 +829,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "81,99",
+      "preco": "79,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -837,7 +837,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "81,99",
+      "preco": "79,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -845,7 +845,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "81,99",
+      "preco": "79,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -872,7 +872,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "90,99",
+      "preco": "88,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -880,7 +880,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "90,99",
+      "preco": "88,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -888,7 +888,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "90,99",
+      "preco": "88,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -915,7 +915,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "89,99",
+      "preco": "87,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -923,7 +923,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "89,99",
+      "preco": "87,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -931,7 +931,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "89,99",
+      "preco": "87,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -958,7 +958,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "91,99",
+      "preco": "89,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -966,7 +966,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "91,99",
+      "preco": "89,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -974,7 +974,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "91,99",
+      "preco": "89,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -1001,7 +1001,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "100,99",
+      "preco": "98,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -1009,7 +1009,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "100,99",
+      "preco": "98,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -1017,7 +1017,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "100,99",
+      "preco": "98,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -1044,7 +1044,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "99,99",
+      "preco": "97,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -1052,7 +1052,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "99,99",
+      "preco": "97,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -1060,7 +1060,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "99,99",
+      "preco": "97,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -1087,7 +1087,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "108,99",
+      "preco": "106,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -1095,7 +1095,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "108,99",
+      "preco": "106,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -1103,7 +1103,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "108,99",
+      "preco": "106,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -1130,7 +1130,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -1138,7 +1138,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -1146,7 +1146,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1172,7 +1172,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -1180,7 +1180,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -1188,7 +1188,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1215,7 +1215,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -1223,7 +1223,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -1231,7 +1231,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1258,7 +1258,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "35,99",
+      "preco": "33,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -1266,7 +1266,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "35,99",
+      "preco": "33,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -1274,7 +1274,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "35,99",
+      "preco": "33,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1301,7 +1301,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "50,49",
+      "preco": "47,99",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -1309,7 +1309,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "50,49",
+      "preco": "47,99",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -1317,7 +1317,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "50,49",
+      "preco": "47,99",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1344,7 +1344,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "56,99",
+      "preco": "54,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -1352,7 +1352,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "56,99",
+      "preco": "54,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -1360,7 +1360,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "56,99",
+      "preco": "54,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1386,7 +1386,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -1394,7 +1394,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -1402,7 +1402,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1429,7 +1429,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -1437,7 +1437,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -1445,7 +1445,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1472,7 +1472,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "42,49",
+      "preco": "39,99",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -1480,7 +1480,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "42,49",
+      "preco": "39,99",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -1488,7 +1488,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "42,49",
+      "preco": "39,99",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1515,7 +1515,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -1523,7 +1523,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -1531,7 +1531,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1548,7 +1548,7 @@
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
-      "preco": "530,00",
+      "preco": "48,99",
       "precoAdesao": "0",
       "Vantagens": [
         "Inclui oferta de instalação e ativação no valor total de 350 euros",
@@ -1559,7 +1559,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "58,99",
+      "preco": "56,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -1568,7 +1568,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "58,99",
+      "preco": "56,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -1577,7 +1577,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "58,99",
+      "preco": "56,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1594,7 +1594,7 @@
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
-      "preco": "530,00",
+      "preco": "55,99",
       "precoAdesao": "0",
       "Vantagens": [
         "Inclui oferta de instalação e ativação no valor total de 350 euros",
@@ -1605,7 +1605,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "65,99",
+      "preco": "63,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -1614,7 +1614,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "65,99",
+      "preco": "63,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -1623,7 +1623,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "65,99",
+      "preco": "63,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1651,7 +1651,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "69,99",
+      "preco": "67,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -1660,7 +1660,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "69,99",
+      "preco": "67,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -1669,7 +1669,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "69,99",
+      "preco": "67,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1697,7 +1697,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "72,99",
+      "preco": "70,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -1706,7 +1706,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "72,99",
+      "preco": "70,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -1715,7 +1715,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "72,99",
+      "preco": "70,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1743,7 +1743,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -1752,7 +1752,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -1761,7 +1761,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1789,7 +1789,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "77,99",
+      "preco": "75,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -1798,7 +1798,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "77,99",
+      "preco": "75,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -1807,7 +1807,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "77,99",
+      "preco": "75,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1835,7 +1835,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -1844,7 +1844,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -1853,7 +1853,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1881,7 +1881,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -1890,7 +1890,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -1899,7 +1899,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1927,7 +1927,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -1936,7 +1936,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -1945,7 +1945,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -1973,7 +1973,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -1982,7 +1982,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -1991,7 +1991,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -2019,7 +2019,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -2028,7 +2028,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -2037,7 +2037,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -2063,7 +2063,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "34,99",
+      "preco": "32,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 170 euros na instalação e ativação"
@@ -2071,7 +2071,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "34,99",
+      "preco": "32,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 85 euros na instalação e ativação"
@@ -2079,7 +2079,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "34,99",
+      "preco": "32,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2105,23 +2105,23 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "36,99",
-      "precoAdesao": "140",
+      "preco": "34,49",
+      "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 170 euros na instalação e ativação"
       ]
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "36,99",
-      "precoAdesao": "225",
+      "preco": "34,49",
+      "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 85 euros na instalação e ativação"
       ]
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "36,99",
+      "preco": "34,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2147,23 +2147,23 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "49,99",
-      "precoAdesao": "140",
+      "preco": "47,49",
+      "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 170 euros na instalação e ativação"
       ]
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "49,99",
-      "precoAdesao": "225",
+      "preco": "47,49",
+      "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 85 euros na instalação e ativação"
       ]
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "49,99",
+      "preco": "47,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2189,7 +2189,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "23,49",
+      "preco": "20,99",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 200 euros na instalação e ativação"
@@ -2197,15 +2197,15 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "23,49",
-      "precoAdesao": "225",
+      "preco": "20,99",
+      "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 115 euros na instalação e ativação"
       ]
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "23,49",
+      "preco": "20,99",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2231,7 +2231,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 200 euros na instalação e ativação"
@@ -2239,7 +2239,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 115 euros na instalação e ativação"
@@ -2247,7 +2247,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2273,7 +2273,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "40,49",
+      "preco": "37,99",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 200 euros na instalação e ativação"
@@ -2281,7 +2281,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "40,49",
+      "preco": "37,99",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 115 euros na instalação e ativação"
@@ -2289,7 +2289,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "40,49",
+      "preco": "37,99",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2315,7 +2315,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "39,99",
+      "preco": "37,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 200 euros na instalação e ativação"
@@ -2323,7 +2323,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "39,99",
+      "preco": "37,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 115 euros na instalação e ativação"
@@ -2331,7 +2331,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "39,99",
+      "preco": "37,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2358,7 +2358,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "44,99",
+      "preco": "42,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2366,7 +2366,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "44,99",
+      "preco": "42,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2374,7 +2374,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "44,99",
+      "preco": "42,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2401,7 +2401,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "55,99",
+      "preco": "53,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2409,7 +2409,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "55,99",
+      "preco": "53,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2417,7 +2417,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "55,99",
+      "preco": "53,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2444,7 +2444,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "46,99",
+      "preco": "44,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2452,7 +2452,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "46,99",
+      "preco": "44,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2460,7 +2460,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "46,99",
+      "preco": "44,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2487,7 +2487,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "57,99",
+      "preco": "55,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2495,7 +2495,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "57,99",
+      "preco": "55,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2503,7 +2503,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "57,99",
+      "preco": "55,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2530,7 +2530,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "71,99",
+      "preco": "69,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2538,7 +2538,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "71,99",
+      "preco": "69,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2546,7 +2546,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "71,99",
+      "preco": "69,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2573,7 +2573,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "73,99",
+      "preco": "71,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2581,7 +2581,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "73,99",
+      "preco": "71,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2589,7 +2589,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "73,99",
+      "preco": "71,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2616,7 +2616,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2624,7 +2624,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2632,7 +2632,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2659,7 +2659,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2667,7 +2667,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2675,7 +2675,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2702,7 +2702,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "74,99",
+      "preco": "72,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2710,7 +2710,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "74,99",
+      "preco": "72,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2718,7 +2718,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "74,99",
+      "preco": "72,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2745,7 +2745,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2753,7 +2753,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2761,7 +2761,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2788,7 +2788,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "85,99",
+      "preco": "83,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2796,7 +2796,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "85,99",
+      "preco": "83,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2804,7 +2804,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "85,99",
+      "preco": "83,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2831,7 +2831,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2839,7 +2839,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2847,7 +2847,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2874,7 +2874,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "81,99",
+      "preco": "79,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2882,7 +2882,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "81,99",
+      "preco": "79,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2890,7 +2890,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "81,99",
+      "preco": "79,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2917,7 +2917,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "90,99",
+      "preco": "88,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2925,7 +2925,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "90,99",
+      "preco": "88,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2933,7 +2933,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "90,99",
+      "preco": "88,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -2960,7 +2960,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "89,99",
+      "preco": "87,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -2968,7 +2968,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "89,99",
+      "preco": "87,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -2976,7 +2976,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "89,99",
+      "preco": "87,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -3003,7 +3003,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "91,99",
+      "preco": "89,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -3011,7 +3011,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "91,99",
+      "preco": "89,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -3019,7 +3019,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "91,99",
+      "preco": "89,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -3046,7 +3046,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "100,99",
+      "preco": "98,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -3054,7 +3054,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "100,99",
+      "preco": "98,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -3062,7 +3062,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "100,99",
+      "preco": "98,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -3089,7 +3089,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "99,99",
+      "preco": "97,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -3097,7 +3097,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "99,99",
+      "preco": "97,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -3105,7 +3105,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "99,99",
+      "preco": "97,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -3132,7 +3132,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "108,99",
+      "preco": "106,49",
       "precoAdesao": "170",
       "Vantagens": [
         "Inclui desconto 230 euros na instalação e ativação"
@@ -3140,7 +3140,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "108,99",
+      "preco": "106,49",
       "precoAdesao": "255",
       "Vantagens": [
         "Inclui desconto 145 euros na instalação e ativação"
@@ -3148,7 +3148,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "108,99",
+      "preco": "106,49",
       "precoAdesao": "340",
       "Vantagens": [
         "-"
@@ -3175,7 +3175,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -3183,7 +3183,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -3191,7 +3191,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3217,7 +3217,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -3225,7 +3225,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -3233,7 +3233,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "23,99",
+      "preco": "21,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3260,7 +3260,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -3268,7 +3268,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -3276,7 +3276,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3303,7 +3303,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "35,99",
+      "preco": "33,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -3311,7 +3311,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "35,99",
+      "preco": "33,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -3319,7 +3319,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "35,99",
+      "preco": "33,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3346,7 +3346,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "50,49",
+      "preco": "47,99",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -3354,7 +3354,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "50,49",
+      "preco": "47,99",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -3362,7 +3362,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "50,49",
+      "preco": "47,99",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3389,7 +3389,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "56,99",
+      "preco": "54,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -3397,7 +3397,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "56,99",
+      "preco": "54,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -3405,7 +3405,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "56,99",
+      "preco": "54,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3431,7 +3431,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -3439,7 +3439,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -3447,7 +3447,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "30,99",
+      "preco": "28,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3474,7 +3474,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -3482,7 +3482,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -3490,7 +3490,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3517,7 +3517,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "42,49",
+      "preco": "39,99",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -3525,7 +3525,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "42,49",
+      "preco": "39,99",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -3533,7 +3533,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "42,49",
+      "preco": "39,99",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3560,7 +3560,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação"
@@ -3568,7 +3568,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação"
@@ -3576,7 +3576,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "37,99",
+      "preco": "35,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3593,7 +3593,7 @@
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
-      "preco": "530,00",
+      "preco": "48,99",
       "precoAdesao": "0",
       "Vantagens": [
         "Inclui oferta de instalação e ativação no valor total de 350 euros",
@@ -3604,7 +3604,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "58,99",
+      "preco": "56,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -3613,7 +3613,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "58,99",
+      "preco": "56,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -3622,7 +3622,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "58,99",
+      "preco": "56,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3639,7 +3639,7 @@
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
-      "preco": "530,00",
+      "preco": "55,99",
       "precoAdesao": "0",
       "Vantagens": [
         "Inclui oferta de instalação e ativação no valor total de 350 euros",
@@ -3650,7 +3650,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "65,99",
+      "preco": "63,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -3659,7 +3659,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "65,99",
+      "preco": "63,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -3668,7 +3668,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "65,99",
+      "preco": "63,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3696,7 +3696,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "69,99",
+      "preco": "67,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -3705,7 +3705,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "69,99",
+      "preco": "67,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -3714,7 +3714,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "69,99",
+      "preco": "67,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3742,7 +3742,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "72,99",
+      "preco": "70,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -3751,7 +3751,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "72,99",
+      "preco": "70,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -3760,7 +3760,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "72,99",
+      "preco": "70,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3788,7 +3788,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -3797,7 +3797,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -3806,7 +3806,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "75,99",
+      "preco": "73,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3834,7 +3834,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "77,99",
+      "preco": "75,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -3843,7 +3843,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "77,99",
+      "preco": "75,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -3852,7 +3852,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "77,99",
+      "preco": "75,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3880,7 +3880,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -3889,7 +3889,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -3898,7 +3898,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "76,99",
+      "preco": "74,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3926,7 +3926,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -3935,7 +3935,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -3944,7 +3944,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "79,99",
+      "preco": "77,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -3972,7 +3972,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -3981,7 +3981,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -3990,7 +3990,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "82,99",
+      "preco": "80,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -4018,7 +4018,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -4027,7 +4027,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -4036,7 +4036,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
@@ -4064,7 +4064,7 @@
     },
     "Fidelizacao_12Meses": {
       "Fidelizacao": "12 Meses",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "160",
       "Vantagens": [
         "Inclui desconto 180 euros na instalação e ativação",
@@ -4073,7 +4073,7 @@
     },
     "Fidelizacao_6Meses": {
       "Fidelizacao": "6 Meses",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "240",
       "Vantagens": [
         "Inclui desconto 100 euros na instalação e ativação",
@@ -4082,7 +4082,7 @@
     },
     "Sem_Fidelizacao": {
       "Fidelizacao": "Sem Fidelizacao",
-      "preco": "84,99",
+      "preco": "82,49",
       "precoAdesao": "320",
       "Vantagens": [
         "-"
