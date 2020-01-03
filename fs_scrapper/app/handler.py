@@ -307,18 +307,28 @@ def packages():
 
             if pacote['canais'] is None and pacote['phone'] is None:
                 aux['servico'] = 'NET'
+                aux['net'] = pacote['net']
             elif pacote['net'] is None and pacote['phone'] is None:
                 aux['servico'] = 'TV'
+                aux['canais'] = pacote['canais']
             elif pacote['phone'] is None:
                 aux['servico'] = 'TV+NET'
+                aux['net'] = pacote['net']
+                aux['canais'] = pacote['canais']
             elif pacote['net'] is None:
                 aux['servico'] = 'TV+VOZ'
+                aux['canais'] = pacote['canais']
+                aux['phone'] = pacote['phone']
             else:
                 aux['servico'] = 'TV+NET+VOZ'
+                aux['net'] = pacote['net']
+                aux['canais'] = pacote['canais']
+                aux['phone'] = pacote['phone']
 
             lista.append(aux)
             aux = {}
 
+        lista.sort(key = lambda x: x['preco'])
         return lista
 
 
