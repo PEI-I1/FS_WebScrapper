@@ -2,7 +2,7 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "MIX",
-    "canais": "141 canais  ",
+    "canais": "141 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -45,7 +45,7 @@
     "Tipo": "Pacotes Fibra",
     "nome": "100Mbps",
     "canais": null,
-    "net": "100Mbps10Mbps upload",
+    "net": "100Mbps, 10Mbps upload",
     "phone": null,
     "mobile": null,
     "netMovel": null,
@@ -87,7 +87,7 @@
     "Tipo": "Pacotes Fibra",
     "nome": "1Gbps",
     "canais": null,
-    "net": "1Gbps100Mbps upload",
+    "net": "1Gbps, 100Mbps upload",
     "phone": null,
     "mobile": null,
     "netMovel": null,
@@ -127,10 +127,10 @@
   },
   {
     "Tipo": "Pacotes Fibra",
-    "nome": "NOS 2 ",
-    "canais": "6 canais Sem box",
+    "nome": "NOS 2",
+    "canais": "6 canais, Sem box",
     "net": null,
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -170,8 +170,8 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 2 Segunda Casa + Net",
-    "canais": "DTA120 canais",
-    "net": "20Mbps2Mbps upload",
+    "canais": "DTA, 120 canais",
+    "net": "20Mbps, 2Mbps upload",
     "phone": null,
     "mobile": null,
     "netMovel": null,
@@ -212,8 +212,8 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 2 Segunda Casa + Net",
-    "canais": "144 canais ",
-    "net": "20Mbps2Mbps upload",
+    "canais": "144 canais",
+    "net": "20Mbps, 2Mbps upload",
     "phone": null,
     "mobile": null,
     "netMovel": null,
@@ -254,9 +254,9 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 3",
-    "canais": "DTA120 canais ",
-    "net": "100Mbps10Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "DTA, 120 canais",
+    "net": "100Mbps, 10Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -296,9 +296,9 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 3",
-    "canais": "150 canais ",
-    "net": "200Mbps20Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "150 canais",
+    "net": "200Mbps, 20Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -339,9 +339,9 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 3",
-    "canais": "150 canais ",
-    "net": "1Gbps100Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "150 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -382,9 +382,9 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 3",
-    "canais": "UMA TV180 canais ",
-    "net": "500Mbps100Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "UMA TV, 180 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -425,9 +425,9 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 3",
-    "canais": "UMA TV180 canais ",
-    "net": "1Gbps100Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "UMA TV, 180 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -468,10 +468,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": " 150 canais ",
-    "net": "100Mbps10Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
-    "mobile": "1 cartão800 min/SMS500MB ",
+    "canais": "150 canais",
+    "net": "100Mbps, 10Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 500MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -511,10 +511,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": " 150 canais ",
-    "net": "200Mbps20Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
-    "mobile": "1 cartão800 min/SMS500MB ",
+    "canais": "150 canais",
+    "net": "200Mbps, 20Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 500MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -554,10 +554,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": " 150 canais ",
-    "net": "500Mbps100Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
-    "mobile": "1 cartão800 min/SMS500MB ",
+    "canais": "150 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 500MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -597,10 +597,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": " 150 canais ",
-    "net": "1Gbps100Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
-    "mobile": "1 cartão800 min/SMS500MB ",
+    "canais": "150 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 500MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -640,10 +640,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV150 canais  ",
-    "net": "200Mbps20Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão3000min/SMS2GB ",
+    "canais": "UMA TV, 150 canais",
+    "net": "200Mbps, 20Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3000min/SMS, 2GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -683,10 +683,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "500Mbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão3000min/SMS2GB ",
+    "canais": "UMA TV, 180 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3000min/SMS, 2GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -726,10 +726,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "1Gbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão3000min/SMS2GB ",
+    "canais": "UMA TV, 180 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3000min/SMS, 2GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -769,10 +769,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "200Mbps20Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão7000min/SMS5GB ",
+    "canais": "UMA TV, 180 canais",
+    "net": "200Mbps, 20Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 7000min/SMS, 5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -812,10 +812,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "500Mbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão7000min/SMS5GB ",
+    "canais": "UMA TV, 180 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 7000min/SMS, 5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -855,10 +855,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "1Gbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão7000min/SMS5GB ",
+    "canais": "UMA TV, 180 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 7000min/SMS, 5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -898,10 +898,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "200Mbps20Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartãoilimitado  ",
+    "canais": "UMA TV, 180 canais",
+    "net": "200Mbps, 20Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, ilimitado",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -941,10 +941,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "500Mbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartãoilimitado  ",
+    "canais": "UMA TV, 180 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, ilimitado",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -984,10 +984,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "1Gbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartãoilimitado  ",
+    "canais": "UMA TV, 180 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, ilimitado",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1027,10 +1027,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "500Mbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartãoilimitado  ",
+    "canais": "UMA TV, 180 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, ilimitado",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1070,10 +1070,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "1Gbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartãoilimitado  ",
+    "canais": "UMA TV, 180 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, ilimitado",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1113,7 +1113,7 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "Segunda Casa",
-    "canais": "100 canais ",
+    "canais": "100 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -1156,7 +1156,7 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "Light",
-    "canais": "20 canais ",
+    "canais": "20 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -1198,7 +1198,7 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "Max",
-    "canais": "100 canais ",
+    "canais": "100 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -1241,7 +1241,7 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "Cine Top",
-    "canais": "105 canaisCanais TVCine",
+    "canais": "105 canais, Canais TVCine",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -1284,7 +1284,7 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "Light Sport HD",
-    "canais": "28 canais ",
+    "canais": "28 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -1327,7 +1327,7 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "Sport Plus HD",
-    "canais": "97 canais ",
+    "canais": "97 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -1370,10 +1370,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 2",
-    "canais": "20 canais  ",
+    "canais": "20 canais",
     "net": null,
     "phone": null,
-    "mobile": "1 cartão500 min/SMS100MB",
+    "mobile": "1 cartão, 500 min/SMS, 100MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1412,9 +1412,9 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 2",
-    "canais": "100 canais  ",
+    "canais": "100 canais",
     "net": null,
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -1455,9 +1455,9 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 2",
-    "canais": "105 canaisCanais TVCine ",
+    "canais": "105 canais, Canais TVCine",
     "net": null,
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -1498,8 +1498,8 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 2 Segunda Casa + Net",
-    "canais": "100 canaisNOS TV",
-    "net": "até 20MbpsNOS Wi-Fi",
+    "canais": "100 canais, NOS TV",
+    "net": "até 20Mbps, NOS Wi-Fi",
     "phone": null,
     "mobile": null,
     "netMovel": null,
@@ -1541,9 +1541,9 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 3",
-    "canais": "100 canais  ",
-    "net": "até 40MbpsNOS Wi-Fi ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "100 canais",
+    "net": "até 40Mbps, NOS Wi-Fi",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -1587,9 +1587,9 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 3",
-    "canais": "105 canaisCanais TVCine ",
-    "net": "até 40MbpsNOS Wi-Fi ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, NOS Wi-Fi",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -1633,10 +1633,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "100 canais  ",
-    "net": "até 40Mbpsaté 3 casas  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão800 min/SMS500MB ",
+    "canais": "100 canais",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 500MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1679,10 +1679,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine  ",
-    "net": "até 40Mbpsaté 3 casas  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão800 min/SMS2.5GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 2.5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1725,10 +1725,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine  ",
-    "net": "até 40Mbpsaté 3 casas  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão800 min/SMS4.5GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 4.5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1771,10 +1771,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine  ",
-    "net": "até 40Mbpsaté 3 casas  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão800 min/SMS9.5GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 9.5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1817,10 +1817,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine   ",
-    "net": "até 40Mbpsaté 3 casas   ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais  ",
-    "mobile": "1 cartão3500min +3500SMS1GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3500min +3500SMS, 1GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1863,10 +1863,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine   ",
-    "net": "até 40Mbpsaté 3 casas   ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais  ",
-    "mobile": "1 cartão3500min +3500SMS3GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3500min +3500SMS, 3GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1909,10 +1909,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine   ",
-    "net": "até 40Mbpsaté 3 casas   ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais  ",
-    "mobile": "1 cartão3500min +3500SMS5GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3500min +3500SMS, 5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -1955,10 +1955,10 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine   ",
-    "net": "até 40Mbpsaté 3 casas   ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais  ",
-    "mobile": "1 cartão3500min +3500SMS10GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3500min +3500SMS, 10GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2001,11 +2001,11 @@
   {
     "Tipo": "Pacotes Fibra",
     "nome": "NOS 5",
-    "canais": "105 canaisCanais TVCine   ",
-    "net": "até 40MbpsNOS Wi-Fi   ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais  ",
-    "mobile": "1 cartão3500min +3500SMS3GB ",
-    "netMovel": "7 GB  ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, NOS Wi-Fi",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3500min +3500SMS, 3GB",
+    "netMovel": "7 GB",
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
       "preco": "64,99",
@@ -2047,7 +2047,7 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "MIX",
-    "canais": "141 canais  ",
+    "canais": "141 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -2090,7 +2090,7 @@
     "Tipo": "Pacotes Satélite",
     "nome": "100Mbps",
     "canais": null,
-    "net": "100Mbps10Mbps upload",
+    "net": "100Mbps, 10Mbps upload",
     "phone": null,
     "mobile": null,
     "netMovel": null,
@@ -2132,7 +2132,7 @@
     "Tipo": "Pacotes Satélite",
     "nome": "1Gbps",
     "canais": null,
-    "net": "1Gbps100Mbps upload",
+    "net": "1Gbps, 100Mbps upload",
     "phone": null,
     "mobile": null,
     "netMovel": null,
@@ -2172,10 +2172,10 @@
   },
   {
     "Tipo": "Pacotes Satélite",
-    "nome": "NOS 2 ",
-    "canais": "6 canais Sem box",
+    "nome": "NOS 2",
+    "canais": "6 canais, Sem box",
     "net": null,
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -2215,8 +2215,8 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 2 Segunda Casa + Net",
-    "canais": "DTA120 canais",
-    "net": "20Mbps2Mbps upload",
+    "canais": "DTA, 120 canais",
+    "net": "20Mbps, 2Mbps upload",
     "phone": null,
     "mobile": null,
     "netMovel": null,
@@ -2257,8 +2257,8 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 2 Segunda Casa + Net",
-    "canais": "144 canais ",
-    "net": "20Mbps2Mbps upload",
+    "canais": "144 canais",
+    "net": "20Mbps, 2Mbps upload",
     "phone": null,
     "mobile": null,
     "netMovel": null,
@@ -2299,9 +2299,9 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 3",
-    "canais": "DTA120 canais ",
-    "net": "100Mbps10Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "DTA, 120 canais",
+    "net": "100Mbps, 10Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -2341,9 +2341,9 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 3",
-    "canais": "150 canais ",
-    "net": "200Mbps20Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "150 canais",
+    "net": "200Mbps, 20Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -2384,9 +2384,9 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 3",
-    "canais": "150 canais ",
-    "net": "1Gbps100Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "150 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -2427,9 +2427,9 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 3",
-    "canais": "UMA TV180 canais ",
-    "net": "500Mbps100Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "UMA TV, 180 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -2470,9 +2470,9 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 3",
-    "canais": "UMA TV180 canais ",
-    "net": "1Gbps100Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "UMA TV, 180 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -2513,10 +2513,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": " 150 canais ",
-    "net": "100Mbps10Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
-    "mobile": "1 cartão800 min/SMS500MB ",
+    "canais": "150 canais",
+    "net": "100Mbps, 10Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 500MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2556,10 +2556,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": " 150 canais ",
-    "net": "200Mbps20Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
-    "mobile": "1 cartão800 min/SMS500MB ",
+    "canais": "150 canais",
+    "net": "200Mbps, 20Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 500MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2599,10 +2599,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": " 150 canais ",
-    "net": "500Mbps100Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
-    "mobile": "1 cartão800 min/SMS500MB ",
+    "canais": "150 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 500MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2642,10 +2642,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": " 150 canais ",
-    "net": "1Gbps100Mbps upload ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
-    "mobile": "1 cartão800 min/SMS500MB ",
+    "canais": "150 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 500MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2685,10 +2685,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV150 canais  ",
-    "net": "200Mbps20Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão3000min/SMS2GB ",
+    "canais": "UMA TV, 150 canais",
+    "net": "200Mbps, 20Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3000min/SMS, 2GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2728,10 +2728,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "500Mbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão3000min/SMS2GB ",
+    "canais": "UMA TV, 180 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3000min/SMS, 2GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2771,10 +2771,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "1Gbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão3000min/SMS2GB ",
+    "canais": "UMA TV, 180 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3000min/SMS, 2GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2814,10 +2814,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "200Mbps20Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão7000min/SMS5GB ",
+    "canais": "UMA TV, 180 canais",
+    "net": "200Mbps, 20Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 7000min/SMS, 5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2857,10 +2857,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "500Mbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão7000min/SMS5GB ",
+    "canais": "UMA TV, 180 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 7000min/SMS, 5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2900,10 +2900,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "1Gbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão7000min/SMS5GB ",
+    "canais": "UMA TV, 180 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 7000min/SMS, 5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2943,10 +2943,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "200Mbps20Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartãoilimitado  ",
+    "canais": "UMA TV, 180 canais",
+    "net": "200Mbps, 20Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, ilimitado",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -2986,10 +2986,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "500Mbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartãoilimitado  ",
+    "canais": "UMA TV, 180 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, ilimitado",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3029,10 +3029,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "1Gbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartãoilimitado  ",
+    "canais": "UMA TV, 180 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, ilimitado",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3072,10 +3072,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "500Mbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartãoilimitado  ",
+    "canais": "UMA TV, 180 canais",
+    "net": "500Mbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, ilimitado",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3115,10 +3115,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "UMA TV180 canais  ",
-    "net": "1Gbps100Mbps upload  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartãoilimitado  ",
+    "canais": "UMA TV, 180 canais",
+    "net": "1Gbps, 100Mbps upload",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, ilimitado",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3158,7 +3158,7 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "Segunda Casa",
-    "canais": "100 canais ",
+    "canais": "100 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -3201,7 +3201,7 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "Light",
-    "canais": "20 canais ",
+    "canais": "20 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -3243,7 +3243,7 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "Max",
-    "canais": "100 canais ",
+    "canais": "100 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -3286,7 +3286,7 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "Cine Top",
-    "canais": "105 canaisCanais TVCine",
+    "canais": "105 canais, Canais TVCine",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -3329,7 +3329,7 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "Light Sport HD",
-    "canais": "28 canais ",
+    "canais": "28 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -3372,7 +3372,7 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "Sport Plus HD",
-    "canais": "97 canais ",
+    "canais": "97 canais",
     "net": null,
     "phone": null,
     "mobile": null,
@@ -3415,10 +3415,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 2",
-    "canais": "20 canais  ",
+    "canais": "20 canais",
     "net": null,
     "phone": null,
-    "mobile": "1 cartão500 min/SMS100MB",
+    "mobile": "1 cartão, 500 min/SMS, 100MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3457,9 +3457,9 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 2",
-    "canais": "100 canais  ",
+    "canais": "100 canais",
     "net": null,
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -3500,9 +3500,9 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 2",
-    "canais": "105 canaisCanais TVCine ",
+    "canais": "105 canais, Canais TVCine",
     "net": null,
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -3543,8 +3543,8 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 2 Segunda Casa + Net",
-    "canais": "100 canaisNOS TV",
-    "net": "até 20MbpsNOS Wi-Fi",
+    "canais": "100 canais, NOS TV",
+    "net": "até 20Mbps, NOS Wi-Fi",
     "phone": null,
     "mobile": null,
     "netMovel": null,
@@ -3586,9 +3586,9 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 3",
-    "canais": "100 canais  ",
-    "net": "até 40MbpsNOS Wi-Fi ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "100 canais",
+    "net": "até 40Mbps, NOS Wi-Fi",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -3632,9 +3632,9 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 3",
-    "canais": "105 canaisCanais TVCine ",
-    "net": "até 40MbpsNOS Wi-Fi ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, NOS Wi-Fi",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
     "mobile": null,
     "netMovel": null,
     "Fidelizacao_24Meses": {
@@ -3678,10 +3678,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "100 canais  ",
-    "net": "até 40Mbpsaté 3 casas  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão800 min/SMS500MB ",
+    "canais": "100 canais",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 500MB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3724,10 +3724,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine  ",
-    "net": "até 40Mbpsaté 3 casas  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão800 min/SMS2.5GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 2.5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3770,10 +3770,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine  ",
-    "net": "até 40Mbpsaté 3 casas  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão800 min/SMS4.5GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 4.5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3816,10 +3816,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine  ",
-    "net": "até 40Mbpsaté 3 casas  ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais ",
-    "mobile": "1 cartão800 min/SMS9.5GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 800 min/SMS, 9.5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3862,10 +3862,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine   ",
-    "net": "até 40Mbpsaté 3 casas   ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais  ",
-    "mobile": "1 cartão3500min +3500SMS1GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3500min +3500SMS, 1GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3908,10 +3908,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine   ",
-    "net": "até 40Mbpsaté 3 casas   ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais  ",
-    "mobile": "1 cartão3500min +3500SMS3GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3500min +3500SMS, 3GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -3954,10 +3954,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine   ",
-    "net": "até 40Mbpsaté 3 casas   ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais  ",
-    "mobile": "1 cartão3500min +3500SMS5GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3500min +3500SMS, 5GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -4000,10 +4000,10 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 4",
-    "canais": "105 canaisCanais TVCine   ",
-    "net": "até 40Mbpsaté 3 casas   ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais  ",
-    "mobile": "1 cartão3500min +3500SMS10GB ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, até 3 casas",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3500min +3500SMS, 10GB",
     "netMovel": null,
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
@@ -4046,11 +4046,11 @@
   {
     "Tipo": "Pacotes Satélite",
     "nome": "NOS 5",
-    "canais": "105 canaisCanais TVCine   ",
-    "net": "até 40MbpsNOS Wi-Fi   ",
-    "phone": "Chamadas incluídasRedes fixas nacionais e 50 destinos internacionais  ",
-    "mobile": "1 cartão3500min +3500SMS3GB ",
-    "netMovel": "7 GB  ",
+    "canais": "105 canais, Canais TVCine",
+    "net": "até 40Mbps, NOS Wi-Fi",
+    "phone": "Chamadas incluídas, Redes fixas nacionais e 50 destinos internacionais",
+    "mobile": "1 cartão, 3500min +3500SMS, 3GB",
+    "netMovel": "7 GB",
     "Fidelizacao_24Meses": {
       "Fidelizacao": "24 Meses",
       "preco": "64,99",
