@@ -11,6 +11,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+def clean(string):
+    string = re.sub(r'(\n|\r|\s)+', ' ', string)
+    string = re.sub(r'\s+', ' ', string)
+    string = re.sub(r'^\s+', '', string)
+    string = re.sub(r'\s+$', '', string)
+    return string
+
 #################################################### WTF ##################################################
 
 def get_Wtf():
@@ -34,7 +41,7 @@ def get_Wtf():
         #net
         elemNet = elem.find('div',{'class':'section-tarifario__block__tabs'})
         gigaA = elemNet.find('span',{'class':'block-tab__text-limit d-block'}).text
-        giga = re.sub(r'[\\n|\\r|\s]','',gigaA)
+        giga = clean(gigaA)
         #minutos
         elemMin = elemNet.find('span',{'class':'block-tab__text-limit d-block text-yellow'}).text
         text1 = elemNet.find('span',{'class':'block-tab__text-sublimit text-yellow d-block'}).text
@@ -88,10 +95,10 @@ def get_list_linhas_apoio(soup):
         numero = elem.div['id']
 
         elem = elem.find('div',{})
-        categoria = elem.h2.text.replace('\n', '').replace('\r', '')
+        categoria = clean(elem.h2.text)
 
         elem.h2.clear()
-        descricao = elem.text.replace('\n', '').replace('\r', '')
+        descricao = clean(elem.text)
 
         elem_json = {
             'categoria' :categoria,

@@ -2,10 +2,10 @@
     {
         "nome": "Loja NOS Albufeira - AlgarveShopping",
         "morada": "CC AlgarveShopping - Lanka Parque Comercial e Industrial do Algarve,  lt. R, fr.",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Guia",
         "latitude": "37.127457",
-        "longitude": " -8.281615",
+        "longitude": "-8.281615",
         "distrito": "Faro",
         "concelho": "Albufeira",
         "listaservs": [
@@ -23,10 +23,10 @@
     {
         "nome": "Loja NOS Alfragide - Alegro",
         "morada": "CC Alegro - Av. Cavaleiros, 60 - lj. 05",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Carnaxide",
         "latitude": "38.727923",
-        "longitude": " -9.219943",
+        "longitude": "-9.219943",
         "distrito": "Lisboa",
         "concelho": "Amadora",
         "listaservs": [
@@ -45,10 +45,10 @@
     {
         "nome": "Loja NOS Almada - Almada Fórum",
         "morada": "CC Almada Fórum - R. Sérgio Malpique, 2 - lj. 1.95/1.96",
-        "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+        "horario": "Segunda a Sexta: 10h00 - 24h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 24h00",
         "localidade": "Almada",
         "latitude": "38.659859",
-        "longitude": " -9.175451",
+        "longitude": "-9.175451",
         "distrito": "Setúbal",
         "concelho": "Almada",
         "listaservs": [
@@ -66,10 +66,10 @@
     {
         "nome": "Loja NOS Amadora - UBBO",
         "morada": "CC UBBO - Av. Cruzeiro Seixas, 5 e 7 - lj. 0.048/0.049",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Amadora",
         "latitude": "38.777176",
-        "longitude": " -9.219866",
+        "longitude": "-9.219866",
         "distrito": "Lisboa",
         "concelho": "Amadora",
         "listaservs": [
@@ -88,10 +88,10 @@
     {
         "nome": "Loja NOS Aveiro - Glicínias Plaza",
         "morada": "CC Glicínias Plaza - R. Dom Manuel Barbuda e Vasconcelos - lj. 12/13A",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Aveiro",
         "latitude": "40.626790",
-        "longitude": " -8.644129",
+        "longitude": "-8.644129",
         "distrito": "Aveiro",
         "concelho": "Aveiro",
         "listaservs": [
@@ -110,10 +110,10 @@
     {
         "nome": "Loja NOS Aveiro - R. Conselheiro Luís Magalhães",
         "morada": "R. Conselheiro Luís Magalhães, 7",
-        "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 14h00",
+        "horario": "Segunda a Sexta: 10h00 - 19h00 Hora de almoço: 13h00 - 14h00",
         "localidade": "Aveiro",
         "latitude": "40.641925",
-        "longitude": " -8.652313",
+        "longitude": "-8.652313",
         "distrito": "Aveiro",
         "concelho": "Aveiro",
         "listaservs": [
@@ -131,10 +131,10 @@
     {
         "nome": "Loja NOS Barreiro - B Planet",
         "morada": "CC Barreiro Retail Planet - EN 10, Km 18,5 - lj. 16",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Coina",
         "latitude": "38.582844",
-        "longitude": " -9.043786",
+        "longitude": "-9.043786",
         "distrito": "Setúbal",
         "concelho": "Barreiro",
         "listaservs": [
@@ -149,10 +149,10 @@
     {
         "nome": "Loja NOS Barreiro - Fórum Barreiro",
         "morada": "CC Fórum Barreiro - R. Stara Zagora, 1, Campo das Cordoarias - lj. 0.53",
-        "horario": "Segunda a Sexta: 09h30 - 22h00Sábado: 09h30 - 23h00Domingo: 09h30 - 22h00",
+        "horario": "Segunda a Sexta: 09h30 - 22h00 Sábado: 09h30 - 23h00 Domingo: 09h30 - 22h00",
         "localidade": "Barreiro",
         "latitude": "38.661846",
-        "longitude": " -9.073527",
+        "longitude": "-9.073527",
         "distrito": "Setúbal",
         "concelho": "Barreiro",
         "listaservs": [
@@ -170,10 +170,10 @@
     {
         "nome": "Loja NOS Beja - Continente",
         "morada": "CC Continente Beja - R. Zeca Afonso - lj. 8",
-        "horario": "Segunda a Sexta: 09h00 - 22h00Sábado: 09h00 - 23h00Domingo: 09h00 - 22h00",
+        "horario": "Segunda a Sexta: 09h00 - 22h00 Sábado: 09h00 - 23h00 Domingo: 09h00 - 22h00",
         "localidade": "Beja",
         "latitude": "38.005768",
-        "longitude": " -7.868872",
+        "longitude": "-7.868872",
         "distrito": "Beja",
         "concelho": "Beja",
         "listaservs": [
@@ -192,10 +192,10 @@
     {
         "nome": "Loja NOS Braga - Braga Parque",
         "morada": "CC Braga Parque - Qta. dos Congregados - lj. 1040",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Braga",
         "latitude": "41.557038",
-        "longitude": " -8.406678",
+        "longitude": "-8.406678",
         "distrito": "Braga",
         "concelho": "Braga",
         "listaservs": [
@@ -214,10 +214,10 @@
     {
         "nome": "Loja NOS Braga - Loja do Cidadão Braga",
         "morada": "Loja do Cidadão de Braga - R. Granjinhos, 6 - lj NOS",
-        "horario": "Segunda a Sexta: 08h30 - 19h30Sábado: 09h30 - 15h00",
+        "horario": "Segunda a Sexta: 08h30 - 19h30 Sábado: 09h30 - 15h00",
         "localidade": "Braga",
         "latitude": "41.547937",
-        "longitude": " -8.421951",
+        "longitude": "-8.421951",
         "distrito": "Braga",
         "concelho": "Braga",
         "listaservs": [
@@ -235,7 +235,7 @@
         "horario": "Segunda a Sexta: 09h00 - 19h00",
         "localidade": "Braga",
         "latitude": "41.548543",
-        "longitude": " -8.421126",
+        "longitude": "-8.421126",
         "distrito": "Braga",
         "concelho": "Braga",
         "listaservs": [
@@ -253,10 +253,10 @@
     {
         "nome": "Loja NOS Bragança - Bragança Shopping",
         "morada": "CC BragançaShopping - Av. Sá Carneiro, 2 - lj. 34",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Bragança",
         "latitude": "41.807846",
-        "longitude": " -6.760347",
+        "longitude": "-6.760347",
         "distrito": "Bragança",
         "concelho": "Bragança",
         "listaservs": [
@@ -275,10 +275,10 @@
     {
         "nome": "Loja NOS Cascais - CascaiShopping",
         "morada": "CC CascaiShopping - EN 9 - lj. 0.063",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Alcabideche",
         "latitude": "38.737617",
-        "longitude": " -9.398203",
+        "longitude": "-9.398203",
         "distrito": "Lisboa",
         "concelho": "Cascais",
         "listaservs": [
@@ -297,10 +297,10 @@
     {
         "nome": "Loja NOS Castelo Branco - Fórum Castelo Branco",
         "morada": "CC Fórum Castelo Branco - Av. Prof. Dr. Egas Moniz - lj. 0.19B",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "Castelo Branco",
         "latitude": "39.808800",
-        "longitude": " -7.513790",
+        "longitude": "-7.513790",
         "distrito": "Castelo Branco",
         "concelho": "Castelo Branco",
         "listaservs": [
@@ -318,10 +318,10 @@
     {
         "nome": "Loja NOS Coimbra - Alma Shopping",
         "morada": "CC Alma Shopping - R. General Humberto Delgado, 207/211 - lj. 237",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Coimbra",
         "latitude": "40.204746",
-        "longitude": " -8.407824",
+        "longitude": "-8.407824",
         "distrito": "Coimbra",
         "concelho": "Coimbra",
         "listaservs": [
@@ -339,10 +339,10 @@
     {
         "nome": "Loja NOS Coimbra - R. do Carmo",
         "morada": "R. do Carmo, 82 - R/C",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h00 - 13h00",
         "localidade": "Coimbra",
         "latitude": "40.211756",
-        "longitude": " -8.432052",
+        "longitude": "-8.432052",
         "distrito": "Coimbra",
         "concelho": "Coimbra",
         "listaservs": [
@@ -360,10 +360,10 @@
     {
         "nome": "Loja NOS Coimbra - CoimbraShopping",
         "morada": "CC CoimbraShopping - Av. Mendes Silva, 211-251 - lj. 116",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "Coimbra",
         "latitude": "40.193691",
-        "longitude": " -8.409090",
+        "longitude": "-8.409090",
         "distrito": "Coimbra",
         "concelho": "Coimbra",
         "listaservs": [
@@ -376,10 +376,10 @@
     {
         "nome": "Loja NOS Covilhã - Serra Shopping",
         "morada": "CC Serra Shopping - Al. Europa, lt. 1 - lj. 0.41",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Covilhã",
         "latitude": "40.270409",
-        "longitude": " -7.502654",
+        "longitude": "-7.502654",
         "distrito": "Castelo Branco",
         "concelho": "Covilhã",
         "listaservs": [
@@ -398,10 +398,10 @@
     {
         "nome": "Loja NOS Évora - Pç. Joaquim António de Aguiar",
         "morada": "Pç. Joaquim António de Aguiar, 42",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 10h00 - 13h00",
         "localidade": "Évora",
         "latitude": "38.573098",
-        "longitude": " -7.909690",
+        "longitude": "-7.909690",
         "distrito": "Évora",
         "concelho": "Évora",
         "listaservs": [
@@ -420,10 +420,10 @@
     {
         "nome": "Loja NOS Faro - Fórum Algarve",
         "morada": "CC Fórum Algarve - EN 125, km103 - lj. 0.07",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Faro",
         "latitude": "37.028332",
-        "longitude": " -7.943534",
+        "longitude": "-7.943534",
         "distrito": "Faro",
         "concelho": "Faro",
         "listaservs": [
@@ -442,10 +442,10 @@
     {
         "nome": "Loja NOS Gondomar - Parque Nascente",
         "morada": "CC Parque Nascente - Pta. Parque Nascente, 35 - lj. 303",
-        "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+        "horario": "Segunda a Sexta: 10h00 - 24h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 24h00",
         "localidade": "Rio Tinto",
         "latitude": "41.175246",
-        "longitude": " -8.563963",
+        "longitude": "-8.563963",
         "distrito": "Porto",
         "concelho": "Gondomar",
         "listaservs": [
@@ -464,10 +464,10 @@
     {
         "nome": "Loja NOS Guarda - La Vie Guarda",
         "morada": "CC La Vie Guarda - Rua dos Bombeiros Voluntarios Egitanienses, 5 - lj. 1.37",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 22h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 22h00 Domingo: 10h00 - 22h00",
         "localidade": "Guarda",
         "latitude": "40.540401",
-        "longitude": " -7.266343",
+        "longitude": "-7.266343",
         "distrito": "Guarda",
         "concelho": "Guarda",
         "listaservs": [
@@ -485,10 +485,10 @@
     {
         "nome": "Loja NOS Guimarães - Espaço Guimarães",
         "morada": "CC Espaço Guimarães - R. 25 de Abril, 210 - lj. 0.022",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Guimarães",
         "latitude": "41.448677",
-        "longitude": " -8.343735",
+        "longitude": "-8.343735",
         "distrito": "Braga",
         "concelho": "Guimarães",
         "listaservs": [
@@ -506,10 +506,10 @@
     {
         "nome": "Loja NOS Leiria - LeiriaShopping",
         "morada": "CC LeiriaShopping - IC2, R. Alto do Vieiro - lj. 061",
-        "horario": "Segunda a Sexta: 09h00 - 23h00Sábado: 09h00 - 24h00Domingo: 09h00 - 23h00",
+        "horario": "Segunda a Sexta: 09h00 - 23h00 Sábado: 09h00 - 24h00 Domingo: 09h00 - 23h00",
         "localidade": "Leiria",
         "latitude": "39.732822",
-        "longitude": " -8.824484",
+        "longitude": "-8.824484",
         "distrito": "Leiria",
         "concelho": "Leiria",
         "listaservs": [
@@ -528,10 +528,10 @@
     {
         "nome": "Loja NOS Lisboa - Amoreiras",
         "morada": "CC Amoreiras Shopping Center - Av. Engenheiro Duarte Pacheco - lj. 1109",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Lisboa",
         "latitude": "38.722901",
-        "longitude": " -9.161830",
+        "longitude": "-9.161830",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -547,10 +547,10 @@
     {
         "nome": "Loja NOS Lisboa - Campo Grande",
         "morada": "Campo Grande - R. Ator António Silva, 414G",
-        "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 20h00 Sábado: 09h00 - 13h00",
         "localidade": "Lisboa",
         "latitude": "38.759521",
-        "longitude": " -9.157533",
+        "longitude": "-9.157533",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -569,10 +569,10 @@
     {
         "nome": "Loja NOS Lisboa - Loja do Cidadão Laranjeiras",
         "morada": "Loja do Cidadão das Laranjeiras - R. Abranches Ferrão, 10 - lj. NOS",
-        "horario": "Segunda a Sexta: 08h30 - 19h30Sábado: 09h30 - 15h00",
+        "horario": "Segunda a Sexta: 08h30 - 19h30 Sábado: 09h30 - 15h00",
         "localidade": "Lisboa",
         "latitude": "38.750368",
-        "longitude": " -9.171424",
+        "longitude": "-9.171424",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -587,10 +587,10 @@
     {
         "nome": "Loja NOS Lisboa - Colombo",
         "morada": "CC Colombo - Av. Lusíada - lj. 0.140",
-        "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+        "horario": "Segunda a Sexta: 10h00 - 24h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 24h00",
         "localidade": "Lisboa",
         "latitude": "38.754383",
-        "longitude": " -9.188390",
+        "longitude": "-9.188390",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -609,10 +609,10 @@
     {
         "nome": "Loja NOS Lisboa - Colombo - Quiosque",
         "morada": "CC Colombo - Av. Lusíada - Quiosque NOS",
-        "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+        "horario": "Segunda a Sexta: 10h00 - 24h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 24h00",
         "localidade": "Lisboa",
         "latitude": "38.754383",
-        "longitude": " -9.188390",
+        "longitude": "-9.188390",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -626,10 +626,10 @@
     {
         "nome": "Loja NOS Lisboa - Gare do Oriente",
         "morada": "Gare do Oriente, 0 - lj. G112A",
-        "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 09h00 - 20h00Domingo: 09h00 - 20h00",
+        "horario": "Segunda a Sexta: 09h00 - 20h00 Sábado: 09h00 - 20h00 Domingo: 09h00 - 20h00",
         "localidade": "Lisboa",
         "latitude": "38.767677",
-        "longitude": " -9.099300",
+        "longitude": "-9.099300",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -644,10 +644,10 @@
     {
         "nome": "Loja NOS Lisboa - Av. República",
         "morada": "Av. República, 10",
-        "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 20h00 Sábado: 10h00 - 13h00",
         "localidade": "Lisboa",
         "latitude": "38.735347",
-        "longitude": " -9.144826",
+        "longitude": "-9.144826",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -667,10 +667,10 @@
     {
         "nome": "Loja NOS Lisboa - Av. Roma",
         "morada": "Av. Roma, 21 A/B",
-        "horario": "Segunda a Sexta: 10h00 - 19h00Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 10h00 - 19h00 Sábado: 10h00 - 13h00",
         "localidade": "Lisboa",
         "latitude": "38.744751",
-        "longitude": " -9.139627",
+        "longitude": "-9.139627",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -685,10 +685,10 @@
     {
         "nome": "Loja NOS Lisboa - Vasco da Gama",
         "morada": "CC Vasco da Gama - Av. Dom João II, 40 - lj. 0.13A",
-        "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+        "horario": "Segunda a Sexta: 10h00 - 24h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 24h00",
         "localidade": "Lisboa",
         "latitude": "38.767754",
-        "longitude": " -9.097602",
+        "longitude": "-9.097602",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -707,10 +707,10 @@
     {
         "nome": "Loja NOS Loulé - Mar Shopping Algarve",
         "morada": "CC Mar Shopping Algarve - Av. Algarve, Complexo Comercial IKEA - lj. 0.52",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Almancil",
         "latitude": "37.096587",
-        "longitude": " -7.995347",
+        "longitude": "-7.995347",
         "distrito": "Faro",
         "concelho": "Loulé",
         "listaservs": [
@@ -725,10 +725,10 @@
     {
         "nome": "Loja NOS Loures - LoureShopping",
         "morada": "CC LoureShopping - Av. Descobertas, 90 - lj. 0.015A/B",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Loures",
         "latitude": "38.834209",
-        "longitude": " -9.156498",
+        "longitude": "-9.156498",
         "distrito": "Lisboa",
         "concelho": "Loures",
         "listaservs": [
@@ -747,10 +747,10 @@
     {
         "nome": "Loja NOS Maia - MaiaShopping",
         "morada": "CC MaiaShopping - Lugar de Adragães - lj. 131",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Águas Santas",
         "latitude": "41.219746",
-        "longitude": " -8.562362",
+        "longitude": "-8.562362",
         "distrito": "Porto",
         "concelho": "Maia",
         "listaservs": [
@@ -769,10 +769,10 @@
     {
         "nome": "Loja NOS Matosinhos - Mar Shopping",
         "morada": "CC Mar Shopping - Av. Dr. Óscar Lopes - lj. 0.17",
-        "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+        "horario": "Segunda a Sexta: 10h00 - 24h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 24h00",
         "localidade": "Matosinhos",
         "latitude": "41.208089",
-        "longitude": " -8.687857",
+        "longitude": "-8.687857",
         "distrito": "Porto",
         "concelho": "Matosinhos",
         "listaservs": [
@@ -791,10 +791,10 @@
     {
         "nome": "Loja NOS Matosinhos - NorteShopping",
         "morada": "CC NorteShopping - R. Sara Afonso, 105-117 - lj. 0.132",
-        "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+        "horario": "Segunda a Sexta: 10h00 - 24h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 24h00",
         "localidade": "Matosinhos",
         "latitude": "41.180527",
-        "longitude": " -8.655836",
+        "longitude": "-8.655836",
         "distrito": "Porto",
         "concelho": "Matosinhos",
         "listaservs": [
@@ -813,10 +813,10 @@
     {
         "nome": "Loja NOS Matosinhos - NorteShopping Continente",
         "morada": "CC NorteShopping - R. Sara Afonso, 105-117 - lj. 0.606",
-        "horario": "Segunda a Sexta: 10h00 - 24h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+        "horario": "Segunda a Sexta: 10h00 - 24h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 24h00",
         "localidade": "Matosinhos",
         "latitude": "41.181635",
-        "longitude": " -8.657536",
+        "longitude": "-8.657536",
         "distrito": "Porto",
         "concelho": "Matosinhos",
         "listaservs": [
@@ -831,10 +831,10 @@
     {
         "nome": "Loja NOS Montijo - Alegro Montijo",
         "morada": "CC Fórum Montijo - Zona Industrial do Pau Queimado, R. Azinheira - lj. 0.11",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Montijo",
         "latitude": "38.693963",
-        "longitude": " -8.941403",
+        "longitude": "-8.941403",
         "distrito": "Setúbal",
         "concelho": "Montijo",
         "listaservs": [
@@ -852,10 +852,10 @@
     {
         "nome": "Loja NOS Odivelas - Strada Outlet",
         "morada": "CC Strada Outlet - Est. Paiã, lj. 2037",
-        "horario": "Segunda a Sexta: 09h30 - 23h00Sábado: 09h30 - 23h00Domingo: 09h30 - 23h00",
+        "horario": "Segunda a Sexta: 09h30 - 23h00 Sábado: 09h30 - 23h00 Domingo: 09h30 - 23h00",
         "localidade": "Odivelas",
         "latitude": "38.782120",
-        "longitude": " -9.192643",
+        "longitude": "-9.192643",
         "distrito": "Lisboa",
         "concelho": "Odivelas",
         "listaservs": [
@@ -873,10 +873,10 @@
     {
         "nome": "Loja NOS Oeiras - Oeiras Parque",
         "morada": "CC Oeiras Parque - Av. António Bernardo Cabral de Macedo - lj. 1113/1114",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Oeiras",
         "latitude": "38.705552",
-        "longitude": " -9.301431",
+        "longitude": "-9.301431",
         "distrito": "Lisboa",
         "concelho": "Oeiras",
         "listaservs": [
@@ -895,10 +895,10 @@
     {
         "nome": "Loja NOS Portalegre - Continente",
         "morada": "CC Continente Portalegre - R. Joinal, 12 - lj. 1",
-        "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
+        "horario": "Segunda a Sexta: 09h00 - 21h00 Sábado: 09h00 - 21h00 Domingo: 09h00 - 21h00",
         "localidade": "Portalegre",
         "latitude": "39.277714",
-        "longitude": " -7.431666",
+        "longitude": "-7.431666",
         "distrito": "Portalegre",
         "concelho": "Portalegre",
         "listaservs": [
@@ -916,10 +916,10 @@
     {
         "nome": "Loja NOS Portimão - Aqua Portimão",
         "morada": "CC Aqua Portimão - R. São Pedro, 72 - lj. 0.36",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Portimão",
         "latitude": "37.139219",
-        "longitude": " -8.540968",
+        "longitude": "-8.540968",
         "distrito": "Faro",
         "concelho": "Portimão",
         "listaservs": [
@@ -938,10 +938,10 @@
     {
         "nome": "Loja NOS Portimão - Continente",
         "morada": "CC Continente Portimão - Av. São Lourenço da Barrosa, lt. 1 - lj. 234",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Portimão",
         "latitude": "37.133945",
-        "longitude": " -8.544483",
+        "longitude": "-8.544483",
         "distrito": "Faro",
         "concelho": "Portimão",
         "listaservs": [
@@ -956,10 +956,10 @@
     {
         "nome": "Loja NOS Porto - Alameda Shop e Spot",
         "morada": "CC Alameda Shop & Spot - Rua dos Campeões Europeus, 28-198 - lj. 135",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Porto",
         "latitude": "41.163746",
-        "longitude": " -8.583965",
+        "longitude": "-8.583965",
         "distrito": "Porto",
         "concelho": "Porto",
         "listaservs": [
@@ -974,10 +974,10 @@
     {
         "nome": "Loja NOS Porto - Av. Boavista",
         "morada": "Av. Boavista, 290",
-        "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 20h00 Sábado: 09h00 - 13h00",
         "localidade": "Porto",
         "latitude": "41.157732",
-        "longitude": " -8.627032",
+        "longitude": "-8.627032",
         "distrito": "Porto",
         "concelho": "Porto",
         "listaservs": [
@@ -998,10 +998,10 @@
     {
         "nome": "Loja NOS Quarteira - Av. Carlos Mota Pinto",
         "morada": "Av. Carlos Mota Pinto, Ed. José Correia Bárbara - R/C",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h00 - 13h00",
         "localidade": "Quarteira",
         "latitude": "37.071539",
-        "longitude": " -8.107417",
+        "longitude": "-8.107417",
         "distrito": "Faro",
         "concelho": "Loulé",
         "listaservs": [
@@ -1020,10 +1020,10 @@
     {
         "nome": "Loja NOS Porto - Loja do Cidadão Porto",
         "morada": "Loja do Cidadão do Porto - Av. Fernão de Magalhães, 1862 - 1º, lj. NOS",
-        "horario": "Segunda a Sexta: 08h30 - 19h30Sábado: 09h30 - 15h00",
+        "horario": "Segunda a Sexta: 08h30 - 19h30 Sábado: 09h30 - 15h00",
         "localidade": "Porto",
         "latitude": "41.165356",
-        "longitude": " -8.588402",
+        "longitude": "-8.588402",
         "distrito": "Porto",
         "concelho": "Porto",
         "listaservs": [
@@ -1041,7 +1041,7 @@
         "horario": "Segunda a Sexta: 10h00 - 19h00",
         "localidade": "Porto",
         "latitude": "41.147095",
-        "longitude": " -8.607139",
+        "longitude": "-8.607139",
         "distrito": "Porto",
         "concelho": "Porto",
         "listaservs": [
@@ -1058,10 +1058,10 @@
     {
         "nome": "Loja NOS Porto - Via Catarina",
         "morada": "CC Via Catarina - R. Santa Catarina, 250-312 - lj. 1.12",
-        "horario": "Segunda a Sexta: 10h00 - 21h00Sábado: 10h00 - 21h00Domingo: 10h00 - 21h00",
+        "horario": "Segunda a Sexta: 10h00 - 21h00 Sábado: 10h00 - 21h00 Domingo: 10h00 - 21h00",
         "localidade": "Porto",
         "latitude": "41.149094",
-        "longitude": " -8.605889",
+        "longitude": "-8.605889",
         "distrito": "Porto",
         "concelho": "Porto",
         "listaservs": [
@@ -1079,10 +1079,10 @@
     {
         "nome": "Loja NOS Santarém - Lg. Cândido Reis",
         "morada": "Lg. Cândido dos Reis, 4",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h00 - 13h00",
         "localidade": "Santarém",
         "latitude": "39.233109",
-        "longitude": " -8.685143",
+        "longitude": "-8.685143",
         "distrito": "Santarém",
         "concelho": "Santarém",
         "listaservs": [
@@ -1101,10 +1101,10 @@
     {
         "nome": "Loja NOS Seixal - Rio Sul",
         "morada": "CC Rio Sul - Av. Libertadores de Timor Loro Sae - lj. 0.018/0.019",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Seixal",
         "latitude": "38.612779",
-        "longitude": " -9.104002",
+        "longitude": "-9.104002",
         "distrito": "Setúbal",
         "concelho": "Seixal",
         "listaservs": [
@@ -1123,10 +1123,10 @@
     {
         "nome": "Loja NOS Setúbal - Alegro",
         "morada": "CC Alegro - Av. Antero de Quental, 2 - lj. 0.029",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Setúbal",
         "latitude": "38.537392",
-        "longitude": " -8.875526",
+        "longitude": "-8.875526",
         "distrito": "Setúbal",
         "concelho": "Setúbal",
         "listaservs": [
@@ -1144,10 +1144,10 @@
     {
         "nome": "Loja NOS Setúbal - Av. Luísa Todi",
         "morada": "Av. Luísa Todi, 152/154",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h00 - 13h00",
         "localidade": "Setúbal",
         "latitude": "38.523110",
-        "longitude": " -8.888772",
+        "longitude": "-8.888772",
         "distrito": "Setúbal",
         "concelho": "Setúbal",
         "listaservs": [
@@ -1166,10 +1166,10 @@
     {
         "nome": "Loja NOS Sintra - Alegro Sintra",
         "morada": "CC Fórum Sintra - IC 19, Alto do Forte - lj. 0.37",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Rio de Mouro",
         "latitude": "38.775375",
-        "longitude": " -9.341338",
+        "longitude": "-9.341338",
         "distrito": "Lisboa",
         "concelho": "Sintra",
         "listaservs": [
@@ -1187,10 +1187,10 @@
     {
         "nome": "Loja NOS Sintra - Auchan Sintra",
         "morada": "CC Auchan Sintra - R. Francisco Lyon de Castro - lj. 0.12",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "Mem Martins",
         "latitude": "38.779265",
-        "longitude": " -9.348760",
+        "longitude": "-9.348760",
         "distrito": "Lisboa",
         "concelho": "Sintra",
         "listaservs": [
@@ -1205,10 +1205,10 @@
     {
         "nome": "Loja NOS Torres Vedras - Arena Shopping",
         "morada": "CC Arena Shopping - R. António Alves Ferreira, 2  - lj. 1003",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Torres Vedras",
         "latitude": "39.101245",
-        "longitude": " -9.253323",
+        "longitude": "-9.253323",
         "distrito": "Lisboa",
         "concelho": "Torres Vedras",
         "listaservs": [
@@ -1226,10 +1226,10 @@
     {
         "nome": "Loja NOS Viana do Castelo - Estação Viana",
         "morada": "CC Estação Viana - Av. General Humberto Delgado, 101 - lj. 1.107",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "Viana do Castelo",
         "latitude": "41.694545",
-        "longitude": " -8.832661",
+        "longitude": "-8.832661",
         "distrito": "Viana do Castelo",
         "concelho": "Viana do Castelo",
         "listaservs": [
@@ -1248,10 +1248,10 @@
     {
         "nome": "Loja NOS Viseu - Continente",
         "morada": "CC Continente Viseu - Av. Bélgica - lj. 13",
-        "horario": "Segunda a Sexta: 09h00 - 23h00Sábado: 09h00 - 23h00Domingo: 09h00 - 22h00",
+        "horario": "Segunda a Sexta: 09h00 - 23h00 Sábado: 09h00 - 23h00 Domingo: 09h00 - 22h00",
         "localidade": "Viseu",
         "latitude": "40.672840",
-        "longitude": " -7.919748",
+        "longitude": "-7.919748",
         "distrito": "Viseu",
         "concelho": "Viseu",
         "listaservs": [
@@ -1268,10 +1268,10 @@
     {
         "nome": "Loja NOS Viseu - Palácio do Gelo",
         "morada": "CC Palácio do Gelo - R. Palácio do Gelo, 3 - lj. 013",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Viseu",
         "latitude": "40.643868",
-        "longitude": " -7.911049",
+        "longitude": "-7.911049",
         "distrito": "Viseu",
         "concelho": "Viseu",
         "listaservs": [
@@ -1290,10 +1290,10 @@
     {
         "nome": "Loja NOS Vila Nova de Gaia - ArrábidaShopping",
         "morada": "CC ArrábidaShopping - Pta. Henrique Moreira, 244 - lj. 0.48",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Vila Nova de Gaia",
         "latitude": "41.140785",
-        "longitude": " -8.636205",
+        "longitude": "-8.636205",
         "distrito": "Porto",
         "concelho": "Vila Nova de Gaia",
         "listaservs": [
@@ -1311,10 +1311,10 @@
     {
         "nome": "Loja NOS Vila Nova de Gaia - GaiaShopping",
         "morada": "CC GaiaShopping - Av. Descobrimentos, 549 - lj. 3",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Vila Nova de Gaia",
         "latitude": "41.118801",
-        "longitude": " -8.620268",
+        "longitude": "-8.620268",
         "distrito": "Porto",
         "concelho": "Vila Nova de Gaia",
         "listaservs": [
@@ -1333,10 +1333,10 @@
     {
         "nome": "Loja NOS Vila Nova de Gaia - Av. República",
         "morada": "Av. República, 911-917",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 9h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 9h00 - 13h00",
         "localidade": "Vila Nova de Gaia",
         "latitude": "41.130393",
-        "longitude": " -8.606182",
+        "longitude": "-8.606182",
         "distrito": "Porto",
         "concelho": "Vila Nova de Gaia",
         "listaservs": [
@@ -1354,10 +1354,10 @@
     {
         "nome": "Loja NOS Vila Real - Nosso Shopping",
         "morada": "CC Nosso Shopping - Al. Grasse - lj. 223/224",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Vila Real",
         "latitude": "41.298525",
-        "longitude": " -7.73474",
+        "longitude": "-7.73474",
         "distrito": "Vila Real",
         "concelho": "Vila Real",
         "listaservs": [
@@ -1375,10 +1375,10 @@
     {
         "nome": "Loja NOS Angra do Heroísmo - Continente",
         "morada": "CC Continente Angra do Heroísmo - R. Cambalim, 116 - lj. NOS",
-        "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
+        "horario": "Segunda a Sexta: 09h00 - 21h00 Sábado: 09h00 - 21h00 Domingo: 09h00 - 21h00",
         "localidade": "Angra do Heroísmo",
         "latitude": "38.663574",
-        "longitude": " -27.206564",
+        "longitude": "-27.206564",
         "distrito": "Açores",
         "concelho": "Angra do Heroísmo",
         "listaservs": [
@@ -1392,10 +1392,10 @@
     {
         "nome": "Loja NOS Horta - Continente",
         "morada": "CC Continente Horta – Est. Príncipe Alberto do Mónaco, Ap. 230",
-        "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
+        "horario": "Segunda a Sexta: 09h00 - 21h00 Sábado: 09h00 - 21h00 Domingo: 09h00 - 21h00",
         "localidade": "Horta",
         "latitude": "38.529912",
-        "longitude": " -28.632082",
+        "longitude": "-28.632082",
         "distrito": "Açores",
         "concelho": "Horta",
         "listaservs": [
@@ -1409,10 +1409,10 @@
     {
         "nome": "Loja NOS Ponta Delgada - Parque Atlântico",
         "morada": "CC Parque Atlântico - R. da Juventude - lj 0.009",
-        "horario": "Segunda a Sexta: 09h00 - 22h00Sábado: 09h00 - 23h00Domingo: 09h00 - 22h00",
+        "horario": "Segunda a Sexta: 09h00 - 22h00 Sábado: 09h00 - 23h00 Domingo: 09h00 - 22h00",
         "localidade": "Ponta Delgada",
         "latitude": "37.745946",
-        "longitude": " -25.675275",
+        "longitude": "-25.675275",
         "distrito": "Açores",
         "concelho": "Ponta Delgada",
         "listaservs": [
@@ -1426,10 +1426,10 @@
     {
         "nome": "Loja NOS Praia da Vitória - Continente",
         "morada": "CC Continente Praia da Vitória - Est. Circunvalação - lj NOS",
-        "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
+        "horario": "Segunda a Sexta: 09h00 - 21h00 Sábado: 09h00 - 21h00 Domingo: 09h00 - 21h00",
         "localidade": "Praia da Vitória",
         "latitude": "38.728655",
-        "longitude": " -27.067211",
+        "longitude": "-27.067211",
         "distrito": "Açores",
         "concelho": "Praia da Vitória",
         "listaservs": [
@@ -1442,10 +1442,10 @@
     {
         "nome": "Loja NOS Ribeira Grande - Continente",
         "morada": "CC Continente - R. Adolfo Medeiros - lj NOS",
-        "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
+        "horario": "Segunda a Sexta: 09h00 - 21h00 Sábado: 09h00 - 21h00 Domingo: 09h00 - 21h00",
         "localidade": "Ribeira Grande",
         "latitude": "37.820580",
-        "longitude": " -25.527247",
+        "longitude": "-25.527247",
         "distrito": "Açores",
         "concelho": "Ribeira Grande",
         "listaservs": [
@@ -1461,7 +1461,7 @@
         "horario": "Segunda a Sexta: 08h30 - 19h00",
         "localidade": "Funchal",
         "latitude": "32.644456",
-        "longitude": " -16.935327",
+        "longitude": "-16.935327",
         "distrito": "Madeira",
         "concelho": "Funchal",
         "listaservs": [
@@ -1475,10 +1475,10 @@
     {
         "nome": "Loja NOS Caniço - Caniço Shopping",
         "morada": "CC Caniço Shopping - Est. João Gonçalves Zarco",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 22h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 22h00 Domingo: 10h00 - 22h00",
         "localidade": "Caniço",
         "latitude": "32.653377",
-        "longitude": " -16.841945",
+        "longitude": "-16.841945",
         "distrito": "Madeira",
         "concelho": "Santa Cruz",
         "listaservs": [
@@ -1491,10 +1491,10 @@
     {
         "nome": "Loja NOS Funchal - Anadia Shopping",
         "morada": "CC Anadia Shopping - R. Visconde de Anadia - lj. 25",
-        "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 18h00Domingo: 09h00 - 14h00",
+        "horario": "Segunda a Sexta: 09h00 - 21h00 Sábado: 09h00 - 18h00 Domingo: 09h00 - 14h00",
         "localidade": "Funchal",
         "latitude": "32.649558",
-        "longitude": " -16.903801",
+        "longitude": "-16.903801",
         "distrito": "Madeira",
         "concelho": "Funchal",
         "listaservs": [
@@ -1507,10 +1507,10 @@
     {
         "nome": "Loja NOS Funchal - Loja do Cidadão Funchal",
         "morada": "Loja do Cidadão do Funchal - Av. Arriaga, 42 - Ed. Arriaga",
-        "horario": "Segunda a Sexta: 08h30 - 19h30Sábado: 08h30 - 13h30",
+        "horario": "Segunda a Sexta: 08h30 - 19h30 Sábado: 08h30 - 13h30",
         "localidade": "Funchal",
         "latitude": "32.647002",
-        "longitude": " -16.912365",
+        "longitude": "-16.912365",
         "distrito": "Madeira",
         "concelho": "Funchal",
         "listaservs": [
@@ -1523,10 +1523,10 @@
     {
         "nome": "Loja NOS Funchal - La Vie Funchal",
         "morada": "CC La Vie Funchal - R. Dr. Brito Câmara, 9 - lj. 0.10",
-        "horario": "Segunda a Sexta: 09h00 - 22h00Sábado: 09h00 - 22h00Domingo: 09h00 - 22h00",
+        "horario": "Segunda a Sexta: 09h00 - 22h00 Sábado: 09h00 - 22h00 Domingo: 09h00 - 22h00",
         "localidade": "Funchal",
         "latitude": "32.647589",
-        "longitude": " -16.914033",
+        "longitude": "-16.914033",
         "distrito": "Madeira",
         "concelho": "Funchal",
         "listaservs": [
@@ -1540,10 +1540,10 @@
     {
         "nome": "Loja NOS Funchal - MadeiraShopping",
         "morada": "CC MadeiraShopping - Cm. Santa Quitéria, 44 - lj. 0.047",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 24h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 24h00",
         "localidade": "Funchal",
         "latitude": "32.659077",
-        "longitude": " -16.950703",
+        "longitude": "-16.950703",
         "distrito": "Madeira",
         "concelho": "Funchal",
         "listaservs": [
@@ -1558,10 +1558,10 @@
     {
         "nome": "Loja NOS Machico - R. General António Teixeira Aguiar",
         "morada": "R. General António Teixeira Aguiar, 40 - R/C - Lj. 3",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00Domingo: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h00 - 13h00 Domingo: 09h00 - 13h00",
         "localidade": "Machico",
         "latitude": "32.717912",
-        "longitude": " -16.764996",
+        "longitude": "-16.764996",
         "distrito": "Madeira",
         "concelho": "Machico",
         "listaservs": [
@@ -1575,7 +1575,7 @@
     {
         "nome": "Loja NOS Porto Santo - R. José Diamantino Lima",
         "morada": "R. José Diamantino Lima, 15",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h00 - 13h00",
         "localidade": "Porto Santo",
         "latitude": "",
         "longitude": "",
@@ -1592,10 +1592,10 @@
     {
         "nome": "Loja NOS Águeda - R. Rio Grande",
         "morada": "R. Rio Grande, S/N",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 10h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 12h30 - 14h30 Sábado: 10h00 - 12h30",
         "localidade": "Águeda",
         "latitude": "40.574253",
-        "longitude": " -8.445034",
+        "longitude": "-8.445034",
         "distrito": "Aveiro",
         "concelho": "Águeda",
         "listaservs": [
@@ -1613,10 +1613,10 @@
     {
         "nome": "Loja NOS Alcobaça - R. Dr. Brilhante",
         "morada": "R. Dr. Brilhante, 22",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 13h00 - 14h30 Sábado: 10h00 - 13h00",
         "localidade": "Alcobaça",
         "latitude": "39.550528",
-        "longitude": " -8.976493",
+        "longitude": "-8.976493",
         "distrito": "Leiria",
         "concelho": "Alcobaça",
         "listaservs": [
@@ -1634,10 +1634,10 @@
     {
         "nome": "Loja NOS Amadora - Continente",
         "morada": "CC Continente Amadora - EN249-1 - lj. 28",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 22h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 22h00 Domingo: 10h00 - 22h00",
         "localidade": "Amadora",
         "latitude": "38.741539",
-        "longitude": " -9.232603",
+        "longitude": "-9.232603",
         "distrito": "Lisboa",
         "concelho": "Amadora",
         "listaservs": [
@@ -1652,10 +1652,10 @@
     {
         "nome": "Loja NOS Amadora - Pta. Padre Eduardo Ferreira do Amaral",
         "morada": "Pta. Padre Eduardo Ferreira do Amaral, 3B",
-        "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h30 - 15h00Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 10h00 - 19h00 Hora de almoço: 13h30 - 15h00 Sábado: 10h00 - 13h00",
         "localidade": "Amadora",
         "latitude": "38.759755",
-        "longitude": " -9.238504",
+        "longitude": "-9.238504",
         "distrito": "Lisboa",
         "concelho": "Amadora",
         "listaservs": [
@@ -1673,10 +1673,10 @@
     {
         "nome": "Loja NOS Amarante - R. Doutor João Pinto Ribeiro",
         "morada": "R. Doutor João Pinto Ribeiro, 93 - 2º",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 09h30 - 12h30",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 12h30 - 14h30 Sábado: 09h30 - 12h30",
         "localidade": "Amarante",
         "latitude": "41.272774",
-        "longitude": " -8.082998",
+        "longitude": "-8.082998",
         "distrito": "Porto",
         "concelho": "Amarante",
         "listaservs": [
@@ -1694,10 +1694,10 @@
     {
         "nome": "Loja NOS Aveiro - Aveiro Center",
         "morada": "CC Aveiro Center - Estrada da Taboeira, Esgueira - lj. 57/58",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "Aveiro",
         "latitude": "40.649411",
-        "longitude": " -8.614811",
+        "longitude": "-8.614811",
         "distrito": "Aveiro",
         "concelho": "Aveiro",
         "listaservs": [
@@ -1713,10 +1713,10 @@
     {
         "nome": "Loja NOS Coimbra - Fórum Coimbra",
         "morada": "CC Fórum Coimbra - Av. José Bonifácio de Andrada e Silva, 1 - lj. 0.07/0.08",
-        "horario": "Segunda a Sexta: 09h00 - 23h00Sábado: 09h00 - 24h00Domingo: 09h00 - 23h00",
+        "horario": "Segunda a Sexta: 09h00 - 23h00 Sábado: 09h00 - 24h00 Domingo: 09h00 - 23h00",
         "localidade": "Coimbra",
         "latitude": "40.211437",
-        "longitude": " -8.443741",
+        "longitude": "-8.443741",
         "distrito": "Coimbra",
         "concelho": "Coimbra",
         "listaservs": [
@@ -1735,10 +1735,10 @@
     {
         "nome": "Loja NOS Caldas da Rainha - La Vie Caldas da Rainha",
         "morada": "CC La Vie Caldas da Rainha - R. Belchior de Matos, 11 - piso 0 - Quiosque NOS",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Caldas da Rainha",
         "latitude": "39.401134",
-        "longitude": " -9.136902",
+        "longitude": "-9.136902",
         "distrito": "Leiria",
         "concelho": "Caldas da Rainha",
         "listaservs": [
@@ -1753,10 +1753,10 @@
     {
         "nome": "Loja NOS Estarreja - Pç. Francisco Barbosa",
         "morada": "Pç. Francisco Barbosa, 42",
-        "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 13h00 - 14h30Sábado: 09h30 - 12h30",
+        "horario": "Segunda a Sexta: 09h30 - 18h30 Hora de almoço: 13h00 - 14h30 Sábado: 09h30 - 12h30",
         "localidade": "Estarreja",
         "latitude": "40.753209",
-        "longitude": " -8.570090",
+        "longitude": "-8.570090",
         "distrito": "Aveiro",
         "concelho": "Estarreja",
         "listaservs": [
@@ -1772,10 +1772,10 @@
     {
         "nome": "Loja NOS Fátima - Av. Beato Nuno",
         "morada": "Av. Beato Nuno, 19 - Bloco C - 5A Cova de Iria",
-        "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h30 - 18h30 Hora de almoço: 13h00 - 14h30 Sábado: 10h00 - 12h30",
         "localidade": "Fátima",
         "latitude": "39.626306",
-        "longitude": " -8.665550",
+        "longitude": "-8.665550",
         "distrito": "Santarém",
         "concelho": "Ourém",
         "listaservs": [
@@ -1791,10 +1791,10 @@
     {
         "nome": "Loja NOS Figueira da Foz - Foz Plaza",
         "morada": "CC Foz Plaza - R. Condados, Buarcos - lj. 225/226",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "Figueira da Foz",
         "latitude": "40.165834",
-        "longitude": " -8.860029",
+        "longitude": "-8.860029",
         "distrito": "Coimbra",
         "concelho": "Figueira da Foz",
         "listaservs": [
@@ -1813,10 +1813,10 @@
     {
         "nome": "Loja NOS Gondomar - R. 25 de Abril",
         "morada": "R. 25 de Abril, 27",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h30 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h30 - 13h00",
         "localidade": "Gondomar",
         "latitude": "41.137222",
-        "longitude": " -8.531935",
+        "longitude": "-8.531935",
         "distrito": "Porto",
         "concelho": "Gondomar",
         "listaservs": [
@@ -1833,10 +1833,10 @@
     {
         "nome": "Loja NOS Guimarães - GuimarãeShopping",
         "morada": "CC GuimarãeShopping - Al. Dr. Mariano Felgueiras - lj. 149/151",
-        "horario": "Segunda a Sexta: 09h00 - 22h00Sábado: 09h00 - 23h00Domingo: 09h00 - 22h00",
+        "horario": "Segunda a Sexta: 09h00 - 22h00 Sábado: 09h00 - 23h00 Domingo: 09h00 - 22h00",
         "localidade": "Guimarães",
         "latitude": "41.440128",
-        "longitude": " -8.303794",
+        "longitude": "-8.303794",
         "distrito": "Braga",
         "concelho": "Guimarães",
         "listaservs": [
@@ -1855,10 +1855,10 @@
     {
         "nome": "Loja NOS Guimarães - S. Francisco Centro",
         "morada": "CC S. Francisco Centro - Al. São Dâmaso - lj. 75",
-        "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 09h00 - 20h00",
+        "horario": "Segunda a Sexta: 09h00 - 20h00 Sábado: 09h00 - 20h00",
         "localidade": "Guimarães",
         "latitude": "41.441097",
-        "longitude": " -8.292798",
+        "longitude": "-8.292798",
         "distrito": "Braga",
         "concelho": "Guimarães",
         "listaservs": [
@@ -1874,10 +1874,10 @@
     {
         "nome": "Loja NOS Lisboa - Armazéns do Chiado",
         "morada": "Armazéns do Chiado - R. Carmo, 2 - lj. 4.05",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Lisboa",
         "latitude": "38.710999",
-        "longitude": " -9.139541",
+        "longitude": "-9.139541",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -1894,10 +1894,10 @@
     {
         "nome": "Loja NOS Monção - Pingo Doce",
         "morada": "CC Pingo Doce - R. Joaquim Macedo, lj. NOS - Gandara",
-        "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 09h00 - 20h00",
+        "horario": "Segunda a Sexta: 09h00 - 20h00 Sábado: 09h00 - 20h00",
         "localidade": "Monção",
         "latitude": "42.063096",
-        "longitude": " -8.506885",
+        "longitude": "-8.506885",
         "distrito": "Viana do Castelo",
         "concelho": "Monção",
         "listaservs": [
@@ -1914,10 +1914,10 @@
     {
         "nome": "Loja NOS Moscavide - Av. Moscavide",
         "morada": "Av. Moscavide, 51B - R/C",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 13h00 - 14h30 Sábado: 10h00 - 13h00",
         "localidade": "Moscavide",
         "latitude": "38.778317",
-        "longitude": " -9.102372",
+        "longitude": "-9.102372",
         "distrito": "Lisboa",
         "concelho": "Loures",
         "listaservs": [
@@ -1934,10 +1934,10 @@
     {
         "nome": "Loja NOS Nazaré - R. Sub Vila",
         "morada": "R. Sub Vila, 40",
-        "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 14h00Sábado: 09h30 - 13h00",
+        "horario": "Segunda a Sexta: 10h00 - 19h00 Hora de almoço: 13h00 - 14h00 Sábado: 09h30 - 13h00",
         "localidade": "Nazaré",
         "latitude": "39.599925",
-        "longitude": " -9.070816",
+        "longitude": "-9.070816",
         "distrito": "Leiria",
         "concelho": "Nazaré",
         "listaservs": [
@@ -1954,10 +1954,10 @@
     {
         "nome": "Loja NOS Pombal - Lg. 25 de Abril",
         "morada": "Lg. 25 de Abril, 5",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 13h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Sábado: 09h30 - 13h00",
         "localidade": "Pombal",
         "latitude": "39.915961",
-        "longitude": " -8.627943",
+        "longitude": "-8.627943",
         "distrito": "Leiria",
         "concelho": "Pombal",
         "listaservs": [
@@ -1975,10 +1975,10 @@
     {
         "nome": "Loja NOS Porto - Campus São João",
         "morada": "CC Campus São João - R. Doutor Plácido da Costa - lj. 105",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 22h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 22h00 Domingo: 10h00 - 22h00",
         "localidade": "Porto",
         "latitude": "41.180622",
-        "longitude": " -8.604312",
+        "longitude": "-8.604312",
         "distrito": "Porto",
         "concelho": "Porto",
         "listaservs": [
@@ -1993,10 +1993,10 @@
     {
         "nome": "Loja NOS Póvoa de Varzim - R. Gomes Amorim",
         "morada": "R. Gomes Amorim, 139 – R/C Esq",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h30 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h30 - 13h00",
         "localidade": "Póvoa de Varzim",
         "latitude": "41.387312",
-        "longitude": " -8.765695",
+        "longitude": "-8.765695",
         "distrito": "Porto",
         "concelho": "Póvoa de Varzim",
         "listaservs": [
@@ -2015,10 +2015,10 @@
     {
         "nome": "Loja NOS Vila Nova de Famalicão - E.Leclerc",
         "morada": "CC E.Leclerc Vila Nova de Famalicão - R. Talvai - lj. 12",
-        "horario": "Segunda a Sexta: 09h00 - 22h00Sábado: 09h00 - 23h00Domingo: 09h00 - 21h30",
+        "horario": "Segunda a Sexta: 09h00 - 22h00 Sábado: 09h00 - 23h00 Domingo: 09h00 - 21h30",
         "localidade": "Vila Nova de Famalicão",
         "latitude": "41.416245",
-        "longitude": " -8.520563",
+        "longitude": "-8.520563",
         "distrito": "Braga",
         "concelho": "Vila Nova de Famalicão",
         "listaservs": [
@@ -2035,10 +2035,10 @@
     {
         "nome": "Loja NOS Vila Nova de Famalicão - Auchan",
         "morada": "CC Auchan Vila Nova de Famalicão - Av. Brasil, Qta. da Barberia - lj. 24",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "Vila Nova de Famalicão",
         "latitude": "41.412575",
-        "longitude": " -8.513546",
+        "longitude": "-8.513546",
         "distrito": "Braga",
         "concelho": "Vila Nova de Famalicão",
         "listaservs": [
@@ -2056,10 +2056,10 @@
     {
         "nome": "Loja NOS Abrantes - Av. Dom João I",
         "morada": "Av. Dom João I, 414A",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 13h00 - 14h30 Sábado: 10h00 - 13h00",
         "localidade": "Abrantes",
         "latitude": "39.470289",
-        "longitude": " -8.198346",
+        "longitude": "-8.198346",
         "distrito": "Santarém",
         "concelho": "Abrantes",
         "listaservs": [
@@ -2077,10 +2077,10 @@
     {
         "nome": "Loja NOS Alenquer - Lg. Palmira Bastos",
         "morada": "Lg. Palmira Bastos, 8",
-        "horario": "Segunda a Sexta: 09h00 - 18h00Hora de almoço: 13h00 - 14h00",
+        "horario": "Segunda a Sexta: 09h00 - 18h00 Hora de almoço: 13h00 - 14h00",
         "localidade": "Alenquer",
         "latitude": "39.052295",
-        "longitude": " -9.008288",
+        "longitude": "-9.008288",
         "distrito": "Lisboa",
         "concelho": "Alenquer",
         "listaservs": [
@@ -2097,10 +2097,10 @@
     {
         "nome": "Loja NOS Almeirim - R. Dionísio Saraiva",
         "morada": "R. Dionísio Saraiva, 12-A",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 13h00 - 15h00 Sábado: 10h00 - 12h30",
         "localidade": "Almeirim",
         "latitude": "39.208390",
-        "longitude": " -8.628172",
+        "longitude": "-8.628172",
         "distrito": "Santarém",
         "concelho": "Almeirim",
         "listaservs": [
@@ -2114,10 +2114,10 @@
     {
         "nome": "Loja NOS Barcelos - Lg. Camilo Castelo Branco",
         "morada": "Lg. Camilo Castelo Branco, 70 - R/C A",
-        "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 20h00 Sábado: 09h00 - 13h00",
         "localidade": "Barcelos",
         "latitude": "41.533207",
-        "longitude": " -8.621756",
+        "longitude": "-8.621756",
         "distrito": "Braga",
         "concelho": "Barcelos",
         "listaservs": [
@@ -2134,10 +2134,10 @@
     {
         "nome": "Loja NOS Barcelos - Terço",
         "morada": "CC Terço - Av. Combatentes da Grande Guerra, 290 - lj. NOS",
-        "horario": "Segunda a Sexta: 10h00 - 20h00Sábado: 10h00 - 20h00Domingo: 11h00 - 20h00",
+        "horario": "Segunda a Sexta: 10h00 - 20h00 Sábado: 10h00 - 20h00 Domingo: 11h00 - 20h00",
         "localidade": "Barcelos",
         "latitude": "41.534016",
-        "longitude": " -8.619118",
+        "longitude": "-8.619118",
         "distrito": "Braga",
         "concelho": "Barcelos",
         "listaservs": [
@@ -2152,10 +2152,10 @@
     {
         "nome": "Loja NOS Benavente - Av. Dr Manuel Lopes de Almeida",
         "morada": "Av. Doutor Manuel Lopes de Almeida, 52-A",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 14h30",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 13h00 - 14h30",
         "localidade": "Benavente",
         "latitude": "38.979485",
-        "longitude": " -8.807948",
+        "longitude": "-8.807948",
         "distrito": "Santarém",
         "concelho": "Benavente",
         "listaservs": [
@@ -2173,10 +2173,10 @@
     {
         "nome": "Loja NOS Braga - Minho Center",
         "morada": "CC Minho Center - Av. Robert Smith - lj. 44A",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "Braga",
         "latitude": "41.541286",
-        "longitude": " -8.400464",
+        "longitude": "-8.400464",
         "distrito": "Braga",
         "concelho": "Braga",
         "listaservs": [
@@ -2193,10 +2193,10 @@
     {
         "nome": "Loja NOS Loures - Continente",
         "morada": "CC Continente - EN 250, Qta. do Casal da Pipa - lj. 51",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Loures",
         "latitude": "38.818988",
-        "longitude": " -9.175778",
+        "longitude": "-9.175778",
         "distrito": "Lisboa",
         "concelho": "Loures",
         "listaservs": [
@@ -2210,10 +2210,10 @@
     {
         "nome": "Loja NOS Entroncamento - R. Manuel Rodrigues Gameiro",
         "morada": "R. Manuel Rodrigues Gameiro, 7",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 10h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 10h00 - 12h30",
         "localidade": "Entroncamento",
         "latitude": "39.461364",
-        "longitude": " -8.471246",
+        "longitude": "-8.471246",
         "distrito": "Santarém",
         "concelho": "Entroncamento",
         "listaservs": [
@@ -2233,7 +2233,7 @@
         "horario": "Segunda a Sexta: 09h00 - 19h00",
         "localidade": "Fafe",
         "latitude": "41.453178",
-        "longitude": " -8.177658",
+        "longitude": "-8.177658",
         "distrito": "Braga",
         "concelho": "Fafe",
         "listaservs": [
@@ -2251,10 +2251,10 @@
     {
         "nome": "Loja NOS Lisboa - Spacio Shopping",
         "morada": "CC Spacio Shopping - Av. Cidade de Bolama, 4 - lj. 0.09",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Lisboa",
         "latitude": "38.762197",
-        "longitude": " -9.113927",
+        "longitude": "-9.113927",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -2268,10 +2268,10 @@
     {
         "nome": "Loja NOS Marinha Grande - Av. Vitor Gallo",
         "morada": "Av. Vitor Gallo, 76",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 13h00 - 15h00 Sábado: 10h00 - 12h30",
         "localidade": "Marinha Grande",
         "latitude": "39.748384",
-        "longitude": " -8.926734",
+        "longitude": "-8.926734",
         "distrito": "Leiria",
         "concelho": "Marinha Grande",
         "listaservs": [
@@ -2288,10 +2288,10 @@
     {
         "nome": "Loja NOS Ovar - Dolce Vita Ovar",
         "morada": "CC Dolce Vita Ovar - Av. Dom Manuel I - lj. 1.059",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "Ovar",
         "latitude": "40.855030",
-        "longitude": " -8.609719",
+        "longitude": "-8.609719",
         "distrito": "Aveiro",
         "concelho": "Ovar",
         "listaservs": [
@@ -2305,10 +2305,10 @@
     {
         "nome": "Loja NOS São João da Madeira - 8ª Avenida",
         "morada": "CC 8ª Avenida - Av. Doutor Renato Araújo, 1625 - lj. 0.023A",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "São João da Madeira",
         "latitude": "40.887691",
-        "longitude": " -8.491412",
+        "longitude": "-8.491412",
         "distrito": "Aveiro",
         "concelho": "São João da Madeira",
         "listaservs": [
@@ -2327,10 +2327,10 @@
     {
         "nome": "Loja NOS Santa Maria da Feira - Pingo Doce",
         "morada": "CC Pingo Doce Santa Maria da Feira - R. Dr. Crispim Borges Castro - lj. 14",
-        "horario": "Segunda a Sexta: 09h00 - 23h00Sábado: 09h00 - 23h00Domingo: 09h00 - 22h00",
+        "horario": "Segunda a Sexta: 09h00 - 23h00 Sábado: 09h00 - 23h00 Domingo: 09h00 - 22h00",
         "localidade": "Santa Maria da Feira",
         "latitude": "40.921375",
-        "longitude": " -8.565345",
+        "longitude": "-8.565345",
         "distrito": "Aveiro",
         "concelho": "Santa Maria da Feira",
         "listaservs": [
@@ -2349,10 +2349,10 @@
     {
         "nome": "Loja NOS Torres Novas - R. do Nogueiral",
         "morada": "R. do Nogueiral, lj. 8",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 12h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Sábado: 09h30 - 12h00",
         "localidade": "Torres Novas",
         "latitude": "39.478117",
-        "longitude": " -8.536830",
+        "longitude": "-8.536830",
         "distrito": "Santarém",
         "concelho": "Torres Novas",
         "listaservs": [
@@ -2369,10 +2369,10 @@
     {
         "nome": "Loja NOS Tomar - Continente",
         "morada": "CC Continente Tomar - Lugar de Palhavã de Cima - lj.8",
-        "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
+        "horario": "Segunda a Sexta: 09h00 - 21h00 Sábado: 09h00 - 21h00 Domingo: 09h00 - 21h00",
         "localidade": "Tomar",
         "latitude": "39.602123",
-        "longitude": " -8.397530",
+        "longitude": "-8.397530",
         "distrito": "Santarém",
         "concelho": "Tomar",
         "listaservs": [
@@ -2389,10 +2389,10 @@
     {
         "nome": "Loja NOS Vila Franca de Xira - R. Almirante Cândido dos Reis",
         "morada": "R. Almirante Cândido dos Reis, 142 - R/C",
-        "horario": "Segunda a Sexta: 08h30 - 19h30Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 08h30 - 19h30 Sábado: 09h00 - 13h00",
         "localidade": "Vila Franca de Xira",
         "latitude": "38.954082",
-        "longitude": " -8.989856",
+        "longitude": "-8.989856",
         "distrito": "Lisboa",
         "concelho": "Vila Franca de Xira",
         "listaservs": [
@@ -2410,10 +2410,10 @@
     {
         "nome": "Loja NOS Braga - Nova Arcada",
         "morada": "CC Nova Arcada - Av. Lamas, 100 - lj. 0.21",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 24h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 24h00 Domingo: 10h00 - 23h00",
         "localidade": "Braga",
         "latitude": "41.579349",
-        "longitude": " -8.429181",
+        "longitude": "-8.429181",
         "distrito": "Braga",
         "concelho": "Braga",
         "listaservs": [
@@ -2430,10 +2430,10 @@
     {
         "nome": "Loja NOS Olhão - Algarve Outlet",
         "morada": "CC Algarve Outlet, EN 125 - lj. 0.04",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Olhão",
         "latitude": "37.035134",
-        "longitude": " -7.840563",
+        "longitude": "-7.840563",
         "distrito": "Faro",
         "concelho": "Olhão",
         "listaservs": [
@@ -2451,10 +2451,10 @@
     {
         "nome": "Loja NOS Póvoa de Lanhoso - Av. 25 de Abril",
         "morada": "Av. 25 de Abril, 140",
-        "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h30 - 18h30 Hora de almoço: 13h00 - 14h30 Sábado: 10h00 - 12h30",
         "localidade": "Póvoa de Lanhoso",
         "latitude": "41.574402",
-        "longitude": " -8.270635",
+        "longitude": "-8.270635",
         "distrito": "Braga",
         "concelho": "Póvoa de Lanhoso",
         "listaservs": [
@@ -2468,10 +2468,10 @@
     {
         "nome": "Loja NOS Silves - R. Elias Garcia",
         "morada": "R. Elias Garcia, 26",
-        "horario": "Segunda a Sexta: 09h00 - 18h00Hora de almoço: 13h00 - 14h30Sábado: 09h00 - 12h00",
+        "horario": "Segunda a Sexta: 09h00 - 18h00 Hora de almoço: 13h00 - 14h30 Sábado: 09h00 - 12h00",
         "localidade": "Silves",
         "latitude": "37.187771",
-        "longitude": " -8.438814",
+        "longitude": "-8.438814",
         "distrito": "Faro",
         "concelho": "Silves",
         "listaservs": [
@@ -2485,10 +2485,10 @@
     {
         "nome": "Loja NOS Tavira - Tavira Gran-Plaza",
         "morada": "CC Tavira Gran-Plaza - R. Almirante Cândido dos Reis, 247 - Quiosque NOS",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Tavira",
         "latitude": "37.130709",
-        "longitude": " -7.636669",
+        "longitude": "-7.636669",
         "distrito": "Faro",
         "concelho": "Tavira",
         "listaservs": [
@@ -2502,10 +2502,10 @@
     {
         "nome": "Loja NOS Valongo - Continente",
         "morada": "CC Continente Valongo - R. Julião Sarmento, 285 - lj. 29",
-        "horario": "Segunda a Sexta: 10h00 - 22h00Sábado: 10h00 - 23h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 22h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 22h00",
         "localidade": "Valongo",
         "latitude": "41.197850",
-        "longitude": " -8.491348",
+        "longitude": "-8.491348",
         "distrito": "Porto",
         "concelho": "Valongo",
         "listaservs": [
@@ -2521,10 +2521,10 @@
     {
         "nome": "Loja NOS Vila Real de Santo António - Av. Bombeiros Portugueses",
         "morada": "Av. Bombeiros Portugueses, lt. 13 - lj. NOS",
-        "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 13h30 - 14h30Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h30 - 18h30 Hora de almoço: 13h30 - 14h30 Sábado: 09h00 - 13h00",
         "localidade": "Vila Real de Santo António",
         "latitude": "37.193593",
-        "longitude": " -7.422070",
+        "longitude": "-7.422070",
         "distrito": "Faro",
         "concelho": "Vila Real de Santo António",
         "listaservs": [
@@ -2541,10 +2541,10 @@
     {
         "nome": "Loja NOS Almada - Pç. Movimento das Forças Armadas",
         "morada": "Pç. Movimento das Forças Armadas, 7B",
-        "horario": "Segunda a Sexta: 09h00 - 18h00Hora de almoço: 14h00 - 15h00Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 18h00 Hora de almoço: 14h00 - 15h00 Sábado: 10h00 - 13h00",
         "localidade": "Almada",
         "latitude": "38.680225",
-        "longitude": " -9.155849",
+        "longitude": "-9.155849",
         "distrito": "Setúbal",
         "concelho": "Almada",
         "listaservs": [
@@ -2560,10 +2560,10 @@
     {
         "nome": "Loja NOS Alverca - R. José de Sousa Nazareth",
         "morada": "R. José de Sousa Nazareth, 21",
-        "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h30 - 15h00Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 10h00 - 19h00 Hora de almoço: 13h30 - 15h00 Sábado: 10h00 - 13h00",
         "localidade": "Alverca",
         "latitude": "38.896848",
-        "longitude": " -9.038446",
+        "longitude": "-9.038446",
         "distrito": "Lisboa",
         "concelho": "Vila Franca de Xira",
         "listaservs": [
@@ -2577,10 +2577,10 @@
     {
         "nome": "Loja NOS Chaves - Av. Aliados",
         "morada": "Av. Aliados, Ed. Boega - lj. NOS",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 14h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h00 - 14h00",
         "localidade": "Chaves",
         "latitude": "41.743256",
-        "longitude": " -7.471269",
+        "longitude": "-7.471269",
         "distrito": "Vila Real",
         "concelho": "Chaves",
         "listaservs": [
@@ -2597,10 +2597,10 @@
     {
         "nome": "Loja NOS Macedo de Cavaleiros - R. Mercado",
         "morada": "R. Mercado, R/C",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 10h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 12h30 - 14h30 Sábado: 10h00 - 12h30",
         "localidade": "Macedo de Cavaleiros",
         "latitude": "41.557888",
-        "longitude": " -6.894221",
+        "longitude": "-6.894221",
         "distrito": "Bragança",
         "concelho": "Macedo de Cavaleiros",
         "listaservs": [
@@ -2617,10 +2617,10 @@
     {
         "nome": "Loja NOS Elvas - Intermarché",
         "morada": "CC Intermarché Elvas - Qt. Morgadinho, lt. 1 - lj. 5",
-        "horario": "Segunda a Sexta: 09h00 - 21h00Sábado: 09h00 - 21h00Domingo: 09h00 - 21h00",
+        "horario": "Segunda a Sexta: 09h00 - 21h00 Sábado: 09h00 - 21h00 Domingo: 09h00 - 21h00",
         "localidade": "Elvas",
         "latitude": "38.874287",
-        "longitude": "  -7.18397",
+        "longitude": "-7.18397",
         "distrito": "Portalegre",
         "concelho": "Elvas",
         "listaservs": [
@@ -2634,10 +2634,10 @@
     {
         "nome": "Loja NOS Lisboa - Loja do Cidadão Marvila",
         "morada": "CC Pingo Doce - Loja do Cidadão de Marvila - Av. Santo Condestável, lj. 34, lj.",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h00 - 13h00",
         "localidade": "Lisboa",
         "latitude": "38.749623",
-        "longitude": " -9.117686",
+        "longitude": "-9.117686",
         "distrito": "Lisboa",
         "concelho": "Lisboa",
         "listaservs": [
@@ -2651,10 +2651,10 @@
     {
         "nome": "Loja NOS Matosinhos - Av. República",
         "morada": "Av. República, 587",
-        "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 12h30",
+        "horario": "Segunda a Sexta: 10h00 - 19h00 Hora de almoço: 13h00 - 14h30 Sábado: 10h00 - 12h30",
         "localidade": "Matosinhos",
         "latitude": "41.180472",
-        "longitude": " -8.686189",
+        "longitude": "-8.686189",
         "distrito": "Porto",
         "concelho": "Matosinhos",
         "listaservs": [
@@ -2673,7 +2673,7 @@
         "horario": "Segunda a Sexta: 09h00 - 18h00",
         "localidade": "Queluz",
         "latitude": "38.757356",
-        "longitude": " -9.251602",
+        "longitude": "-9.251602",
         "distrito": "Lisboa",
         "concelho": "Sintra",
         "listaservs": [
@@ -2686,11 +2686,11 @@
     },
     {
         "nome": "Loja NOS Vila Pouca de Aguiar - R. Duque D´Ávila e Bolama",
-        "morada": "R. Duque D´Ávila e Bolama, 58 ",
-        "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 12h30 - 14h00Sábado: 09h30 - 12h30",
+        "morada": "R. Duque D´Ávila e Bolama, 58",
+        "horario": "Segunda a Sexta: 09h30 - 18h30 Hora de almoço: 12h30 - 14h00 Sábado: 09h30 - 12h30",
         "localidade": "Vila Pouca de Aguiar",
         "latitude": "41.500416",
-        "longitude": " -7.644253",
+        "longitude": "-7.644253",
         "distrito": "Vila Real",
         "concelho": "Vila Pouca de Aguiar",
         "listaservs": [
@@ -2706,10 +2706,10 @@
     {
         "nome": "Loja NOS Melgaço - Intermarché",
         "morada": "CC Intermarché Melgaço - Galvão - lj. NOS",
-        "horario": "Segunda a Sexta: 09h00 - 20h00Sábado: 09h00 - 19h00",
+        "horario": "Segunda a Sexta: 09h00 - 20h00 Sábado: 09h00 - 19h00",
         "localidade": "Melgaço",
         "latitude": "42.109318",
-        "longitude": " -8.261579",
+        "longitude": "-8.261579",
         "distrito": "Viana do Castelo",
         "concelho": "Melgaço",
         "listaservs": [
@@ -2724,10 +2724,10 @@
     {
         "nome": "Loja NOS Ponte da Barca - R. António José Pereira",
         "morada": "R. António José Pereira / Escadas Condes da Folgosa, CC Emigrante - R/C lj.3",
-        "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 12h30 - 14h30Sábado: 09h30 - 13h30",
+        "horario": "Segunda a Sexta: 09h30 - 18h30 Hora de almoço: 12h30 - 14h30 Sábado: 09h30 - 13h30",
         "localidade": "Ponte da Barca",
         "latitude": "41.805074",
-        "longitude": " -8.415616",
+        "longitude": "-8.415616",
         "distrito": "Viana do Castelo",
         "concelho": "Ponte da Barca",
         "listaservs": [
@@ -2744,10 +2744,10 @@
     {
         "nome": "Loja NOS Vizela - Fórum Vizela",
         "morada": "CC Fórum Vizela - Pç. Município, bl. 10 - lj. 48",
-        "horario": "Segunda a Sexta: 10h00 - 20h00Hora de almoço: 12h30 - 14h00Sábado: 10h00 - 20h00Domingo: 10h00 - 22h00",
+        "horario": "Segunda a Sexta: 10h00 - 20h00 Hora de almoço: 12h30 - 14h00 Sábado: 10h00 - 20h00 Domingo: 10h00 - 22h00",
         "localidade": "Vizela",
         "latitude": "41.377940",
-        "longitude": " -8.310347",
+        "longitude": "-8.310347",
         "distrito": "Braga",
         "concelho": "Vizela",
         "listaservs": [
@@ -2763,10 +2763,10 @@
     {
         "nome": "Loja NOS Cacém - R. Bartolomeu Dias",
         "morada": "R. Bartolomeu Dias, 10A",
-        "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 14h00",
+        "horario": "Segunda a Sexta: 10h00 - 19h00 Hora de almoço: 13h00 - 14h00",
         "localidade": "Cacém",
         "latitude": "38.768941",
-        "longitude": " -9.298220",
+        "longitude": "-9.298220",
         "distrito": "Lisboa",
         "concelho": "Sintra",
         "listaservs": [
@@ -2780,10 +2780,10 @@
     {
         "nome": "Loja NOS Cascais - Auchan",
         "morada": "CC Auchan - EN 6 - lj. NOS",
-        "horario": "Segunda a Sexta: 09h00 - 20h30Sábado: 09h00 - 20h30",
+        "horario": "Segunda a Sexta: 09h00 - 20h30 Sábado: 09h00 - 20h30",
         "localidade": "Cascais",
         "latitude": "38.701807",
-        "longitude": " -9.416413",
+        "longitude": "-9.416413",
         "distrito": "Lisboa",
         "concelho": "Cascais",
         "listaservs": [
@@ -2797,10 +2797,10 @@
     {
         "nome": "Loja NOS Mafra - R. Francisco Augusto Leite",
         "morada": "R. Francisco Augusto Leite, 17 - lj. 2",
-        "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 10h00 - 19h00 Hora de almoço: 13h00 - 15h00 Sábado: 10h00 - 13h00",
         "localidade": "Mafra",
         "latitude": "38.953584",
-        "longitude": " -9.334153",
+        "longitude": "-9.334153",
         "distrito": "Lisboa",
         "concelho": "Mafra",
         "listaservs": [
@@ -2817,10 +2817,10 @@
     {
         "nome": "Loja NOS Maia - Auchan",
         "morada": "CC Auchan - EN 14 - lj. 8",
-        "horario": "Segunda a Sexta: 09h30 - 23h00Sábado: 09h30 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 09h30 - 23h00 Sábado: 09h30 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Maia",
         "latitude": "41.248874",
-        "longitude": " -8.622237",
+        "longitude": "-8.622237",
         "distrito": "Porto",
         "concelho": "Maia",
         "listaservs": [
@@ -2834,10 +2834,10 @@
     {
         "nome": "Loja NOS Maia - Mira Maia Shopping",
         "morada": "CC Mira Maia Shopping - Estrada Real, 95 - lj. 0.045",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00",
         "localidade": "Maia",
         "latitude": "41.260472",
-        "longitude": " -8.637445",
+        "longitude": "-8.637445",
         "distrito": "Porto",
         "concelho": "Maia",
         "listaservs": [
@@ -2854,10 +2854,10 @@
     {
         "nome": "Loja NOS Oliveira de Azeméis - Av. Ernesto Pinto Basto",
         "morada": "Av. Ernesto Pinto Basto, 102",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h00 Sábado: 09h00 - 13h00",
         "localidade": "Oliveira de Azeméis",
         "latitude": "40.839301",
-        "longitude": " -8.479184",
+        "longitude": "-8.479184",
         "distrito": "Aveiro",
         "concelho": "Oliveira de Azeméis",
         "listaservs": [
@@ -2873,10 +2873,10 @@
     {
         "nome": "Loja NOS Parede - R. José Relvas",
         "morada": "R. José Relvas, 2",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 13h00 - 14h30 Sábado: 10h00 - 12h30",
         "localidade": "Parede",
         "latitude": "38.690656",
-        "longitude": " -9.352643",
+        "longitude": "-9.352643",
         "distrito": "Lisboa",
         "concelho": "Cascais",
         "listaservs": [
@@ -2890,10 +2890,10 @@
     {
         "nome": "Loja NOS Peniche - Av. 25 de Abril",
         "morada": "Av. 25 de Abril, 4 - R/C Dto",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 12h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Sábado: 09h30 - 12h00",
         "localidade": "Peniche",
         "latitude": "39.365055",
-        "longitude": " -9.376698",
+        "longitude": "-9.376698",
         "distrito": "Leiria",
         "concelho": "Peniche",
         "listaservs": [
@@ -2911,10 +2911,10 @@
     {
         "nome": "Loja NOS Ponte de Sôr - Av. Liberdade",
         "morada": "Av. Liberdade, 15",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 09h00 - 12h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 13h00 - 15h00 Sábado: 09h00 - 12h00",
         "localidade": "Ponte de Sôr",
         "latitude": "39.247379",
-        "longitude": " -8.008502",
+        "longitude": "-8.008502",
         "distrito": "Portalegre",
         "concelho": "Ponte de Sôr",
         "listaservs": [
@@ -2931,10 +2931,10 @@
     {
         "nome": "Loja NOS Póvoa de Varzim - Av. Mouzinho de Albuquerque",
         "morada": "Av. Mouzinho de Albuquerque, 106/108",
-        "horario": "Segunda a Sexta: 09h00 - 19h30Sábado: 09h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h00 - 19h30 Sábado: 09h00 - 12h30",
         "localidade": "Póvoa de Varzim",
         "latitude": "41.382005",
-        "longitude": " -8.762779",
+        "longitude": "-8.762779",
         "distrito": "Porto",
         "concelho": "Póvoa de Varzim",
         "listaservs": [
@@ -2951,10 +2951,10 @@
     {
         "nome": "Loja NOS Póvoa de Varzim - Pingo Doce",
         "morada": "CC Pingo Doce - R. de São Miguel-o-Anjo, Argivai - lj. 18",
-        "horario": "Segunda a Sexta: 09h00 - 22h00Sábado: 09h00 - 22h00Domingo: 09h00 - 22h00",
+        "horario": "Segunda a Sexta: 09h00 - 22h00 Sábado: 09h00 - 22h00 Domingo: 09h00 - 22h00",
         "localidade": "Póvoa de Varzim",
         "latitude": "41.378416",
-        "longitude": " -8.738694",
+        "longitude": "-8.738694",
         "distrito": "Porto",
         "concelho": "Póvoa de Varzim",
         "listaservs": [
@@ -2968,10 +2968,10 @@
     {
         "nome": "Loja NOS Vila do Conde - R. 25 de Abril",
         "morada": "R. 25 de Abril, 146",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h30",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 12h30 - 14h30",
         "localidade": "Vila do Conde",
         "latitude": "41.353416",
-        "longitude": " -8.742246",
+        "longitude": "-8.742246",
         "distrito": "Porto",
         "concelho": "Vila do Conde",
         "listaservs": [
@@ -2988,10 +2988,10 @@
     {
         "nome": "Loja NOS Albufeira - AlbufeiraShopping",
         "morada": "CC AlbufeiraShopping – R. do Município, lt. 32 – lj 021",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Albufeira",
         "latitude": "37.090473",
-        "longitude": " -8.241051",
+        "longitude": "-8.241051",
         "distrito": "Faro",
         "concelho": "Albufeira",
         "listaservs": [
@@ -3009,10 +3009,10 @@
     {
         "nome": "Loja NOS Barcelos - Av. Alcaide de Faria",
         "morada": "Av. Alcaide de Faria, 392, fração G - lj. 4",
-        "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 10h00 - 19h00 Hora de almoço: 13h00 - 15h00 Sábado: 10h00 - 13h00",
         "localidade": "Barcelos",
         "latitude": "41.534940",
-        "longitude": " -8.613967",
+        "longitude": "-8.613967",
         "distrito": "Braga",
         "concelho": "Barcelos",
         "listaservs": [
@@ -3029,10 +3029,10 @@
     {
         "nome": "Loja NOS Chaves - R. Padre Joaquim Fontoura",
         "morada": "R. Padre Joaquim Fontoura, 66",
-        "horario": "Segunda a Sexta: 09h00 - 18h30Hora de almoço: 12h30 - 14h30Sábado: 09h00 - 12h00",
+        "horario": "Segunda a Sexta: 09h00 - 18h30 Hora de almoço: 12h30 - 14h30 Sábado: 09h00 - 12h00",
         "localidade": "Chaves",
         "latitude": "41.742949",
-        "longitude": " -7.471460",
+        "longitude": "-7.471460",
         "distrito": "Vila Real",
         "concelho": "Chaves",
         "listaservs": [
@@ -3046,10 +3046,10 @@
     {
         "nome": "Loja NOS Caldas da Rainha - R. Coronel Andrada Mendonça",
         "morada": "R. Coronel Andrada Mendonça, 19 - Loja",
-        "horario": "Segunda a Sexta: 09h30 - 18h30Hora de almoço: 13h00 - 14h30Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h30 - 18h30 Hora de almoço: 13h00 - 14h30 Sábado: 10h00 - 13h00",
         "localidade": "Caldas da Rainha",
         "latitude": "39.404358",
-        "longitude": " -9.136290",
+        "longitude": "-9.136290",
         "distrito": "Leiria",
         "concelho": "Caldas da Rainha",
         "listaservs": [
@@ -3067,10 +3067,10 @@
     {
         "nome": "Loja NOS Espinho - R. 23",
         "morada": "R. 23, 348",
-        "horario": "Segunda a Sexta: 10h00 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 10h00 - 19h00 Hora de almoço: 12h30 - 14h00 Sábado: 10h00 - 13h00",
         "localidade": "Espinho",
         "latitude": "41.006977",
-        "longitude": " -8.632206",
+        "longitude": "-8.632206",
         "distrito": "Aveiro",
         "concelho": "Espinho",
         "listaservs": [
@@ -3087,10 +3087,10 @@
     {
         "nome": "Loja NOS Esposende - R. Bombeiro Abílio Nunes Novo",
         "morada": "R. Bombeiro Abílio Nunes Novo, 6 - R/C Esq.",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 09h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h30 Sábado: 09h00 - 12h30",
         "localidade": "Esposende",
         "latitude": "41.528288",
-        "longitude": " -8.776650",
+        "longitude": "-8.776650",
         "distrito": "Braga",
         "concelho": "Esposende",
         "listaservs": [
@@ -3108,10 +3108,10 @@
     {
         "nome": "Loja NOS Felgueiras - Av. Dr. Ribeiro de Magalhães",
         "morada": "Av. Dr. Ribeiro de Magalhães, 1405",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 09h30 - 12h30",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 12h30 - 14h00 Sábado: 09h30 - 12h30",
         "localidade": "Felgueiras",
         "latitude": "41.364285",
-        "longitude": " -8.198778",
+        "longitude": "-8.198778",
         "distrito": "Porto",
         "concelho": "Felgueiras",
         "listaservs": [
@@ -3128,10 +3128,10 @@
     {
         "nome": "Loja NOS Freamunde - R. Comércio",
         "morada": "R. Comércio, 14",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 09h30 - 12h30",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 12h30 - 14h00 Sábado: 09h30 - 12h30",
         "localidade": "Freamunde",
         "latitude": "41.287803",
-        "longitude": " -8.341039",
+        "longitude": "-8.341039",
         "distrito": "Porto",
         "concelho": "Paços de Ferreira",
         "listaservs": [
@@ -3148,10 +3148,10 @@
     {
         "nome": "Loja NOS Lagos - Av. Cabo Bojador",
         "morada": "Av. Cabo Bojador, lj. G",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h00Sábado: 10h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 13h00 - 14h00 Sábado: 10h00 - 13h00",
         "localidade": "Lagos",
         "latitude": "37.105223",
-        "longitude": " -8.680808",
+        "longitude": "-8.680808",
         "distrito": "Faro",
         "concelho": "Lagos",
         "listaservs": [
@@ -3170,10 +3170,10 @@
     {
         "nome": "Loja NOS Lamego - E.Leclerc",
         "morada": "CC Rina Shopping - Qta. Prados de Baixo, Lugar da Rina - lj. 35",
-        "horario": "Segunda a Sexta: 09h00 - 20h30Sábado: 09h00 - 20h30",
+        "horario": "Segunda a Sexta: 09h00 - 20h30 Sábado: 09h00 - 20h30",
         "localidade": "Lamego",
         "latitude": "41.089249",
-        "longitude": " -7.799070",
+        "longitude": "-7.799070",
         "distrito": "Viseu",
         "concelho": "Lamego",
         "listaservs": [
@@ -3191,10 +3191,10 @@
     {
         "nome": "Loja NOS Loulé - Av. José da Costa Mealha",
         "morada": "Av. José da Costa Mealha, Ed. Batalim – lj. 1",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Sábado: 09h30 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Sábado: 09h30 - 13h00",
         "localidade": "Loulé",
         "latitude": "37.137526",
-        "longitude": " -8.020058",
+        "longitude": "-8.020058",
         "distrito": "Faro",
         "concelho": "Loulé",
         "listaservs": [
@@ -3212,10 +3212,10 @@
     {
         "nome": "Loja NOS Lourosa - Av. Principal",
         "morada": "Av. Principal, 825 - lj. A",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 10h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 12h30 - 14h30 Sábado: 10h00 - 12h30",
         "localidade": "Lourosa",
         "latitude": "40.993795",
-        "longitude": " -8.539445",
+        "longitude": "-8.539445",
         "distrito": "Aveiro",
         "concelho": "Santa Maria da Feira",
         "listaservs": [
@@ -3229,10 +3229,10 @@
     {
         "nome": "Loja NOS Paredes - R. Doutor José Firmino",
         "morada": "R. Doutor José Firmino, 9",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 09h00 - 19h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h30 Sábado: 09h00 - 19h00",
         "localidade": "Paredes",
         "latitude": "41.206313",
-        "longitude": " -8.330925",
+        "longitude": "-8.330925",
         "distrito": "Porto",
         "concelho": "Paredes",
         "listaservs": [
@@ -3249,10 +3249,10 @@
     {
         "nome": "Loja NOS Sines - Av. General Humberto Delgado",
         "morada": "Av. General Humberto Delgado, 32A",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 15h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 13h00 - 15h00 Sábado: 09h00 - 13h00",
         "localidade": "Sines",
         "latitude": "37.958015",
-        "longitude": " -8.867225",
+        "longitude": "-8.867225",
         "distrito": "Setúbal",
         "concelho": "Sines",
         "listaservs": [
@@ -3271,10 +3271,10 @@
     {
         "nome": "Loja NOS Santiago do Cacém - Estrada Nacional 261",
         "morada": "R. Professor Egas Moniz (EN261), 44B",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 15h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 13h00 - 15h00",
         "localidade": "Santiago do Cacém",
         "latitude": "38.017725",
-        "longitude": " -8.695264",
+        "longitude": "-8.695264",
         "distrito": "Setúbal",
         "concelho": "Santiago do Cacém",
         "listaservs": [
@@ -3291,10 +3291,10 @@
     {
         "nome": "Loja NOS Vila Verde - Av. António Sérgio",
         "morada": "Av. António Sérgio, 379",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 09h00 - 12h30",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h30 Sábado: 09h00 - 12h30",
         "localidade": "Vila Verde",
         "latitude": "41.643365",
-        "longitude": " -8.435509",
+        "longitude": "-8.435509",
         "distrito": "Braga",
         "concelho": "Vila Verde",
         "listaservs": [
@@ -3311,10 +3311,10 @@
     {
         "nome": "Loja NOS Arcos de Valdevez - R. Doutor José Sebastião Silva Dias",
         "morada": "R. Doutor José Sebastião Silva Dias,  lj. 17",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 09h00 - 12h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h30 Sábado: 09h00 - 12h00",
         "localidade": "Arcos de Valdevez",
         "latitude": "41.848354",
-        "longitude": " -8.422512",
+        "longitude": "-8.422512",
         "distrito": "Viana do Castelo",
         "concelho": "Arcos de Valdevez",
         "listaservs": [
@@ -3331,10 +3331,10 @@
     {
         "nome": "Loja NOS Bragança - Av. Sá Carneiro",
         "morada": "Av. Sá Carneiro, 103 - lj. 99",
-        "horario": "Segunda a Sexta: 09h00 - 18h30Hora de almoço: 12h30 - 14h00",
+        "horario": "Segunda a Sexta: 09h00 - 18h30 Hora de almoço: 12h30 - 14h00",
         "localidade": "Bragança",
         "latitude": "41.801762",
-        "longitude": " -6.762128",
+        "longitude": "-6.762128",
         "distrito": "Bragança",
         "concelho": "Bragança",
         "listaservs": [
@@ -3348,10 +3348,10 @@
     {
         "nome": "Loja NOS Cantanhede - R. Henrique Barreto",
         "morada": "R. Henrique Barreto, Ed. Rossio - lj. 3",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 12h30 - 14h00",
         "localidade": "Cantanhede",
         "latitude": "40.346858",
-        "longitude": " -8.594892",
+        "longitude": "-8.594892",
         "distrito": "Coimbra",
         "concelho": "Cantanhede",
         "listaservs": [
@@ -3369,10 +3369,10 @@
     {
         "nome": "Loja NOS Fundão - Av. Liberdade",
         "morada": "Av. Liberdade, 22",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 13h00 - 14h30 Sábado: 09h00 - 13h00",
         "localidade": "Fundão",
         "latitude": "40.140311",
-        "longitude": " -7.498560",
+        "longitude": "-7.498560",
         "distrito": "Castelo Branco",
         "concelho": "Fundão",
         "listaservs": [
@@ -3388,10 +3388,10 @@
     {
         "nome": "Loja NOS Ílhavo - Av. 25 de Abril",
         "morada": "Av. 25 de Abril, 48 - R/C D",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h00Domingo: 10h00 - 20h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h00 Domingo: 10h00 - 20h00",
         "localidade": "Ílhavo",
         "latitude": "40.600113",
-        "longitude": " -8.666070",
+        "longitude": "-8.666070",
         "distrito": "Aveiro",
         "concelho": "Ílhavo",
         "listaservs": [
@@ -3406,10 +3406,10 @@
     {
         "nome": "Loja NOS Mangualde - Av. Liberdade",
         "morada": "Av. da Liberdade, 48",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h00 Sábado: 09h00 - 13h00",
         "localidade": "Mangualde",
         "latitude": "40.605268",
-        "longitude": " -7.763989",
+        "longitude": "-7.763989",
         "distrito": "Viseu",
         "concelho": "Mangualde",
         "listaservs": [
@@ -3427,10 +3427,10 @@
     {
         "nome": "Loja NOS Nelas - Av. João XXIII",
         "morada": "Av. João XXIII, lt. 4 - lj. 1",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h30Sábado: 10h00 - 12h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 12h30 - 14h30 Sábado: 10h00 - 12h00",
         "localidade": "Nelas",
         "latitude": "40.530709",
-        "longitude": " -7.854500",
+        "longitude": "-7.854500",
         "distrito": "Viseu",
         "concelho": "Nelas",
         "listaservs": [
@@ -3446,10 +3446,10 @@
     {
         "nome": "Loja NOS Marco de Canaveses - R. Amália Rodrigues",
         "morada": "R. Amália Rodrigues, 106 – lj. 4",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 09h00 - 19h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h00 Sábado: 09h00 - 19h00",
         "localidade": "Marco de Canaveses",
         "latitude": "41.184373",
-        "longitude": " -8.153227",
+        "longitude": "-8.153227",
         "distrito": "Porto",
         "concelho": "Marco de Canaveses",
         "listaservs": [
@@ -3466,10 +3466,10 @@
     {
         "nome": "Loja NOS Mirandela - Av. Amoreiras",
         "morada": "Av. Amoreiras, 213 - lj.2",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 12h30 - 14h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 12h30 - 14h00",
         "localidade": "Mirandela",
         "latitude": "41.485691",
-        "longitude": " -7.181711",
+        "longitude": "-7.181711",
         "distrito": "Bragança",
         "concelho": "Mirandela",
         "listaservs": [
@@ -3486,10 +3486,10 @@
     {
         "nome": "Loja NOS Mogadouro - Av. Sabor",
         "morada": "Av. Sabor, 20",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 14h00Sábado: 09h30 - 13h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 13h00 - 14h00 Sábado: 09h30 - 13h00",
         "localidade": "Mogadouro",
         "latitude": "41.343549",
-        "longitude": " -6.708704",
+        "longitude": "-6.708704",
         "distrito": "Bragança",
         "concelho": "Mogadouro",
         "listaservs": [
@@ -3506,10 +3506,10 @@
     {
         "nome": "Loja NOS Oliveira do Hospital - R. Dr. António Ribeiro Garcia de Vasconcelos",
         "morada": "R. Dr. António Ribeiro Garcia de Vasconcelos, 16 - R/C",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h30Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 13h00 - 14h30 Sábado: 09h00 - 13h00",
         "localidade": "Oliveira do Hospital",
         "latitude": "40.358820",
-        "longitude": " -7.859137",
+        "longitude": "-7.859137",
         "distrito": "Coimbra",
         "concelho": "Oliveira do Hospital",
         "listaservs": [
@@ -3526,10 +3526,10 @@
     {
         "nome": "Loja NOS Paredes - R. Serpa Pinto",
         "morada": "R. Serpa Pinto, 129 - lj. 30",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 18h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Sábado: 09h30 - 18h00",
         "localidade": "Paredes",
         "latitude": "41.206661",
-        "longitude": " -8.337035",
+        "longitude": "-8.337035",
         "distrito": "Porto",
         "concelho": "Paredes",
         "listaservs": [
@@ -3547,10 +3547,10 @@
     {
         "nome": "Loja NOS Penafiel - R. Alfredo Pereira",
         "morada": "R. Alfredo Pereira, 34",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 09h00 - 18h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h00 Sábado: 09h00 - 18h00",
         "localidade": "Penafiel",
         "latitude": "41.206257",
-        "longitude": " -8.282007",
+        "longitude": "-8.282007",
         "distrito": "Porto",
         "concelho": "Penafiel",
         "listaservs": [
@@ -3568,10 +3568,10 @@
     {
         "nome": "Loja NOS Paços de Ferreira - Ferrara Plaza",
         "morada": "CC Ferrara Plaza - R. Ferrara Plaza, 36 - lj. 1.43",
-        "horario": "Segunda a Sexta: 10h00 - 23h00Sábado: 10h00 - 23h00Domingo: 10h00 - 23h00",
+        "horario": "Segunda a Sexta: 10h00 - 23h00 Sábado: 10h00 - 23h00 Domingo: 10h00 - 23h00",
         "localidade": "Paços de Ferreira",
         "latitude": "41.284870",
-        "longitude": " -8.361872",
+        "longitude": "-8.361872",
         "distrito": "Porto",
         "concelho": "Paços de Ferreira",
         "listaservs": [
@@ -3589,10 +3589,10 @@
     {
         "nome": "Loja NOS Ponte de Lima - R. Dr. António Magalhães",
         "morada": "R. Dr. António Magalhães, Mercado Municipal - lj. 20",
-        "horario": "Segunda a Sexta: 09h00 - 18h00Hora de almoço: 12h30 - 14h00Sábado: 09h00 - 12h00",
+        "horario": "Segunda a Sexta: 09h00 - 18h00 Hora de almoço: 12h30 - 14h00 Sábado: 09h00 - 12h00",
         "localidade": "Ponte de Lima",
         "latitude": "41.766605",
-        "longitude": " -8.585358",
+        "longitude": "-8.585358",
         "distrito": "Viana do Castelo",
         "concelho": "Ponte de Lima",
         "listaservs": [
@@ -3608,10 +3608,10 @@
     {
         "nome": "Loja NOS Peso da Régua - R. Custódio José Vieira",
         "morada": "R. Custódio José Vieira, 46/48",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Sábado: 09h30 - 13h00",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Sábado: 09h30 - 13h00",
         "localidade": "Peso da Régua",
         "latitude": "41.161533",
-        "longitude": " -7.791054",
+        "longitude": "-7.791054",
         "distrito": "Vila Real",
         "concelho": "Peso da Régua",
         "listaservs": [
@@ -3627,10 +3627,10 @@
     {
         "nome": "Loja NOS Rio Maior -  R. Maestro Fernando Carvalho",
         "morada": "R. Maestro Fernando Carvalho, 8 - R/C",
-        "horario": "Segunda a Sexta: 09h30 - 19h00Hora de almoço: 13h00 - 14h30",
+        "horario": "Segunda a Sexta: 09h30 - 19h00 Hora de almoço: 13h00 - 14h30",
         "localidade": "Rio Maior",
         "latitude": "39.338121",
-        "longitude": " -8.93454",
+        "longitude": "-8.93454",
         "distrito": "Santarém",
         "concelho": "Rio Maior",
         "listaservs": [
@@ -3646,10 +3646,10 @@
     {
         "nome": "Loja NOS Seia - R. Dr. Simões Pereira",
         "morada": "R. Dr. Simões Pereira, 3",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h00 Sábado: 09h00 - 13h00",
         "localidade": "Seia",
         "latitude": "40.419437",
-        "longitude": " -7.703282",
+        "longitude": "-7.703282",
         "distrito": "Guarda",
         "concelho": "Seia",
         "listaservs": [
@@ -3667,10 +3667,10 @@
     {
         "nome": "Loja NOS Santo Tirso - R. Sousa Trepa",
         "morada": "R. Sousa Trepa, 60 - Lj. 1",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 13h30Sábado: 09h30 - 17h30",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 13h30 Sábado: 09h30 - 17h30",
         "localidade": "Santo Tirso",
         "latitude": "41.341105",
-        "longitude": " -8.475008",
+        "longitude": "-8.475008",
         "distrito": "Porto",
         "concelho": "Santo Tirso",
         "listaservs": [
@@ -3684,10 +3684,10 @@
     {
         "nome": "Loja NOS Vale de Cambra - Av. Camilo Tavares Matos",
         "morada": "Av. Camilo Tavares Matos, 404",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 12h30 - 14h00Sábado: 09h00 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 12h30 - 14h00 Sábado: 09h00 - 13h00",
         "localidade": "Vale de Cambra",
         "latitude": "40.849640",
-        "longitude": " -8.393796",
+        "longitude": "-8.393796",
         "distrito": "Aveiro",
         "concelho": "Vale de Cambra",
         "listaservs": [
@@ -3705,10 +3705,10 @@
     {
         "nome": "Loja NOS Viseu - R. Major Leopoldo da Silva",
         "morada": "R. Major Leopoldo da Silva, 28",
-        "horario": "Segunda a Sexta: 09h00 - 19h00Hora de almoço: 13h00 - 14h00Sábado: 09h30 - 13h00",
+        "horario": "Segunda a Sexta: 09h00 - 19h00 Hora de almoço: 13h00 - 14h00 Sábado: 09h30 - 13h00",
         "localidade": "Viseu",
         "latitude": "40.659838",
-        "longitude": " -7.915842",
+        "longitude": "-7.915842",
         "distrito": "Viseu",
         "concelho": "Viseu",
         "listaservs": [

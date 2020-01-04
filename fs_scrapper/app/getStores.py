@@ -37,7 +37,9 @@ def cleanJson():
         tmp = {}
         for field in FIELDS:
             if field != 'AvailableServices':
-                tmp[mapToPT(field)] = store[field].replace('</br>', '')
+                aux = re.sub(r'(</br>)+', ' ', store[field])
+                aux = re.sub(r'^\s+', '', aux)
+                tmp[mapToPT(field)] = re.sub(r'\s+$', '', aux)
             else:
                 i = 0
                 dic = []
