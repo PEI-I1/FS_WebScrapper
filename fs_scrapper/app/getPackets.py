@@ -69,10 +69,10 @@ def getPackets():
 
                
             headers = elem.find_all('div', {}) 
-            col1 = getFirstColumn(headers)
-            col2 = getSecondColumn(headers)
-            col3 = getThirdColumn(headers)
-            col4 = getFourthColumn(headers)   
+            col1 = getColumn(headers, 1, "24 Meses")
+            col2 = getColumn(headers, 2, "12 Meses")
+            col3 = getColumn(headers, 3, "6 Meses")
+            col4 = getColumn(headers, 4, "Sem Fidelizacao")
 
             thisDict = {
                 'Tipo' : tipo,
@@ -110,19 +110,20 @@ def getTipoPacote(soup):
         
     return tipo
 
-def getFirstColumn(soup):
-    #print(soup[0])
-    preco = soup[0].find('em').text
+
+def getColumn(soup, col, fid):
+    col_idx = (col<<1) - 2
+    preco = soup[col_idx].find('em').text
     listaVantagens =  []
-    lista = soup[0].find('div',{'class':'mais'}).find_all('p')
-    precoAdesao = soup[0].find('span').text
+    lista = soup[col_idx].find('div',{'class':'mais'}).find_all('p')
+    precoAdesao = soup[col_idx].find('span').text
 
     for elem in lista:
         e = re.sub(r'(€[0-9,]*)',r'\1 euros',elem.text)
         listaVantagens.append(e.replace('€', ''))
 
     thisDict = {
-        'Fidelizacao': "24 Meses",
+        'Fidelizacao': fid,
         'preco':preco,
         'precoAdesao': precoAdesao,
         'Vantagens' : listaVantagens
@@ -130,69 +131,6 @@ def getFirstColumn(soup):
 
     return thisDict
 
-    
-
-def getSecondColumn(soup):
-    #print(soup[2])
-    preco = soup[2].find('em').text
-    listaVantagens =  []
-    lista = soup[2].find('div',{'class':'mais'}).find_all('p')
-    precoAdesao = soup[2].find('span').text
-
-    for elem in lista:
-        e = re.sub(r'(€[0-9,]*)',r'\1 euros',elem.text)
-        listaVantagens.append(e.replace('€', ''))
-
-    thisDict = {
-        'Fidelizacao': "12 Meses",
-        'preco':preco,
-        'precoAdesao': precoAdesao,
-        'Vantagens' : listaVantagens
-    }
-
-    return thisDict
-
-
-def getThirdColumn(soup):
-    #print(soup[4])
-    preco = soup[4].find('em').text
-    listaVantagens =  []
-    lista = soup[4].find('div',{'class':'mais'}).find_all('p')
-    precoAdesao = soup[4].find('span').text
-
-    for elem in lista:
-        e = re.sub(r'(€[0-9,]*)',r'\1 euros',elem.text)
-        listaVantagens.append(e.replace('€', ''))
-
-    thisDict = {
-        'Fidelizacao': "6 Meses",
-        'preco':preco,
-        'precoAdesao': precoAdesao,
-        'Vantagens' : listaVantagens
-    }
-    
-    return thisDict
-
-
-def getFourthColumn(soup):
-    #print(soup[6])
-    preco = soup[6].find('em').text
-    listaVantagens =  []
-    lista = soup[6].find('div',{'class':'mais'}).find_all('p')
-    precoAdesao = soup[6].find('span').text
-
-    for elem in lista:
-        e = re.sub(r'(€[0-9,]*)',r'\1 euros',elem.text)
-        listaVantagens.append(e.replace('€', ''))
-
-    thisDict = {
-        'Fidelizacao': "Sem Fidelizacao",
-        'preco':preco,
-        'precoAdesao': precoAdesao,
-        'Vantagens' : listaVantagens
-    }  
-    
-    return thisDict
 
 #def getLinks(lista):
 #    link = "https://www.nos.pt/particulares/pacotes/todos-os-pacotes/Paginas/pacotes.aspx"
