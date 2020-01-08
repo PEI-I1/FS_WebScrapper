@@ -1,6 +1,6 @@
 FROM python
 
-RUN apt-get update && apt-get install -y git firefox-esr
+RUN apt-get update && apt-get install -y firefox-esr
 
 WORKDIR /home
 
@@ -10,9 +10,7 @@ RUN tar -xvzf geckodriver-v0.24.0-linux32.tar.gz
 RUN chmod +x geckodriver
 ENV PATH="/home:${PATH}"
 
-WORKDIR /home/scrapper
-
-RUN git clone https://github.com/PEI-I1/FS_WebScrapper.git
+COPY . /home/scrapper/FS_WebScrapper
 WORKDIR /home/scrapper/FS_WebScrapper/fs_scrapper
 
 RUN pip3 install -r requirements.txt
