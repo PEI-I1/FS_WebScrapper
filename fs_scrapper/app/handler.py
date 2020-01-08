@@ -1,5 +1,5 @@
 import json, os
-from re import sub
+import re
 from haversine import haversine, Unit
 
 
@@ -152,8 +152,8 @@ def points_phones(phones):
     return lista
 
 def str_to_float(value):
-    value = sub(r'[^\d,.]', '', value)
-    value = sub(r',', '.', value)
+    value = re.sub(r'[^\d,\.]', '', value)
+    value = re.sub(r',', '.', value)
     ret = float(value)
     return ret
 
