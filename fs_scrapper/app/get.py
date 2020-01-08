@@ -12,7 +12,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 def clean(string):
-    string = re.sub(r'(\n|\r|\s)+', ' ', string)
     string = re.sub(r'\s+', ' ', string)
     string = re.sub(r'^\s+', '', string)
     string = re.sub(r'\s+$', '', string)
