@@ -107,6 +107,7 @@ def remove_html_tags(text):
     """Remove html tags from a string"""
     text = re.sub('/\s\s+/g', ' ',text)
     text = re.sub('\\n|\\r', '', text)
+    text = re.sub('Custo da chamada', '', text)
     clean = re.compile('<.*?>')
     return re.sub(clean, '', text)
 
@@ -274,3 +275,5 @@ def update():
 
     soup4 = get_Wtf()
     create_json_file(soup4, "tarifario_WTF.json", True)
+
+update()
