@@ -83,15 +83,49 @@ def get_linhas_apoio():
     r = requests.get("https://www.nos.pt/particulares/contactos/Pages/linhas-de-apoio.aspx")
     if (r.status_code == 200):
         soup = BeautifulSoup(r.text, 'html.parser')
-        soup = soup.find_all('div', {'class':'container__box'})
-    return soup
+        soupA = soup.find_all('div', {'class':'container__box'})
 
+    return soupA
+
+def get_linhas_apoio_Price():
+    r = requests.get("https://www.nos.pt/particulares/contactos/Pages/linhas-de-apoio.aspx")
+    if (r.status_code == 200):
+        soup = BeautifulSoup(r.text, 'html.parser')
+        soupA = soup.find_all('div', {'class':'panel__content one-whole'})
+
+    return soupA
+
+
+def getPriceFromCall(i,soup):
+    a = 1
+    while(a < i):
+        a = a + 1
+
+    return soup[a].text
+
+def remove_html_tags(text):
+    """Remove html tags from a string"""
+    text = re.sub('/\s\s+/g', ' ',text)
+    text = re.sub('\\n|\\r', '', text)
+    clean = re.compile('<.*?>')
+    return re.sub(clean, '', text)
 
 def get_list_linhas_apoio(soup):
     lista_json = []
+    it = 1
+    precoInfo = get_linhas_apoio_Price()
     for elem in soup:
+        otherInfo = elem.find_all('div',{'class':'island__description'})
+        for a in otherInfo:
+            if a.find('img',{'src' : '/particulares/contactos/PublishingImages/horario.png'}) is not None:
+                horario = a.text
+                horario = re.sub('\\n|\\r', '', horario)
+
         elem = elem.find('div',{'class':'island__description'})
         numero = elem.div['id']
+
+        preco = getPriceFromCall(it,precoInfo)
+        preco = remove_html_tags(preco)
 
         elem = elem.find('div',{})
         categoria = clean(elem.h2.text)
@@ -102,9 +136,11 @@ def get_list_linhas_apoio(soup):
         elem_json = {
             'categoria' :categoria,
             'numero' : numero,
-            'descriçao' : descricao
+            'descriçao' : descricao,
+            'horario' : horario,
+            'preco': preco
         }
-
+        it = it + 1
         lista_json.append(elem_json)
     return lista_json
 

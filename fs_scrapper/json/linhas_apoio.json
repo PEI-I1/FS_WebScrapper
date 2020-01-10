@@ -2,81 +2,113 @@
   {
     "categoria": "Pacotes com televisão",
     "descriçao": "Para esclarecimentos ou informações adicionais sobre todos os produtos incluídos na fatura de televisão NOS (internet fixa, telefone, telemóvel e internet móvel).",
-    "numero": "16990"
+    "horario": "Para atendimento automáticoou apoio técnico:Todos os dias, 24 horas por dia.Para atendimento assistidode outros assuntos:Todos os dias, das 9h00 às 23h00.",
+    "numero": "16990",
+    "preco": "Custo da chamada    A partir da rede NOS:  Chamada gratuita para atendimento automático, vendas ou apoio técnico. O atendimento assistido de outros assuntos tem o custo de uma chamada para a rede NOS, de acordo com o seu tarifário, até um valor máximo de €1,5. Se o seu tarifário inclui minutos para a rede NOS, então o custo é de 20 cêntimos / minuto até um valor máximo de €1,5.    A partir de outras redes:  34,9 cêntimos / minuto.    Do estrangeiro:  Custo de uma chamada internacional   "
   },
   {
     "categoria": "Telemóvel",
     "descriçao": "Para esclarecimentos ou informações adicionais sobre produtos de telemóvel que não estão incluídos na fatura de Televisão NOS.",
-    "numero": "16993"
+    "horario": "Para atendimento automático:Todos os dias, 24 horas por dia.",
+    "numero": "16993",
+    "preco": "Custo da chamadaA partir da rede NOS:Chamada gratuita para atendimento automático.O atendimento assistido de outros assuntos tem o custo de uma chamada para a rede NOS, de acordo com o seu tarifário, até um valor máximo de €1,5.Se o seu tarifário inclui minutos para a rede NOS, então o custo é de 20 cêntimos / minuto até um valor máximo de €1,5.A partir de outras redes:46,7 cêntimos / minuto.Do estrangeiro:Custo de uma chamada internacional"
   },
   {
     "categoria": "Internet fixa",
     "descriçao": "Para esclarecimentos ou informações adicionais sobre produtos de internet fixa que não estão incluídos na fatura de Televisão NOS.",
-    "numero": "16108"
+    "horario": "Para atendimento automático:Todos os dias, 24 horas por dia.",
+    "numero": "16108",
+    "preco": "Custo da chamadaA partir da rede NOS:Chamada gratuita para atendimento automático.O atendimento assistido de outros assuntos tem o custo de uma chamada para a rede NOS, de acordo com o seu tarifário, até um valor máximo de €1,5.Se o seu tarifário inclui minutos para a rede NOS, então o custo é de 20 cêntimos / minuto até um valor máximo de €1,5.A partir de outras redes:34,9 cêntimos / minuto."
   },
   {
     "categoria": "Internet móvel",
     "descriçao": "Para esclarecimentos ou informações adicionais sobre produtos de internet móvel que não estão incluídos na fatura de Televisão NOS.",
-    "numero": "16105"
+    "horario": "Para atendimento automático:Todos os dias, 24 horas por dia.",
+    "numero": "16105",
+    "preco": "Custo da chamadaA partir da rede NOS:Chamada gratuita para atendimento automático.O atendimento assistido de outros assuntos tem o custo de uma chamada para a rede NOS, de acordo com o seu tarifário, até um valor máximo de €1,5.Se o seu tarifário inclui minutos para a rede NOS, então o custo é de 20 cêntimos / minuto até um valor máximo de €1,5.A partir de outras redes:34,9 cêntimos / minuto."
   },
   {
     "categoria": "Telefone",
     "descriçao": "Para esclarecimentos ou informações adicionais sobre produtos de telefone que não estão incluídos na fatura de Televisão NOS.",
-    "numero": "16103"
+    "horario": "Para atendimento automático:Todos os dias, 24 horas por dia.",
+    "numero": "16103",
+    "preco": "Custo da chamadaA partir da rede NOS:Chamada gratuita para atendimento automático.O atendimento assistido de outros assuntos tem o custo de uma chamada para a rede NOS, de acordo com o seu tarifário, até um valor máximo de €1,5.Se o seu tarifário inclui minutos para a rede NOS, então o custo é de 20 cêntimos / minuto até um valor máximo de €1,5.A partir de outras redes:34,9 cêntimos / minuto."
   },
   {
     "categoria": "Profissionais e empresas",
     "descriçao": "Para esclarecimentos ou informações adicionais sobre os produtos e serviços profissionais NOS.",
-    "numero": "16100"
+    "horario": "Para atendimento automático:Todos os dias, 24 horas por dia.",
+    "numero": "16100",
+    "preco": "Custo da chamadaA partir da rede NOS:Chamada gratuita para atendimento automático.O atendimento assistido tem o custo de 30 cêntimos + IVA / chamada.A partir de outras redes:38 cêntimos + IVA / minuto, com taxação ao segundo.No estrangeiro:Este serviço tem o custo de uma chamada em roaming do país onde se encontra para Portugal."
   },
   {
     "categoria": "Corporate",
     "descriçao": "Para esclarecimentos ou informações adicionais sobre os produtos e serviços Corporate NOS.",
-    "numero": "16109"
+    "horario": "Para atendimento automático:Todos os dias, 24 horas por dia.",
+    "numero": "16109",
+    "preco": "Custo da chamada    A partir da rede NOS:  Chamada gratuita para atendimento automático. O atendimento assistido tem o custo de 30 cêntimos + IVA / chamada.    A partir de outras redes:  38 cêntimos + IVA / minuto, com taxação ao segundo.   "
   },
   {
     "categoria": "Contencioso",
     "descriçao": "Para esclarecimentos ou informações sobre questões relacionadas com faturas em atraso que se encontram em Contencioso.",
-    "numero": "800932900"
+    "horario": "Para atendimento assistido:Dias úteis, das 9h00 às 22h00.",
+    "numero": "800932900",
+    "preco": "Custo da chamada A partir da rede nacional:Chamada gratuita.Do estrangeiro:Custo de uma chamada internacional"
   },
   {
     "categoria": "Particulares",
     "descriçao": "Para aderir a produtos e serviços particulares NOS.",
-    "numero": "16995"
+    "horario": "Todos os dias, das 9h00 às 24h00.",
+    "numero": "16995",
+    "preco": "Custo da chamadaA partir da rede NOS:Chamada gratuita.A partir de outras redes:34,9 cêntimos / minuto."
   },
   {
     "categoria": "Empresas",
     "descriçao": "Para aderir a produtos e serviços empresariais NOS.",
-    "numero": "16999"
+    "horario": "Dias úteis, das 9h00 às 20h00.",
+    "numero": "16999",
+    "preco": "Custo da chamadaA partir da rede NOS:Chamada gratuita para atendimento comercial na opção 1.O atendimento assistido tem o custo de 30 cêntimos + IVA / chamada.A partir de outras redes:38 cêntimos + IVA / minuto, com taxação ao segundo.Linhas especializadas"
   },
   {
     "categoria": "Apoio informático",
     "descriçao": "Disponibilizada em parceria com a pcmedic, para resolução rápida de problemas informáticos.",
-    "numero": "16991"
+    "horario": "Todos os dias, 24 horas por dia.",
+    "numero": "16991",
+    "preco": "Custo da chamada    Clientes de Internet NOS:  Chamada tem o custo de 34,9 cêntimos / minuto, a partir de qualquer rede.    Outros clientes:  Valor mensal é € 29,90.    Serviços disponibilizados:  Configuração de ligações de rede sem fios Configuração de routers Deteção e resolução de anomalias em sistemas operativos e outras plataformas informáticas Atualização, configuração e personalização de sistemas operativos e outros programas instalados no computador. Por exemplo, antivírus e firewall Deteção e eliminação de vírus, spyware e adware Otimização do desempenho do sistema operativo Otimização, instalação e atualização de drivers de componentes de hardware instalados no computador Instalação, de raiz, de sistemas operativos e outras aplicações Deteção rápida de constrangimentos associados ao hardware instalado no computador Instalação de equipamentos periféricos Verificação e diagnóstico da infraestrutura da sua rede.   "
   },
   {
     "categoria": "Ativação pacotes internet",
     "descriçao": "Para ativar gratuitamente pacotes de internet no telemóvel.",
-    "numero": "12300"
+    "horario": "Dias úteis, 24 horas por dia.",
+    "numero": "12300",
+    "preco": ""
   },
   {
     "categoria": "Video intérprete",
     "descriçao": "Para clientes com necessidades especiais de audição.",
-    "numero": "12472"
+    "horario": "",
+    "numero": "12472",
+    "preco": "Custo da chamada     Saiba mais em http://www.portaldocidadaosurdo.pt/   "
   },
   {
     "categoria": "InfoPortabilidade",
     "descriçao": "Para ativar ou desativar o aviso de portabilidade, saber informação sobre operador a que pertence um número ou saber o tarifário de comunicações para números portados. Chamada gratuita.",
-    "numero": "1242"
+    "horario": "Dias úteis, 24 horas por dia.",
+    "numero": "1242",
+    "preco": ""
   },
   {
     "categoria": "Reparação de equipamentos",
     "descriçao": "Para esclarecimentos ou informações adicionais sobre processos de reparação ou desbloqueio de equipamentos. Chamada gratuita.",
-    "numero": "808230430"
+    "horario": "Dias úteis, das 9h00 às 18h00.",
+    "numero": "808230430",
+    "preco": ""
   },
   {
     "categoria": "Devolução de equipamentos NOS",
     "descriçao": "Para agendar recolha de equipamentos NOS que já não está a usar. Chamada gratuita.",
-    "numero": "800101991"
+    "horario": "Para atendimento assistido:Dias úteis, das 9h00 às 21h00.",
+    "numero": "800101991",
+    "preco": ""
   }
 ]
