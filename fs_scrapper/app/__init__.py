@@ -6,6 +6,8 @@ import time
 from app import updater
 
 app = Flask(__name__)
+updater.updater_phones_tariffs_packets_lapoio()
+updater.updater_lojas()
 
 scheduler = BackgroundScheduler()
 scheduler.start()
