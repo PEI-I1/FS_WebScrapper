@@ -96,13 +96,6 @@ def get_linhas_apoio_Price():
     return soupA
 
 
-def getPriceFromCall(i,soup):
-    a = 1
-    while(a < i):
-        a = a + 1
-
-    return soup[a].text
-
 def remove_html_tags(text):
     """Remove html tags from a string"""
     text = re.sub('/\s\s+/g', ' ',text)
@@ -125,7 +118,7 @@ def get_list_linhas_apoio(soup):
         elem = elem.find('div',{'class':'island__description'})
         numero = elem.div['id']
 
-        preco = getPriceFromCall(it,precoInfo)
+        preco = precoInfo[it].text
         preco = remove_html_tags(preco)
 
         elem = elem.find('div',{})
