@@ -4,15 +4,18 @@ import requests
 import os
 
 STORE_URL = 'https://www.nos.pt/particulares/Pages/lojas-nos.aspx/_layouts/15/NOS/StoreSearchService.svc/GetAllStores?listName=Lojas'
-FIELDS = ['Title', 'Street', 'Schedule', 'Locality', 'StoreLatitude', 'StoreLongitude', 'District', 'TownHall', 'AvailableServices']
-FIELDSPT = ['nome', 'morada', 'horario', 'localidade', 'latitude', 'longitude', 'distrito', 'concelho', 'listaservs']
+FIELDS = {
+    'Title': 'nome',
+    'Street': 'morada',
+    'Schedule': 'horario',
+    'Locality': 'localidade',
+    'StoreLatitude': 'latitude',
+    'StoreLongitude': 'longitude',
+    'District': 'distrito',
+    'TownHall': 'concelho',
+    'AvailableServices': 'listaservs'
+}
 
-def mapToPT(field):
-    i = 0
-    while field != FIELDS[i]:
-        i = i + 1
-
-    return FIELDSPT[i]
 
 def crawlStores():
     """ Dumps store data from NOS endpoint
@@ -35,19 +38,19 @@ def cleanJson():
 
     for store in stores_raw:
         tmp = {}
-        for field in FIELDS:
-            if field != 'AvailableServices':
-                aux = re.sub(r'(</br>)+', ' ', store[field])
+        for field_en, field_pt in FIELDS.items():
+            if field_en != 'AvailableServices':
+                aux = re.sub(r'(</br>)+', ' ', store[field_en])
                 aux = re.sub(r'^\s+', '', aux)
-                tmp[mapToPT(field)] = re.sub(r'\s+$', '', aux)
+                tmp[field_pt] = re.sub(r'\s+$', '', aux)
             else:
                 i = 0
                 dic = []
-                while i < len(store[field]):
-                    dic.append(store[field][i]['Title'])
+                while i < len(store[field_en]):
+                    dic.append(store[field_en][i]['Title'])
                     i = i+1
 
-                tmp[mapToPT(field)] = dic
+                tmp[field_pt] = dic
 
         stores_proc.append(tmp)
 
