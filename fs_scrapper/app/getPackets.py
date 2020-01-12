@@ -4,13 +4,6 @@ import json
 import os
 from app import get
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.keys import Keys
-import time
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 # LINK: https://www.nos.pt/particulares/pacotes/todos-os-pacotes/Paginas/precario.aspx#3 
 
@@ -30,8 +23,7 @@ def getPretty(elem, tag, cl):
 
     return ", ".join(aux)
 
-###########################################################################################################
-###########################################################################################################
+
 def getPackets():
     link = 'https://www.nos.pt/particulares/pacotes/todos-os-pacotes/Paginas/precario.aspx'
 
@@ -87,10 +79,7 @@ def getPackets():
                 'Fidelizacao_6Meses' : col3,
                 'Sem_Fidelizacao' : col4
             }
-            listaElementos.append(thisDict)   
-
-    #getLinks(listaElementos)
-        
+            listaElementos.append(thisDict)
     sendToJSON(listaElementos)
     
 
@@ -132,79 +121,12 @@ def getColumn(soup, col, fid):
     return thisDict
 
 
-#def getLinks(lista):
-#    link = "https://www.nos.pt/particulares/pacotes/todos-os-pacotes/Paginas/pacotes.aspx"
-#    links = []
-#
-#    r = requests.get(link)
-#    if(r.status_code == 200):
-#        options = Options()
-#        options.add_argument('--headless')
-#        driver = webdriver.Firefox(options=options)
-#
-#        linksS = []
-#        sections = r.text.split('<section class="box')
-#        for sec in sections:
-#            tipo = re.search(r'^[^"]*', sec)
-#            tipo = tipo.group(0)
-#            tipo = re.sub('Satelite','Satélite', tipo)
-#
-#            aux = re.findall(r'(?:<h2>([^<]*)</h2>[^"]*)?"([^"]*detalhe(?:-pacote)?.aspx[^"]*)"', sec)
-#            for (n,l) in aux:
-#                ls = {'tipo': tipo, 'nome': n, 'link': l}
-#                if ls not in linksS:
-#                    linksS.append(ls)
-#
-#        for l in linksS:
-#            time.sleep(3)
-#            driver.get(l['link'])
-#            soup = BeautifulSoup(driver.page_source, 'html.parser')
-#
-#            try:
-#                preco = soup.find('div', {'class': 'price__value ng-binding'})
-#                preco = str(preco.contents[0])
-#            except:
-#                preco = soup.find('span', {'class': 'total'})
-#                print(preco)
-#                try:
-#                    preco = str(preco.text)
-#                except:
-#                    print(l['link'])
-#                    preco = ""
-#
-#            preco = re.sub(r'(\s|€|/)+','', preco)
-#
-#            if l['tipo'] and l['nome'] and preco:
-#                ls = {'tipo': 'Pacotes ' + l['tipo'], 'nome': l['nome'], 'preco': preco, 'link': l['link']}
-#                if ls not in links:
-#                    links.append(ls)
-#
-#        driver.quit()
-#
-#    n = len(links)
-#    f = 0
-#    for e in lista:
-#        found = False
-#        i = 0
-#        while i < n and not found:
-#            if e['Tipo'] == links[i]['tipo'] and \
-#              e['nome'] == links[i]['nome'] and \
-#              e['Fidelizacao_24Meses']['preco'] == links[i]['preco']:
-#                f += 1
-#                found = True
-#                e['link'] = links[i]['link']
-#                print(links[i])
-#            i += 1
-#    print(n)
-#    print(f)
-
 def sendToJSON(dic):
     fich = open(os.path.dirname(os.path.abspath(__file__)) + '/../json/Pacotes.json','w')
     prettyJSON = json.dumps(dic, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
     fich.close()
-###########################################################################################################
-###########################################################################################################
+
 
 def update():
     getPackets()

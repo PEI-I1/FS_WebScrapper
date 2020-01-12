@@ -5,11 +5,8 @@ import os
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import time
+
 
 def clean(string):
     string = re.sub(r'\s+', ' ', string)
@@ -17,7 +14,6 @@ def clean(string):
     string = re.sub(r'\s+$', '', string)
     return string
 
-#################################################### WTF ##################################################
 
 def get_Wtf():
     r = requests.get("https://www.wtf.pt/")
@@ -77,7 +73,6 @@ def get_Wtf():
 
     return lista_json
 
-###########################################################################################################
 
 def get_linhas_apoio():
     r = requests.get("https://www.nos.pt/particulares/contactos/Pages/linhas-de-apoio.aspx")
@@ -86,6 +81,7 @@ def get_linhas_apoio():
         soupA = soup.find_all('div', {'class':'container__box'})
 
     return soupA
+
 
 def get_linhas_apoio_Price():
     r = requests.get("https://www.nos.pt/particulares/contactos/Pages/linhas-de-apoio.aspx")
@@ -100,9 +96,11 @@ def remove_html_tags(text):
     """Remove html tags from a string"""
     text = re.sub('/\s\s+/g', ' ',text)
     text = re.sub('\\n|\\r', '', text)
+    text = re.sub('Serviços disponibilizados:.*(?=\.).', '', text)
     text = re.sub('Custo da chamada', '', text)
     clean = re.compile('<.*?>')
     return re.sub(clean, '', text)
+
 
 def get_list_linhas_apoio(soup):
     lista_json = []
@@ -138,7 +136,6 @@ def get_list_linhas_apoio(soup):
         lista_json.append(elem_json)
     return lista_json
 
-########################################################################################################
 
 def get_top_phones():
     r = requests.get("https://www.nos.pt/particulares/loja/Pages/loja-online.aspx")
@@ -167,12 +164,8 @@ def get_list_top_phones(soup):
         lista_json.append(elem_json)
     return lista_json
 
-########################################################################################################
 
 def get_phones():
-    #r = requests.get("https://www.nos.pt/particulares/loja-equipamentos/pages/store.aspx#!?Filter=~(ProductType~'telemoveis~ProductPrice~'0*7c1900)")
-    #if (r.status_code == 200):
-
     options = Options()
     options.add_argument('--headless')
     # Create your driver
@@ -243,7 +236,6 @@ def get_list_phones(soup):
 
     return lista_json
 
-##########################################################################################################################################################
 
 def create_json_file(lista_json, filename, sk):
     fich = open(os.path.dirname(os.path.abspath(__file__)) + '/../json/' + filename,'w')
@@ -251,7 +243,6 @@ def create_json_file(lista_json, filename, sk):
     fich.write(prettyJSON)
     fich.close()
 
-##########################################################################################################################################################
 
 def update():
     soup = get_linhas_apoio()
