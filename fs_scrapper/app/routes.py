@@ -50,17 +50,25 @@ def phones_request():
                 aux = {}
                 aux['nome'] = phone['nome']
                 aux['preco'] = phone['preco']
+                if 'preco_original' in phone:
+                    aux['preco_original'] = phone['preco_original']
                 aux['link'] = phone['link']
+                if 'image_link' in phone:
+                    aux['image_link'] = phone['image_link']
                 lista_final.append(aux)
         else:
             for phone in lista:
                 aux = {}
                 aux['nome'] = phone['nome']
                 aux['preco'] = phone['preco']
+                if 'preco_original' in phone:
+                    aux['preco_original'] = phone['preco_original']
                 for tag in phone['tags']:
                     if 'oferta' in tag:
                         aux['oferta'] = tag
                 aux['link'] = phone['link']
+                if 'image_link' in phone:
+                    aux['image_link'] = phone['image_link']
                 lista_final.append(aux)
         lista = lista_final
 

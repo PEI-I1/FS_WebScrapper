@@ -17,6 +17,18 @@ def clean(string):
     string = re.sub(r'\s+$', '', string)
     return string
 
+def exists(array, key, value):
+    n = len(array)
+    i = 0
+    found = False
+
+    while i < n and not found:
+        if array[i][key] == value:
+            found = True
+        i += 1
+
+    return found
+
 #################################################### WTF ##################################################
 
 def get_Wtf():
@@ -130,7 +142,7 @@ def get_list_linhas_apoio(soup):
         elem_json = {
             'categoria' :categoria,
             'numero' : numero,
-            'descriçao' : descricao,
+            'descricao' : descricao,
             'horario' : horario,
             'preco': preco
         }
@@ -140,6 +152,46 @@ def get_list_linhas_apoio(soup):
 
 ########################################################################################################
 
+def get_caracteristics(driver, phone):
+    if phone['link']:
+        driver.get(phone['link'])
+
+        try:
+            wait = WebDriverWait(driver, 5)
+            location = (By.CLASS_NAME, "equipments-detail__tech-specs card container--fixed")
+            element_present = EC.presence_of_element_located(location)
+            wait.until(element_present)
+        except:
+            pass
+
+        text = driver.page_source
+
+        if text:
+            image_links = re.findall(r'class="item item--equipment ng-scope[^"]*"[^/]*//([^)]*)\)', text)
+            preco_original = re.findall(r'class="header-price__old  ng-binding"[^>]*>([^<]*)<', text)
+            processador = re.findall(r'>processador</span>[^<]*<span[^>]*>([^<]*)<', text)
+            memoria = re.findall(r'>memória</span>[^<]*<span[^>]*>([^<]*)<', text)
+            camara = re.findall(r'>câmara</span>[^<]*<span[^>]*>(.*)</span>', text)
+
+            if len(preco_original):
+                preco_original = preco_original[0].replace('€','')
+                phone['preco_original'] = clean(preco_original)
+
+            if len(image_links):
+                phone['image_link'] = "http://" + image_links[0]
+
+            if len(processador):
+                phone['processador'] = clean(processador[0])
+
+            if len(memoria):
+                phone['memoria'] = clean(memoria[0])
+
+            if len(camara):
+                camara = re.sub(r'\s*<br>\s*', '\\n         ', camara[0])
+                camara = re.sub(r'<[^>]+>', '', camara)
+                camara = re.sub(r'\s+$', '', camara)
+                phone['camara'] = camara
+
 def get_top_phones():
     r = requests.get("https://www.nos.pt/particulares/loja/Pages/loja-online.aspx")
     if (r.status_code == 200):
@@ -148,35 +200,35 @@ def get_top_phones():
 
     return soup
 
-def get_list_top_phones(soup):
+def get_list_top_phones(driver, soup):
     lista_json = []
+
     for elem in soup:
         nome = elem.find('a',{'class':'equipments-item-title masterTextColor'})
-        preco = elem.find('div',{'class':'price-tag'})
-        
         link = nome['href']
-        nome = nome.text
-        preco = preco.text.replace('€', '')
 
-        elem_json = {
-            'nome' :nome,
-            'preço' : preco,
-            'link' : link
-        }
+        if not exists(lista_json, "link", link):
+            nome = nome.text
 
-        lista_json.append(elem_json)
+            preco = elem.find('div',{'class':'price-tag'})
+            preco = preco.text.replace('€', '')
+
+            elem_json = {
+                'nome' :nome,
+                'preco' : preco,
+                'link' : link
+            }
+
+            get_caracteristics(driver, elem_json)
+            lista_json.append(elem_json)
+
     return lista_json
 
 ########################################################################################################
 
-def get_phones():
+def get_phones(driver):
     #r = requests.get("https://www.nos.pt/particulares/loja-equipamentos/pages/store.aspx#!?Filter=~(ProductType~'telemoveis~ProductPrice~'0*7c1900)")
     #if (r.status_code == 200):
-
-    options = Options()
-    options.add_argument('--headless')
-    # Create your driver
-    driver = webdriver.Firefox(options=options)
 
     # Get a page
     driver.get("https://www.nos.pt/particulares/loja-equipamentos/pages/store.aspx#!?Filter=~(ProductType~'telemoveis~ProductPrice~'0*7c1900)")
@@ -192,54 +244,57 @@ def get_phones():
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     soup = soup.find_all('div',{'class':'content-item__wrapper'})
 
-    driver.quit()
-
     return(soup)
 
-def get_list_phones(soup):
+def get_list_phones(driver, soup):
     lista_json = []
     taglista = []
     link_telemovel = 'https://www.nos.pt'
     prestações = 'Disponível'
     pontos = 'Disponível'
+
     for elem in soup:
-        nome = elem.find('div',{'class':'properties-name ng-binding'})
-        nome = nome.text
-
-        tag = elem.find_all('em')
-        for em in tag:
-            taglista.append(em.text)
-
-        preco = elem.find('div',{'class':'item-price__now ng-binding'})
-        preco = preco.text.replace(' ', '').replace('€', '')
-
         link = elem.find('a', {'ng-href':True})
         link_telemovel = link_telemovel + link['href']
 
-        prestacao = elem.find('li', {'ng-show':'showHasInstallmentPayment(equipment.Colors)'})
-        prestacao2 = prestacao['class']
-        if prestacao2 == ['ng-binding', 'ng-hide'] :
-            prestações = 'Não disponível'
+        if not exists(lista_json, "link", link_telemovel):
+            nome = elem.find('div',{'class':'properties-name ng-binding'})
+            nome = nome.text
 
-        points = elem.find('li', {'ng-show':'showHasPointsPayment(equipment.PointsPrices)'})
-        points2 = points['class']
-        if points2 == ['ng-binding', 'ng-hide'] :
-            pontos = 'Não disponível'
+            tag = elem.find_all('em')
+            for em in tag:
+                taglista.append(em.text)
 
-        elem_json = {
-            'nome' :nome,
-            'preço' : preco,
-            'tags' : taglista,
-            'link' : link_telemovel,
-            'prestações' : prestações,
-            'pontos' : pontos
-        }
+            preco = elem.find('div',{'class':'item-price__now ng-binding'})
+            preco = preco.text.replace(' ', '').replace('€', '')
 
-        lista_json.append(elem_json)
-        taglista = []
+            prestacao = elem.find('li', {'ng-show':'showHasInstallmentPayment(equipment.Colors)'})
+            prestacao2 = prestacao['class']
+            if prestacao2 == ['ng-binding', 'ng-hide'] :
+                prestações = 'Não disponível'
+
+            points = elem.find('li', {'ng-show':'showHasPointsPayment(equipment.PointsPrices)'})
+            points2 = points['class']
+            if points2 == ['ng-binding', 'ng-hide'] :
+                pontos = 'Não disponível'
+
+            elem_json = {
+                'nome' :nome,
+                'preco' : preco,
+                'tags' : taglista,
+                'link' : link_telemovel,
+                'prestacoes' : prestações,
+                'pontos' : pontos
+            }
+
+            get_caracteristics(driver, elem_json)
+            lista_json.append(elem_json)
+
+            taglista = []
+            prestações = 'Disponível'
+            pontos = 'Disponível'
+
         link_telemovel = 'https://www.nos.pt'
-        prestações = 'Disponível'
-        pontos = 'Disponível'
 
     return lista_json
 
@@ -249,24 +304,30 @@ def create_json_file(lista_json, filename, sk):
     fich = open(os.path.dirname(os.path.abspath(__file__)) + '/../json/' + filename,'w')
     prettyJSON = json.dumps(lista_json,sort_keys=sk,indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
+    fich.flush()
+    os.fsync(fich)
     fich.close()
 
 ##########################################################################################################################################################
 
 def update():
+    options = Options()
+    options.add_argument('--headless')
+    driver = webdriver.Firefox(options=options)
+
+    soup = get_top_phones()
+    lista = get_list_top_phones(driver, soup)
+    create_json_file(lista, "top_phones.json", False)
+
+    soup = get_phones(driver)
+    lista = get_list_phones(driver, soup)
+    create_json_file(lista, "phones.json", False)
+
+    driver.quit()
+
     soup = get_linhas_apoio()
     lista = get_list_linhas_apoio(soup)
     create_json_file(lista, "linhas_apoio.json", True)
 
-    soup2 = get_top_phones()
-    lista2 = get_list_top_phones(soup2)
-    create_json_file(lista2, "top_phones.json", False)
-
-    soup3 = get_phones()
-    lista3 = get_list_phones(soup3)
-    create_json_file(lista3, "phones.json", False)
-
-    soup4 = get_Wtf()
-    create_json_file(soup4, "tarifario_WTF.json", True)
-
-update()
+    soup = get_Wtf()
+    create_json_file(soup, "tarifario_WTF.json", True)
