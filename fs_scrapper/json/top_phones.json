@@ -1,22 +1,40 @@
 [
   {
     "nome": "Xiaomi Redmi Note 7",
-    "preço": "189,99",
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28922&source=montra&content=maisvistos"
+    "preco": "189,99",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28922&source=montra&content=maisvistos",
+    "image_link": "http://imagesn-static.nos.pt/imageqn0rkj_10710.png",
+    "processador": "Octa-core (4x2.2 GHz Kryo 260 &amp; 4x1.8 GHz Kryo 260)",
+    "memoria": "32GB / 3GB RAM",
+    "camara": "• Traseira: 48 MP(f/1.8) + 5 MP(f/2.2)\n         • Frontal: 13 MP (f/2.0)"
   },
   {
     "nome": "Huawei Y5 2019",
-    "preço": "119,99",
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29062&source=montra&content=maisvistos"
+    "preco": "119,99",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29062&source=montra&content=maisvistos",
+    "image_link": "http://imagesn-static.nos.pt/image00lhsq_10892.png",
+    "processador": "MediaTek MT6761 Quad-Core",
+    "memoria": "16 GB / 2GB RAM",
+    "camara": "• Traseira: 13 MP(f/1.8)\n         • Frontal: 5 MP(f/2.2)"
   },
   {
     "nome": "Samsung Galaxy A20e",
-    "preço": "159,99",
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28864&source=montra&content=maisvistos"
+    "preco": "159,99",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28864&source=montra&content=maisvistos",
+    "preco_original": "189,99",
+    "image_link": "http://imagesn-static.nos.pt/imagewfk2pl_10674.png",
+    "processador": "Octa-core (2x1.6 GHz &amp; 6x1.35 GHz)",
+    "memoria": "32GB / 3GB RAM",
+    "camara": "• Traseira: 13 MP(f/1.9) + 5 MP(f/2.2)\n         • Frontal: 8 MP(f/2.0)"
   },
   {
     "nome": "Samsung Galaxy A70",
-    "preço": "379,99",
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28602&source=montra&content=maisvistos"
+    "preco": "379,99",
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28602&source=montra&content=maisvistos",
+    "preco_original": "419,99",
+    "image_link": "http://imagesn-static.nos.pt/imagejyhmlr_10166.jpg",
+    "processador": "Octa-core (2x 2.0GHz + 6x 1.7GHz)",
+    "memoria": "128GB / 6GB RAM",
+    "camara": "• Traseira: 32 MP(f/1.7) +  5 MP(f/2.2) + 8 MP(f/2.2)\n         • Frontal: 32 MP(f/2.0)"
   }
 ]

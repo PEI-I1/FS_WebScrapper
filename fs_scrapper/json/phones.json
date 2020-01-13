@@ -1,504 +1,736 @@
 [
   {
     "nome": "Samsung Galaxy A51",
-    "preço": "389,98",
+    "preco": "389,98",
     "tags": [
       "novidade"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30777&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagessen7x_12874.png",
+    "processador": "Exynos 9611 (Octa, 4x2.3GHz + 4x1.7GHz)",
+    "memoria": "128GB/ 4GB RAM",
+    "camara": "• Traseira: 48 MP(f/2.0) + 12 MP(f/2.2) + 5 MP(f/2.4) + 5 MP(f/2.2)\n         • Frontal: 32 MP(f/2.2)"
   },
   {
     "nome": "Apple iPhone 11",
-    "preço": "819,99",
+    "preco": "819,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29928&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagejazgwn_11774.jpg",
+    "processador": "A13&nbsp;Bionic",
+    "memoria": "64 GB; 128 GB; 256 GB.",
+    "camara": "Dupla Câmara traseira:\n         • 12 MP(f/2.4) + 12 MP(f/1.8)\n         • Frontal: 12 MP(f/2.2)."
   },
   {
     "nome": "Apple iPhone 11 Pro",
-    "preço": "1169,99",
+    "preco": "1169,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29935&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagean1zue_11830.jpg",
+    "processador": "A13&nbsp;Bionic",
+    "memoria": "64 GB; 256 GB; 512 GB",
+    "camara": "Tripla Câmara traseira:\n         • 12 MP(f/2.4) + 12 MP(f/1.8) + 12 MP(f/2.0)\n         • Frontal: 12 MP(f/2.2)."
   },
   {
     "nome": "Apple iPhone 11 Pro Max",
-    "preço": "1269,99",
+    "preco": "1269,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29941&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagem42p3x_11818.jpg",
+    "processador": "A13&nbsp;Bionic",
+    "memoria": "64 GB; 256 GB; 512 GB.",
+    "camara": "Tripla Câmara traseira:\n         • 12 MP(f/2.4) + 12MP(f/1.8) + 12 MP(f/2.0)\n         • Frontal: 12 MP(f/2.2)."
   },
   {
     "nome": "Xiaomi Redmi Note 8T",
-    "preço": "189,99",
+    "preco": "189,99",
     "tags": [
       "novidade"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30689&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagesq7ghd_12617.png",
+    "processador": "Snapdragon 665",
+    "memoria": "32GB / 3GB RAM",
+    "camara": "• Traseira: 48 MP + 8 MP + 8 MP + 2 MP\n         • Frontal: 13 MP"
   },
   {
     "nome": "Xiaomi Redmi 8",
-    "preço": "159,99",
+    "preco": "159,99",
     "tags": [
       "novidade"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30687&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imageyctpad_12577.png",
+    "processador": "Snapdragon 439",
+    "memoria": "32GB / 3GB RAM",
+    "camara": "• Traseira: 12 MP + 2 MP\n         • Frontal: 8 MP)"
   },
   {
     "nome": "TCL Plex",
-    "preço": "289,98",
+    "preco": "289,98",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30581&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "349,99",
+    "image_link": "http://imagesn-static.nos.pt/imagetym1ux_12266.png",
+    "processador": "Snapdragon 675 (2 x 2.0GHz + 6 x 1.7GHz)",
+    "memoria": "128GB / 6GB RAM",
+    "camara": "• Traseira: 48 MP(f/1.8) + 16 MP(f/2.4) + 2 MP(f/1.8)\n         • Frontal: 24 MP(f/2.0)"
   },
   {
     "nome": "Xiaomi Mi 9T Pro",
-    "preço": "479,98",
+    "preco": "479,98",
     "tags": [
       "novidade",
       "Xiaomi Mi Band 4"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30344&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagenehyfx_12364.png",
+    "processador": "Qualcomm Snapdragon 855",
+    "memoria": "64GB/ 6GB RAM",
+    "camara": "• Traseira: 48 MP(f/1.75) + 8 MP(f/2.2) + 13 MP(f/2.2)\n         • Frontal: 20 MP(f/2.2)"
   },
   {
     "nome": "Xiaomi Mi 9T",
-    "preço": "389,98",
+    "preco": "389,98",
     "tags": [
       "novidade",
       "Oportunidade Prestações"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30343&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imageige1od_12186.png",
+    "processador": "Qualcomm Snapdragon 730",
+    "memoria": "64GB / 6GB RAM",
+    "camara": "• Traseira: 48 MP(f/1.75) + 8 MP(f/2.2) + 13 MP(f/2.2)\n         • Frontal: 20 MP(f/2.2)"
   },
   {
     "nome": "Huawei Mate 20 X 5G",
-    "preço": "1089,99",
+    "preco": "1089,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29542&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imageashyji_12324.png",
+    "processador": "Octa-core (2x2.6 GHz Cortex-A76 &amp; 2x1.92 GHz Cortex-A76 &amp; 4x1.8 GHz Cortex-A55)",
+    "memoria": "256 GB / 8 GB RAM",
+    "camara": "Tripla Câmara Traseira:\n         • 40 MP, f/1.8, 27mm, 1/1.7\", PDAF/Laser AF.\n         • 8 MP, f/2.4, 80mm (telephoto), 1/4\", PDAF/Laser AF, OIS, 3x optical zoom.\n         • 20 MP, f/2.2, 16mm (ultrawide), 1/2.7\", PDAF/Laser AF"
   },
   {
     "nome": "Huawei P Smart Z",
-    "preço": "219,99",
+    "preco": "219,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30244&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "249,99",
+    "image_link": "http://imagesn-static.nos.pt/imagehqmsp5_12156.png",
+    "processador": "4 x Cortex A73 2.2 GHz + 4 x Cortex A53 1.7 GHz",
+    "memoria": "64GB / 4GB RAM",
+    "camara": "• Traseira: 16 MP + 2 MP\n         • Frontal Elevatória: 16 MP"
   },
   {
     "nome": "Samsung Galaxy A30s",
-    "preço": "244,99",
+    "preco": "244,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30105&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "299,99",
+    "image_link": "http://imagesn-static.nos.pt/imageym5amv_12046.png",
+    "processador": "Octa, 2x1.8GHz + 6x1.6GHz",
+    "memoria": "64GB / 4GB RAM",
+    "camara": "• Traseira: 25 MP(f/1.7) + 8 MP(f/2.2) + 5 MP(depth)\n         • Frontal: 16 MP(f/2.0)"
   },
   {
     "nome": "Samsung Galaxy Note 10 S-Pen",
-    "preço": "819,99",
+    "preco": "819,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29621&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "979,99",
+    "image_link": "http://imagesn-static.nos.pt/image7k9c9r_11325.jpg",
+    "processador": "Exynos 9825",
+    "memoria": "256GB / 8GB RAM",
+    "camara": "• Traseira: 16 MP(f/2.2 Ultra Wide) + 12 MP(f/1.5 &amp; f/2.4 Wide) + 12 MP(f/2.4 Tele)\n         • Frontal: Dual Pixel 10 MP(f/2.2"
   },
   {
     "nome": "Samsung Galaxy Note 10+ S-Pen",
-    "preço": "1019,99",
+    "preco": "1019,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29623&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "1129,99",
+    "image_link": "http://imagesn-static.nos.pt/imagecwmb52_11358.jpg",
+    "processador": "Exynos 9825",
+    "memoria": "• 256GB / 12GB RAM",
+    "camara": "• Traseira: 16 MP(f/2.2 Ultra Wide) + 12 MP(f/1.5 &amp; f/2.4 Wide) + 12 MP(f/2.4 Tele)\n         • Câmara profundidade 3D"
   },
   {
     "nome": "Sony Xperia 1",
-    "preço": "809,99",
+    "preco": "809,99",
     "tags": [
       "desconto",
       "oferta Coluna Bluetooth"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29783&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "969,99",
+    "image_link": "http://imagesn-static.nos.pt/image7kyuln_11538.jpg",
+    "processador": "Octa-core (1x2.84 GHz Kryo 485 e 3x2.42 GHz Kryo 485 e 4x1.8 GHz Kryo 485)",
+    "memoria": "128GB / 6GB RAM",
+    "camara": "• Traseira: 12 MP(f/1.6) + 12 MP(f/2.4) + 12 MP(f/2.4)\n         • Frontal: 8 MP(f/2.0)"
   },
   {
     "nome": "Apple iPhone 8",
-    "preço": "539,99",
+    "preco": "539,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=23665&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/image59dfeh_5437.jpg",
+    "processador": "Hexa-core (2x Monsoon + 4x Mistral)",
+    "memoria": "64GB/ 2GB",
+    "camara": "12MP/ 7MP"
   },
   {
     "nome": "Huawei P30 Pro",
-    "preço": "789,99",
+    "preco": "789,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28110&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "999,99",
+    "image_link": "http://imagesn-static.nos.pt/imagehn9bfr_9928.jpg",
+    "processador": "Octa-core (2 x 2,6 GHz + 2 x 1,92 GHz + 4 x 1,8 GHz)",
+    "memoria": "• 128GB / 8GB RAM",
+    "camara": "Quatro câmaras Leica traseiras:\n         • 40MP(f/1.6) + 20MP(f/2.2) + 8MP(f/3.4) + ToF\n         • Frontal: 32MP(f/2.0)."
   },
   {
     "nome": "Huawei P30",
-    "preço": "589,99",
+    "preco": "589,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28107&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "799,99",
+    "image_link": "http://imagesn-static.nos.pt/image5axc4n_9901.jpg",
+    "processador": "Octa-core (2 x 2,6 GHz + 2 x 1,92 GHz + 4 x 1,8 GHz)",
+    "memoria": "128GB / 6GB RAM",
+    "camara": "Câmara Traseira Tripla Leica:\n         • 40MP(f/1.8) + 16MP(f/2.2) + 8MP(f/2.4)\n         • Frontal: 32MP(f/2.0)."
   },
   {
     "nome": "Samsung Galaxy S10",
-    "preço": "739,99",
+    "preco": "739,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27715&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "929,99",
+    "image_link": "http://imagesn-static.nos.pt/imageyqckio_9491.jpg",
+    "processador": "8 nm, Octa-core Exynos9 9820",
+    "memoria": "• 128GB / 8GB RAM",
+    "camara": "• Traseira: 16 MP(f/2.2 Ultra Wide) + 12 MP(f/1.5 &amp; f/2.4 Wide) + 12 MP(f/2.4 Tele)\n         • Frontal: 10 MP(f/1.9 Main)"
   },
   {
     "nome": "Huawei Mate 20 Lite",
-    "preço": "239,99",
+    "preco": "239,99",
     "tags": [
       "desconto"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=30082&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "349,99",
+    "image_link": "http://imagesn-static.nos.pt/imagede4dwn_11900.png",
+    "processador": "Octacore 4x Cortex-A73 2.2GHz + 4x Cortex-A53 1.7GHz",
+    "memoria": "64GB / 4GB RAM",
+    "camara": "Traseira: Câmara Dupla:\n         • 20 MP + 2 MP(f/1.8)\n         Frontal: Câmara Dupla:\n         • 24 MP + 2 MP(f/2.0)"
   },
   {
     "nome": "Samsung Galaxy S10+",
-    "preço": "859,99",
+    "preco": "859,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27708&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "1029,99",
+    "image_link": "http://imagesn-static.nos.pt/image02tedp_9466.jpg",
+    "processador": "Exynos9 (9820)",
+    "memoria": "• 128GB / 8 GB RAM",
+    "camara": "• Traseira: 16 MP(f/2.2 Ultra Wide) + 12 MP(f/1.5 &amp; f/2.4 Wide) + 12 MP(f/2.4 Tele)\n         • Frontal: 10 MP(f/1.9 Main) + 8 MP(f/2.2 Live Focus)"
   },
   {
     "nome": "Samsung Galaxy S10e",
-    "preço": "559,99",
+    "preco": "559,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27720&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "779,99",
+    "image_link": "http://imagesn-static.nos.pt/imagedyrncx_9506.jpg",
+    "processador": "8 nm, Octa-core Exynos9 9820",
+    "memoria": "128GB / 6GB RAM",
+    "camara": "• Traseira: 16 MP(f/2.2 Ultra Wide) + 12 MP(f/1.5 &amp; f/2.4 Wide)\n         • Frontal: 10 MP(f/1.9 Main)"
   },
   {
     "nome": "Xiaomi Redmi Note 7",
-    "preço": "189,99",
+    "preco": "189,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28922&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imageqn0rkj_10710.png",
+    "processador": "Octa-core (4x2.2 GHz Kryo 260 &amp; 4x1.8 GHz Kryo 260)",
+    "memoria": "32GB / 3GB RAM",
+    "camara": "• Traseira: 48 MP(f/1.8) + 5 MP(f/2.2)\n         • Frontal: 13 MP (f/2.0)"
   },
   {
     "nome": "Xiaomi Redmi 7",
-    "preço": "87,99",
+    "preco": "87,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28866&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "139,99",
+    "image_link": "http://imagesn-static.nos.pt/imagenx8z1f_10646.png",
+    "processador": "Octa-core (4x1.8 GHz Kryo 250 Gold &amp; 4x1.8 GHz Kryo 250 Silver)",
+    "memoria": "• 16GB / 2GB RAM",
+    "camara": "• Traseira: 12 MP(f/2.8) + 2 MP(f/2.2)\n         • Frontal: 8 MP(f/2.0)"
   },
   {
     "nome": " Apple iPhone 6S",
-    "preço": "234,99",
+    "preco": "234,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27062&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "349,99",
+    "image_link": "http://imagesn-static.nos.pt/imageu3zeuh_2075.jpg",
+    "processador": "Dual-core 1.84 GHz Twister",
+    "memoria": "",
+    "camara": "iSight de 12 megapíxeis"
   },
   {
     "nome": "Samsung Galaxy A10",
-    "preço": "149,99",
+    "preco": "149,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28823&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imageswn8iq_10589.png",
+    "processador": "Exynos 7884B Octa (Dual 1.6 GHz, Hexa 1.35GHz)",
+    "memoria": "32 GB / 2 GB RAM",
+    "camara": "• Traseira: 13MP (f/1.9)\n         • Frontal: 5MP (f/2.0)"
   },
   {
     "nome": "Samsung Galaxy A80",
-    "preço": "549,99",
+    "preco": "549,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29362&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "699,99",
+    "image_link": "http://imagesn-static.nos.pt/imageueea59_11146.png",
+    "processador": "Octa (2x 2.2 GHz, 6x 1.8 GHz)",
+    "memoria": "128GB / 8GB RAM",
+    "camara": "• Traseira: 48(f/2.0) + 8(f/2.2) + TOF 3D\n         • Frontal: 48(f/2.0) + 8(f/2.2) + TOF 3D"
   },
   {
     "nome": "Sony Xperia 10",
-    "preço": "289,98",
+    "preco": "289,98",
     "tags": [
       "desconto",
       "Oferta HeadPhones"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28362&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "349,99",
+    "image_link": "http://imagesn-static.nos.pt/imagevn4ahl_11504.png",
+    "processador": "Octa-core 2.2 GHz Cortex-A53",
+    "memoria": "64GB / 3GB RAM",
+    "camara": "• Traseira: 13 MP + 5 MP\n         • Frontal: 8 MP"
   },
   {
     "nome": "Samsung Galaxy A50",
-    "preço": "289,98",
+    "preco": "289,98",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28085&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "369,99",
+    "image_link": "http://imagesn-static.nos.pt/imagexyg2p7_9865.jpg",
+    "processador": "Octa-core (4 x 2.3GHz + 4 x 1.7GHz)",
+    "memoria": "128GB / 4GB RAM",
+    "camara": "• Traseira: 25 MP(f/1.7) + 8 MP(f/2.2) + 5 MP(f/2.2)\n         • Frontal: 25 MP(f/2.0)"
   },
   {
     "nome": "Samsung Galaxy A20e",
-    "preço": "159,99",
+    "preco": "159,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28864&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "189,99",
+    "image_link": "http://imagesn-static.nos.pt/imagewfk2pl_10674.png",
+    "processador": "Octa-core (2x1.6 GHz &amp; 6x1.35 GHz)",
+    "memoria": "32GB / 3GB RAM",
+    "camara": "• Traseira: 13 MP(f/1.9) + 5 MP(f/2.2)\n         • Frontal: 8 MP(f/2.0)"
   },
   {
     "nome": "Xiaomi Mi Mix2S",
-    "preço": "269,99",
+    "preco": "269,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26103&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "499,99",
+    "image_link": "http://imagesn-static.nos.pt/imagehnyf5p_7951.png",
+    "processador": "(4x2.8GHz + 4x1.7GHz) OctaCore",
+    "memoria": "64GB / 6GB RAM",
+    "camara": "• Traseira: 12 MP + 12 MP\n         • Frontal: 5 MP"
   },
   {
     "nome": "Huawei P Smart 2019",
-    "preço": "171,99",
+    "preco": "171,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27464&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "279,99",
+    "image_link": "http://imagesn-static.nos.pt/imagecuj9j0_9352.jpg",
+    "processador": "Octa Core1.7GHz + 2.2GHz",
+    "memoria": "64GB / 3GB RAM",
+    "camara": "• Traseira: 13 MP + 2 MP\n         • Frontal: 8 MP"
   },
   {
     "nome": "Samsung Galaxy A70",
-    "preço": "379,98",
+    "preco": "379,98",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28602&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "419,99",
+    "image_link": "http://imagesn-static.nos.pt/imagejyhmlr_10166.jpg",
+    "processador": "Octa-core (2x 2.0GHz + 6x 1.7GHz)",
+    "memoria": "128GB / 6GB RAM",
+    "camara": "• Traseira: 32 MP(f/1.7) +  5 MP(f/2.2) + 8 MP(f/2.2)\n         • Frontal: 32 MP(f/2.0)"
   },
   {
     "nome": "Samsung Galaxy A40",
-    "preço": "219,99",
+    "preco": "219,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28184&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "269,99",
+    "image_link": "http://imagesn-static.nos.pt/imagegp5ycw_9966.jpg",
+    "processador": "Octa-core (2 x 2.2GHz + 6 x 1.6GHz)",
+    "memoria": "64GB / 4GB RAM",
+    "camara": "• Traseira: 16 MP +  5 MP\n         • Frontal: 25 MP"
   },
   {
     "nome": "Huawei P30 Lite",
-    "preço": "279,98",
+    "preco": "279,98",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28325&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "379,99",
+    "image_link": "http://imagesn-static.nos.pt/imagevqx72d_10088.png",
+    "processador": "Octa-core (4 x 2,2GHz + 4 x 1,7GHz)",
+    "memoria": "128GB / 4GB RAM",
+    "camara": "Tripla Câmara Traseira:\n         • 48 MP (f/1.8); 8 MP  (f/2.4); 2 MP (f/2.4)\n         • Frontal: 24MP(f/2.0)"
   },
   {
     "nome": "NOS NOVU 4",
-    "preço": "69,99",
+    "preco": "69,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26722&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/image4qfzjk_8567.jpg",
+    "processador": "1.3GHz Quad Core",
+    "memoria": "8GB / 1GB RAM",
+    "camara": "• Traseira: 5MP\n         • Frontal: 2MP"
   },
   {
     "nome": "Apple iPhone 7",
-    "preço": "399,98",
+    "preco": "399,98",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=21901&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "489,99",
+    "image_link": "http://imagesn-static.nos.pt/image8psjc4_3432.jpg",
+    "processador": "Quad-core 2.34 GHz (2x Hurricane + 2x Zephyr)",
+    "memoria": "32GB / 2GB RAM",
+    "camara": "• Traseira: 12 MP\n         • Frontal: 7 MP"
   },
   {
     "nome": "Nokia 3310",
-    "preço": "54,99",
+    "preco": "54,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=22813&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagemf1a0i_4411.jpg",
+    "processador": "MTK 0,4GHz",
+    "memoria": "16MB/ 16MB",
+    "camara": "2 MP"
   },
   {
     "nome": "Alcatel OT-2008",
-    "preço": "39,99",
+    "preco": "39,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=23082&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imageszel7z_4987.jpg",
+    "processador": "360 MHz",
+    "memoria": "16MB/ 8MB",
+    "camara": "Sim"
   },
   {
     "nome": "Huawei Y5 2019",
-    "preço": "119,99",
+    "preco": "119,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=29062&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/image00lhsq_10892.png",
+    "processador": "MediaTek MT6761 Quad-Core",
+    "memoria": "16 GB / 2GB RAM",
+    "camara": "• Traseira: 13 MP(f/1.8)\n         • Frontal: 5 MP(f/2.2)"
   },
   {
     "nome": "Samsung Galaxy A7",
-    "preço": "299,98",
+    "preco": "299,98",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26702&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagepipnya_8527.jpg",
+    "processador": "Octa Core 2,2 GHz",
+    "memoria": "64GB / 4GB",
+    "camara": "24 MP (f 1.9) / 24 MP (f 1.7) + 5 MP (f 2.2) + 8 MP (f 2.4)"
   },
   {
     "nome": "Samsung Galaxy S9+",
-    "preço": "959,99",
+    "preco": "959,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=25984&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagevo0ugh_7824.png",
+    "processador": "Octa core (4x2.7GHz + 4x1.7 GHz)",
+    "memoria": "64GB / 6GB RAM",
+    "camara": "• Traseira: Dual Camera 12MP WIDE OIS/AF(f/1.5;2.4 Dual Aperture),12 MP OIS/AF TELE(f/2.4)\n         • Frontal: 8MP AF(f/1.7)"
   },
   {
     "nome": "Apple iPhone XS Max",
-    "preço": "1179,99",
+    "preco": "1179,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26576&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagegx91fy_8483.jpg",
+    "processador": "A12 Bionic Chip Neural Engine",
+    "memoria": "",
+    "camara": "• Duas câmaras grande angular e teleobjetiva traseiras: 12 MP\n         • Frontal: 7 MP"
   },
   {
     "nome": "Alcatel 1X 2019",
-    "preço": "49,99",
+    "preco": "49,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28610&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "119,99",
+    "image_link": "http://imagesn-static.nos.pt/imageqkhkdq_10377.png",
+    "processador": "Quad Core A53, 1.5GHz",
+    "memoria": "16GB / 2GB RAM",
+    "camara": "• Traseira: 13 MP + 2 MP\n         • Frontal: 5 MP"
   },
   {
     "nome": "Alcatel 1C 2019",
-    "preço": "49,99",
+    "preco": "49,99",
     "tags": [
       "desconto"
     ],
-    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28605&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=28606&pt=",
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "69,99",
+    "image_link": "http://imagesn-static.nos.pt/imagerd4egs_10343.png",
+    "processador": "Quad Core (1.3Ghz)",
+    "memoria": "8GB / 1GB RAM",
+    "camara": "• Traseira: 5 MP\n         • Frontal: 2 MP"
   },
   {
     "nome": "Apple iPhone XS",
-    "preço": "1059,99",
+    "preco": "1059,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=26567&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/image8fj5wo_8441.jpg",
+    "processador": "A12 Bionic Chip Neural Engine",
+    "memoria": "",
+    "camara": "• Duas câmaras grande angular e teleobjetiva traseiras: 12 MP\n         • Frontal: 7 MP(f/2.2)."
   },
   {
     "nome": "Huawei Y7 2019",
-    "preço": "169,99",
+    "preco": "169,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27982&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "199,99",
+    "image_link": "http://imagesn-static.nos.pt/imageubjhy9_9786.jpg",
+    "processador": "Octa-core (1.8GHz)",
+    "memoria": "32GB / 3GB RAM",
+    "camara": "• Traseira: 13 MP + 2 MP (f/1.8)\n         • Frontal: 8 MP(f/2.0)"
   },
   {
     "nome": "Huawei P20 Pro",
-    "preço": "789,99",
+    "preco": "789,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=25282&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagepei73i_7216.png",
+    "processador": "Octa-core (4x2.36Ghz + 4x1.7Ghz)",
+    "memoria": "128GB/ 6GB RAM",
+    "camara": "Traseira: Câmara Tripla Leica\n         • 40 MP(f/1.8) + 20 MP(f/1.6) + 8 MP(f/2.4)\n         • Frontal: 24 MP(f/2.0)"
   },
   {
     "nome": "Alcatel OT-3025",
-    "preço": "49,99",
+    "preco": "49,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27842&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imageruyd78_9746.jpg",
+    "processador": "",
+    "memoria": "256MB",
+    "camara": ""
   },
   {
     "nome": "Xiaomi Redmi 6A",
-    "preço": "79,99",
+    "preco": "79,99",
     "tags": [
       "Saldos",
       "Preço Minimo Garantido"
     ],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=27202&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "preco_original": "119,99",
+    "image_link": "http://imagesn-static.nos.pt/imageaxzi0h_8966.jpg",
+    "processador": "Quad Core 2.2GHz",
+    "memoria": "16GB / 2GB RAM",
+    "camara": "• Traseira: 13MP\n         • Frontal: 5 MP"
   },
   {
     "nome": "Nokia 216",
-    "preço": "39,99",
+    "preco": "39,99",
     "tags": [],
     "link": "https://www.nos.pt/particulares/loja-equipamentos/pages/details.aspx?p=23062&pt=",
-    "prestações": "Não disponível",
-    "pontos": "Disponível"
+    "prestacoes": "Não disponível",
+    "pontos": "Disponível",
+    "image_link": "http://imagesn-static.nos.pt/imagepduxv9_4967.jpg",
+    "processador": "",
+    "memoria": "16MB",
+    "camara": "Sim"
   }
 ]
