@@ -5,11 +5,11 @@ import os
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+
 
 def clean(string):
     string = re.sub(r'\s+', ' ', string)
@@ -89,7 +89,6 @@ def get_Wtf():
 
     return lista_json
 
-###########################################################################################################
 
 def get_linhas_apoio():
     r = requests.get("https://www.nos.pt/particulares/contactos/Pages/linhas-de-apoio.aspx")
@@ -98,6 +97,7 @@ def get_linhas_apoio():
         soupA = soup.find_all('div', {'class':'container__box'})
 
     return soupA
+
 
 def get_linhas_apoio_Price():
     r = requests.get("https://www.nos.pt/particulares/contactos/Pages/linhas-de-apoio.aspx")
@@ -112,9 +112,11 @@ def remove_html_tags(text):
     """Remove html tags from a string"""
     text = re.sub('/\s\s+/g', ' ',text)
     text = re.sub('\\n|\\r', '', text)
+    text = re.sub('Serviços disponibilizados:.*(?=\.).', '', text)
     text = re.sub('Custo da chamada', '', text)
     clean = re.compile('<.*?>')
     return re.sub(clean, '', text)
+
 
 def get_list_linhas_apoio(soup):
     lista_json = []
@@ -150,7 +152,6 @@ def get_list_linhas_apoio(soup):
         lista_json.append(elem_json)
     return lista_json
 
-########################################################################################################
 
 def get_caracteristics(driver, phone):
     if phone['link']:
@@ -224,7 +225,6 @@ def get_list_top_phones(driver, soup):
 
     return lista_json
 
-########################################################################################################
 
 def get_phones(driver):
     #r = requests.get("https://www.nos.pt/particulares/loja-equipamentos/pages/store.aspx#!?Filter=~(ProductType~'telemoveis~ProductPrice~'0*7c1900)")
@@ -298,7 +298,6 @@ def get_list_phones(driver, soup):
 
     return lista_json
 
-##########################################################################################################################################################
 
 def create_json_file(lista_json, filename, sk):
     fich = open(os.path.dirname(os.path.abspath(__file__)) + '/../json/' + filename,'w')
@@ -308,7 +307,6 @@ def create_json_file(lista_json, filename, sk):
     os.fsync(fich)
     fich.close()
 
-##########################################################################################################################################################
 
 def update():
     options = Options()
