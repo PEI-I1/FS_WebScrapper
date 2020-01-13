@@ -202,6 +202,8 @@ def sendToJSON(dic):
     fich = open(os.path.dirname(os.path.abspath(__file__)) + '/../json/Pacotes.json','w')
     prettyJSON = json.dumps(dic, indent=2,ensure_ascii=False)
     fich.write(prettyJSON)
+    fich.flush()
+    os.fsync(fich)
     fich.close()
 ###########################################################################################################
 ###########################################################################################################

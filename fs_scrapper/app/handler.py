@@ -39,22 +39,7 @@ def all_phones():
     """ Retrieve all phones available
     """
     with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/phones.json', 'r') as f:
-        data = json.load(f)
-        lista = []
-        aux = {}
-
-        for phone in data:
-            aux['nome'] = phone['nome']
-            aux['preco'] = phone['preço']
-            aux['tags'] = phone['tags']
-            aux['link'] = phone['link']
-            aux['pretacoes'] = phone['prestações']
-            aux['pontos'] = phone['pontos']
-            lista.append(aux)
-            aux = {}
-
-        return lista
-
+        return json.load(f)
 
 def brand_phones(marca, phones):
     """ Retrieve all phones of specified brand
