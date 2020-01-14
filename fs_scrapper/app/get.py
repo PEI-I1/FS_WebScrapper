@@ -313,19 +313,27 @@ def update():
     options.add_argument('--headless')
     driver = webdriver.Firefox(options=options)
 
+    print("[FS_SCRAPPER] Starting Update of top phones...")
     soup = get_top_phones()
     lista = get_list_top_phones(driver, soup)
     create_json_file(lista, "top_phones.json", False)
+    print("[FS_SCRAPPER] Updated top phones!")
 
+    print("[FS_SCRAPPER] Starting Update of phones...")
     soup = get_phones(driver)
     lista = get_list_phones(driver, soup)
     create_json_file(lista, "phones.json", False)
+    print("[FS_SCRAPPER] Updated phones!")
 
     driver.quit()
 
+    print("[FS_SCRAPPER] Starting Update of support lines...")
     soup = get_linhas_apoio()
     lista = get_list_linhas_apoio(soup)
     create_json_file(lista, "linhas_apoio.json", True)
+    print("[FS_SCRAPPER] Updated support lines!")
 
+    print("[FS_SCRAPPER] Starting Update of tariffs WTF...")
     soup = get_Wtf()
     create_json_file(soup, "tarifario_WTF.json", True)
+    print("[FS_SCRAPPER] Updated tariffs WTF!")
