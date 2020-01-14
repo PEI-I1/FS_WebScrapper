@@ -156,16 +156,16 @@ def get_list_linhas_apoio(soup):
 def get_caracteristics(driver, phone):
     if phone['link']:
         driver.get(phone['link'])
+        text = None
 
         try:
             wait = WebDriverWait(driver, 5)
             location = (By.CLASS_NAME, "equipments-detail__tech-specs card container--fixed")
             element_present = EC.presence_of_element_located(location)
             wait.until(element_present)
+            text = driver.page_source
         except:
             pass
-
-        text = driver.page_source
 
         if text:
             image_links = re.findall(r'class="item item--equipment ng-scope[^"]*"[^/]*//([^)]*)\)', text)
