@@ -1,6 +1,8 @@
-FROM python
+FROM python:3.8.1
 
-RUN apt-get update && apt-get install -y firefox-esr
+RUN echo "deb http://deb.debian.org/debian/ unstable main contrib non-free" >> /etc/apt/sources.list
+RUN echo "Package: *\nPin: release a=stable\nPin-Priority: 900\n\nPackage: *\nPin release a=unstable\nPin-Priority: 10" > /etc/apt/preferences.d/99pin-unstable
+RUN apt-get update && apt-get install -t unstable -y firefox
 
 WORKDIR /home
 
