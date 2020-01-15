@@ -118,7 +118,7 @@ def prest_phones(phones):
     lista = []
 
     for phone in phones:
-        if phone['prestações'] == 'Disponível':
+        if phone['prestacoes'] == 'Disponível':
             lista.append(phone)
 
     return lista
