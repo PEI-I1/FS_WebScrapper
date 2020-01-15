@@ -3,11 +3,13 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.interval import IntervalTrigger
 import atexit
 import time
+import os
 from app import updater
 
 app = Flask(__name__)
-updater.updater_phones_tariffs_packets_lapoio()
-updater.updater_lojas()
+if os.getenv('INITIAL_UPDATE', 'true') == 'true':
+    updater.updater_phones_tariffs_packets_lapoio()
+    updater.updater_lojas()
 
 scheduler = BackgroundScheduler()
 scheduler.start()
