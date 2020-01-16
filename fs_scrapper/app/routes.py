@@ -1,7 +1,7 @@
 from app import app
 from app import handler
 from flask import jsonify, request
-
+import re
 
 @app.route('/fs_scrapper/linhas_apoio')
 def linhas_apoio_assunto_request():
@@ -112,7 +112,9 @@ def packages_request():
     lista = handler.packages()
 
     if tipo:
-        if tipo == 'satelite':
+        tipo = tipo.lower()
+        tipo = tipo.replace("é","e")
+        if re.search(r'satelite', tipo):
             lista = handler.satelite_packages(lista)
         else:
             lista = handler.fiber_packages(lista)
