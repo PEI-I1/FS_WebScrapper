@@ -249,6 +249,8 @@ def stores_by_coordinates(lat, lon):
     with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/lojas.json', 'r') as f:
         data = json.load(f)
         lista = []
+        listaAux = []
+        i = 0
         aux = {}
 
         for loja in data:
@@ -259,14 +261,18 @@ def stores_by_coordinates(lat, lon):
                 lon = str_to_float(str(lon))
 
                 distance = haversine_distance((lat,lon),(latLoja,lonLoja))
-                if distance < 20:
-                    aux['nome'] = loja['nome']
-                    aux['morada'] = loja['morada']
-                    aux['horario'] = loja['horario']
-                    lista.append(aux)
-                    aux = {}
 
-        return lista
+                aux['nome'] = loja['nome']
+                aux['morada'] = loja['morada']
+                aux['horario'] = loja['horario']
+                aux['distance'] = distance
+                lista.append(aux)
+                aux = {}
+
+        lista.sort(key=lambda k: k['distance'])
+        length = len(lista)
+
+        return lista[:4] if length > 4 else lista[:length]
 
 
 def specific_package(nome):
