@@ -249,8 +249,6 @@ def stores_by_coordinates(lat, lon):
     with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/lojas.json', 'r') as f:
         data = json.load(f)
         lista = []
-        listaAux = []
-        i = 0
         aux = {}
 
         for loja in data:
