@@ -245,14 +245,24 @@ def stores_by_coordinates(lat, lon):
     :param: latitude
     :param: longitude
     """
+
     with open(os.path.dirname(os.path.abspath(__file__)) + '/../json/lojas.json', 'r') as f:
         data = json.load(f)
         lista = []
         aux = {}
-
+        latitude = lat
+        longitude = lon
+        #TODO FIX cannot convert to float
         for loja in data:
-            distance = haversine_distance((lat,lon),(float(loja['latitude']),float(loja['longitude'])))
-            if  distance < 20:
+            latLoja = loja['latitude']
+            lonLoja = loja['longitude']
+            print(latLoja)
+            print(lonLoja)
+            print(lat)
+            print(lon)
+            print(type(latLoja))
+            distance = haversine_distance((str_to_float(latitude),str_to_float(longitude)),(str_to_float(latLoja),str_to_float(lonLoja)))
+            if distance < 20:
                 aux['nome'] = loja['nome']
                 aux['morada'] = loja['morada']
                 aux['horario'] = loja['horario']
