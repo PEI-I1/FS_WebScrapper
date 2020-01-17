@@ -250,24 +250,21 @@ def stores_by_coordinates(lat, lon):
         data = json.load(f)
         lista = []
         aux = {}
-        latitude = lat
-        longitude = lon
-        #TODO FIX cannot convert to float
+
         for loja in data:
-            latLoja = loja['latitude']
-            lonLoja = loja['longitude']
-            print(latLoja)
-            print(lonLoja)
-            print(lat)
-            print(lon)
-            print(type(latLoja))
-            distance = haversine_distance((str_to_float(latitude),str_to_float(longitude)),(str_to_float(latLoja),str_to_float(lonLoja)))
-            if distance < 20:
-                aux['nome'] = loja['nome']
-                aux['morada'] = loja['morada']
-                aux['horario'] = loja['horario']
-                lista.append(aux)
-                aux = {}
+            if loja['latitude'] and loja['longitude']:
+                latLoja = str_to_float(loja['latitude'])
+                lonLoja = str_to_float(loja['longitude'])
+                lat = str_to_float(str(lat))
+                lon = str_to_float(str(lon))
+
+                distance = haversine_distance((lat,lon),(latLoja,lonLoja))
+                if distance < 20:
+                    aux['nome'] = loja['nome']
+                    aux['morada'] = loja['morada']
+                    aux['horario'] = loja['horario']
+                    lista.append(aux)
+                    aux = {}
 
         return lista
 
