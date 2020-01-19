@@ -1,7 +1,9 @@
 import json, os
 import re
 from haversine import haversine, Unit
+from geopy.geocoders import Nominatim
 
+geolocator = Nominatim()
 
 def linhas_apoio():
     """ Retrieve service lines
@@ -226,6 +228,14 @@ def stores_by_zone(zona):
                 aux['horario'] = loja['horario']
                 lista.append(aux)
                 aux = {}
+
+        if not(lista):
+            try:
+                addr_raw = geolocator.geocode("Portugal, " + zona)
+                if addr_raw:
+                    lista = stores_by_coordinates(str(addr_raw.latitude), str(addr_raw.longitude))
+            except:
+                pass
 
         return lista
 
