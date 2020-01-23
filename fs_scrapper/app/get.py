@@ -269,14 +269,16 @@ def get_list_phones(driver, soup):
             preco = preco.text.replace(' ', '').replace('€', '')
 
             prestacao = elem.find('li', {'ng-show':'showHasInstallmentPayment(equipment.Colors)'})
-            prestacao2 = prestacao['class']
-            if prestacao2 == ['ng-binding', 'ng-hide'] :
-                prestações = 'Não disponível'
+            if prestacao is not None:
+                prestacao2 = prestacao['class']
+                if prestacao2 == ['ng-binding', 'ng-hide'] :
+                    prestações = 'Não disponível'
 
             points = elem.find('li', {'ng-show':'showHasPointsPayment(equipment.PointsPrices)'})
-            points2 = points['class']
-            if points2 == ['ng-binding', 'ng-hide'] :
-                pontos = 'Não disponível'
+            if points is not None:
+                points2 = points['class']
+                if points2 == ['ng-binding', 'ng-hide'] :
+                    pontos = 'Não disponível'
 
             elem_json = {
                 'nome' :nome,
